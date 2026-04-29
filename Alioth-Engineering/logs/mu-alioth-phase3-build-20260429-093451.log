@@ -1,0 +1,319 @@
+clang --target=aarch64-linux-gnu -c BootShim.S -o BootShim.elf -DREQUIRES_KERNEL_HEADER=1 -DFD_BASE=0x9FC00000 -DFD_SIZE=0x300000
+llvm-objcopy -O binary BootShim.elf BootShim.bin
+SECTION - Init Self Describing Environment
+SECTION - Loading Plugins
+SECTION - Start Invocable Tool
+PROGRESS - ## Resolving Git Submodule: Binaries
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Common/Mu
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Common/Mu_OEM_Sample
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Features/DFCI
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Mu_Basecore
+PROGRESS - Done.
+
+PROGRESS - ## Resolving Git Submodule: Silicium-ACPI
+PROGRESS - Done.
+
+PROGRESS - ## Resolving Git Submodule: Silicon/Silicium/OpensslPkg/Library/OpensslLib/openssl
+PROGRESS - ## Done.
+
+SECTION - Summary
+PROGRESS - Success
+SECTION - Init Self Describing Environment
+SECTION - Loading Plugins
+SECTION - Start Invocable Tool
+SECTION - Initial update of environment
+UpdatingSECTION - 	Updated/Verified 4 dependencies
+SECTION - Second pass update of environment
+. Done
+UpdatingSECTION - 	Updated/Verified 4 dependencies
+SECTION - Summary
+PROGRESS - Success
+. Done
+INFO - Log Started: Wednesday, April 29, 2026 09:34AM
+INFO - Cmd to run is: stuart TARGET=RELEASE DISABLE_SECUREBOOT=1 FD_BASE=0x9FC00000 FD_SIZE=0x300000 FD_BLOCKS=0x300 DEVICE_MODEL=1
+SECTION - Init Self Describing Environment
+INFO - Computing path for mu_nasm located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep/Linux-x86-64 was found!
+INFO - Computing path for Mu-Basetools located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+INFO - Computing path for mu_nasm located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep/Linux-x86-64 was found!
+INFO - Computing path for Mu-Basetools located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+INFO - Computing path for mu_nasm located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/mu_nasm_extdep/Linux-x86-64 was found!
+INFO - Computing path for Mu-Basetools located at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep on Host(os='Linux', arch='x86', bit='64')
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86 was found!
+SECTION - Loading Plugins
+INFO - PLUGIN DESCRIPTOR:Windows Capsule Support Helper Functions
+INFO - PLUGIN DESCRIPTOR:Edk2Tool Helper Functions
+INFO - PLUGIN DESCRIPTOR:Rust Package Helper
+SECTION - Start Invocable Tool
+INFO - Running Python version: sys.version_info(major=3, minor=12, micro=3, releaselevel='final', serial=0)
+INFO - bcc version: 0.29.1
+INFO - requests version: 2.31.0
+INFO - markdown-it-py version: 3.0.0
+INFO - PyYAML version: 6.0.1
+INFO - xkit version: 0.0.0
+INFO - antlr4-python3-runtime version: 4.13.2
+INFO - pyasn1 version: 0.6.3
+INFO - olefile version: 0.46
+INFO - gitdb version: 4.0.12
+INFO - pexpect version: 4.9.0
+INFO - python-debian version: 0.1.49+ubuntu2
+INFO - rich version: 15.0.0
+INFO - certifi version: 2023.11.17
+INFO - urllib3 version: 2.0.7
+INFO - et_xmlfile version: 2.0.0
+INFO - netifaces version: 0.11.0
+INFO - MarkupSafe version: 2.1.5
+INFO - PyGObject version: 3.48.2
+INFO - dbus-python version: 1.3.2
+INFO - configobj version: 5.0.8
+INFO - wadllib version: 1.3.6
+INFO - blinker version: 1.7.0
+INFO - pytz version: 2024.1
+INFO - launchpadlib version: 1.11.0
+INFO - jsonschema version: 4.10.3
+INFO - Brlapi version: 0.8.5
+INFO - defer version: 1.0.6
+INFO - pyparsing version: 3.1.1
+INFO - louis version: 3.29.0
+INFO - pip version: 24.0
+INFO - GitPython version: 3.1.49
+INFO - PyJWT version: 2.7.0
+INFO - six version: 1.16.0
+INFO - jsonpointer version: 2.0
+INFO - Jinja2 version: 3.1.2
+INFO - SQLAlchemy version: 2.0.49
+INFO - systemd-python version: 235
+INFO - language-selector version: 0.1
+INFO - idna version: 3.6
+INFO - openpyxl version: 3.1.5
+INFO - chardet version: 5.2.0
+INFO - pyserial version: 3.5
+INFO - greenlet version: 3.5.0
+INFO - lazr.restfulclient version: 0.14.6
+INFO - smmap version: 5.0.3
+INFO - xlsxwriter version: 3.2.9
+INFO - jsonpatch version: 1.32
+INFO - pefile version: 2024.8.26
+INFO - lazr.uri version: 1.0.6
+INFO - pycairo version: 1.25.1
+INFO - ubuntu-drivers-common version: 0.0.0
+INFO - pygount version: 3.2.0
+INFO - pillow version: 10.2.0
+INFO - httplib2 version: 0.20.4
+INFO - distro-info version: 1.7+build1
+INFO - joblib version: 1.5.3
+INFO - distro version: 1.9.0
+INFO - attrs version: 23.2.0
+INFO - netaddr version: 0.8.0
+INFO - ssh-import-id version: 5.11
+INFO - edk2-pytool-library version: 0.23.13
+INFO - Babel version: 2.10.3
+INFO - ptyprocess version: 0.7.0
+INFO - ubuntu-pro-client version: 8001
+INFO - cloud-init version: 25.1.4
+INFO - xdg version: 5
+INFO - typing_extensions version: 4.10.0
+INFO - click version: 8.1.6
+INFO - pyxdg version: 0.28
+INFO - Pygments version: 2.17.2
+INFO - regex version: 2025.9.1
+INFO - setuptools version: 82.0.1
+INFO - pycups version: 2.0.1
+INFO - pyasn1_modules version: 0.4.2
+INFO - pyrsistent version: 0.20.0
+INFO - colorama version: 0.4.6
+INFO - cupshelpers version: 1.0
+INFO - oauthlib version: 3.2.2
+INFO - edk2-pytool-extensions version: 0.30.8
+INFO - wheel version: 0.42.0
+INFO - ufw version: 0.36.2
+INFO - python-dateutil version: 2.8.2
+INFO - unattended-upgrades version: 0.1
+INFO - python-apt version: 2.7.7+ubuntu5.1
+INFO - cryptography version: 41.0.7
+INFO - command-not-found version: 0.3
+INFO - semantic-version version: 2.10.0
+INFO - mdurl version: 0.1.2
+INFO - cargo version: N/A
+INFO - cargo make version: N/A
+INFO - rustc version: N/A
+SECTION - Loading Plugins
+INFO - PLUGIN DESCRIPTOR:Windows Capsule Support Helper Functions
+INFO - PLUGIN DESCRIPTOR:Edk2Tool Helper Functions
+INFO - PLUGIN DESCRIPTOR:Rust Package Helper
+SECTION - Kicking off build
+PROGRESS - Start time: 2026-04-29 09:35:01.206145
+PROGRESS - Setting up the Environment
+PROGRESS - Running Pre Build
+INFO - Cmd to run is: /usr/bin/clang --version
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - Ubuntu clang version 18.1.3 (1ubuntu1)
+INFO - Target: x86_64-pc-linux-gnu
+INFO - Thread model: posix
+INFO - InstalledDir: /usr/bin
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:00 ----------
+INFO - ----------- Return Code: 0x00000000 ------------
+INFO - ------------------------------------------------
+INFO - ---------------------------------------------------------------------
+INFO - --------------Override/Deprecation Validation Starting---------------
+INFO - ---------------------------------------------------------------------
+CRITICAL - Override Log file at /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/OVERRIDELOG.TXT
+INFO - ----------------------------------------------------------------------
+INFO - --------------Override/Deprecation Validation Finished----------------
+INFO - -------------- Running Time (mm:ss): 00:00 -------------
+INFO - ----------------------------------------------------------------------
+PROGRESS - Checking DEBUG Macros
+INFO - Checking Debug Macros in directory: /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Platforms/Xiaomi/aliothPkg
+
+INFO - Gathering the overall file list. This might take awhile.
+
+INFO - Getting git ignore files...
+INFO - Ignoring git ignore files...
+INFO -   1 files are ignored by git
+INFO -   2 files after removing ignored files
+INFO - 
+Starting macro check on 2 files.
+INFO - Writing BuildToolsReports to /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/BUILD_TOOLS_REPORT
+PROGRESS - Running Build RELEASE
+INFO - Cmd to run is: build -p aliothPkg/alioth.dsc -b RELEASE -t CLANGPDB -a AARCH64 -y /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/BUILD_REPORT.TXT -Y PCD -Y DEPEX -Y FLASH -Y BUILD_FLAGS -Y LIBRARY -Y FIXED_ADDRESS -Y HASH -D SHARED_CRYPTO_PATH=/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/CryptoPkg/Binaries/edk2-basecrypto-driver-bin_extdep -D ONE_CRYPTO_PATH=/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/CryptoPkg/Binaries/onecrypto-bin_extdep -D BUILDID_STRING=Unknown -D MEMORY_PROTECTION=TRUE -D SHIP_MODE=FALSE -D DEVICE_MODEL=1 -D DISABLE_SECUREBOOT=1 -D FD_BASE=0x9FC00000 -D FD_SIZE=0x300000 -D FD_BLOCKS=0x300
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Starting---------------
+INFO - ------------------------------------------------
+INFO - Build environment: Linux-6.17.0-14-generic-x86_64-with-glibc2.39
+INFO - SOURCE_DATE_EPOCH not set - using 1777448101
+INFO - Build start time: 09:35:01, Apr.29 2026
+INFO - 
+INFO - WORKSPACE        = /home/ucchip/K40_Win11/sound_code/Mu-Silicium
+INFO - PACKAGES_PATH    = /home/ucchip/K40_Win11/sound_code/Mu-Silicium:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Platforms/Xiaomi:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Features/DFCI:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicon/Qualcomm:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicon/Silicium:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicium-ACPI:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicium-ACPI/Platforms/Xiaomi:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicium-ACPI/SoCs/Qualcomm
+INFO - EDK_TOOLS_PATH   = /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools
+INFO - EDK_TOOLS_BIN    = /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/BaseTools/Bin/Mu-Basetools_extdep/Linux-x86
+INFO - CONF_PATH        = /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Conf
+INFO - PYTHON_COMMAND   = /usr/bin/python3
+INFO - 
+INFO - 
+INFO - Architecture(s)  = AARCH64
+INFO - 
+INFO - Processing meta-data .Build target     = RELEASE
+INFO - Toolchain        = CLANGPDB
+INFO - 
+INFO - Active Platform          = /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Platforms/Xiaomi/aliothPkg/alioth.dsc
+INFO - build...
+INFO - /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Platforms/Xiaomi/aliothPkg/alioth.dsc(...): warning: /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/ArmPkg/Library/ArmPsciResetSystemLib/ArmPsciResetSystemLib.inf does not support LIBRARY_CLASS HwResetSystemLib
+INFO - .########################################
+INFO - ########################################
+INFO - ########################################
+INFO - ########################################
+INFO - #####... done!
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper/OUTPUT/GraphicsConsoleHelper.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=GraphicsConsoleHelperLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper/OUTPUT/./GraphicsConsoleHelper.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/GraphicsConsoleHelperLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsAltBootLib/MsAltBootLib.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/OUTPUT/MsAltBootLib.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=MsAltBootLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/OUTPUT/./MsAltBootLib.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsAltBootLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsAltBootLib/MsAltBootLib.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsBootManagerSettingsDxeLib/MsBootManagerSettingsDxeLib.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsBootManagerSettingsDxeLib/MsBootManagerSettingsDxeLib/OUTPUT/BootManagerSettings.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=MsBootManagerSettingsDxeLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsBootManagerSettingsDxeLib/MsBootManagerSettingsDxeLib/OUTPUT/./BootManagerSettings.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsBootManagerSettingsDxeLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsBootManagerSettingsDxeLib/MsBootManagerSettingsDxeLib/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Features/DFCI/DfciPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Features/DFCI/DfciPkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Features/DFCI/DfciPkg/Include/Private /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsBootManagerSettingsDxeLib/BootManagerSettings.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib/OUTPUT/MsNetworkDependencyLib.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=MsNetworkDependencyLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib/OUTPUT/./MsNetworkDependencyLib.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/MsNetworkDependencyLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Test/Mock/Include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/BaseCpuLib/BaseCpuLib.inf [AARCH64]
+INFO - Trim --asm-file -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/AArch64/CpuFlushTlb.i -i /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib/OUTPUT/inc.lst /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/BaseCpuLib/AArch64/CpuFlushTlb.S
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib/OUTPUT/MemoryTypeInfoSecVarCheckLib.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=MemoryTypeInfoSecVarCheckLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -mstrict-align -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib/OUTPUT/./MemoryTypeInfoSecVarCheckLib.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe/OUTPUT/VariablePolicyExtraInitRuntimeDxe.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=VariablePolicyLibRuntimeDxeStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe/OUTPUT/./VariablePolicyExtraInitRuntimeDxe.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/VariablePolicyLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyExtraInitRuntimeDxe.c
+INFO - Building ... /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib.inf [AARCH64]
+INFO - "/usr/bin/clang" -MMD -MF /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib/OUTPUT/BaseVariableFlashInfoLib.obj.deps -g -Os -fshort-wchar -fno-builtin -fno-strict-aliasing -Wall -Werror -Wno-array-bounds -include AutoGen.h -fno-common -fstack-protector -ffunction-sections -fdata-sections -DSTRING_ARRAY_NAME=BaseVariableFlashInfoLibStrings -Wno-parentheses-equality -Wno-tautological-compare -Wno-tautological-constant-out-of-range-compare -Wno-empty-body -Wno-unused-const-variable -Wno-varargs -Wno-unknown-warning-option -Wno-unused-but-set-variable -Wno-unused-const-variable -Wno-unaligned-access -Wno-microsoft-enum-forward-reference -fno-stack-protector -funsigned-char -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -Wno-address -Wno-shift-negative-value -Wno-unknown-pragmas -Wno-incompatible-library-redeclaration -Wno-null-dereference -mno-implicit-float -mms-bitfields -mno-stack-arg-probe -fno-omit-frame-pointer -U _MSC_VER -D __GNUC__=4 -D __GNUC_MINOR__=2 -D __GNUC_PATCHLEVEL__=1 -D __MINGW32__=1 -m64 -mcmodel=small -Oz -flto -target aarch64-unknown-windows-msvc -fno-unwind-tables -Wno-unused-but-set-variable -Wno-deprecated-non-prototype -Wno-constant-conversion -Werror -march=armv8.2-a+crypto+rcpc -D HAS_ACTLR_EL1_UNIMPLEMENTED_ERRATA=0 -D HAS_AMCNTENSET0_EL0_UNIMPLEMENTED_ERRATA=0 -D HAS_GIC_V3_WITHOUT_IRM_FLAG_SUPPORT_ERRATA=0 -D HAS_PSCI_MEMPROTECT_FAILING_ERRATA=1 -D __DEPRECATED_AARCH64_4K_RUNTIME_GRANULARITY -Wno-unused-const-variable -Wno-sometimes-uninitialized -Wno-unaligned-access -Wno-deprecated-non-prototype -D CLANG -D DISABLE_SECUREBOOT=1 -mstrict-align -c -o /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib/OUTPUT/./BaseVariableFlashInfoLib.obj -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BaseVariableFlashInfoLib -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib/DEBUG -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/UnitTest/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Library/MipiSysTLib/mipisyst/library/include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdePkg/Include/AArch64 -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Test/Mock/Include -I/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BrotliCustomDecompressLib/brotli/c/include /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Mu_Basecore/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib.c
+INFO - "/usr/bin/llvm-lib"  /OUT:/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/OUTPUT/MsAltBootLib.lib @/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/OUTPUT/object_files.lst
+INFO - /bin/sh: 1: /usr/bin/llvm-lib: not found
+INFO - make: *** [GNUmakefile:354: /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib/OUTPUT/MsAltBootLib.lib] Error 127
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsAltBootLib/MsAltBootLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/MsNetworkDependencyLib/MsNetworkDependencyLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/MemoryTypeInfoSecVarCheckLib/MemoryTypeInfoSecVarCheckLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/PcBdsPkg/Library/GraphicsConsoleHelperLib/GraphicsConsoleHelper]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/BaseVariableFlashInfoLib/BaseVariableFlashInfoLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/OemPkg/Library/MsBootManagerSettingsDxeLib/MsBootManagerSettingsDxeLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/AuthVariableLibNull/AuthVariableLibNull]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdeModulePkg/Library/VariablePolicyLib/VariablePolicyLibRuntimeDxe]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error 7000: Failed to execute command
+INFO - 	m a k e   t b u i l d [/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/aliothPkg/RELEASE_CLANGPDB/AARCH64/MdePkg/Library/BaseCpuLib/BaseCpuLib]
+INFO - 
+INFO - 
+INFO - build.py...
+INFO -  : error F002: Failed to build module
+INFO - 	/home/ucchip/K40_Win11/sound_code/Mu-Silicium/Common/Mu_OEM_Sample/OemPkg/Library/MsAltBootLib/MsAltBootLib.inf [AARCH64, CLANGPDB, RELEASE]
+INFO - 
+INFO - - Failed -
+INFO - Build end time: 09:35:07, Apr.29 2026
+INFO - Build total time: 00:00:06
+INFO - 
+INFO - ------------------------------------------------
+INFO - --------------Cmd Output Finished---------------
+INFO - --------- Running Time (mm:ss): 00:05 ----------
+INFO - ----------- Return Code: 0x00000001 ------------
+INFO - ------------------------------------------------
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - Compiler #7000 from : Failed to execute command
+ERROR - EDK2 #002 from : Failed to build module
+CRITICAL - Build failed
+PROGRESS - End time: 2026-04-29 09:35:07.237219	 Total time Elapsed: 0:00:06
+SECTION - Log file is located at: /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Build/BUILDLOG_aliothPkg.txt
+SECTION - Summary
+ERROR - Error
+[1;31m
+Failed to Compile UEFI!
+[0m

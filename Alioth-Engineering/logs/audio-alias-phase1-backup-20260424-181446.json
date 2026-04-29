@@ -1,0 +1,25 @@
+﻿{
+    "Created":  "2026-04-24 18:14:46",
+    "WindowsDrive":  "D",
+    "WindowsRoot":  "D:\\",
+    "PackageRoot":  "C:\\yjc_code\\K40刷win11\\Alioth-Engineering\\experiments\\audio-alias-phase1\\signed-driver-package",
+    "Changes":  [
+                    {
+                        "ControlSet":  "ControlSet001",
+                        "DeviceKey":  "HKEY_LOCAL_MACHINE\\ALIOTH_AUDIO_ALIAS_SYSTEM_13912\\ControlSet001\\Enum\\ACPI\\QCOM05D2\\0",
+                        "NativeId":  "ACPI\\QCOM05D2",
+                        "AliasId":  "ACPI\\QCOM25D2",
+                        "OldHardwareID":  [
+                                              "ACPI\\VEN_QCOM\u0026DEV_05D2",
+                                              "ACPI\\QCOM05D2",
+                                              "*QCOM05D2"
+                                          ],
+                        "OldCompatibleIDs":  [
+                                                 null
+                                             ],
+                        "NewCompatibleIDs":  [
+                                                 "ACPI\\QCOM25D2"
+                                             ]
+                    }
+                ]
+}

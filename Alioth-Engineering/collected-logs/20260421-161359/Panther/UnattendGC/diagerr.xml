@@ -1,0 +1,744 @@
+﻿<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+</rs:data>
+</xml>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1416" TID="1420" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:12:23"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1444" TID="1448" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:12:23"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1588" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:12:26"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1468" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:12:27"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1468" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:12:28"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1436" TID="1440" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:29:01"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1468" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:29:02"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1484" TID="1604" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:29:04"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1484" TID="1488" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:29:05"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1484" TID="1488" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:29:07"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1412" TID="1416" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:41"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1440" TID="1444" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:41"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1460" TID="1580" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:44"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1460" TID="1464" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:45"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1460" TID="1464" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:46"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1448" TID="1452" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:49"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1476" TID="1480" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:49"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1616" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:52"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:52"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:54"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1448" TID="1452" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:57"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1476" TID="1480" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:57"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1612" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:30:59"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:00"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:02"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1448" TID="1452" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:04"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1476" TID="1480" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:04"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1616" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:06"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:07"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1496" TID="1500" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:09"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1432" TID="1436" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:11"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1460" TID="1464" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:11"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1480" TID="1596" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:14"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1480" TID="1484" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:15"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1480" TID="1484" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:31:17"/>
+<xml xmlns:s="uuid:BDC6E3F0-6DA3-11d1-A2A3-00AA00C14882"
+ xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882"
+ xmlns:rs="urn:schemas-microsoft-com:rowset"
+ xmlns:z="#RowsetSchema">
+<s:Schema id="RowsetSchema">
+<s:ElementType name="row" content="eltOnly" rs:updatable="true">
+<s:AttributeType name="Cls" rs:number="0">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Sev" rs:number="1">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Maj" rs:number="2">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Min" rs:number="3">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="LN" rs:number="4">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Fil" rs:number="5">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Fun" rs:number="6">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Uid" rs:number="7">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Msg" rs:number="8">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="PID" rs:number="9">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="TID" rs:number="10">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="Con" rs:number="11">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Exe" rs:number="12">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Mod" rs:number="13">
+<s:datatype dt:type="string"/>
+</s:AttributeType>
+<s:AttributeType name="Err" rs:number="14">
+<s:datatype dt:type="int"/>
+</s:AttributeType>
+<s:AttributeType name="MD" rs:number="15">
+<s:datatype dt:type="hexBinary"/>
+</s:AttributeType>
+<s:AttributeType name="DT" rs:number="16">
+<s:datatype dt:type="dateTime"/>
+</s:AttributeType>
+</s:ElementType>
+</s:Schema>
+<rs:data>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1416" TID="1420" Con="" Exe="C:\Windows\system32\oobe\windeploy.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:36:32"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1444" TID="1448" Con="" Exe="C:\Windows\system32\oobe\oobeldr.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:36:32"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1584" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:36:34"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1468" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:36:35"/>
+<z:row Cls="D" Sev="33554432" Maj="Def" Min="Def" LN="872" Fil="" Fun="" Uid="34226176" Msg="ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+" PID="1464" TID="1468" Con="" Exe="C:\Windows\system32\oobe\msoobe.exe" Mod="" Err="0" MD="" DT="2022-05-07T16:36:37"/>

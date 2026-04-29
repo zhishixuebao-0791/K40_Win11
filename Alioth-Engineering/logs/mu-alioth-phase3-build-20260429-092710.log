@@ -1,0 +1,43 @@
+clang --target=aarch64-linux-gnu -c BootShim.S -o BootShim.elf -DREQUIRES_KERNEL_HEADER=1 -DFD_BASE=0x9FC00000 -DFD_SIZE=0x300000
+llvm-objcopy -O binary BootShim.elf BootShim.bin
+SECTION - Init Self Describing Environment
+SECTION - Loading Plugins
+SECTION - Start Invocable Tool
+PROGRESS - ## Resolving Git Submodule: Binaries
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Common/Mu
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Common/Mu_OEM_Sample
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Features/DFCI
+PROGRESS - ## Done.
+
+PROGRESS - ## Resolving Git Submodule: Mu_Basecore
+PROGRESS - Done.
+
+PROGRESS - ## Resolving Git Submodule: Silicium-ACPI
+PROGRESS - Done.
+
+PROGRESS - ## Resolving Git Submodule: Silicon/Silicium/OpensslPkg/Library/OpensslLib/openssl
+PROGRESS - ## Done.
+
+SECTION - Summary
+PROGRESS - Success
+SECTION - Init Self Describing Environment
+SECTION - Loading Plugins
+SECTION - Start Invocable Tool
+SECTION - Initial update of environment
+Updating...SECTION - 	Updated/Verified 4 dependencies
+SECTION - Second pass update of environment
+. Done
+UpdatingSECTION - 	Updated/Verified 4 dependencies
+SECTION - Summary
+PROGRESS - Success
+. Done
+error: patch failed: SecurityPkg/Library/AuthVariableLib/AuthService.c:29
+error: SecurityPkg/Library/AuthVariableLib/AuthService.c: patch does not apply
+error: patch failed: SecurityPkg/Library/AuthVariableLib/AuthVariableLib.inf:43
+error: SecurityPkg/Library/AuthVariableLib/AuthVariableLib.inf: patch does not apply

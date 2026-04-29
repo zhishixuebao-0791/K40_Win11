@@ -1,0 +1,109 @@
+﻿{
+    "Created":  "2026-04-25 11:18:05",
+    "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
+    "SourceRoot":  "C:\\yjc_code\\K40_Win11\\sound_code\\windows_silicon_qcom_kona",
+    "Strategy":  "Phase 2a only targets already-enumerated low-level dependencies. INF files are not modified.",
+    "Aliases":  [
+                    {
+                        "Name":  "PILC",
+                        "NativeMatch":  "QCOM051B",
+                        "DriverAlias":  "ACPI\\QCOM251B",
+                        "Inf":  "qcpil8250.inf"
+                    },
+                    {
+                        "Name":  "RPEN",
+                        "NativeMatch":  "QCOM0533",
+                        "DriverAlias":  "ACPI\\QCOM2533",
+                        "Inf":  "qcrpen8250.inf"
+                    },
+                    {
+                        "Name":  "SMMU",
+                        "NativeMatch":  "QCOM0509",
+                        "DriverAlias":  "ACPI\\VEN_QCOM\u0026DEV_2509\u0026REV_0002",
+                        "Inf":  "qcsmmu8250.inf"
+                    },
+                    {
+                        "Name":  "SCM",
+                        "NativeMatch":  "QCOM050B",
+                        "DriverAlias":  "ACPI\\QCOM250B",
+                        "Inf":  "qcscm8250.inf"
+                    }
+                ],
+    "Files":  [
+                  {
+                      "RelativePath":  "HexagonLoader\\qcpil8250.cat",
+                      "Length":  9292,
+                      "SHA256":  "8E49A2BC639B1FBD22944E4FBCD6768824447F368ACC13E09B8EC13A680D0E11"
+                  },
+                  {
+                      "RelativePath":  "HexagonLoader\\qcpil8250.inf",
+                      "Length":  13002,
+                      "SHA256":  "66A1402D2E07522879DA9F09E5DF468BA089D5F46478DA3879F1867646714B23"
+                  },
+                  {
+                      "RelativePath":  "HexagonLoader\\qcpil8250.sys",
+                      "Length":  180440,
+                      "SHA256":  "6150BC12988BE9B40786D46BDDFCDE01D7A0D105487B562BDF6F6E15668A6CB4"
+                  },
+                  {
+                      "RelativePath":  "HexagonLoader\\QcSkExt8250.exe",
+                      "Length":  139488,
+                      "SHA256":  "397DB169596FE31444FCFB40DDAE4BB38BAC1E584E74F5C3A1AE738F66415E25"
+                  },
+                  {
+                      "RelativePath":  "ResetProtectionEnabler\\qcrpen8250.cat",
+                      "Length":  8832,
+                      "SHA256":  "1A5DD8A91EDE92CC5B1BF97C73E828ED6953563FC419889976B9CEDB3C2A9F80"
+                  },
+                  {
+                      "RelativePath":  "ResetProtectionEnabler\\qcrpen8250.inf",
+                      "Length":  4032,
+                      "SHA256":  "50D120D49D5C816320910F00539C7F33FA882D463C13162312779C3587386195"
+                  },
+                  {
+                      "RelativePath":  "ResetProtectionEnabler\\qcrpen8250.sys",
+                      "Length":  116864,
+                      "SHA256":  "81381970C3AE21F8367D6A86E494CB3F95C016F6F925DD471BB7E36FA76D6A72"
+                  },
+                  {
+                      "RelativePath":  "SCM\\qcscm8250.cat",
+                      "Length":  8825,
+                      "SHA256":  "7F4E2A0F6260879E85A07C6A058E9294847A323D6F0A0FB426FBEC4CBBA3D160"
+                  },
+                  {
+                      "RelativePath":  "SCM\\qcscm8250.inf",
+                      "Length":  5552,
+                      "SHA256":  "6E99769D33D322EC0AC2F51ED765DC162A02CC7BB7DC8C2171293FD0BABB1982"
+                  },
+                  {
+                      "RelativePath":  "SCM\\qcscm8250.sys",
+                      "Length":  320216,
+                      "SHA256":  "CB746CC7D07E11F3C6CE95EF0571781429B9E6ED48EE42130E45B9A9D1F7DA41"
+                  },
+                  {
+                      "RelativePath":  "SMMU\\qcsmmu8250.cat",
+                      "Length":  9881,
+                      "SHA256":  "1FB6BBE1DA429E9ECD14A04CB098FC9D80A296202A753410DA9A2FF44F87C350"
+                  },
+                  {
+                      "RelativePath":  "SMMU\\qcsmmu8250.inf",
+                      "Length":  127152,
+                      "SHA256":  "4FF9DDE5BA5CC00AE95E4992C6C3682D7E637B2447A9F1F0EB0F509D76214E60"
+                  },
+                  {
+                      "RelativePath":  "SMMU\\qcsmmu8250.sys",
+                      "Length":  307304,
+                      "SHA256":  "2FA1883F3252D2E50D63911FC9FF435F88E75210F429E86686E395E0827E1299"
+                  },
+                  {
+                      "RelativePath":  "SMMU\\qcsmmurs38250.sys",
+                      "Length":  253032,
+                      "SHA256":  "68A82ADBAD4296B0271AAA68F61C7415559986DB74137A2EB8E1BBA23DB21DEF"
+                  },
+                  {
+                      "RelativePath":  "SMMU\\SMMC.bin",
+                      "Length":  618,
+                      "SHA256":  "B5BF1EF5C81D69135842D420B61BC6D52EE38DF35D5513CA0B201E34C3F90BBF"
+                  }
+              ]
+}

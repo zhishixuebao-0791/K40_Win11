@@ -1,0 +1,46 @@
+﻿[2026-04-22 18:06:43] Applying single-point FSA4480 experiment package.
+[2026-04-22 18:06:43] Offline Windows drive: D:
+[2026-04-22 18:06:43] Experiment root: C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-fsa4480-minimal
+[2026-04-22 18:06:43] Target candidate hardware ID: ACPI\FSA04480
+[2026-04-22 18:06:43] This script injects only fsa4480.inf and does not touch Kona Audio/SOC/USBFn.
+[2026-04-22 18:06:43] Running: dism.exe /English /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-fsa4480-minimal\fsa4480.inf
+
+Deployment Image Servicing and Management tool
+Version: 10.0.18362.1379
+
+Image Version: 10.0.22621.6060
+
+Found 1 driver package(s) to install.
+Installing 1 of 1 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-fsa4480-minimal\fsa4480.inf: The driver package was successfully installed.
+The operation completed successfully.
+[2026-04-22 18:06:57] Collecting current offline driver inventory after injection.
+[2026-04-22 18:06:57] Running: dism.exe /English /Image:D:\ /Get-Drivers
+
+Deployment Image Servicing and Management tool
+Version: 10.0.18362.1379
+
+Image Version: 10.0.22621.6060
+
+Obtaining list of 3rd party drivers from the driver store...
+
+Driver packages listing:
+
+Published Name : oem0.inf
+Original File Name : rustdeskprinterdriver.inf
+Inbox : No
+Class Name : Printer
+Provider Name : RustDesk
+Date : 2025/7/26
+Version : 8.42.23.206
+
+Published Name : oem1.inf
+Original File Name : fsa4480.inf
+Inbox : No
+Class Name : USBDevice
+Provider Name : DuoWoA authors
+Date : 2024/3/23
+Version : 21.16.19.177
+
+The operation completed successfully.
+[2026-04-22 18:07:01] FSA4480 minimal injection completed.
+[2026-04-22 18:07:01] Next step: reboot into Windows, verify whether ACPI\\FSA04480 is resolved and whether any audio-root evidence changes.

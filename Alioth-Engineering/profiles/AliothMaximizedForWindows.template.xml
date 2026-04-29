@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeviceProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SupplementaryBCDCommands />
+  <PlatformIDs>
+    <!--
+      High-confidence candidates derived from:
+      - Mu-Silicium alioth.dsc SMBIOS strings
+      - existing Xiaomi / Redmi FirmwareGen profile naming patterns
+      Keep only the real values after runtime verification on device.
+    -->
+    <string>Redmi.SM8250.Redmi K40.alioth</string>
+    <string>Xiaomi.SM8250.POCO F3.alioth</string>
+    <string>Mi.SM8250.Mi 11X.alioth</string>
+  </PlatformIDs>
+  <FFUFileName>Alioth_MaximizedForWindows.ffu</FFUFileName>
+  <DriverDefinitionPath>\definitions\Desktop\ARM64\Internal\alioth.template.xml</DriverDefinitionPath>
+  <!-- TODO: replace with the actual target storage size in bytes -->
+  <DiskTotalSize>0</DiskTotalSize>
+  <DiskSectorSize>4096</DiskSectorSize>
+  <PartitionLayout>
+    <!--
+      TODO: replace this placeholder with the full alioth GPT layout.
+
+      Recommended source of truth:
+      - your final on-device GPT after repartitioning
+      - or a validated alioth-oriented FFU profile derived from that GPT
+
+      Do not ship the generic MTP8250 layout as-is for alioth.
+    -->
+  </PartitionLayout>
+  <SplittingStrategy>MaximizedForWindows</SplittingStrategy>
+  <CustomSplittingAndroidDesiredSpace>4294967296</CustomSplittingAndroidDesiredSpace>
+  <!-- TODO: replace with the final disk GUID if you want deterministic output -->
+  <DiskGuid>00000000-0000-0000-0000-000000000000</DiskGuid>
+</DeviceProfile>

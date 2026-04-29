@@ -1,0 +1,83 @@
+﻿{
+    "Created":  "2026-04-25 11:20:03",
+    "WindowsDrive":  "D",
+    "WindowsRoot":  "D:\\",
+    "PackageRoot":  "C:\\yjc_code\\K40刷win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
+    "Changes":  [
+                    {
+                        "ControlSet":  "ControlSet001",
+                        "DeviceKey":  "HKEY_LOCAL_MACHINE\\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\\ControlSet001\\Enum\\ACPI\\QCOM051B\\2\u0026daba3ff\u00260",
+                        "NativeMatch":  "QCOM051B",
+                        "AliasId":  "ACPI\\QCOM251B",
+                        "OldHardwareID":  [
+                                              "ACPI\\VEN_QCOM\u0026DEV_051B\u0026SUBSYS_MTP08250",
+                                              "ACPI\\QCOM051B",
+                                              "*QCOM051B"
+                                          ],
+                        "OldCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_051B"
+                                             ],
+                        "NewCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_051B",
+                                                 "ACPI\\QCOM251B"
+                                             ]
+                    },
+                    {
+                        "ControlSet":  "ControlSet001",
+                        "DeviceKey":  "HKEY_LOCAL_MACHINE\\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\\ControlSet001\\Enum\\ACPI\\QCOM0533\\2\u0026daba3ff\u00260",
+                        "NativeMatch":  "QCOM0533",
+                        "AliasId":  "ACPI\\QCOM2533",
+                        "OldHardwareID":  [
+                                              "ACPI\\VEN_QCOM\u0026DEV_0533\u0026SUBSYS_MTP08250",
+                                              "ACPI\\QCOM0533",
+                                              "*QCOM0533"
+                                          ],
+                        "OldCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0533"
+                                             ],
+                        "NewCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0533",
+                                                 "ACPI\\QCOM2533"
+                                             ]
+                    },
+                    {
+                        "ControlSet":  "ControlSet001",
+                        "DeviceKey":  "HKEY_LOCAL_MACHINE\\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\\ControlSet001\\Enum\\ACPI\\VEN_QCOM\u0026DEV_0509\u0026SUBSYS_MTP08250\u0026REV_0002\\1",
+                        "NativeMatch":  "QCOM0509",
+                        "AliasId":  "ACPI\\VEN_QCOM\u0026DEV_2509\u0026REV_0002",
+                        "OldHardwareID":  [
+                                              "ACPI\\VEN_QCOM\u0026DEV_0509\u0026SUBSYS_MTP08250\u0026REV_0002",
+                                              "ACPI\\VEN_QCOM\u0026DEV_0509\u0026SUBSYS_MTP08250",
+                                              "ACPI\\QCOM0509",
+                                              "*QCOM0509"
+                                          ],
+                        "OldCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0509\u0026REV_0002",
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0509"
+                                             ],
+                        "NewCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0509\u0026REV_0002",
+                                                 "ACPI\\VEN_QCOM\u0026DEV_0509",
+                                                 "ACPI\\VEN_QCOM\u0026DEV_2509\u0026REV_0002"
+                                             ]
+                    },
+                    {
+                        "ControlSet":  "ControlSet001",
+                        "DeviceKey":  "HKEY_LOCAL_MACHINE\\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\\ControlSet001\\Enum\\ACPI\\QCOM050B\\0",
+                        "NativeMatch":  "QCOM050B",
+                        "AliasId":  "ACPI\\QCOM250B",
+                        "OldHardwareID":  [
+                                              "ACPI\\VEN_QCOM\u0026DEV_050B\u0026SUBSYS_MTP08250",
+                                              "ACPI\\QCOM050B",
+                                              "*QCOM050B"
+                                          ],
+                        "OldCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_050B"
+                                             ],
+                        "NewCompatibleIDs":  [
+                                                 "ACPI\\VEN_QCOM\u0026DEV_050B",
+                                                 "ACPI\\QCOM250B"
+                                             ]
+                    }
+                ]
+}

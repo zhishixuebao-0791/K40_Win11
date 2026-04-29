@@ -1,0 +1,12 @@
+./build_uefi.sh: line 103: 0x300000 / 0x1000: syntax error: invalid arithmetic operator (error token is " / 0x1000")
+clang --target=aarch64-linux-gnu -c BootShim.S -o BootShim.elf -DREQUIRES_KERNEL_HEADER=1 -DFD_BASE=0x9FC00000 -DFD_SIZE=0x300000
+warning: macro 'REQUIRES_KERNEL_HEADER' contains embedded newline; text after the newline is ignored
+warning: macro 'FD_BASE' contains embedded newline; text after the newline is ignored
+warning: macro 'FD_SIZE' contains embedded newline; text after the newline is ignored
+3 warnings generated.
+llvm-objcopy -O binary BootShim.elf BootShim.bin
+make: llvm-objcopy: No such file or directory
+make: *** [Makefile:10: BootShim.bin] Error 127
+[1;31m
+Failed to Compile BootShim!
+[0m

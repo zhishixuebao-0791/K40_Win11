@@ -1,0 +1,16 @@
+﻿
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20260408
+Copyright (c) 2000 - 2026 Intel Corporation
+
+Disassembly completed
+ASL Output:    C:/yjc_code/K40ˢwin11/Alioth-Engineering/analysis/dsdt-audio-current/DSDT.dsl - 4533071 bytes
+File appears to be binary: found 95950 non-ASCII characters, disassembling
+Binary file appears to be a valid ACPI table, disassembling
+Input file C:/yjc_code/K40ˢwin11/Alioth-Engineering/analysis/dsdt-audio-current/DSDT.aml, Length 0x6A7E5 (436197) bytes
+ACPI: DSDT 0x0000000000000000 06A7E5 (v02 QCOMM  SDM8250  00000003 MSFT 05000000)
+Pass 1 parse of [DSDT]
+Pass 2 parse of [DSDT]
+Parsing Deferred Opcodes (Methods/Buffers/Packages/Regions)
+System.Management.Automation.RemoteException
+Parsing completed

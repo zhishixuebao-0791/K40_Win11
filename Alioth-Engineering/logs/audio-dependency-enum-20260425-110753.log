@@ -1,0 +1,118 @@
+﻿[2026-04-25 11:07:53] Checking Alioth audio dependency enumeration in D:\Windows\System32\Config\SYSTEM
+[2026-04-25 11:07:54] reg.exe load HKLM\ALIOTH_DEP_CHECK_12964 D:\Windows\System32\Config\SYSTEM
+[2026-04-25 11:07:54] 操作成功完成。
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM051B /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM051B
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM051B\2&daba3ff&0
+[2026-04-25 11:07:54]     HardwareID    REG_MULTI_SZ    ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250\0ACPI\QCOM051B\0*QCOM051B
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 2 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM251B /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM0533 /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM0533
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM0533\2&daba3ff&0
+[2026-04-25 11:07:54]     HardwareID    REG_MULTI_SZ    ACPI\VEN_QCOM&DEV_0533&SUBSYS_MTP08250\0ACPI\QCOM0533\0*QCOM0533
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 2 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM2533 /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM058D /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM258D /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM050E /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM250E /s
+[2026-04-25 11:07:54] 
+[2026-04-25 11:07:54] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:54] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM0509 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1
+[2026-04-25 11:07:55]     HardwareID    REG_MULTI_SZ    ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\0ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250\0ACPI\QCOM0509\0*QCOM0509
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 1 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM2509 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM050B /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM050B
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] HKEY_LOCAL_MACHINE\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI\QCOM050B\0
+[2026-04-25 11:07:55]     HardwareID    REG_MULTI_SZ    ACPI\VEN_QCOM&DEV_050B&SUBSYS_MTP08250\0ACPI\QCOM050B\0*QCOM050B
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 2 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM250B /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM057C /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM257C /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM058B /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM258B /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM0522 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM2522 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM0520 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM2520 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM0560 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM2560 /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM051D /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+[2026-04-25 11:07:55] reg.exe query HKLM\ALIOTH_DEP_CHECK_12964\ControlSet001\Enum\ACPI /f QCOM251D /s
+[2026-04-25 11:07:55] 
+[2026-04-25 11:07:55] 搜索结束: 找到 0 匹配。
+
+==== Summary ====
+
+Name NativeId NativeFound DriverAlias DriverAliasFound Role                                            
+---- -------- ----------- ----------- ---------------- ----                                            
+PILC QCOM051B        True QCOM251B               False ADSP dependency, already observed present       
+RPEN QCOM0533        True QCOM2533               False ADSP/GLNK dependency, already observed present  
+GLNK QCOM058D       False QCOM258D               False ARPC/SSDD/IPC0 dependency                       
+IPC0 QCOM050E       False QCOM250E               False ADSP dependency                                 
+MMU0 QCOM0509        True QCOM2509               False ARPC dependency                                 
+SCM0 QCOM050B        True QCOM250B               False ARPC dependency                                 
+PDSR QCOM057C       False QCOM257C               False SSDD dependency                                 
+TFTP QCOM058B       False QCOM258B               False SSDD dependency                                 
+SSDD QCOM0522       False QCOM2522               False ADSP dependency                                 
+QSM  QCOM0520       False QCOM2520               False Service manager sibling; useful subsystem signal
+ARPC QCOM0560       False QCOM2560               False ADSP dependency and FastRPC root                
+ADSP QCOM051D       False QCOM251D               False Target audio DSP root                           
+
+
+
+[2026-04-25 11:07:57] reg.exe unload HKLM\ALIOTH_DEP_CHECK_12964
+[2026-04-25 11:07:57] 操作成功完成。
+[2026-04-25 11:07:57] 
+[2026-04-25 11:07:57] Wrote dependency enum log: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-dependency-enum-20260425-110753.log
