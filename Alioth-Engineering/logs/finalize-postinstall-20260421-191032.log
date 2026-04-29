@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2026-04-21 19:10:32] Finalizing Alioth postinstall state for D:
 [2026-04-21 19:10:32] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
 [2026-04-21 19:10:32] Staged Alioth bootstrap startup script for audit exit and landscape fix.
@@ -22,3 +23,29 @@
 [2026-04-21 19:10:39] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
 [2026-04-21 19:10:39] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 4/5
 [2026-04-21 19:10:41] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+=======
+﻿[2026-04-21 19:10:32] Finalizing Alioth postinstall state for D:
+[2026-04-21 19:10:32] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
+[2026-04-21 19:10:32] Staged Alioth bootstrap startup script for audit exit and landscape fix.
+[2026-04-21 19:10:32] Running: reg.exe load HKLM\ALIOTH_POST_SOFTWARE_11356 D:\Windows\System32\Config\SOFTWARE
+操作成功完成。
+
+[2026-04-21 19:10:32] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_11356\Microsoft\Windows\CurrentVersion\RunOnce /v AliothCleanupSysprepUi /t REG_SZ /d cmd /c taskkill /im sysprep.exe /f >nul 2>&1 /f
+操作成功完成。
+
+[2026-04-21 19:10:32] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_11356\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-21 19:10:33] Running: reg.exe unload HKLM\ALIOTH_POST_SOFTWARE_11356
+操作成功完成。
+
+[2026-04-21 19:10:33] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:10:33] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 1/5
+[2026-04-21 19:10:35] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:10:35] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 2/5
+[2026-04-21 19:10:37] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:10:37] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 3/5
+[2026-04-21 19:10:39] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:10:39] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 4/5
+[2026-04-21 19:10:41] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_11356 D:\Windows\System32\Config\SYSTEM
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

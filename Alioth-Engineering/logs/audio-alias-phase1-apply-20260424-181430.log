@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2026-04-24 18:14:30] Applying Alioth audio alias phase 1.
 [2026-04-24 18:14:30] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-alias-phase1\signed-driver-package /Recurse
 [2026-04-24 18:14:46] 
@@ -26,3 +27,33 @@
 [2026-04-24 18:14:46] 错误: 拒绝访问。
 [2026-04-24 18:14:46] System.Management.Automation.RemoteException
 [2026-04-24 18:14:46] Phase-1 alias apply completed. Reboot/boot Mu-alioth and collect audio root trace after testing.
+=======
+﻿[2026-04-24 18:14:30] Applying Alioth audio alias phase 1.
+[2026-04-24 18:14:30] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-alias-phase1\signed-driver-package /Recurse
+[2026-04-24 18:14:46] 
+[2026-04-24 18:14:46] 部署映像服务和管理工具
+[2026-04-24 18:14:46] 版本: 10.0.18362.1379
+[2026-04-24 18:14:46] 
+[2026-04-24 18:14:46] 映像版本: 10.0.22621.6060
+[2026-04-24 18:14:46] 
+[2026-04-24 18:14:46] 正在搜索要安装的驱动程序包...
+[2026-04-24 18:14:46] 找到 3 个要安装的驱动程序包。
+[2026-04-24 18:14:46] 正在安装第 1 个，共有 3 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-alias-phase1\signed-driver-package\ADSPRPC\qcadsprpc8250.inf: 驱动程序包已成功安装。
+[2026-04-24 18:14:46] 正在安装第 2 个，共有 3 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-alias-phase1\signed-driver-package\ADSPRPCD\qcadsprpcd8250.inf: 驱动程序包已成功安装。
+[2026-04-24 18:14:46] 正在安装第 3 个，共有 3 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-alias-phase1\signed-driver-package\AudioService\AudioService8250.inf: 驱动程序包已成功安装。
+[2026-04-24 18:14:46] 操作成功完成。
+[2026-04-24 18:14:46] Running: reg.exe load HKLM\ALIOTH_AUDIO_ALIAS_SYSTEM_13912 D:\Windows\System32\Config\SYSTEM
+[2026-04-24 18:14:46] 操作成功完成。
+[2026-04-24 18:14:46] 
+[2026-04-24 18:14:46] Added compatible alias ACPI\QCOM25D2 to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ALIAS_SYSTEM_13912\ControlSet001\Enum\ACPI\QCOM05D2\0
+[2026-04-24 18:14:46] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ALIAS_SYSTEM_13912\ControlSet001\Enum\ACPI\QCOM0560
+[2026-04-24 18:14:46] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ALIAS_SYSTEM_13912\ControlSet001\Enum\ACPI\QCOM058A
+[2026-04-24 18:14:46] Set offline service AudioService Start=2 in ControlSet001
+[2026-04-24 18:14:46] Set offline service qcadsprpc Start=3 in ControlSet001
+[2026-04-24 18:14:46] Set offline service qcadsprpcd Start=3 in ControlSet001
+[2026-04-24 18:14:46] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-alias-phase1-backup-20260424-181446.json
+[2026-04-24 18:14:46] Running: reg.exe unload HKLM\ALIOTH_AUDIO_ALIAS_SYSTEM_13912
+[2026-04-24 18:14:46] 错误: 拒绝访问。
+[2026-04-24 18:14:46] System.Management.Automation.RemoteException
+[2026-04-24 18:14:46] Phase-1 alias apply completed. Reboot/boot Mu-alioth and collect audio root trace after testing.
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

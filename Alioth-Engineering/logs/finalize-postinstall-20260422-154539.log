@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2026-04-22 15:45:39] Finalizing Alioth postinstall state for D:
 [2026-04-22 15:45:39] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
 [2026-04-22 15:45:39] Staged Alioth bootstrap startup script for audit exit and landscape fix.
@@ -54,3 +55,61 @@
 
 [2026-04-22 15:45:42] Alioth postinstall finalization completed.
 [2026-04-22 15:45:42] Next boot should enter desktop once more, then bootstrap will reuse/create jcyang as needed, silently exit Audit Mode, and only rotate if the display is still portrait.
+=======
+﻿[2026-04-22 15:45:39] Finalizing Alioth postinstall state for D:
+[2026-04-22 15:45:39] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
+[2026-04-22 15:45:39] Staged Alioth bootstrap startup script for audit exit and landscape fix.
+[2026-04-22 15:45:39] Running: reg.exe load HKLM\ALIOTH_POST_SOFTWARE_14236 D:\Windows\System32\Config\SOFTWARE
+操作成功完成。
+
+[2026-04-22 15:45:40] Detected existing offline user profile for jcyang: True
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows\CurrentVersion\RunOnce /v AliothCleanupSysprepUi /t REG_SZ /d cmd /c taskkill /im sysprep.exe /f >nul 2>&1 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows\CurrentVersion\Run /v AliothBootstrap /t REG_SZ /d powershell -NoProfile -ExecutionPolicy Bypass -File C:\Windows\Setup\Scripts\AliothBootstrap.ps1 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoAdminLogon /t REG_SZ /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultUserName /t REG_SZ /d jcyang /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultPassword /t REG_SZ /d ucchip@2026 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoLogonCount /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_14236\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:45:40] Running: reg.exe unload HKLM\ALIOTH_POST_SOFTWARE_14236
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_14236 D:\Windows\System32\Config\SYSTEM
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_14236\Setup /v UnattendFile /t REG_SZ /d C:\Windows\Panther\unattend.xml /f
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe delete HKLM\ALIOTH_POST_SYSTEM_14236\Setup /v CmdLine /f
+错误: 系统找不到指定的注册表项或值。
+[2026-04-22 15:45:41] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_14236\Setup\Status\ChildCompletion /v setup.exe /t REG_DWORD /d 3 /f
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_14236\Setup /v OOBEInProgress /t REG_DWORD /d 0 /f
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_14236\Setup /v SystemSetupInProgress /t REG_DWORD /d 0 /f
+操作成功完成。
+
+[2026-04-22 15:45:41] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_14236\Setup /v AuditInProgress /t REG_DWORD /d 0 /f
+操作成功完成。
+
+[2026-04-22 15:45:42] Running: reg.exe unload HKLM\ALIOTH_POST_SYSTEM_14236
+操作成功完成。
+
+[2026-04-22 15:45:42] Alioth postinstall finalization completed.
+[2026-04-22 15:45:42] Next boot should enter desktop once more, then bootstrap will reuse/create jcyang as needed, silently exit Audit Mode, and only rotate if the display is still portrait.
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

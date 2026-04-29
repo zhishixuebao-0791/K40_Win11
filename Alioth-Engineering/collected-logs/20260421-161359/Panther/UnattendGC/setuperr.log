@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿2022-05-07 16:12:23, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
 
 2022-05-07 16:12:23, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
@@ -78,3 +79,85 @@
 
 2022-05-07 16:36:37, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
 
+=======
+﻿2022-05-07 16:12:23, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:12:23, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:12:26, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:12:27, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:12:28, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:29:01, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:29:02, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:29:04, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:29:05, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:29:07, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:41, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:41, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:44, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:45, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:46, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:49, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:49, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:52, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:52, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:54, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:57, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:57, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:30:59, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:00, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:02, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:04, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:04, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:06, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:07, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:09, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:11, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:11, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:14, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:15, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:31:17, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:36:32, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:36:32, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:36:34, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:36:35, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+2022-05-07 16:36:37, Error                 CONX   ApphelpDebug: ERROR,ApphelpChpeModSettingsFromQueryResult,872,SdbQueryResults was null or not the correct size.
+
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

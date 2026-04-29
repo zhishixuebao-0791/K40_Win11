@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿{
     "Created":  "2026-04-25 10:04:44",
     "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-adsp-phase1b\\signed-driver-package",
@@ -29,3 +30,36 @@
                   }
               ]
 }
+=======
+﻿{
+    "Created":  "2026-04-25 10:04:44",
+    "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-adsp-phase1b\\signed-driver-package",
+    "SourceRoot":  "C:\\yjc_code\\K40_Win11\\sound_code\\windows_silicon_qcom_kona",
+    "Strategy":  "Do not modify INF files. Add offline CompatibleID ACPI\\QCOM251D to native ACPI\\QCOM051D so signed qcsubsys8250 can bind only to ADSP.",
+    "Aliases":  [
+                    {
+                        "Name":  "ADSP CombinedSubsystem",
+                        "NativeId":  "ACPI\\QCOM051D",
+                        "DriverId":  "ACPI\\QCOM251D",
+                        "Inf":  "qcsubsys8250.inf"
+                    }
+                ],
+    "Files":  [
+                  {
+                      "RelativePath":  "CombinedSubsystem\\qcsubsys8250.cat",
+                      "Length":  10981,
+                      "SHA256":  "D2744FFA19275C29B32B23512F2B9711EFE73ED5B59AD2316E62E9C903074498"
+                  },
+                  {
+                      "RelativePath":  "CombinedSubsystem\\qcsubsys8250.inf",
+                      "Length":  51630,
+                      "SHA256":  "7E49436478665D64F6AFD7E5C8CD367658D7923AB5C630290B2B994166DA4A14"
+                  },
+                  {
+                      "RelativePath":  "CombinedSubsystem\\qcsubsys8250.sys",
+                      "Length":  738912,
+                      "SHA256":  "E33AB8E622C50347184A9D5717F93576F012C549D922A5062E11D620C6A997E1"
+                  }
+              ]
+}
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

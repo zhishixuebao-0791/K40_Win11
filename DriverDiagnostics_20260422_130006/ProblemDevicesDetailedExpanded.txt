@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 
 Name                   : 
@@ -719,3 +720,726 @@ Service                :
 
 
 
+=======
+﻿
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0550\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0550; ACPI\QCOM0550; *QCOM0550
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A8\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05A8&SUBSYS_MTP08250; ACPI\QCOM05A8; *QCOM05A8
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05A8
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0535\1B
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0535&SUBSYS_MTP08250; ACPI\QCOM0535; *QCOM0535
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0535
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055A\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055A&SUBSYS_MTP08250; ACPI\QCOM055A; *QCOM055A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_055A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055C\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055C; ACPI\QCOM055C; *QCOM055C
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055C\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055C; ACPI\QCOM055C; *QCOM055C
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055D\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055D; ACPI\QCOM055D; *QCOM055D
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055D\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055D; ACPI\QCOM055D; *QCOM055D
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055F\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055F; ACPI\QCOM055F; *QCOM055F
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\12
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250; ACPI\QCOM0518; *QCOM0518
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0518
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\14
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250; ACPI\QCOM0518; *QCOM0518
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0518
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\FSA04480\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_FSA0&DEV_4480&SUBSYS_MTP08250; ACPI\FSA04480; *FSA04480
+CompatibleIDs          : ACPI\VEN_FSA0&DEV_4480
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05CF\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05CF&SUBSYS_MTP08250; ACPI\QCOM05CF; *QCOM05CF
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05CF
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\5
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\6
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\7
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\D
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\E
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\F
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050B\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050B&SUBSYS_MTP08250; ACPI\QCOM050B; *QCOM050B
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050B
+ClassGuid              : 
+Service                : 
+
+Name                   : HID Button over Interrupt Driver
+PNPClass               : HIDClass
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 51
+Status                 : Error
+PNPDeviceID            : ACPI\ACPI0011\0
+HardwareIDs            : ACPI\VEN_ACPI&DEV_0011&SUBSYS_MTP08250; ACPI\ACPI0011; *ACPI0011
+CompatibleIDs          : ACPI\VEN_ACPI&DEV_0011
+ClassGuid              : {745a17a0-74d3-11d0-b6fe-00a0c90f57da}
+Service                : hidinterrupt
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0582\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0582&SUBSYS_MTP08250; ACPI\QCOM0582; *QCOM0582
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0582
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05AA\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05AA&SUBSYS_MTP08250; ACPI\QCOM05AA; *QCOM05AA
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05AA
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM056D\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_056D&SUBSYS_MTP08250; ACPI\QCOM056D; *QCOM056D
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_056D
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05AE\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05AE; ACPI\QCOM05AE; *QCOM05AE
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A7\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05A7&SUBSYS_MTP08250; ACPI\QCOM05A7; *QCOM05A7
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05A7
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\5
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250; ACPI\QCOM0511; *QCOM0511
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0511
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\8
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250; ACPI\QCOM0511; *QCOM0511
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0511
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\A
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250; ACPI\QCOM0511; *QCOM0511
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0511
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250; ACPI\QCOM0512; *QCOM0512
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0512
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250; ACPI\QCOM0512; *QCOM0512
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0512
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\2
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250; ACPI\QCOM0512; *QCOM0512
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0512
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\D
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250; ACPI\QCOM0518; *QCOM0518
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0518
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\E
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250; ACPI\QCOM0518; *QCOM0518
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0518
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05CE\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05CE&SUBSYS_MTP08250; ACPI\QCOM05CE; *QCOM05CE
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05CE
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002; ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250; ACPI\
+                         QCOM0509; *QCOM0509
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0509&REV_0002; ACPI\VEN_QCOM&DEV_0509
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0576\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0576&SUBSYS_MTP08250; ACPI\QCOM0576; *QCOM0576
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0576
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\10
+HardwareIDs            : ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250; ACPI\QCOM050A; *QCOM050A
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_050A
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0508\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0508&SUBSYS_MTP08250; ACPI\QCOM0508; *QCOM0508
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0508
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A1\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05A1&SUBSYS_MTP08250; ACPI\QCOM05A1; *QCOM05A1
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_05A1
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055E\64
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055E; ACPI\QCOM055E; *QCOM055E
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0527\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0527&SUBSYS_MTP08250; ACPI\QCOM0527; *QCOM0527
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0527
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0561\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0561&SUBSYS_MTP08250; ACPI\QCOM0561; *QCOM0561
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0561
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0581\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0581&SUBSYS_MTP08250; ACPI\QCOM0581; *QCOM0581
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0581
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0583\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0583&SUBSYS_MTP08250; ACPI\QCOM0583; *QCOM0583
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0583
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0507\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0507&SUBSYS_MTP08250; ACPI\QCOM0507; *QCOM0507
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0507
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0530\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0530&SUBSYS_MTP08250; ACPI\QCOM0530; *QCOM0530
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0530
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05D2\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_05D2; ACPI\QCOM05D2; *QCOM05D2
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250; ACPI\QCOM0593; *QCOM0593
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0593
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250; ACPI\QCOM0593; *QCOM0593
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0593
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\2
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250; ACPI\QCOM0593; *QCOM0593
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0593
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM057F\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_057F&SUBSYS_MTP08250; ACPI\QCOM057F; *QCOM057F
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_057F
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\SSDE\2&DABA3FF&0
+HardwareIDs            : ACPI\SSDE; *SSDE
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0577\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0577&SUBSYS_MTP08250; ACPI\QCOM0577; *QCOM0577
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0577
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059B\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_059B&SUBSYS_MTP08250; ACPI\QCOM059B; *QCOM059B
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_059B
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059B\1
+HardwareIDs            : ACPI\VEN_QCOM&DEV_059B&SUBSYS_MTP08250; ACPI\QCOM059B; *QCOM059B
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_059B
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059D\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_059D; ACPI\QCOM059D; *QCOM059D
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0533\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_0533&SUBSYS_MTP08250; ACPI\QCOM0533; *QCOM0533
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_0533
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059E\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_059E; ACPI\QCOM059E; *QCOM059E
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055F\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_055F&SUBSYS_MTP08250; ACPI\QCOM055F; *QCOM055F
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_055F
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM054C\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_054C; ACPI\QCOM054C; *QCOM054C
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM051B\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250; ACPI\QCOM051B; *QCOM051B
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_051B
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM054E\0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_054E; ACPI\QCOM054E; *QCOM054E
+CompatibleIDs          : 
+ClassGuid              : 
+Service                : 
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\VEN_QCOM&DEV_058C&SUBSYS_MTP08250&REV_0002\2&DABA3FF&0
+HardwareIDs            : ACPI\VEN_QCOM&DEV_058C&SUBSYS_MTP08250&REV_0002; ACPI\VEN_QCOM&DEV_058C&SUBSYS_MTP08250; ACPI\
+                         QCOM058C; *QCOM058C
+CompatibleIDs          : ACPI\VEN_QCOM&DEV_058C&REV_0002; ACPI\VEN_QCOM&DEV_058C
+ClassGuid              : 
+Service                : 
+
+
+
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

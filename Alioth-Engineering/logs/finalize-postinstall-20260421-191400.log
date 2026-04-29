@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[2026-04-21 19:14:00] Finalizing Alioth postinstall state for D:
 [2026-04-21 19:14:00] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
 [2026-04-21 19:14:00] Staged Alioth bootstrap startup script for audit exit and landscape fix.
@@ -38,3 +39,45 @@
 [2026-04-21 19:14:10] Skipping offline SYSTEM edits. Bootstrap + offline SOFTWARE changes are sufficient for this pass.
 [2026-04-21 19:14:10] Alioth postinstall finalization completed.
 [2026-04-21 19:14:10] Next boot should enter desktop once more, then bootstrap will create/login jcyang, silently exit Audit Mode, and rotate to landscape on the first normal login.
+=======
+﻿[2026-04-21 19:14:00] Finalizing Alioth postinstall state for D:
+[2026-04-21 19:14:00] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
+[2026-04-21 19:14:00] Staged Alioth bootstrap startup script for audit exit and landscape fix.
+[2026-04-21 19:14:00] Running: reg.exe load HKLM\ALIOTH_POST_SOFTWARE_12916 D:\Windows\System32\Config\SOFTWARE
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows\CurrentVersion\RunOnce /v AliothCleanupSysprepUi /t REG_SZ /d cmd /c taskkill /im sysprep.exe /f >nul 2>&1 /f
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoAdminLogon /t REG_SZ /d 1 /f
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultUserName /t REG_SZ /d jcyang /f
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultPassword /t REG_SZ /d jcyang123! /f
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoLogonCount /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-21 19:14:01] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_12916\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-21 19:14:02] Running: reg.exe unload HKLM\ALIOTH_POST_SOFTWARE_12916
+操作成功完成。
+
+[2026-04-21 19:14:02] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_12916 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:14:02] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 1/5
+[2026-04-21 19:14:04] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_12916 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:14:04] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 2/5
+[2026-04-21 19:14:06] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_12916 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:14:06] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 3/5
+[2026-04-21 19:14:08] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_12916 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:14:08] Retrying hive load for D:\Windows\System32\Config\SYSTEM after lock/access failure. Attempt 4/5
+[2026-04-21 19:14:10] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_12916 D:\Windows\System32\Config\SYSTEM
+[2026-04-21 19:14:10] Non-fatal: unable to load offline hive D:\Windows\System32\Config\SYSTEM: 错误: 另一个程序正在使用此文件，进程无法访问。
+[2026-04-21 19:14:10] Skipping offline SYSTEM edits. Bootstrap + offline SOFTWARE changes are sufficient for this pass.
+[2026-04-21 19:14:10] Alioth postinstall finalization completed.
+[2026-04-21 19:14:10] Next boot should enter desktop once more, then bootstrap will create/login jcyang, silently exit Audit Mode, and rotate to landscape on the first normal login.
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

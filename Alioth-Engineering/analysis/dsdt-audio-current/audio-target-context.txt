@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿==== AUDS AudioService | expected: ACPI\QCOM25D2 | line 63 ====
 55:         Name (RFAS, 0x77777777)
 56:         Name (TPMA, 0x11111111)
@@ -538,3 +539,545 @@
 94864:                     Return (0x0F)
 94865:                 }
 
+=======
+﻿==== AUDS AudioService | expected: ACPI\QCOM25D2 | line 63 ====
+55:         Name (RFAS, 0x77777777)
+56:         Name (TPMA, 0x11111111)
+57:         Name (TDTV, 0x6654504D)
+58:         Name (TCMA, 0xDEADBEEF)
+59:         Name (TCML, 0xBEEFDEAD)
+60:         Name (SOSI, 0x0000000080907228)
+61:         Name (PRP0, 0x00000000)
+62:         Name (PRP1, 0x00000000)
+63:         Device (AUDS)
+64:         {
+65:             Name (_HID, "QCOM05D2")  // _HID: Hardware ID
+66:             Name (_UID, Zero)  // _UID: Unique ID
+67:         }
+68: 
+69:         Device (UFS0)
+70:         {
+71:             Method (_STA, 0, NotSerialized)  // _STA: Status
+72:             {
+73:                 If ((STOR == One))
+74:                 {
+75:                     Return (0x0F)
+76:                 }
+77:                 Else
+78:                 {
+79:                     Return (Zero)
+80:                 }
+81:             }
+82: 
+83:             Name (_DEP, Package (One)  // _DEP: Dependencies
+84:             {
+85:                 \_SB.PEP0, 
+86:             })
+87:             Name (_HID, "QCOM24A5")  // _HID: Hardware ID
+88:             Alias (\_SB.PSUB, _SUB)
+
+==== AUDS AudioService | expected: ACPI\QCOM25D2 | line 65 ====
+57:         Name (TDTV, 0x6654504D)
+58:         Name (TCMA, 0xDEADBEEF)
+59:         Name (TCML, 0xBEEFDEAD)
+60:         Name (SOSI, 0x0000000080907228)
+61:         Name (PRP0, 0x00000000)
+62:         Name (PRP1, 0x00000000)
+63:         Device (AUDS)
+64:         {
+65:             Name (_HID, "QCOM05D2")  // _HID: Hardware ID
+66:             Name (_UID, Zero)  // _UID: Unique ID
+67:         }
+68: 
+69:         Device (UFS0)
+70:         {
+71:             Method (_STA, 0, NotSerialized)  // _STA: Status
+72:             {
+73:                 If ((STOR == One))
+74:                 {
+75:                     Return (0x0F)
+76:                 }
+77:                 Else
+78:                 {
+79:                     Return (Zero)
+80:                 }
+81:             }
+82: 
+83:             Name (_DEP, Package (One)  // _DEP: Dependencies
+84:             {
+85:                 \_SB.PEP0, 
+86:             })
+87:             Name (_HID, "QCOM24A5")  // _HID: Hardware ID
+88:             Alias (\_SB.PSUB, _SUB)
+89:             Name (_UID, Zero)  // _UID: Unique ID
+90:             Name (_CCA, Zero)  // _CCA: Cache Coherency Attribute
+
+==== ADSP | expected: ADSP core dependency root | line 66835 ====
+66827:                 {
+66828:                     /* 0000 */  0x89, 0x06, 0x00, 0x03, 0x01, 0x99, 0x01, 0x00,  // ........
+66829:                     /* 0008 */  0x00, 0x79, 0x00                                 // .y.
+66830:                 })
+66831:                 Return (RBUF) /* \_SB_.SCSS._CRS.RBUF */
+66832:             }
+66833:         }
+66834: 
+66835:         Device (ADSP)
+66836:         {
+66837:             Name (_DEP, Package (0x07)  // _DEP: Dependencies
+66838:             {
+66839:                 \_SB.PEP0, , 
+66840:                 \_SB.PILC, , 
+66841:                 \_SB.GLNK, , 
+66842:                 \_SB.IPC0, , 
+66843:                 \_SB.RPEN, , 
+66844:                 \_SB.SSDD, , 
+66845:                 \_SB.ARPC, 
+66846:             })
+66847:             Name (_HID, "QCOM051D")  // _HID: Hardware ID
+66848:             Alias (\_SB.PSUB, _SUB)
+66849:             Method (_STA, 0, NotSerialized)  // _STA: Status
+66850:             {
+66851:                 Return (0x0F)
+66852:             }
+66853: 
+66854:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66855:             {
+66856:                 Name (RBUF, Buffer (0x0B)
+66857:                 {
+66858:                     /* 0000 */  0x89, 0x06, 0x00, 0x03, 0x01, 0xC2, 0x00, 0x00,  // ........
+66859:                     /* 0008 */  0x00, 0x79, 0x00                                 // .y.
+66860:                 })
+
+==== ADSP | expected: ADSP core dependency root | line 66847 ====
+66839:                 \_SB.PEP0, , 
+66840:                 \_SB.PILC, , 
+66841:                 \_SB.GLNK, , 
+66842:                 \_SB.IPC0, , 
+66843:                 \_SB.RPEN, , 
+66844:                 \_SB.SSDD, , 
+66845:                 \_SB.ARPC, 
+66846:             })
+66847:             Name (_HID, "QCOM051D")  // _HID: Hardware ID
+66848:             Alias (\_SB.PSUB, _SUB)
+66849:             Method (_STA, 0, NotSerialized)  // _STA: Status
+66850:             {
+66851:                 Return (0x0F)
+66852:             }
+66853: 
+66854:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66855:             {
+66856:                 Name (RBUF, Buffer (0x0B)
+66857:                 {
+66858:                     /* 0000 */  0x89, 0x06, 0x00, 0x03, 0x01, 0xC2, 0x00, 0x00,  // ........
+66859:                     /* 0008 */  0x00, 0x79, 0x00                                 // .y.
+66860:                 })
+66861:                 Return (RBUF) /* \_SB_.ADSP._CRS.RBUF */
+66862:             }
+66863: 
+66864:             Device (SLM1)
+66865:             {
+66866:                 Name (_ADR, Zero)  // _ADR: Address
+66867:                 Name (_CCA, Zero)  // _CCA: Cache Coherency Attribute
+66868:                 Alias (\_SB.PSUB, _SUB)
+66869:                 Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66870:                 {
+66871:                     Name (RBUF, Buffer (0x17)
+66872:                     {
+
+==== SLM1 | expected: SLM1\QCOM2524 | line 66864 ====
+66856:                 Name (RBUF, Buffer (0x0B)
+66857:                 {
+66858:                     /* 0000 */  0x89, 0x06, 0x00, 0x03, 0x01, 0xC2, 0x00, 0x00,  // ........
+66859:                     /* 0008 */  0x00, 0x79, 0x00                                 // .y.
+66860:                 })
+66861:                 Return (RBUF) /* \_SB_.ADSP._CRS.RBUF */
+66862:             }
+66863: 
+66864:             Device (SLM1)
+66865:             {
+66866:                 Name (_ADR, Zero)  // _ADR: Address
+66867:                 Name (_CCA, Zero)  // _CCA: Cache Coherency Attribute
+66868:                 Alias (\_SB.PSUB, _SUB)
+66869:                 Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66870:                 {
+66871:                     Name (RBUF, Buffer (0x17)
+66872:                     {
+66873:                         /* 0000 */  0x86, 0x09, 0x00, 0x01, 0x00, 0x00, 0xAC, 0x03,  // ........
+66874:                         /* 0008 */  0x00, 0xC0, 0x02, 0x00, 0x89, 0x06, 0x00, 0x01,  // ........
+66875:                         /* 0010 */  0x01, 0xC3, 0x00, 0x00, 0x00, 0x79, 0x00         // .....y.
+66876:                     })
+66877:                     Return (RBUF) /* \_SB_.ADSP.SLM1._CRS.RBUF */
+66878:                 }
+66879: 
+66880:                 Device (ADCM)
+66881:                 {
+66882:                     Alias (\_SB.PSUB, _SUB)
+66883:                     Name (_ADR, Zero)  // _ADR: Address
+66884:                     Name (_DEP, Package (0x02)  // _DEP: Dependencies
+66885:                     {
+66886:                         \_SB.MMU0, , 
+66887:                         \_SB.IMM0, 
+66888:                     })
+66889:                     Method (CHLD, 0, NotSerialized)
+
+==== ADCM | expected: ADCM\QCOM2525 | line 66880 ====
+66872:                     {
+66873:                         /* 0000 */  0x86, 0x09, 0x00, 0x01, 0x00, 0x00, 0xAC, 0x03,  // ........
+66874:                         /* 0008 */  0x00, 0xC0, 0x02, 0x00, 0x89, 0x06, 0x00, 0x01,  // ........
+66875:                         /* 0010 */  0x01, 0xC3, 0x00, 0x00, 0x00, 0x79, 0x00         // .....y.
+66876:                     })
+66877:                     Return (RBUF) /* \_SB_.ADSP.SLM1._CRS.RBUF */
+66878:                 }
+66879: 
+66880:                 Device (ADCM)
+66881:                 {
+66882:                     Alias (\_SB.PSUB, _SUB)
+66883:                     Name (_ADR, Zero)  // _ADR: Address
+66884:                     Name (_DEP, Package (0x02)  // _DEP: Dependencies
+66885:                     {
+66886:                         \_SB.MMU0, , 
+66887:                         \_SB.IMM0, 
+66888:                     })
+66889:                     Method (CHLD, 0, NotSerialized)
+66890:                     {
+66891:                         Return (Package (One)
+66892:                         {
+66893:                             "ADCM\\QCOM0525"
+66894:                         })
+66895:                     }
+66896: 
+66897:                     Device (AUDD)
+66898:                     {
+66899:                         Name (_ADR, Zero)  // _ADR: Address
+66900:                         Alias (\_SB.PSUB, _SUB)
+66901:                         Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66902:                         {
+66903:                             Name (RBUF, Buffer (0x28)
+66904:                             {
+66905:                                 /* 0000 */  0x8E, 0x23, 0x00, 0x01, 0x00, 0x02, 0x02, 0x00,  // .#......
+
+==== ADCM | expected: ADCM\QCOM2525 | line 66893 ====
+66885:                     {
+66886:                         \_SB.MMU0, , 
+66887:                         \_SB.IMM0, 
+66888:                     })
+66889:                     Method (CHLD, 0, NotSerialized)
+66890:                     {
+66891:                         Return (Package (One)
+66892:                         {
+66893:                             "ADCM\\QCOM0525"
+66894:                         })
+66895:                     }
+66896: 
+66897:                     Device (AUDD)
+66898:                     {
+66899:                         Name (_ADR, Zero)  // _ADR: Address
+66900:                         Alias (\_SB.PSUB, _SUB)
+66901:                         Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66902:                         {
+66903:                             Name (RBUF, Buffer (0x28)
+66904:                             {
+66905:                                 /* 0000 */  0x8E, 0x23, 0x00, 0x01, 0x00, 0x02, 0x02, 0x00,  // .#......
+66906:                                 /* 0008 */  0x00, 0x01, 0x10, 0x00, 0x00, 0x36, 0x6E, 0x01,  // .....6n.
+66907:                                 /* 0010 */  0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,  // ........
+66908:                                 /* 0018 */  0x00, 0x00, 0x00, 0x00, 0x5C, 0x5F, 0x53, 0x42,  // ....\_SB
+66909:                                 /* 0020 */  0x2E, 0x53, 0x50, 0x49, 0x34, 0x00, 0x79, 0x00   // .SPI4.y.
+66910:                             })
+66911:                             Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD._CRS.RBUF */
+66912:                         }
+66913: 
+66914:                         Method (CHLD, 0, NotSerialized)
+66915:                         {
+66916:                             Name (CH, Package (0x02)
+66917:                             {
+66918:                                 "AUDD\\QCOM0537", 
+
+==== AUDD | expected: AUDD\QCOM252C / AUDD\QCOM2537 | line 66897 ====
+66889:                     Method (CHLD, 0, NotSerialized)
+66890:                     {
+66891:                         Return (Package (One)
+66892:                         {
+66893:                             "ADCM\\QCOM0525"
+66894:                         })
+66895:                     }
+66896: 
+66897:                     Device (AUDD)
+66898:                     {
+66899:                         Name (_ADR, Zero)  // _ADR: Address
+66900:                         Alias (\_SB.PSUB, _SUB)
+66901:                         Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66902:                         {
+66903:                             Name (RBUF, Buffer (0x28)
+66904:                             {
+66905:                                 /* 0000 */  0x8E, 0x23, 0x00, 0x01, 0x00, 0x02, 0x02, 0x00,  // .#......
+66906:                                 /* 0008 */  0x00, 0x01, 0x10, 0x00, 0x00, 0x36, 0x6E, 0x01,  // .....6n.
+66907:                                 /* 0010 */  0x08, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,  // ........
+66908:                                 /* 0018 */  0x00, 0x00, 0x00, 0x00, 0x5C, 0x5F, 0x53, 0x42,  // ....\_SB
+66909:                                 /* 0020 */  0x2E, 0x53, 0x50, 0x49, 0x34, 0x00, 0x79, 0x00   // .SPI4.y.
+66910:                             })
+66911:                             Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD._CRS.RBUF */
+66912:                         }
+66913: 
+66914:                         Method (CHLD, 0, NotSerialized)
+66915:                         {
+66916:                             Name (CH, Package (0x02)
+66917:                             {
+66918:                                 "AUDD\\QCOM0537", 
+66919:                                 "AUDD\\QCOM052C"
+66920:                             })
+66921:                             Return (CH) /* \_SB_.ADSP.SLM1.ADCM.AUDD.CHLD.CH__ */
+66922:                         }
+
+==== AUDD | expected: AUDD\QCOM252C / AUDD\QCOM2537 | line 66918 ====
+66910:                             })
+66911:                             Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD._CRS.RBUF */
+66912:                         }
+66913: 
+66914:                         Method (CHLD, 0, NotSerialized)
+66915:                         {
+66916:                             Name (CH, Package (0x02)
+66917:                             {
+66918:                                 "AUDD\\QCOM0537", 
+66919:                                 "AUDD\\QCOM052C"
+66920:                             })
+66921:                             Return (CH) /* \_SB_.ADSP.SLM1.ADCM.AUDD.CHLD.CH__ */
+66922:                         }
+66923: 
+66924:                         Device (MBHC)
+66925:                         {
+66926:                             Name (_ADR, Zero)  // _ADR: Address
+66927:                             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66928:                             {
+66929:                                 Name (RBUF, Buffer (0x02)
+66930:                                 {
+66931:                                      0x79, 0x00                                       // y.
+66932:                                 })
+66933:                                 Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD.MBHC._CRS.RBUF */
+66934:                             }
+66935:                         }
+66936: 
+66937:                         Device (QCRT)
+66938:                         {
+66939:                             Name (_ADR, One)  // _ADR: Address
+66940:                         }
+66941:                     }
+66942:                 }
+66943:             }
+
+==== AUDD | expected: AUDD\QCOM252C / AUDD\QCOM2537 | line 66919 ====
+66911:                             Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD._CRS.RBUF */
+66912:                         }
+66913: 
+66914:                         Method (CHLD, 0, NotSerialized)
+66915:                         {
+66916:                             Name (CH, Package (0x02)
+66917:                             {
+66918:                                 "AUDD\\QCOM0537", 
+66919:                                 "AUDD\\QCOM052C"
+66920:                             })
+66921:                             Return (CH) /* \_SB_.ADSP.SLM1.ADCM.AUDD.CHLD.CH__ */
+66922:                         }
+66923: 
+66924:                         Device (MBHC)
+66925:                         {
+66926:                             Name (_ADR, Zero)  // _ADR: Address
+66927:                             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+66928:                             {
+66929:                                 Name (RBUF, Buffer (0x02)
+66930:                                 {
+66931:                                      0x79, 0x00                                       // y.
+66932:                                 })
+66933:                                 Return (RBUF) /* \_SB_.ADSP.SLM1.ADCM.AUDD.MBHC._CRS.RBUF */
+66934:                             }
+66935:                         }
+66936: 
+66937:                         Device (QCRT)
+66938:                         {
+66939:                             Name (_ADR, One)  // _ADR: Address
+66940:                         }
+66941:                     }
+66942:                 }
+66943:             }
+66944:         }
+
+==== ADSPRPC | expected: ACPI\QCOM2560 | line 90530 ====
+90522:                     /* 0040 */  0x06, 0x00, 0x03, 0x01, 0x5E, 0x02, 0x00, 0x00,  // ....^...
+90523:                     /* 0048 */  0x89, 0x06, 0x00, 0x01, 0x01, 0x7C, 0x01, 0x00,  // .....|..
+90524:                     /* 0050 */  0x00, 0x79, 0x00                                 // .y.
+90525:                 })
+90526:                 Return (RBUF) /* \_SB_.GLNK._CRS.RBUF */
+90527:             }
+90528:         }
+90529: 
+90530:         Device (ARPC)
+90531:         {
+90532:             Name (_DEP, Package (0x03)  // _DEP: Dependencies
+90533:             {
+90534:                 \_SB.MMU0, , 
+90535:                 \_SB.GLNK, , 
+90536:                 \_SB.SCM0, 
+90537:             })
+90538:             Name (_HID, "QCOM0560")  // _HID: Hardware ID
+90539:             Alias (\_SB.PSUB, _SUB)
+90540:         }
+90541: 
+90542:         Device (ARPD)
+90543:         {
+90544:             Name (_DEP, Package (0x02)  // _DEP: Dependencies
+90545:             {
+90546:                 \_SB.ADSP, , 
+90547:                 \_SB.ARPC, 
+90548:             })
+90549:             Name (_HID, "QCOM058A")  // _HID: Hardware ID
+90550:             Alias (\_SB.PSUB, _SUB)
+90551:         }
+90552: 
+90553:         Device (RFS0)
+90554:         {
+90555:             Name (_DEP, Package (One)  // _DEP: Dependencies
+
+==== ADSPRPC | expected: ACPI\QCOM2560 | line 90538 ====
+90530:         Device (ARPC)
+90531:         {
+90532:             Name (_DEP, Package (0x03)  // _DEP: Dependencies
+90533:             {
+90534:                 \_SB.MMU0, , 
+90535:                 \_SB.GLNK, , 
+90536:                 \_SB.SCM0, 
+90537:             })
+90538:             Name (_HID, "QCOM0560")  // _HID: Hardware ID
+90539:             Alias (\_SB.PSUB, _SUB)
+90540:         }
+90541: 
+90542:         Device (ARPD)
+90543:         {
+90544:             Name (_DEP, Package (0x02)  // _DEP: Dependencies
+90545:             {
+90546:                 \_SB.ADSP, , 
+90547:                 \_SB.ARPC, 
+90548:             })
+90549:             Name (_HID, "QCOM058A")  // _HID: Hardware ID
+90550:             Alias (\_SB.PSUB, _SUB)
+90551:         }
+90552: 
+90553:         Device (RFS0)
+90554:         {
+90555:             Name (_DEP, Package (One)  // _DEP: Dependencies
+90556:             {
+90557:                 \_SB.IPC0, 
+90558:             })
+90559:             Name (_HID, "QCOM0517")  // _HID: Hardware ID
+90560:             Alias (\_SB.PSUB, _SUB)
+90561:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+90562:             {
+90563:                 Name (RBUF, Buffer (0x26)
+
+==== ADSPRPCD | expected: ACPI\QCOM258A | line 90542 ====
+90534:                 \_SB.MMU0, , 
+90535:                 \_SB.GLNK, , 
+90536:                 \_SB.SCM0, 
+90537:             })
+90538:             Name (_HID, "QCOM0560")  // _HID: Hardware ID
+90539:             Alias (\_SB.PSUB, _SUB)
+90540:         }
+90541: 
+90542:         Device (ARPD)
+90543:         {
+90544:             Name (_DEP, Package (0x02)  // _DEP: Dependencies
+90545:             {
+90546:                 \_SB.ADSP, , 
+90547:                 \_SB.ARPC, 
+90548:             })
+90549:             Name (_HID, "QCOM058A")  // _HID: Hardware ID
+90550:             Alias (\_SB.PSUB, _SUB)
+90551:         }
+90552: 
+90553:         Device (RFS0)
+90554:         {
+90555:             Name (_DEP, Package (One)  // _DEP: Dependencies
+90556:             {
+90557:                 \_SB.IPC0, 
+90558:             })
+90559:             Name (_HID, "QCOM0517")  // _HID: Hardware ID
+90560:             Alias (\_SB.PSUB, _SUB)
+90561:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+90562:             {
+90563:                 Name (RBUF, Buffer (0x26)
+90564:                 {
+90565:                     /* 0000 */  0x86, 0x09, 0x00, 0x01, 0x88, 0x88, 0x88, 0x88,  // ........
+90566:                     /* 0008 */  0x99, 0x99, 0x99, 0x99, 0x86, 0x09, 0x00, 0x01,  // ........
+90567:                     /* 0010 */  0x11, 0x11, 0x11, 0x11, 0x22, 0x22, 0x22, 0x22,  // ....""""
+
+==== ADSPRPCD | expected: ACPI\QCOM258A | line 90549 ====
+90541: 
+90542:         Device (ARPD)
+90543:         {
+90544:             Name (_DEP, Package (0x02)  // _DEP: Dependencies
+90545:             {
+90546:                 \_SB.ADSP, , 
+90547:                 \_SB.ARPC, 
+90548:             })
+90549:             Name (_HID, "QCOM058A")  // _HID: Hardware ID
+90550:             Alias (\_SB.PSUB, _SUB)
+90551:         }
+90552: 
+90553:         Device (RFS0)
+90554:         {
+90555:             Name (_DEP, Package (One)  // _DEP: Dependencies
+90556:             {
+90557:                 \_SB.IPC0, 
+90558:             })
+90559:             Name (_HID, "QCOM0517")  // _HID: Hardware ID
+90560:             Alias (\_SB.PSUB, _SUB)
+90561:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+90562:             {
+90563:                 Name (RBUF, Buffer (0x26)
+90564:                 {
+90565:                     /* 0000 */  0x86, 0x09, 0x00, 0x01, 0x88, 0x88, 0x88, 0x88,  // ........
+90566:                     /* 0008 */  0x99, 0x99, 0x99, 0x99, 0x86, 0x09, 0x00, 0x01,  // ........
+90567:                     /* 0010 */  0x11, 0x11, 0x11, 0x11, 0x22, 0x22, 0x22, 0x22,  // ....""""
+90568:                     /* 0018 */  0x86, 0x09, 0x00, 0x01, 0x33, 0x33, 0x33, 0x33,  // ....3333
+90569:                     /* 0020 */  0x44, 0x44, 0x44, 0x44, 0x79, 0x00               // DDDDy.
+90570:                 })
+90571:                 CreateDWordField (RBUF, 0x04, RMTA)
+90572:                 CreateDWordField (RBUF, 0x08, RMTL)
+90573:                 CreateDWordField (RBUF, 0x10, RFMA)
+90574:                 CreateDWordField (RBUF, 0x14, RFML)
+
+==== FSA4480 | expected: ACPI\FSA04480 | line 94840 ====
+94832:                 \_SB.IMM0, 
+94833:             })
+94834:             Name (_HID, "QCOM0590")  // _HID: Hardware ID
+94835:             Alias (\_SB.PSUB, _SUB)
+94836:         }
+94837: 
+94838:         Device (CFSA)
+94839:         {
+94840:             Name (_HID, "FSA04480")  // _HID: Hardware ID
+94841:             Alias (\_SB.PSUB, _SUB)
+94842:             Method (_CRS, 0, NotSerialized)  // _CRS: Current Resource Settings
+94843:             {
+94844:                 Name (RBUF, Buffer (0x1E)
+94845:                 {
+94846:                     /* 0000 */  0x8E, 0x19, 0x00, 0x01, 0x00, 0x01, 0x02, 0x00,  // ........
+94847:                     /* 0008 */  0x00, 0x01, 0x06, 0x00, 0xA0, 0x86, 0x01, 0x00,  // ........
+94848:                     /* 0010 */  0x43, 0x00, 0x5C, 0x5F, 0x53, 0x42, 0x2E, 0x49,  // C.\_SB.I
+94849:                     /* 0018 */  0x32, 0x43, 0x35, 0x00, 0x79, 0x00               // 2C5.y.
+94850:                 })
+94851:                 Return (RBUF) /* \_SB_.CFSA._CRS.RBUF */
+94852:             }
+94853:         }
+94854: 
+94855:         Device (MPA)
+94856:         {
+94857:             Name (_HID, "QCOM05B4")  // _HID: Hardware ID
+94858:             Alias (\_SB.PSUB, _SUB)
+94859:             Method (_STA, 0, NotSerialized)  // _STA: Status
+94860:             {
+94861:                 If ((((\_SB.SOID == 0x01E1) || (\_SB.SOID == 0x0164)) && ((\_SB.PLST == 
+94862:                     One) || (\_SB.PLST == 0x02))))
+94863:                 {
+94864:                     Return (0x0F)
+94865:                 }
+
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

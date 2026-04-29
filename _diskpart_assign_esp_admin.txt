@@ -1,4 +1,8 @@
 select disk 1
 select partition 36
 assign letter=S
+<<<<<<< HEAD
 list volume
+=======
+list volume
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿05/07/2022 16:02:26:614 -----------------------------------------------------------------
 05/07/2022 16:02:26:614 NetpDoDomainJoin
 05/07/2022 16:02:26:614 NetpDoDomainJoin: using new computer names
@@ -14,3 +15,21 @@
 05/07/2022 16:02:26:646 NetpValidateName: name 'WORKGROUP' is valid for type 2
 05/07/2022 16:02:26:677 NetpJoinWorkgroup: status:  0x0
 05/07/2022 16:02:26:677 NetpDoDomainJoin: status: 0x0
+=======
+﻿05/07/2022 16:02:26:614 -----------------------------------------------------------------
+05/07/2022 16:02:26:614 NetpDoDomainJoin
+05/07/2022 16:02:26:614 NetpDoDomainJoin: using new computer names
+05/07/2022 16:02:26:614 NetpDoDomainJoin: NetpGetNewMachineName returned 0x0
+05/07/2022 16:02:26:614 NetpMachineValidToJoin: 'WIN-M28D3U25HAN'
+05/07/2022 16:02:26:614 	OS Version: 10.0
+05/07/2022 16:02:26:614 	Build number: 22621 (22621.ni_release.220506-1250)
+05/07/2022 16:02:26:630 	SKU: Windows 11 企业版
+05/07/2022 16:02:26:630 	Architecture: <unrecognized>
+05/07/2022 16:02:26:630 NetpMachineValidToJoin: status: 0x0
+05/07/2022 16:02:26:630 NetpJoinWorkgroup: joining computer 'WIN-M28D3U25HAN' to workgroup 'WORKGROUP'
+05/07/2022 16:02:26:630 NetpValidateName: checking to see if 'WORKGROUP' is valid as type 2 name
+05/07/2022 16:02:26:646 NetpCheckNetBiosNameNotInUse for 'WORKGROUP' [ Workgroup as MACHINE]  returned 0x0
+05/07/2022 16:02:26:646 NetpValidateName: name 'WORKGROUP' is valid for type 2
+05/07/2022 16:02:26:677 NetpJoinWorkgroup: status:  0x0
+05/07/2022 16:02:26:677 NetpDoDomainJoin: status: 0x0
+>>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb
