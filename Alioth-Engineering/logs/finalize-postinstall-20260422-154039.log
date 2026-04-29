@@ -1,0 +1,41 @@
+﻿[2026-04-22 15:40:39] Finalizing Alioth postinstall state for D:
+[2026-04-22 15:40:39] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
+[2026-04-22 15:40:39] Staged Alioth bootstrap startup script for audit exit and landscape fix.
+[2026-04-22 15:40:39] Running: reg.exe load HKLM\ALIOTH_POST_SOFTWARE_9728 D:\Windows\System32\Config\SOFTWARE
+操作成功完成。
+
+[2026-04-22 15:40:42] Detected existing offline user profile for jcyang: True
+[2026-04-22 15:40:42] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows\CurrentVersion\RunOnce /v AliothCleanupSysprepUi /t REG_SZ /d cmd /c taskkill /im sysprep.exe /f >nul 2>&1 /f
+操作成功完成。
+
+[2026-04-22 15:40:42] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows\CurrentVersion\Run /v AliothBootstrap /t REG_SZ /d powershell -NoProfile -ExecutionPolicy Bypass -File C:\Windows\Setup\Scripts\AliothBootstrap.ps1 /f
+操作成功完成。
+
+[2026-04-22 15:40:42] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoAdminLogon /t REG_SZ /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:40:42] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultUserName /t REG_SZ /d jcyang /f
+操作成功完成。
+
+[2026-04-22 15:40:43] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows NT\CurrentVersion\Winlogon /v DefaultPassword /t REG_SZ /d ucchip@2026 /f
+操作成功完成。
+
+[2026-04-22 15:40:43] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows NT\CurrentVersion\Winlogon /v AutoLogonCount /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:40:43] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_9728\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-22 15:40:43] Running: reg.exe unload HKLM\ALIOTH_POST_SOFTWARE_9728
+操作成功完成。
+
+[2026-04-22 15:40:43] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_9728 D:\Windows\System32\Config\SYSTEM
+操作成功完成。
+
+[2026-04-22 15:40:44] Running: reg.exe add HKLM\ALIOTH_POST_SYSTEM_9728\Setup /v UnattendFile /t REG_SZ /d C:\Windows\Panther\unattend.xml /f
+操作成功完成。
+
+[2026-04-22 15:40:44] Running: reg.exe delete HKLM\ALIOTH_POST_SYSTEM_9728\Setup /v CmdLine /f
+[2026-04-22 15:40:44] Running: reg.exe unload HKLM\ALIOTH_POST_SYSTEM_9728
+操作成功完成。
+

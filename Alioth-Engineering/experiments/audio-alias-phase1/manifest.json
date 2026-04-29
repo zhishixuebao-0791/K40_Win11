@@ -1,0 +1,108 @@
+﻿{
+    "Created":  "2026-04-24 18:05:38",
+    "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-alias-phase1\\signed-driver-package",
+    "SourceRoot":  "C:\\yjc_code\\K40_Win11\\sound_code\\windows_silicon_qcom_kona",
+    "Strategy":  "Do not modify INF files. Add offline CompatibleIDs for 05xx ACPI devices, then add original signed driver packages to DriverStore.",
+    "Aliases":  [
+                    {
+                        "Name":  "AudioService",
+                        "NativeId":  "ACPI\\QCOM05D2",
+                        "DriverId":  "ACPI\\QCOM25D2",
+                        "Inf":  "AudioService8250.inf"
+                    },
+                    {
+                        "Name":  "ADSPRPC",
+                        "NativeId":  "ACPI\\QCOM0560",
+                        "DriverId":  "ACPI\\QCOM2560",
+                        "Inf":  "qcadsprpc8250.inf"
+                    },
+                    {
+                        "Name":  "ADSPRPCD",
+                        "NativeId":  "ACPI\\QCOM058A",
+                        "DriverId":  "ACPI\\QCOM258A",
+                        "Inf":  "qcadsprpcd8250.inf"
+                    }
+                ],
+    "Files":  [
+                  {
+                      "RelativePath":  "ADSPRPC\\libadsprpc.dll",
+                      "Length":  177264,
+                      "SHA256":  "CDBAD8B7263D757D476C2274D1F0CB725AB030F278C960A2ACABAA4ED17F263D"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\libadsprpcarm32.dll",
+                      "Length":  136816,
+                      "SHA256":  "FFF9DFF3AC71D0BAB907EB3539C8A772D538C52105F0AAAA796C76000D2D2984"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\libcdsprpc.dll",
+                      "Length":  177264,
+                      "SHA256":  "A99FC9C874EDCE8F0751EC09247386466DDA724ACC01C076D89B86E6BB2BFBDE"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\libcdsprpcarm32.dll",
+                      "Length":  136816,
+                      "SHA256":  "C2C02ECFA2EB243BC44785501DCF30482F2680D05627D3A3A66EB2E9AD021847"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\libsdsprpc.dll",
+                      "Length":  177264,
+                      "SHA256":  "F37C87405BC503E16DFAA4C529B375971DC02D6ED784F8351A700A554151B134"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\libsdsprpcarm32.dll",
+                      "Length":  136816,
+                      "SHA256":  "479E633FD7ED427F78F3D9D93467DD3E192D6B818E5E25ECA196C156E151C3E2"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\qcadsprpc8250.cat",
+                      "Length":  12190,
+                      "SHA256":  "67EC0008C1948D075370982E5F4C9ECA6194B9DAB1B85F78D9D378D3AA6577B1"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\qcadsprpc8250.inf",
+                      "Length":  14358,
+                      "SHA256":  "914981D622A62B16051EC5DE33C1CD1667B6D2786F696DE6B52A7E5715633F31"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\qcadsprpc8250.sys",
+                      "Length":  121440,
+                      "SHA256":  "213965450D3296A95BCAF9571FB3052A49F6EF5EA5B96FE3E5F9C240BF4175FF"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPC\\qcadsprpcrs38250.sys",
+                      "Length":  103528,
+                      "SHA256":  "30978A932720B469E3CD78B7FC73C5D4F620E620CE0D5E221DC1BE96859AFD16"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPCD\\qcadsprpcd8250.cat",
+                      "Length":  8864,
+                      "SHA256":  "E41BCD860582333C5DFC0C5465ED6D9AE7CAAC3F87B1FAF03D732D510F01CE2B"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPCD\\qcadsprpcd8250.inf",
+                      "Length":  7564,
+                      "SHA256":  "A15A3DFBB60C4575C1F86705085A5B3D263722E2CCE50265F11AF5F29E3EF265"
+                  },
+                  {
+                      "RelativePath":  "ADSPRPCD\\qcadsprpcd8250.sys",
+                      "Length":  77920,
+                      "SHA256":  "92E4FC7DECE7C9E2B225EE66B48A5957888BCFA57D759A9BDAFC2CAC5682BC33"
+                  },
+                  {
+                      "RelativePath":  "AudioService\\audioservice.cat",
+                      "Length":  8865,
+                      "SHA256":  "8DC2754DFBC3716F066A955A96771984AFD7441F78AB67314485398EA7E25527"
+                  },
+                  {
+                      "RelativePath":  "AudioService\\AudioService.dll",
+                      "Length":  34032,
+                      "SHA256":  "02FB846624044BFFC4D9C5D477B73FD4800C40BCB521194A0675E781742DC800"
+                  },
+                  {
+                      "RelativePath":  "AudioService\\AudioService8250.inf",
+                      "Length":  8570,
+                      "SHA256":  "01A6C508BA5C2B3F54DD00BA77D11E319CE35056D590C0D324EDE245274433BF"
+                  }
+              ]
+}

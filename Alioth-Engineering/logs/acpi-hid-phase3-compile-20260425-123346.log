@@ -1,0 +1,1799 @@
+﻿Microsoft ACPI Source Language Assembler Version 5.0.0NT 
+Copyright (c) 1996,2014 Microsoft Corporation
+Compliant with the ACPI 5.0 Specification
+
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl:
+
+  197:                     Name(_T_0, Buffer(One)
+                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(197): warning: not a valid reserved NameSeg
+
+  201:                     CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(201): warning: not a valid reserved NameSeg
+
+  202:                     If(LEqual(_T_0, Buffer(0x10)
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(202): warning: not a valid reserved NameSeg
+
+  210:                             Name(_T_1, Zero)
+                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(210): warning: not a valid reserved NameSeg
+
+  211:                             Store(ToInteger(Arg2, ), _T_1)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(211): warning: not a valid reserved NameSeg
+
+  212:                             If(LEqual(_T_1, Zero))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(212): warning: not a valid reserved NameSeg
+
+  221:                                 If(LEqual(_T_1, One))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(221): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_ROP1
+
+  490:             Method(_BQI, 0x0, NotSerialized)
+                          ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(490): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PMBTBCT1
+
+  848:                     Name(_T_0, Zero)
+                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(848): warning: not a valid reserved NameSeg
+
+  849:                     Store(ToInteger(Arg0, ), _T_0)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(849): warning: not a valid reserved NameSeg
+
+  850:                     If(LEqual(_T_0, One))
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(850): warning: not a valid reserved NameSeg
+
+  854:                             Name(_T_1, Zero)
+                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(854): warning: not a valid reserved NameSeg
+
+  855:                             Store(ToInteger(Arg3, ), _T_1)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(855): warning: not a valid reserved NameSeg
+
+  856:                             If(LEqual(_T_1, Zero))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(856): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1__PSV
+
+  867:                                 If(LEqual(_T_1, 0x2))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(867): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1__TSP
+
+  878:                                     If(LEqual(_T_1, 0x3))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(878): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1__TC1
+
+  889:                                         If(LEqual(_T_1, 0x4))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(889): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1__TC2
+
+  910:                         If(LEqual(_T_0, 0x3))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(910): warning: not a valid reserved NameSeg
+
+  914:                                 Name(_T_2, Zero)
+                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(914): warning: not a valid reserved NameSeg
+
+  915:                                 Store(ToInteger(Arg3, ), _T_2)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(915): warning: not a valid reserved NameSeg
+
+  916:                                 If(LEqual(_T_2, Zero))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(916): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3__PSV
+
+  927:                                     If(LEqual(_T_2, 0x2))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(927): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3__TSP
+
+  938:                                         If(LEqual(_T_2, 0x3))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(938): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3__TC1
+
+  949:                                             If(LEqual(_T_2, 0x4))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(949): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3__TC2
+
+  970:                             If(LEqual(_T_0, 0x5))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(970): warning: not a valid reserved NameSeg
+
+  974:                                     Name(_T_3, Zero)
+                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(974): warning: not a valid reserved NameSeg
+
+  975:                                     Store(ToInteger(Arg3, ), _T_3)
+                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(975): warning: not a valid reserved NameSeg
+
+  976:                                     If(LEqual(_T_3, Zero))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(976): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5__PSV
+
+  987:                                         If(LEqual(_T_3, 0x2))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(987): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5__TSP
+
+  998:                                             If(LEqual(_T_3, 0x3))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(998): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5__TC1
+
+ 1009:                                                 If(LEqual(_T_3, 0x4))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1009): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5__TC2
+
+ 1030:                                 If(LEqual(_T_0, 0x7))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1030): warning: not a valid reserved NameSeg
+
+ 1034:                                         Name(_T_4, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1034): warning: not a valid reserved NameSeg
+
+ 1035:                                         Store(ToInteger(Arg3, ), _T_4)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1035): warning: not a valid reserved NameSeg
+
+ 1036:                                         If(LEqual(_T_4, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1036): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7__PSV
+
+ 1047:                                             If(LEqual(_T_4, 0x2))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1047): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7__TSP
+
+ 1058:                                                 If(LEqual(_T_4, 0x3))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1058): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7__TC1
+
+ 1069:                                                     If(LEqual(_T_4, 0x4))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1069): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7__TC2
+
+ 1090:                                     If(LEqual(_T_0, 0x9))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1090): warning: not a valid reserved NameSeg
+
+ 1094:                                             Name(_T_5, Zero)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1094): warning: not a valid reserved NameSeg
+
+ 1095:                                             Store(ToInteger(Arg3, ), _T_5)
+                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1095): warning: not a valid reserved NameSeg
+
+ 1096:                                             If(LEqual(_T_5, Zero))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1096): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9__PSV
+
+ 1107:                                                 If(LEqual(_T_5, 0x2))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1107): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9__TSP
+
+ 1118:                                                     If(LEqual(_T_5, 0x3))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1118): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9__TC1
+
+ 1129:                                                         If(LEqual(_T_5, 0x4))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1129): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9__TC2
+
+ 1150:                                         If(LEqual(_T_0, 0xf))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1150): warning: not a valid reserved NameSeg
+
+ 1154:                                                 Name(_T_6, Zero)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1154): warning: not a valid reserved NameSeg
+
+ 1155:                                                 Store(ToInteger(Arg3, ), _T_6)
+                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1155): warning: not a valid reserved NameSeg
+
+ 1156:                                                 If(LEqual(_T_6, Zero))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1156): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15_PSV
+
+ 1167:                                                     If(LEqual(_T_6, 0x2))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1167): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15_TSP
+
+ 1178:                                                         If(LEqual(_T_6, 0x3))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1178): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15_TC1
+
+ 1189:                                                             If(LEqual(_T_6, 0x4))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1189): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15_TC2
+
+ 1210:                                             If(LEqual(_T_0, 0x10))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1210): warning: not a valid reserved NameSeg
+
+ 1214:                                                     Name(_T_7, Zero)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1214): warning: not a valid reserved NameSeg
+
+ 1215:                                                     Store(ToInteger(Arg3, ), _T_7)
+                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1215): warning: not a valid reserved NameSeg
+
+ 1216:                                                     If(LEqual(_T_7, Zero))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1216): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16_PSV
+
+ 1227:                                                         If(LEqual(_T_7, One))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1227): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16_CRT
+
+ 1238:                                                             If(LEqual(_T_7, 0x2))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1238): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16_TSP
+
+ 1249:                                                                 If(LEqual(_T_7, 0x3))
+                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1249): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16_TC1
+
+ 1260:                                                                     If(LEqual(_T_7, 0x4))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1260): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16_TC2
+
+ 1282:                                                 If(LEqual(_T_0, 0x11))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1282): warning: not a valid reserved NameSeg
+
+ 1286:                                                         Name(_T_8, Zero)
+                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1286): warning: not a valid reserved NameSeg
+
+ 1287:                                                         Store(ToInteger(Arg3, ), _T_8)
+                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1287): warning: not a valid reserved NameSeg
+
+ 1288:                                                         If(LEqual(_T_8, Zero))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1288): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17_PSV
+
+ 1299:                                                             If(LEqual(_T_8, 0x2))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1299): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17_TSP
+
+ 1310:                                                                 If(LEqual(_T_8, 0x3))
+                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1310): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17_TC1
+
+ 1321:                                                                     If(LEqual(_T_8, 0x4))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1321): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17_TC2
+
+ 1342:                                                     If(LEqual(_T_0, 0x12))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1342): warning: not a valid reserved NameSeg
+
+ 1346:                                                             Name(_T_9, Zero)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1346): warning: not a valid reserved NameSeg
+
+ 1347:                                                             Store(ToInteger(Arg3, ), _T_9)
+                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1347): warning: not a valid reserved NameSeg
+
+ 1348:                                                             If(LEqual(_T_9, Zero))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1348): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18_PSV
+
+ 1359:                                                                 If(LEqual(_T_9, 0x2))
+                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1359): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18_TSP
+
+ 1370:                                                                     If(LEqual(_T_9, 0x3))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1370): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18_TC1
+
+ 1381:                                                                         If(LEqual(_T_9, 0x4))
+                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1381): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18_TC2
+
+ 1402:                                                         If(LEqual(_T_0, 0x13))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1402): warning: not a valid reserved NameSeg
+
+ 1406:                                                                 Name(_T_A, Zero)
+                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1406): warning: not a valid reserved NameSeg
+
+ 1407:                                                                 Store(ToInteger(Arg3, ), _T_A)
+                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1407): warning: not a valid reserved NameSeg
+
+ 1408:                                                                 If(LEqual(_T_A, Zero))
+                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1408): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19_PSV
+
+ 1419:                                                                     If(LEqual(_T_A, One))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1419): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19_CRT
+
+ 1430:                                                                         If(LEqual(_T_A, 0x2))
+                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1430): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19_TSP
+
+ 1441:                                                                             If(LEqual(_T_A, 0x3))
+                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1441): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19_TC1
+
+ 1452:                                                                                 If(LEqual(_T_A, 0x4))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1452): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19_TC2
+
+ 1474:                                                             If(LEqual(_T_0, 0x14))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1474): warning: not a valid reserved NameSeg
+
+ 1478:                                                                     Name(_T_B, Zero)
+                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1478): warning: not a valid reserved NameSeg
+
+ 1479:                                                                     Store(ToInteger(Arg3, ), _T_B)
+                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1479): warning: not a valid reserved NameSeg
+
+ 1480:                                                                     If(LEqual(_T_B, Zero))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1480): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20_PSV
+
+ 1491:                                                                         If(LEqual(_T_B, 0x2))
+                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1491): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20_TSP
+
+ 1502:                                                                             If(LEqual(_T_B, 0x3))
+                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1502): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20_TC1
+
+ 1513:                                                                                 If(LEqual(_T_B, 0x4))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1513): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20_TC2
+
+ 1534:                                                                 If(LEqual(_T_0, 0x15))
+                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1534): warning: not a valid reserved NameSeg
+
+ 1538:                                                                         Name(_T_C, Zero)
+                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1538): warning: not a valid reserved NameSeg
+
+ 1539:                                                                         Store(ToInteger(Arg3, ), _T_C)
+                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1539): warning: not a valid reserved NameSeg
+
+ 1540:                                                                         If(LEqual(_T_C, Zero))
+                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1540): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21_PSV
+
+ 1551:                                                                             If(LEqual(_T_C, One))
+                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1551): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21_CRT
+
+ 1562:                                                                                 If(LEqual(_T_C, 0x2))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1562): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21_TSP
+
+ 1573:                                                                                     If(LEqual(_T_C, 0x3))
+                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1573): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21_TC1
+
+ 1584:                                                                                         If(LEqual(_T_C, 0x4))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1584): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21_TC2
+
+ 1606:                                                                     If(LEqual(_T_0, 0x16))
+                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1606): warning: not a valid reserved NameSeg
+
+ 1610:                                                                             Name(_T_D, Zero)
+                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1610): warning: not a valid reserved NameSeg
+
+ 1611:                                                                             Store(ToInteger(Arg3, ), _T_D)
+                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1611): warning: not a valid reserved NameSeg
+
+ 1612:                                                                             If(LEqual(_T_D, Zero))
+                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1612): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22_PSV
+
+ 1623:                                                                                 If(LEqual(_T_D, 0x2))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1623): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22_TSP
+
+ 1634:                                                                                     If(LEqual(_T_D, 0x3))
+                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1634): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22_TC1
+
+ 1645:                                                                                         If(LEqual(_T_D, 0x4))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1645): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22_TC2
+
+ 1666:                                                                         If(LEqual(_T_0, 0x26))
+                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1666): warning: not a valid reserved NameSeg
+
+ 1670:                                                                                 Name(_T_E, Zero)
+                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1670): warning: not a valid reserved NameSeg
+
+ 1671:                                                                                 Store(ToInteger(Arg3, ), _T_E)
+                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1671): warning: not a valid reserved NameSeg
+
+ 1672:                                                                                 If(LEqual(_T_E, Zero))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1672): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38_PSV
+
+ 1683:                                                                                     If(LEqual(_T_E, 0x2))
+                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1683): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38_TSP
+
+ 1694:                                                                                         If(LEqual(_T_E, 0x3))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1694): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38_TC1
+
+ 1705:                                                                                             If(LEqual(_T_E, 0x4))
+                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1705): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38_TC2
+
+ 1726:                                                                             If(LEqual(_T_0, 0x28))
+                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1726): warning: not a valid reserved NameSeg
+
+ 1730:                                                                                     Name(_T_F, Zero)
+                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1730): warning: not a valid reserved NameSeg
+
+ 1731:                                                                                     Store(ToInteger(Arg3, ), _T_F)
+                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1731): warning: not a valid reserved NameSeg
+
+ 1732:                                                                                     If(LEqual(_T_F, Zero))
+                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1732): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40_PSV
+
+ 1743:                                                                                         If(LEqual(_T_F, 0x2))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1743): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40_TSP
+
+ 1754:                                                                                             If(LEqual(_T_F, 0x3))
+                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1754): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40_TC1
+
+ 1765:                                                                                                 If(LEqual(_T_F, 0x4))
+                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1765): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40_TC2
+
+ 1786:                                                                                 If(LEqual(_T_0, 0x33))
+                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1786): warning: not a valid reserved NameSeg
+
+ 1790:                                                                                         Name(_T_G, Zero)
+                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1790): warning: not a valid reserved NameSeg
+
+ 1791:                                                                                         Store(ToInteger(Arg3, ), _T_G)
+                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1791): warning: not a valid reserved NameSeg
+
+ 1792:                                                                                         If(LEqual(_T_G, Zero))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1792): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51_PSV
+
+ 1803:                                                                                             If(LEqual(_T_G, 0x2))
+                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1803): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51_TSP
+
+ 1814:                                                                                                 If(LEqual(_T_G, 0x3))
+                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1814): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51_TC1
+
+ 1825:                                                                                                     If(LEqual(_T_G, 0x4))
+                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1825): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51_TC2
+
+ 1846:                                                                                     If(LEqual(_T_0, 0x34))
+                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1846): warning: not a valid reserved NameSeg
+
+ 1850:                                                                                             Name(_T_H, Zero)
+                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1850): warning: not a valid reserved NameSeg
+
+ 1851:                                                                                             Store(ToInteger(Arg3, ), _T_H)
+                                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1851): warning: not a valid reserved NameSeg
+
+ 1852:                                                                                             If(LEqual(_T_H, Zero))
+                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1852): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52_PSV
+
+ 1863:                                                                                                 If(LEqual(_T_H, 0x2))
+                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1863): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52_TSP
+
+ 1874:                                                                                                     If(LEqual(_T_H, 0x3))
+                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1874): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52_TC1
+
+ 1885:                                                                                                         If(LEqual(_T_H, 0x4))
+                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1885): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52_TC2
+
+ 1906:                                                                                         If(LEqual(_T_0, 0x35))
+                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1906): warning: not a valid reserved NameSeg
+
+ 1910:                                                                                                 Name(_T_I, Zero)
+                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1910): warning: not a valid reserved NameSeg
+
+ 1911:                                                                                                 Store(ToInteger(Arg3, ), _T_I)
+                                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1911): warning: not a valid reserved NameSeg
+
+ 1912:                                                                                                 If(LEqual(_T_I, Zero))
+                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1912): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53_PSV
+
+ 1923:                                                                                                     If(LEqual(_T_I, 0x2))
+                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1923): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53_TSP
+
+ 1934:                                                                                                         If(LEqual(_T_I, 0x3))
+                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1934): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53_TC1
+
+ 1945:                                                                                                             If(LEqual(_T_I, 0x4))
+                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1945): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53_TC2
+
+ 1966:                                                                                             If(LEqual(_T_0, 0x36))
+                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1966): warning: not a valid reserved NameSeg
+
+ 1970:                                                                                                     Name(_T_J, Zero)
+                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1970): warning: not a valid reserved NameSeg
+
+ 1971:                                                                                                     Store(ToInteger(Arg3, ), _T_J)
+                                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1971): warning: not a valid reserved NameSeg
+
+ 1972:                                                                                                     If(LEqual(_T_J, Zero))
+                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1972): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54_PSV
+
+ 1983:                                                                                                         If(LEqual(_T_J, 0x2))
+                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1983): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54_TSP
+
+ 1994:                                                                                                             If(LEqual(_T_J, 0x3))
+                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(1994): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54_TC1
+
+ 2005:                                                                                                                 If(LEqual(_T_J, 0x4))
+                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2005): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54_TC2
+
+ 2026:                                                                                                 If(LEqual(_T_0, 0x37))
+                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2026): warning: not a valid reserved NameSeg
+
+ 2030:                                                                                                         Name(_T_K, Zero)
+                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2030): warning: not a valid reserved NameSeg
+
+ 2031:                                                                                                         Store(ToInteger(Arg3, ), _T_K)
+                                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2031): warning: not a valid reserved NameSeg
+
+ 2032:                                                                                                         If(LEqual(_T_K, Zero))
+                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2032): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55_PSV
+
+ 2043:                                                                                                             If(LEqual(_T_K, 0x2))
+                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2043): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55_TSP
+
+ 2054:                                                                                                                 If(LEqual(_T_K, 0x3))
+                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2054): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55_TC1
+
+ 2065:                                                                                                                     If(LEqual(_T_K, 0x4))
+                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2065): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55_TC2
+
+ 2086:                                                                                                     If(LEqual(_T_0, 0x38))
+                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2086): warning: not a valid reserved NameSeg
+
+ 2090:                                                                                                             Name(_T_L, Zero)
+                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2090): warning: not a valid reserved NameSeg
+
+ 2091:                                                                                                             Store(ToInteger(Arg3, ), _T_L)
+                                                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2091): warning: not a valid reserved NameSeg
+
+ 2092:                                                                                                             If(LEqual(_T_L, Zero))
+                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2092): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56_PSV
+
+ 2103:                                                                                                                 If(LEqual(_T_L, 0x2))
+                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2103): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56_TSP
+
+ 2114:                                                                                                                     If(LEqual(_T_L, 0x3))
+                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2114): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56_TC1
+
+ 2125:                                                                                                                         If(LEqual(_T_L, 0x4))
+                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2125): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56_TC2
+
+ 2146:                                                                                                         If(LEqual(_T_0, 0x39))
+                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2146): warning: not a valid reserved NameSeg
+
+ 2150:                                                                                                                 Name(_T_M, Zero)
+                                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2150): warning: not a valid reserved NameSeg
+
+ 2151:                                                                                                                 Store(ToInteger(Arg3, ), _T_M)
+                                                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2151): warning: not a valid reserved NameSeg
+
+ 2152:                                                                                                                 If(LEqual(_T_M, Zero))
+                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2152): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57_PSV
+
+ 2163:                                                                                                                     If(LEqual(_T_M, 0x2))
+                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2163): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57_TSP
+
+ 2174:                                                                                                                         If(LEqual(_T_M, 0x3))
+                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2174): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57_TC1
+
+ 2185:                                                                                                                             If(LEqual(_T_M, 0x4))
+                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2185): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57_TC2
+
+ 2206:                                                                                                             If(LEqual(_T_0, 0x3a))
+                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2206): warning: not a valid reserved NameSeg
+
+ 2210:                                                                                                                     Name(_T_N, Zero)
+                                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2210): warning: not a valid reserved NameSeg
+
+ 2211:                                                                                                                     Store(ToInteger(Arg3, ), _T_N)
+                                                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2211): warning: not a valid reserved NameSeg
+
+ 2212:                                                                                                                     If(LEqual(_T_N, Zero))
+                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2212): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58_PSV
+
+ 2223:                                                                                                                         If(LEqual(_T_N, 0x2))
+                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2223): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58_TSP
+
+ 2234:                                                                                                                             If(LEqual(_T_N, 0x3))
+                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2234): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58_TC1
+
+ 2245:                                                                                                                                 If(LEqual(_T_N, 0x4))
+                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2245): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58_TC2
+
+ 2266:                                                                                                                 If(LEqual(_T_0, 0x3b))
+                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2266): warning: not a valid reserved NameSeg
+
+ 2270:                                                                                                                         Name(_T_O, Zero)
+                                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2270): warning: not a valid reserved NameSeg
+
+ 2271:                                                                                                                         Store(ToInteger(Arg3, ), _T_O)
+                                                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2271): warning: not a valid reserved NameSeg
+
+ 2272:                                                                                                                         If(LEqual(_T_O, Zero))
+                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2272): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59_PSV
+
+ 2283:                                                                                                                             If(LEqual(_T_O, 0x2))
+                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2283): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59_TSP
+
+ 2294:                                                                                                                                 If(LEqual(_T_O, 0x3))
+                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2294): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59_TC1
+
+ 2305:                                                                                                                                     If(LEqual(_T_O, 0x4))
+                                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2305): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59_TC2
+
+ 2326:                                                                                                                     If(LEqual(_T_0, 0x3c))
+                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2326): warning: not a valid reserved NameSeg
+
+ 2330:                                                                                                                             Name(_T_P, Zero)
+                                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2330): warning: not a valid reserved NameSeg
+
+ 2331:                                                                                                                             Store(ToInteger(Arg3, ), _T_P)
+                                                                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2331): warning: not a valid reserved NameSeg
+
+ 2332:                                                                                                                             If(LEqual(_T_P, Zero))
+                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2332): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60_PSV
+
+ 2343:                                                                                                                                 If(LEqual(_T_P, 0x2))
+                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2343): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60_TSP
+
+ 2354:                                                                                                                                     If(LEqual(_T_P, 0x3))
+                                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2354): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60_TC1
+
+ 2365:                                                                                                                                         If(LEqual(_T_P, 0x4))
+                                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2365): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60_TC2
+
+ 2386:                                                                                                                         If(LEqual(_T_0, 0x3d))
+                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2386): warning: not a valid reserved NameSeg
+
+ 2390:                                                                                                                                 Name(_T_Q, Zero)
+                                                                                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2390): warning: not a valid reserved NameSeg
+
+ 2391:                                                                                                                                 Store(ToInteger(Arg3, ), _T_Q)
+                                                                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2391): warning: not a valid reserved NameSeg
+
+ 2392:                                                                                                                                 If(LEqual(_T_Q, Zero))
+                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2392): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61_PSV
+
+ 2403:                                                                                                                                     If(LEqual(_T_Q, 0x2))
+                                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2403): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61_TSP
+
+ 2414:                                                                                                                                         If(LEqual(_T_Q, 0x3))
+                                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2414): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61_TC1
+
+ 2425:                                                                                                                                             If(LEqual(_T_Q, 0x4))
+                                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2425): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61_TC2
+
+ 2446:                                                                                                                             If(LEqual(_T_0, 0x3e))
+                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2446): warning: not a valid reserved NameSeg
+
+ 2450:                                                                                                                                     Name(_T_R, Zero)
+                                                                                                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2450): warning: not a valid reserved NameSeg
+
+ 2451:                                                                                                                                     Store(ToInteger(Arg3, ), _T_R)
+                                                                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2451): warning: not a valid reserved NameSeg
+
+ 2452:                                                                                                                                     If(LEqual(_T_R, Zero))
+                                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2452): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62_PSV
+
+ 2463:                                                                                                                                         If(LEqual(_T_R, 0x2))
+                                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2463): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62_TSP
+
+ 2474:                                                                                                                                             If(LEqual(_T_R, 0x3))
+                                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2474): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62_TC1
+
+ 2485:                                                                                                                                                 If(LEqual(_T_R, 0x4))
+                                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2485): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62_TC2
+
+ 2506:                                                                                                                                 If(LEqual(_T_0, 0x63))
+                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2506): warning: not a valid reserved NameSeg
+
+ 2510:                                                                                                                                         Name(_T_S, Zero)
+                                                                                                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2510): warning: not a valid reserved NameSeg
+
+ 2511:                                                                                                                                         Store(ToInteger(Arg3, ), _T_S)
+                                                                                                                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2511): warning: not a valid reserved NameSeg
+
+ 2512:                                                                                                                                         If(LEqual(_T_S, Zero))
+                                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2512): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99_PSV
+
+ 2523:                                                                                                                                             If(LEqual(_T_S, One))
+                                                                                                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2523): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99_CRT
+
+ 2534:                                                                                                                                                 If(LEqual(_T_S, 0x2))
+                                                                                                                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2534): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99_TSP
+
+ 2545:                                                                                                                                                     If(LEqual(_T_S, 0x3))
+                                                                                                                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2545): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99_TC1
+
+ 2556:                                                                                                                                                         If(LEqual(_T_S, 0x4))
+                                                                                                                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2556): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99_TC2
+
+ 2634:                         If(LEqual(_BID(), Zero))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(2634): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_ROP1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_AGR0_PUR
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_AMSSQWLNWRST
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_AMSSQWLNWRST
+
+62493:             Alias(\_SB_.SIDT, _IDT)
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(62493): warning: not a valid reserved NameSeg
+
+79278:                     Name(_T_0, Zero)
+                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79278): warning: not a valid reserved NameSeg
+
+79279:                     Store(ToInteger(Arg2, ), _T_0)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79279): warning: not a valid reserved NameSeg
+
+79280:                     If(LEqual(_T_0, 0x8056))
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79280): warning: not a valid reserved NameSeg
+
+79286:                         If(LEqual(_T_0, 0x8000))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79286): warning: not a valid reserved NameSeg
+
+79292:                             If(LEqual(_T_0, 0x8010))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79292): warning: not a valid reserved NameSeg
+
+79298:                                 If(LEqual(_T_0, 0x8011))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79298): warning: not a valid reserved NameSeg
+
+79304:                                     If(LEqual(_T_0, 0x8012))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79304): warning: not a valid reserved NameSeg
+
+79310:                                         If(LEqual(_T_0, 0x8013))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(79310): warning: not a valid reserved NameSeg
+
+80287:                         Name(_T_0, Zero)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80287): warning: not a valid reserved NameSeg
+
+80288:                         Store(ToInteger(Arg2, ), _T_0)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80288): warning: not a valid reserved NameSeg
+
+80289:                         If(LEqual(_T_0, Zero))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80289): warning: not a valid reserved NameSeg
+
+80298:                             If(LEqual(_T_0, One))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80298): warning: not a valid reserved NameSeg
+
+80316:                                 If(LEqual(_T_0, 0x2))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80316): warning: not a valid reserved NameSeg
+
+80331:                                     If(LEqual(_T_0, 0x3))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80331): warning: not a valid reserved NameSeg
+
+80340:                                         If(LEqual(_T_0, 0x4))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80340): warning: not a valid reserved NameSeg
+
+80359:                                             If(LEqual(_T_0, 0x5))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80359): warning: not a valid reserved NameSeg
+
+80368:                                                 If(LEqual(_T_0, 0x6))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80368): warning: not a valid reserved NameSeg
+
+80392:                                                     If(LEqual(_T_0, 0x7))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80392): warning: not a valid reserved NameSeg
+
+80401:                                                         If(LEqual(_T_0, 0x8))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80401): warning: not a valid reserved NameSeg
+
+80410:                                                             If(LEqual(_T_0, 0x9))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80410): warning: not a valid reserved NameSeg
+
+80510:                             Name(_T_0, Zero)
+                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80510): warning: not a valid reserved NameSeg
+
+80511:                             Store(ToInteger(Arg2, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80511): warning: not a valid reserved NameSeg
+
+80512:                             If(LEqual(_T_0, Zero))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80512): warning: not a valid reserved NameSeg
+
+80521:                                 If(LEqual(_T_0, 0x8))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80521): warning: not a valid reserved NameSeg
+
+80530:                                     If(LEqual(_T_0, 0x9))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80530): warning: not a valid reserved NameSeg
+
+80601:             Method(_QPG, 0x0, Serialized)
+                          ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80601): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_GIO0WLEN
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXGWLE
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_GIO0MPON
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXGMDM
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PM01PMDR
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXGMDR
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PM01PMON
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXGMDS
+
+80670:                     Name(_T_0, Zero)
+                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80670): warning: not a valid reserved NameSeg
+
+80671:                     Store(ToInteger(Arg0, ), _T_0)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80671): warning: not a valid reserved NameSeg
+
+80672:                     If(LEqual(_T_0, Zero))
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80672): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXWLEN
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXWLEN
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXWLEN
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXWLEN
+
+80698:                         If(LEqual(_T_0, One))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80698): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXPMON
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXPMDR
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXMPON
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXMPON
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXPMDR
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_QPPXPMON
+
+80847:                         Name(_T_0, Zero)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80847): warning: not a valid reserved NameSeg
+
+80848:                         Store(ToInteger(Arg2, ), _T_0)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80848): warning: not a valid reserved NameSeg
+
+80849:                         If(LEqual(_T_0, Zero))
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80849): warning: not a valid reserved NameSeg
+
+80858:                             If(LEqual(_T_0, One))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80858): warning: not a valid reserved NameSeg
+
+80876:                                 If(LEqual(_T_0, 0x2))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80876): warning: not a valid reserved NameSeg
+
+80891:                                     If(LEqual(_T_0, 0x3))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80891): warning: not a valid reserved NameSeg
+
+80900:                                         If(LEqual(_T_0, 0x4))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80900): warning: not a valid reserved NameSeg
+
+80919:                                             If(LEqual(_T_0, 0x5))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80919): warning: not a valid reserved NameSeg
+
+80928:                                                 If(LEqual(_T_0, 0x6))
+                                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80928): warning: not a valid reserved NameSeg
+
+80952:                                                     If(LEqual(_T_0, 0x7))
+                                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80952): warning: not a valid reserved NameSeg
+
+80961:                                                         If(LEqual(_T_0, 0x8))
+                                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80961): warning: not a valid reserved NameSeg
+
+80970:                                                             If(LEqual(_T_0, 0x9))
+                                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(80970): warning: not a valid reserved NameSeg
+
+81059:                             Name(_T_0, Zero)
+                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(81059): warning: not a valid reserved NameSeg
+
+81060:                             Store(ToInteger(Arg2, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(81060): warning: not a valid reserved NameSeg
+
+81061:                             If(LEqual(_T_0, Zero))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(81061): warning: not a valid reserved NameSeg
+
+81070:                                 If(LEqual(_T_0, 0x8))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(81070): warning: not a valid reserved NameSeg
+
+81079:                                     If(LEqual(_T_0, 0x9))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(81079): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_ABD_AVBL
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0FLD0
+
+84107:         Method(_BID, 0x0, Serialized)
+                      ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84107): warning: not a valid reserved NameSeg
+
+84232:                         Name(_T_0, Buffer(One)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84232): warning: not a valid reserved NameSeg
+
+84236:                         CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84236): warning: not a valid reserved NameSeg
+
+84237:                         If(LEqual(_T_0, Buffer(0x10)
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84237): warning: not a valid reserved NameSeg
+
+84245:                                 Name(_T_1, Zero)
+                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84245): warning: not a valid reserved NameSeg
+
+84246:                                 Store(ToInteger(Arg2, ), _T_1)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84246): warning: not a valid reserved NameSeg
+
+84247:                                 If(LEqual(_T_1, Zero))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84247): warning: not a valid reserved NameSeg
+
+84251:                                         Name(_T_2, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84251): warning: not a valid reserved NameSeg
+
+84252:                                         Store(ToInteger(Arg1, ), _T_2)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84252): warning: not a valid reserved NameSeg
+
+84253:                                         If(LEqual(_T_2, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84253): warning: not a valid reserved NameSeg
+
+84279:                                     If(LEqual(_T_1, 0x2))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84279): warning: not a valid reserved NameSeg
+
+84286:                                         If(LEqual(_T_1, 0x3))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84286): warning: not a valid reserved NameSeg
+
+84293:                                             If(LEqual(_T_1, 0x4))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84293): warning: not a valid reserved NameSeg
+
+84371:                         Name(_T_0, Buffer(One)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84371): warning: not a valid reserved NameSeg
+
+84375:                         CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84375): warning: not a valid reserved NameSeg
+
+84376:                         If(LEqual(_T_0, Buffer(0x10)
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84376): warning: not a valid reserved NameSeg
+
+84384:                                 Name(_T_1, Zero)
+                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84384): warning: not a valid reserved NameSeg
+
+84385:                                 Store(ToInteger(Arg2, ), _T_1)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84385): warning: not a valid reserved NameSeg
+
+84386:                                 If(LEqual(_T_1, Zero))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84386): warning: not a valid reserved NameSeg
+
+84390:                                         Name(_T_2, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84390): warning: not a valid reserved NameSeg
+
+84391:                                         Store(ToInteger(Arg1, ), _T_2)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84391): warning: not a valid reserved NameSeg
+
+84392:                                         If(LEqual(_T_2, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84392): warning: not a valid reserved NameSeg
+
+84418:                                     If(LEqual(_T_1, One))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84418): warning: not a valid reserved NameSeg
+
+84437:                             If(LEqual(_T_0, Buffer(0x10)
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84437): warning: not a valid reserved NameSeg
+
+84445:                                     Name(_T_3, Zero)
+                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84445): warning: not a valid reserved NameSeg
+
+84446:                                     Store(ToInteger(Arg2, ), _T_3)
+                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84446): warning: not a valid reserved NameSeg
+
+84447:                                     If(LEqual(_T_3, Zero))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84447): warning: not a valid reserved NameSeg
+
+84451:                                             Name(_T_4, Zero)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84451): warning: not a valid reserved NameSeg
+
+84452:                                             Store(ToInteger(Arg1, ), _T_4)
+                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84452): warning: not a valid reserved NameSeg
+
+84453:                                             If(LEqual(_T_4, Zero))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84453): warning: not a valid reserved NameSeg
+
+84479:                                         If(LEqual(_T_3, One))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84479): warning: not a valid reserved NameSeg
+
+84585:                         Name(_T_0, Buffer(One)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84585): warning: not a valid reserved NameSeg
+
+84589:                         CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84589): warning: not a valid reserved NameSeg
+
+84590:                         If(LEqual(_T_0, Buffer(0x10)
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84590): warning: not a valid reserved NameSeg
+
+84598:                                 Name(_T_1, Zero)
+                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84598): warning: not a valid reserved NameSeg
+
+84599:                                 Store(ToInteger(Arg2, ), _T_1)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84599): warning: not a valid reserved NameSeg
+
+84600:                                 If(LEqual(_T_1, Zero))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84600): warning: not a valid reserved NameSeg
+
+84604:                                         Name(_T_2, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84604): warning: not a valid reserved NameSeg
+
+84605:                                         Store(ToInteger(Arg1, ), _T_2)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84605): warning: not a valid reserved NameSeg
+
+84606:                                         If(LEqual(_T_2, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84606): warning: not a valid reserved NameSeg
+
+84632:                                     If(LEqual(_T_1, 0x2))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84632): warning: not a valid reserved NameSeg
+
+84639:                                         If(LEqual(_T_1, 0x3))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84639): warning: not a valid reserved NameSeg
+
+84715:                         Name(_T_0, Buffer(One)
+                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84715): warning: not a valid reserved NameSeg
+
+84719:                         CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84719): warning: not a valid reserved NameSeg
+
+84720:                         If(LEqual(_T_0, Buffer(0x10)
+                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84720): warning: not a valid reserved NameSeg
+
+84728:                                 Name(_T_1, Zero)
+                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84728): warning: not a valid reserved NameSeg
+
+84729:                                 Store(ToInteger(Arg2, ), _T_1)
+                                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84729): warning: not a valid reserved NameSeg
+
+84730:                                 If(LEqual(_T_1, Zero))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84730): warning: not a valid reserved NameSeg
+
+84734:                                         Name(_T_2, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84734): warning: not a valid reserved NameSeg
+
+84735:                                         Store(ToInteger(Arg1, ), _T_2)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84735): warning: not a valid reserved NameSeg
+
+84736:                                         If(LEqual(_T_2, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84736): warning: not a valid reserved NameSeg
+
+84762:                                     If(LEqual(_T_1, One))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84762): warning: not a valid reserved NameSeg
+
+84781:                             If(LEqual(_T_0, Buffer(0x10)
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84781): warning: not a valid reserved NameSeg
+
+84789:                                     Name(_T_3, Zero)
+                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84789): warning: not a valid reserved NameSeg
+
+84790:                                     Store(ToInteger(Arg2, ), _T_3)
+                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84790): warning: not a valid reserved NameSeg
+
+84791:                                     If(LEqual(_T_3, Zero))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84791): warning: not a valid reserved NameSeg
+
+84795:                                             Name(_T_4, Zero)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84795): warning: not a valid reserved NameSeg
+
+84796:                                             Store(ToInteger(Arg1, ), _T_4)
+                                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84796): warning: not a valid reserved NameSeg
+
+84797:                                             If(LEqual(_T_4, Zero))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84797): warning: not a valid reserved NameSeg
+
+84823:                                         If(LEqual(_T_3, One))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84823): warning: not a valid reserved NameSeg
+
+84970:                     Name(_T_0, Buffer(One)
+                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84970): warning: not a valid reserved NameSeg
+
+84974:                     CopyObject(ToBuffer(Arg0, ), _T_0)
+                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84974): warning: not a valid reserved NameSeg
+
+84975:                     If(LEqual(_T_0, Buffer(0x10)
+                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84975): warning: not a valid reserved NameSeg
+
+84983:                             Name(_T_1, Zero)
+                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84983): warning: not a valid reserved NameSeg
+
+84984:                             Store(ToInteger(Arg2, ), _T_1)
+                                                            ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84984): warning: not a valid reserved NameSeg
+
+84985:                             If(LEqual(_T_1, Zero))
+                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84985): warning: not a valid reserved NameSeg
+
+84989:                                     Name(_T_2, Zero)
+                                                ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84989): warning: not a valid reserved NameSeg
+
+84990:                                     Store(ToInteger(Arg1, ), _T_2)
+                                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84990): warning: not a valid reserved NameSeg
+
+84991:                                     If(LEqual(_T_2, Zero))
+                                                     ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(84991): warning: not a valid reserved NameSeg
+
+85017:                                 If(LEqual(_T_1, One))
+                                                 ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(85017): warning: not a valid reserved NameSeg
+
+85021:                                         Name(_T_3, Zero)
+                                                    ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(85021): warning: not a valid reserved NameSeg
+
+85022:                                         Store(ToInteger(Arg3, ), _T_3)
+                                                                        ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(85022): warning: not a valid reserved NameSeg
+
+85023:                                         If(LEqual(_T_3, Zero))
+                                                         ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(85023): warning: not a valid reserved NameSeg
+
+85033:                                             If(LEqual(_T_3, One))
+                                                             ^***
+C:\yjc_code\K40ˢwin11\Դ��\Mu-Silicium\Silicium-ACPI\Platforms\Xiaomi\alioth\DSDT.asl(85033): warning: not a valid reserved NameSeg
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ51TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ52TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ53TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ54TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ55TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ56TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ57TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ58TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ59TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ60TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ61TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ62TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_PEP0ROST
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU3
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ1_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ3_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ5_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_GPU0AVS0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ7_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ9_TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU3
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ15TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ16TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ17TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU3
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ18TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ19TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU3
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ20TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ21TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ22TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ38TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ40TTSP
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU3
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU4
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU5
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU6
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_SYSMCLUSCPU7
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_GPU0MON0
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TPSV
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TCRT
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTC1
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTC2
+asl_ERR: GetNameSpaceObj: invalid name - \/_SB_TZ99TTSP
+asl(DSDT.aml): Image Size=436197, Image Checksum=0xfe
+

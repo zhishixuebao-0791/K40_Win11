@@ -1,0 +1,2722 @@
+﻿Driver diagnostics report
+
+================================================================================
+Diagnostic Metadata
+================================================================================
+GeneratedAt: 2026-04-22 13:00:08 +08:00
+ComputerName: WIN-S31LDU2JGAB
+UserName: jcyang
+CurrentDirectory: C:\Code\REDMIK40_Win11
+OutputDirectory: C:\Code\REDMIK40_Win11\DriverDiagnostics_20260422_130006
+
+================================================================================
+Operating System
+================================================================================
+
+
+Caption        : Microsoft Windows 11 专业版
+Version        : 10.0.22621
+BuildNumber    : 22621
+OSArchitecture : ARM 64 位处理器
+CSName         : WIN-S31LDU2JGAB
+LastBootUpTime : 2026/4/21 19:15:48
+
+================================================================================
+Computer System
+================================================================================
+
+Manufacturer Model     SystemType     TotalPhysicalMemory
+------------ -----     ----------     -------------------
+Xiaomi       Redmi K40 ARM64-based PC         12291895296
+
+================================================================================
+BIOS / Baseboard
+================================================================================
+BIOS:
+
+Manufacturer     SMBIOSBIOSVersion ReleaseDate SerialNumber 
+------------     ----------------- ----------- ------------ 
+Project Silicium 3.4                           Not Specified
+
+BaseBoard:
+
+Manufacturer Product SerialNumber 
+------------ ------- ------------ 
+Xiaomi       K11AC   Not Specified
+
+================================================================================
+Boot Configuration
+================================================================================
+Invalid command line switch: /encodedCommand
+Run "bcdedit /?" for command line assistance.
+The parameter is incorrect.
+
+================================================================================
+Windows Edition / Activation Snapshot
+================================================================================
+
+
+ProductName        : Windows 10 Pro
+DisplayVersion     : 22H2
+ReleaseId          : 2009
+CurrentBuild       : 22621
+CurrentBuildNumber : 22621
+UBR                : 6060
+InstallationType   : Client
+
+================================================================================
+Driver Store Summary
+================================================================================
+Microsoft PnP Utility
+
+Published Name:     oem0.inf
+Original Name:      rustdeskprinterdriver.inf
+Provider Name:      RustDesk
+Class Name:         Printer
+Class GUID:         {4d36e979-e325-11ce-bfc1-08002be10318}
+Class Version:      4.0
+Driver Version:     07/26/2025 8.42.23.206
+Signer Name:        Microsoft Windows Hardware Compatibility Publisher
+
+================================================================================
+Signed Driver Inventory
+================================================================================
+
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : 
+DeviceClass        : 
+DriverProviderName : 
+DriverVersion      : 
+DriverDate         : 
+InfName            : 
+IsSigned           : 
+
+DeviceName         : ACPI ARM64-based PC
+DeviceClass        : COMPUTER
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : hal.inf
+IsSigned           : True
+
+DeviceName         : Computer Device
+DeviceClass        : COMPUTER
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : compdev.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : Disk drive
+DeviceClass        : DISKDRIVE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : disk.inf
+IsSigned           : True
+
+DeviceName         : HID Button over Interrupt Driver
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : hidinterrupt.inf
+IsSigned           : True
+
+DeviceName         : HID-compliant consumer control device
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : hidserv.inf
+IsSigned           : True
+
+DeviceName         : HID-compliant system controller
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.4111
+DriverDate         : 2006/6/21 8:00:00
+InfName            : input.inf
+IsSigned           : True
+
+DeviceName         : USB Input Device
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.4111
+DriverDate         : 2006/6/21 8:00:00
+InfName            : input.inf
+IsSigned           : True
+
+DeviceName         : USB Input Device
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.4111
+DriverDate         : 2006/6/21 8:00:00
+InfName            : input.inf
+IsSigned           : True
+
+DeviceName         : USB Input Device
+DeviceClass        : HIDCLASS
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.4111
+DriverDate         : 2006/6/21 8:00:00
+InfName            : input.inf
+IsSigned           : True
+
+DeviceName         : HID Keyboard Device
+DeviceClass        : KEYBOARD
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : keyboard.inf
+IsSigned           : True
+
+DeviceName         : Generic Non-PnP Monitor
+DeviceClass        : MONITOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : monitor.inf
+IsSigned           : True
+
+DeviceName         : HID-compliant mouse
+DeviceClass        : MOUSE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : msmouse.inf
+IsSigned           : True
+
+DeviceName         : ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 1.16.27.321
+DriverDate         : 2016/3/21 8:00:00
+InfName            : netax88179_178a.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Kernel Debug Network Adapter
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : kdnic630.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (IKEv2)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netavpna.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (IP)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (IPv6)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (L2TP)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (Network Monitor)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (PPPOE)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (PPTP)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netrasa.inf
+IsSigned           : True
+
+DeviceName         : WAN Miniport (SSTP)
+DeviceClass        : NET
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : netsstpa.inf
+IsSigned           : True
+
+DeviceName         : Local Print Queue
+DeviceClass        : PRINTQUEUE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : printqueue.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Processor
+DeviceClass        : PROCESSOR
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5624
+DriverDate         : 2009/4/21 8:00:00
+InfName            : cpu.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Storage Spaces Controller
+DeviceClass        : SCSIADAPTER
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : spaceport.inf
+IsSigned           : True
+
+DeviceName         : Qualcomm Universal Flash Storage (UFS) Host Controller
+DeviceClass        : SCSIADAPTER
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : storufs.inf
+IsSigned           : True
+
+DeviceName         : Generic software device
+DeviceClass        : SOFTWAREDEVICE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : c_swdevice.inf
+IsSigned           : True
+
+DeviceName         : Generic software device
+DeviceClass        : SOFTWAREDEVICE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : c_swdevice.inf
+IsSigned           : True
+
+DeviceName         : Generic software device
+DeviceClass        : SOFTWAREDEVICE
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : c_swdevice.inf
+IsSigned           : True
+
+DeviceName         : ACPI Processor Aggregator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : acpipagr.inf
+IsSigned           : True
+
+DeviceName         : ACPI Processor Container Device
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : machine.inf
+IsSigned           : True
+
+DeviceName         : ACPI Processor Container Device
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : machine.inf
+IsSigned           : True
+
+DeviceName         : Composite Bus Enumerator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : compositebus.inf
+IsSigned           : True
+
+DeviceName         : Microsoft ACPI-Compliant System
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2006/6/21 8:00:00
+InfName            : acpi.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Basic Display Driver
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : basicdisplay.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Basic Render Driver
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5766
+DriverDate         : 2006/6/21 8:00:00
+InfName            : basicrender.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Hyper-V Virtualization Infrastructure Driver
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5840
+DriverDate         : 2006/6/21 8:00:00
+InfName            : wvid.inf
+IsSigned           : True
+
+DeviceName         : Microsoft System Management BIOS Driver
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : mssmbios.inf
+IsSigned           : True
+
+DeviceName         : Microsoft Virtual Drive Enumerator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : vdrvroot.inf
+IsSigned           : True
+
+DeviceName         : NDIS Virtual Network Adapter Enumerator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : ndisvirtualbus.inf
+IsSigned           : True
+
+DeviceName         : Plug and Play Software Device Enumerator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2022/5/6 8:00:00
+InfName            : swenum.inf
+IsSigned           : True
+
+DeviceName         : Qualcomm(R) Power Management
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : genpass.inf
+IsSigned           : True
+
+DeviceName         : Qualcomm(R) System Manager GPIO Device
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : genpass.inf
+IsSigned           : True
+
+DeviceName         : Remote Desktop Device Redirector Bus
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.2506
+DriverDate         : 2006/6/21 8:00:00
+InfName            : rdpbus.inf
+IsSigned           : True
+
+DeviceName         : UMBus Root Bus Enumerator
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.2506
+DriverDate         : 2006/6/21 8:00:00
+InfName            : umbus.inf
+IsSigned           : True
+
+DeviceName         : Volume Manager
+DeviceClass        : SYSTEM
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.2506
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volmgr.inf
+IsSigned           : True
+
+DeviceName         : Generic USB Hub
+DeviceClass        : USB
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.6060
+DriverDate         : 2025/10/8 8:00:00
+InfName            : usbhub3.inf
+IsSigned           : True
+
+DeviceName         : Synopsys USB 3.0 Dual-Role Controller
+DeviceClass        : USB
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.2506
+DriverDate         : 2006/6/21 8:00:00
+InfName            : urssynopsys.inf
+IsSigned           : True
+
+DeviceName         : USB Composite Device
+DeviceClass        : USB
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.6060
+DriverDate         : 2006/6/21 8:00:00
+InfName            : usb.inf
+IsSigned           : True
+
+DeviceName         : USB Root Hub (USB 3.0)
+DeviceClass        : USB
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.6060
+DriverDate         : 2025/10/8 8:00:00
+InfName            : usbhub3.inf
+IsSigned           : True
+
+DeviceName         : USB xHCI Compliant Host Controller
+DeviceClass        : USB
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.5415
+DriverDate         : 2025/5/29 8:00:00
+InfName            : usbxhci.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+DeviceName         : Volume
+DeviceClass        : VOLUME
+DriverProviderName : Microsoft
+DriverVersion      : 10.0.22621.1
+DriverDate         : 2006/6/21 8:00:00
+InfName            : volume.inf
+IsSigned           : True
+
+
+
+
+
+================================================================================
+PnP Device Summary
+================================================================================
+TotalDevices: 252
+ProblemDevices: 65
+
+================================================================================
+Problem Devices (Summary)
+================================================================================
+
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\E
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05CE\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\2
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\D
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0581\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0561\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0507\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0583\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05D2\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0530\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0512\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05CF\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055E\64
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050B\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0527\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0508\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\10
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0576\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A1\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\F
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\5
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\D
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\E
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\6
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM050A\7
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\8
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0582\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055F\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05AA\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059D\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A8\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059E\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0533\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0550\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05AE\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM056D\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM05A7\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\VEN_QCOM&DEV_058C&SUBSYS_MTP08250&REV_0002\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\5
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM054C\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM054E\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM051B\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\12
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0518\14
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\SSDE\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055F\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM057F\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0593\2
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0511\A
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\FSA04480\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055D\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0535\1B
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059B\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM059B\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM0577\2&DABA3FF&0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055C\1
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055D\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055A\0
+
+Name                   : 
+PNPClass               : 
+Manufacturer           : 
+ConfigManagerErrorCode : 28
+Status                 : Error
+PNPDeviceID            : ACPI\QCOM055C\0
+
+Name                   : HID Button over Interrupt Driver
+PNPClass               : HIDClass
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 51
+Status                 : Error
+PNPDeviceID            : ACPI\ACPI0011\0
+
+================================================================================
+Focused Devices (Audio / Bluetooth / Touch / Wi-Fi / HID / Net)
+================================================================================
+
+
+Name                   : HID Button over Interrupt Driver
+PNPClass               : HIDClass
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 51
+Status                 : Error
+PNPDeviceID            : ACPI\ACPI0011\0
+
+Name                   : USB 输入设备
+PNPClass               : HIDClass
+Manufacturer           : (标准系统设备)
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : USB\VID_413C&PID_301A\6&D34932&0&1
+
+Name                   : USB 输入设备
+PNPClass               : HIDClass
+Manufacturer           : (标准系统设备)
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : USB\VID_413C&PID_2113&MI_01\7&27D91035&0&0001
+
+Name                   : USB 输入设备
+PNPClass               : HIDClass
+Manufacturer           : (标准系统设备)
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : USB\VID_413C&PID_2113&MI_00\7&27D91035&0&0000
+
+Name                   : 符合 HID 标准的系统控制器
+PNPClass               : HIDClass
+Manufacturer           : (标准系统设备)
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : HID\VID_413C&PID_2113&MI_01&COL01\8&10A581F0&0&0000
+
+Name                   : 符合 HID 标准的用户控制设备
+PNPClass               : HIDClass
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : HID\VID_413C&PID_2113&MI_01&COL02\8&10A581F0&0&0001
+
+Name                   : HID Keyboard Device
+PNPClass               : Keyboard
+Manufacturer           : (标准键盘)
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : HID\VID_413C&PID_2113&MI_00\8&347CBFB2&0&0000
+
+Name                   : HID-compliant mouse
+PNPClass               : Mouse
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : HID\VID_413C&PID_301A\7&303D5571&0&0000
+
+Name                   : ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter
+PNPClass               : Net
+Manufacturer           : ASIX
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : USB\VID_0B95&PID_1790\1000000000011D
+
+Name                   : Microsoft Kernel Debug Network Adapter
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : ROOT\KDNIC\0000
+
+Name                   : WAN Miniport (IKEv2)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_AGILEVPNMINIPORT
+
+Name                   : WAN Miniport (IP)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_NDISWANIP
+
+Name                   : WAN Miniport (IPv6)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_NDISWANIPV6
+
+Name                   : WAN Miniport (L2TP)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_L2TPMINIPORT
+
+Name                   : WAN Miniport (Network Monitor)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_NDISWANBH
+
+Name                   : WAN Miniport (PPPOE)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_PPPOEMINIPORT
+
+Name                   : WAN Miniport (PPTP)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_PPTPMINIPORT
+
+Name                   : WAN Miniport (SSTP)
+PNPClass               : Net
+Manufacturer           : Microsoft
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : SWD\MSRRAS\MS_SSTPMINIPORT
+
+Name                   : Qualcomm 通用闪存(UFS)主控制器
+PNPClass               : SCSIAdapter
+Manufacturer           : Qualcomm
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : ACPI\QCOM24A5\0
+
+Name                   : Qualcomm（R） System Manager GPIO 设备
+PNPClass               : System
+Manufacturer           : Qualcomm Inc.
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : ACPI\QCOM050D\0
+
+Name                   : Qualcomm（R） 电源管理
+PNPClass               : System
+Manufacturer           : Qualcomm Inc.
+ConfigManagerErrorCode : 0
+Status                 : OK
+PNPDeviceID            : ACPI\QCOM05A2\0

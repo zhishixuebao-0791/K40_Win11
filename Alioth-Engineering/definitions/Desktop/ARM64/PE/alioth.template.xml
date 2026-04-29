@@ -1,0 +1,25 @@
+<FeatureManifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/embedded/2004/10/ImageUpdate" Revision="1" SchemaVersion="1.3">
+    <Drivers>
+        <BaseDriverPackages>
+            <!--
+              Fill this file with the minimum driver set required for setup / PE.
+
+              Keep this manifest much smaller than the full desktop one.
+              Start from the essentials:
+              - storage
+              - USB
+              - timer / watchdog
+              - ACPI bridge
+              - PMIC / power
+              - any alioth-specific touch or input bits needed during setup
+            -->
+
+            <!-- Example placeholders. Replace with real files when the packs exist. -->
+            <!--
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\SOC\ACPI" Name="qcabd.inf" ID="qcabd"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\QC8250\Drivers\USB\UCSI" Name="qcusbcucsi8250.inf" ID="qcusbcucsi8250"/>
+            <DriverPackageFile Path="$(mspackageroot)\components\Devices\Alioth\Drivers\Touch" Name="alioth_touch.inf" ID="alioth_touch"/>
+            -->
+        </BaseDriverPackages>
+    </Drivers>
+</FeatureManifest>

@@ -1,0 +1,16 @@
+﻿[2026-04-21 19:05:13] Finalizing Alioth postinstall state for D:
+[2026-04-21 19:05:13] Staged OOBE-bypass unattend.xml to Panther and Sysprep.
+[2026-04-21 19:05:13] Staged Alioth bootstrap startup script for audit exit and landscape fix.
+[2026-04-21 19:05:13] Running: reg.exe load HKLM\ALIOTH_POST_SOFTWARE_13104 D:\Windows\System32\Config\SOFTWARE
+操作成功完成。
+
+[2026-04-21 19:05:16] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_13104\Microsoft\Windows\CurrentVersion\RunOnce /v AliothCleanupSysprepUi /t REG_SZ /d cmd /c taskkill /im sysprep.exe /f >nul 2>&1 /f
+操作成功完成。
+
+[2026-04-21 19:05:16] Running: reg.exe add HKLM\ALIOTH_POST_SOFTWARE_13104\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
+操作成功完成。
+
+[2026-04-21 19:05:17] Running: reg.exe unload HKLM\ALIOTH_POST_SOFTWARE_13104
+操作成功完成。
+
+[2026-04-21 19:05:17] Running: reg.exe load HKLM\ALIOTH_POST_SYSTEM_13104 D:\Windows\System32\Config\SYSTEM

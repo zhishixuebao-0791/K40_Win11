@@ -1,0 +1,4 @@
+select disk 1
+select partition 36
+assign letter=S
+detail partition

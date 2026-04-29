@@ -1,0 +1,139 @@
+[Device Install Log]
+     OS Version = 10.0.22621
+     Service Pack = 0.0
+     Suite = 0x0100
+     ProductType = 1
+     Architecture = arm64
+
+[BeginLog]
+
+[Boot Session: 2022/05/07 16:12:09.267]
+
+>>>  [Setup Import Driver Package - C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf]
+>>>  Section start 2022/05/07 16:14:28.182
+      cmd: C:\Windows\System32\spoolsv.exe
+     inf: Provider: Microsoft
+     inf: Class GUID: {4D36E979-E325-11CE-BFC1-08002BE10318}
+     inf: Driver Version: 06/21/2006,10.0.22621.1
+     inf: Catalog File: prnms009.cat
+     ump: Import flags: 0x0000000D
+     pol: {Driver package policy check} 16:14:28.307
+     pol: {Driver package policy check - exit(0x00000000)} 16:14:28.307
+     sto: {Stage Driver Package: C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf} 16:14:28.307
+     inf:      Provider       = Microsoft
+     inf:      Class GUID     = {4d36e979-e325-11ce-bfc1-08002be10318}
+     inf:      Class Version  = 4.0
+     inf:      Driver Version = 06/21/2006,10.0.22621.1
+     inf:      Catalog File   = prnms009.cat
+     inf:      Version Flags  = 0x00000001
+     inf:      {Query Configurability: C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf} 16:14:28.338
+     inf:           Driver package 'prnms009.Inf' is configurable.
+     inf:      {Query Configurability: exit(0x00000000)} 16:14:28.338
+     flq:      {FILE_QUEUE_COMMIT} 16:14:28.354
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW_devmode_map.xml' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\MPDW_devmode_map.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.cat' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\prnms009.cat'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\prnms009.Inf' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\prnms009.Inf'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-PDC.xml' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\MPDW-PDC.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-manifest.ini' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\MPDW-manifest.ini'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-pipelineconfig.xml' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\MPDW-pipelineconfig.xml'.
+     flq:           Copying 'C:\Windows\system32\spool\tools\Microsoft Print To PDF\MPDW-constraints.js' to 'C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\MPDW-constraints.js'.
+     flq:      {FILE_QUEUE_COMMIT - exit(0x00000000)} 16:14:28.432
+     sto:      {DRIVERSTORE IMPORT VALIDATE} 16:14:28.432
+     sig:           Driver package catalog is valid.
+     sig:           {_VERIFY_FILE_SIGNATURE} 16:14:28.510
+     sig:                Key      = prnms009.Inf
+     sig:                FilePath = C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\prnms009.Inf
+     sig:                Catalog  = C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}\prnms009.cat
+     sig:                Success: File is signed in catalog.
+     sig:           {_VERIFY_FILE_SIGNATURE exit(0x00000000)} 16:14:28.541
+     sto:      {DRIVERSTORE IMPORT VALIDATE: exit(0x00000000)} 16:14:28.557
+     sig:      Signer Score  = 0x0D000003 (Inbox)
+     sig:      Signer Name   = Microsoft Windows
+     sto:      {Core Driver Package Import: prnms009.inf_arm64_e77dc6a3f97b016b} 16:14:28.557
+     sto:           {DRIVERSTORE IMPORT BEGIN} 16:14:28.572
+     sto:           {DRIVERSTORE IMPORT BEGIN: exit(0x00000000)} 16:14:28.572
+     cpy:           {Copy Directory: C:\Windows\System32\DriverStore\Temp\{6b27c09b-f5ad-4341-a8b8-5b1801a98e7e}} 16:14:28.572
+     cpy:                Target Path = C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_arm64_e77dc6a3f97b016b
+     cpy:           {Copy Directory: exit(0x00000000)} 16:14:28.572
+     idb:           {Register Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_arm64_e77dc6a3f97b016b\prnms009.Inf} 16:14:28.588
+     idb:                Created driver package object 'prnms009.inf_arm64_e77dc6a3f97b016b' in DRIVERS database node.
+     idb:                Created driver INF file object 'oem0.inf' in DRIVERS database node.
+     idb:                Registered driver package 'prnms009.inf_arm64_e77dc6a3f97b016b' with 'oem0.inf'.
+     idb:           {Register Driver Package: exit(0x00000000)} 16:14:28.588
+     idb:           {Publish Driver Package: C:\Windows\System32\DriverStore\FileRepository\prnms009.inf_arm64_e77dc6a3f97b016b\prnms009.Inf} 16:14:28.588
+     idb:                Activating driver package 'prnms009.inf_arm64_e77dc6a3f97b016b'.
+     cpy:                Published 'prnms009.inf_arm64_e77dc6a3f97b016b\prnms009.inf' to 'oem0.inf'.
+     idb:                Indexed 2 device IDs for 'prnms009.inf_arm64_e77dc6a3f97b016b'.
+     sto:                Flushed driver database node 'DRIVERS'. Time = 0 ms
+     sto:                Flushed driver database node 'SYSTEM'. Time = 16 ms
+     idb:           {Publish Driver Package: exit(0x00000000)} 16:14:28.635
+     sto:           {DRIVERSTORE IMPORT END} 16:14:28.635
+     dvi:                Flushed all driver package files to disk. Time = 0 ms
+     sig:                Installed catalog 'prnms009.cat' as 'oem0.cat'.
+     sto:           {DRIVERSTORE IMPORT END: exit(0x00000000)} 16:14:28.822
+     sto:      {Core Driver Package Import: exit(0x00000000)} 16:14:28.822
+     sto: {Stage Driver Package: exit(0x00000000)} 16:14:28.822
+<<<  Section end 2022/05/07 16:14:28.979
+<<<  [Exit status: SUCCESS]
+
+
+>>>  [Device Install (Hardware initiated) - USB\VID_0B95&PID_1790\1000000000011D]
+>>>  Section start 2022/05/07 16:25:04.096
+     ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+     utl: {Select Drivers - USB\VID_0B95&PID_1790\1000000000011D} 16:25:04.143
+     utl:      Driver Node:
+     utl:           Status         - Selected
+     utl:           Driver INF     - netax88179_178a.inf (C:\Windows\System32\DriverStore\FileRepository\netax88179_178a.inf_arm64_c5dc3d41b0e4583b\netax88179_178a.inf)
+     utl:           Class GUID     - {4d36e972-e325-11ce-bfc1-08002be10318}
+     utl:           Driver Version - 03/21/2016,1.16.27.321
+     utl:           Configuration  - USB\VID_0B95&PID_1790
+     utl:           Driver Rank    - 00FF0001
+     utl:           Signer Score   - Inbox (0D000003)
+     utl: {Select Drivers - exit(0x00000000} 16:25:04.159
+     dvi: {Core Device Install} 16:25:04.159
+     dvi:      {Configure Device - USB\VID_0B95&PID_1790\1000000000011D} 16:25:04.175
+     dvi:           Device Status: 0x01806400 [0x01 - 0xc0000493]
+     dvi:           Config Flags: 0x00000000
+     dvi:           Parent Device: USB\VID_05E3&PID_0610\5&879a669&0&1
+     sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\netax88179_178a.inf_arm64_c5dc3d41b0e4583b\netax88179_178a.inf}
+     sto:                Source Filter  = USB\VID_0B95&PID_1790
+     inf:                Class GUID     = {4d36e972-e325-11ce-bfc1-08002be10318}
+     inf:                Class Options  = Configurable
+     inf:                {Configure Driver: ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter}
+     inf:                     Section Name = AX88179.Ndi
+     inf:                     {Add Service: AX88179}
+     inf:                          Start Type    = 3
+     inf:                          Service Type  = 1
+     inf:                          Error Control = 1
+     inf:                          Image Path    = \SystemRoot\System32\drivers\ax88179_178a.sys
+     inf:                          Display Name  = ASIX AX88179 USB 3.0 to Gigabit Ethernet Adapter
+     inf:                          Created new service 'AX88179'.
+     inf:                     {Add Service: exit(0x00000000)}
+     inf:                     Hardware Id  = USB\VID_0B95&PID_1790
+     inf:                     {Configure Driver Configuration: AX88179.Ndi}
+     inf:                          Service Name  = AX88179
+     inf:                          Config Flags  = 0x00000000
+     inf:                     {Configure Driver Configuration: exit(0x00000000)}
+     inf:                {Configure Driver: exit(0x00000000)}
+     flq:                {FILE_QUEUE_COMMIT} 16:25:04.284
+     flq:                     Hardlinking 'C:\Windows\System32\DriverStore\FileRepository\netax88179_178a.inf_arm64_c5dc3d41b0e4583b\ax88179_178a.sys' to 'C:\Windows\System32\drivers\ax88179_178a.sys'.
+     flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 16:25:04.300
+     dvi:                Existing files modified, may need to restart related services.
+     sto:           {Configure Driver Package: exit(0x00000bc3)}
+     dvi:           Restart required for any devices using this driver.
+     dvi:           Install Device: Configuring device. 16:25:04.315
+     dvi:                Configuration: netax88179_178a.inf:USB\VID_0B95&PID_1790,*
+     dvi:           Install Device: Configuring device completed. 16:25:04.331
+     dvi:           Device Status: 0x01806000
+     dvi:           {Restarting Devices} 16:25:04.347
+     dvi:                Start: USB\VID_0B95&PID_1790\1000000000011D
+!    dvi:                Device 'USB\VID_0B95&PID_1790\1000000000011D' pending start: Device has problem: 0x38 (CM_PROB_NEED_CLASS_CONFIG), problem status: 0x00000000.
+     dvi:           {Restarting Devices exit} 16:25:04.409
+     dvi:      {Configure Device - exit(0x00000000)} 16:25:04.409
+     dvi: {Core Device Install - exit(0x00000000)} 16:25:04.409
+     dvi: Waiting for device post-install to complete. 16:25:04.425
+     dvi: Device post-install completed. 16:25:06.145
+     dvi: Device Status: 0x0180600a
+<<<  Section end 2022/05/07 16:25:06.145
+<<<  [Exit status: SUCCESS]
+
