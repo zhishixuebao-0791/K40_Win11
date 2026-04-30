@@ -76,9 +76,6 @@ $rows = foreach ($target in $targets) {
         $_.InstanceId -match [regex]::Escape($target.Native) -or
         $_.InstanceId -match [regex]::Escape($target.Alias) -or
         $_.FriendlyName -match [regex]::Escape($target.Name)
-<<<<<<< HEAD
-    })
-=======
     } | Sort-Object `
         @{ Expression = {
             $isPresent = Get-DevicePropertyValue -InstanceId $_.InstanceId -KeyName "DEVPKEY_Device_IsPresent"
@@ -91,7 +88,6 @@ $rows = foreach ($target in $targets) {
             if ($_.Status -eq "OK") { 0 } elseif ($_.Status -eq "Error") { 1 } else { 2 }
         } },
         InstanceId)
->>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb
 
     foreach ($match in $matches) {
         [pscustomobject]@{
