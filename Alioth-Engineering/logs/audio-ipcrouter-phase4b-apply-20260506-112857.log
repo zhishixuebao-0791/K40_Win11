@@ -1,0 +1,16 @@
+﻿[2026-05-06 11:28:57] Applying Alioth audio IPCRouter phase4b narrow driver experiment.
+[2026-05-06 11:28:57] WindowsDrive=D
+[2026-05-06 11:28:58] DriverRoot=C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Cellular\IPCRouter
+[2026-05-06 11:28:58] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Cellular\IPCRouter\qcipcrouter8250.cat => UnknownError; CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+[2026-05-06 11:28:58] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Cellular\IPCRouter\qcipcrouter8250.sys => Valid; CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+[2026-05-06 11:28:58] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Cellular\IPCRouter\qcipcrouter8250.inf
+[2026-05-06 11:29:11] 
+[2026-05-06 11:29:11] 部署映像服务和管理工具
+[2026-05-06 11:29:11] 版本: 10.0.18362.1379
+[2026-05-06 11:29:11] 
+[2026-05-06 11:29:11] 映像版本: 10.0.22621.6060
+[2026-05-06 11:29:11] 
+[2026-05-06 11:29:11] 找到 1 个要安装的驱动程序包。
+[2026-05-06 11:29:11] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Cellular\IPCRouter\qcipcrouter8250.inf: 驱动程序包已成功安装。
+[2026-05-06 11:29:11] 操作成功完成。
+[2026-05-06 11:29:11] IPCRouter phase4b apply completed. Boot Mu-alioth phase4b, then run Trace-AliothAcpiPhase3State.ps1 and Trace-AliothAudioDependencyState.ps1.

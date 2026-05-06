@@ -55,7 +55,7 @@ $targets = @(
     [pscustomobject]@{ Name = "MMU0"; Native = "QCOM0509"; Alias = "DEV_2509"; ExpectedService = "qcsmmu"; Role = "ARPC dependency" },
     [pscustomobject]@{ Name = "SCM0"; Native = "QCOM050B"; Alias = "QCOM250B"; ExpectedService = "qcscm"; Role = "ARPC dependency" },
     [pscustomobject]@{ Name = "GLNK"; Native = "QCOM058D"; Alias = "QCOM258D"; ExpectedService = "qcglink"; Role = "IPC0/SSDD/ARPC dependency" },
-    [pscustomobject]@{ Name = "IPC0"; Native = "QCOM050E"; Alias = "QCOM250E"; ExpectedService = "qcipcrtr"; Role = "ADSP dependency" },
+    [pscustomobject]@{ Name = "IPC0"; Native = "QCOM050E"; Alias = "QCOM250E"; ExpectedService = "QCIPC_ROUTER"; Role = "ADSP dependency" },
     [pscustomobject]@{ Name = "PDSR"; Native = "QCOM057C"; Alias = "QCOM257C"; ExpectedService = "qcpdsr"; Role = "SSDD dependency" },
     [pscustomobject]@{ Name = "TFTP"; Native = "QCOM058B"; Alias = "QCOM258B"; ExpectedService = "QcTftpKmdf"; Role = "SSDD dependency" },
     [pscustomobject]@{ Name = "SSDD"; Native = "QCOM0522"; Alias = "QCOM2522"; ExpectedService = "qcsubsys"; Role = "ADSP dependency" },
