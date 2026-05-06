@@ -1,0 +1,31 @@
+﻿[2026-05-06 13:20:32] Applying Alioth audio PDSR/TFTP phase5 narrow driver experiment.
+[2026-05-06 13:20:32] WindowsDrive=D
+[2026-05-06 13:20:32] PdsrDriverRoot=C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry
+[2026-05-06 13:20:32] TftpDriverRoot=C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports
+[2026-05-06 13:20:32] Preparing PDSR driver from C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry
+[2026-05-06 13:20:33] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry\qcpdsr.cat => UnknownError; CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+[2026-05-06 13:20:33] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry\qcpdsr.sys => Valid; CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+[2026-05-06 13:20:33] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry\qcpdsr.inf
+[2026-05-06 13:20:44] 
+[2026-05-06 13:20:44] 部署映像服务和管理工具
+[2026-05-06 13:20:44] 版本: 10.0.18362.1379
+[2026-05-06 13:20:44] 
+[2026-05-06 13:20:44] 映像版本: 10.0.22621.6060
+[2026-05-06 13:20:44] 
+[2026-05-06 13:20:44] 找到 1 个要安装的驱动程序包。
+[2026-05-06 13:20:44] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\ProtectionDomainServiceRegistry\qcpdsr.inf: 驱动程序包已成功安装。
+[2026-05-06 13:20:44] 操作成功完成。
+[2026-05-06 13:20:44] Preparing TFTP driver from C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports
+[2026-05-06 13:20:44] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports\QcTftpKmdf.cat => UnknownError; CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+[2026-05-06 13:20:44] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports\QcTftpKmdf.sys => Valid; CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+[2026-05-06 13:20:44] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports\QcTftpKmdf.inf
+[2026-05-06 13:20:47] 
+[2026-05-06 13:20:47] 部署映像服务和管理工具
+[2026-05-06 13:20:47] 版本: 10.0.18362.1379
+[2026-05-06 13:20:47] 
+[2026-05-06 13:20:47] 映像版本: 10.0.22621.6060
+[2026-05-06 13:20:47] 
+[2026-05-06 13:20:47] 找到 1 个要安装的驱动程序包。
+[2026-05-06 13:20:47] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\Transports\QcTftpKmdf.inf: 驱动程序包已成功安装。
+[2026-05-06 13:20:47] 操作成功完成。
+[2026-05-06 13:20:47] PDSR/TFTP phase5 apply completed. Boot Mu-alioth phase5, then run Trace-AliothAcpiPhase3State.ps1 and Trace-AliothAudioDependencyState.ps1.
