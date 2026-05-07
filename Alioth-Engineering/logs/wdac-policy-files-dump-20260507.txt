@@ -1,0 +1,90 @@
+==== D:\Windows\System32\CodeIntegrity\driversipolicy.p7b ====
+
+>   CMSG_SIGNED_DATA_PKCS_1_5_VERSION(1)
+    ????????: 1.3.6.1.4.1.311.79.1
+  
+> CERT_CHAIN_POLICY_BASE
+  -------- CERT_CHAIN_CONTEXT --------
+  ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+>   Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2024/9/13 4:04
+    NotAfter: 2025/9/12 4:04
+>   Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 33000004a882e6b8ac1c5d5ff00000000004a8
+    SubjectAltName: Directory Address:SERIALNUMBER="229879+502957", OU=Microsoft Corporation
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+    Element.dwErrorStatus = CERT_TRUST_IS_NOT_TIME_VALID (0x1)
+>   Issuer: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2011/10/20 2:41
+    NotAfter: 2026/10/20 2:51
+>   Subject: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 61077656000000000008
+    Template: SubCA
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  
+>   Issuer: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2010/6/24 5:57
+    NotAfter: 2035/6/24 6:04
+>   Subject: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 28cc3a25bfba44ac449a9b586b4339aa
+    Cert: 3b1efd3a66ea28b16697394703a72ca340a05bd5
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  
+>   Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2024/9/13 4:04
+    NotAfter: 2025/9/12 4:04
+>   Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 33000004a882e6b8ac1c5d5ff00000000004a8
+    SubjectAltName: Directory Address:SERIALNUMBER="229879+502957", OU=Microsoft Corporation
+> CMSG_SIGNER_INFO_PKCS_1_5_VERSION(1)
+  CERT_ID_ISSUER_SERIAL_NUMBER(1)
+      ???§Ü?: 33000004a882e6b8ac1c5d5ff00000000004a8
+
+
+
+==== D:\Windows\System32\CodeIntegrity\VbsSiPolicy.p7b ====
+
+>   CMSG_SIGNED_DATA_PKCS_1_5_VERSION(1)
+    ????????: 1.3.6.1.4.1.311.79.1
+  
+> CERT_CHAIN_POLICY_BASE
+  -------- CERT_CHAIN_CONTEXT --------
+  ChainContext.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+>   Issuer: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2025/6/20 2:11
+    NotAfter: 2026/6/18 2:11
+>   Subject: CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 3300000519daddaa8bdc44b292000000000519
+    SubjectAltName: Directory Address:SERIALNUMBER="229879+505326", OU=Microsoft Corporation
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+    Application[0] = 1.3.6.1.4.1.311.10.3.6 Windows ????????
+>   Issuer: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2011/10/20 2:41
+    NotAfter: 2026/10/20 2:51
+>   Subject: CN=Microsoft Windows Production PCA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 61077656000000000008
+    Template: SubCA
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  
+>   Issuer: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    NotBefore: 2010/6/24 5:57
+    NotAfter: 2035/6/24 6:04
+>   Subject: CN=Microsoft Root Certificate Authority 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+    Serial: 28cc3a25bfba44ac449a9b586b4339aa
+    Cert: 3b1efd3a66ea28b16697394703a72ca340a05bd5
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_CA_REVOCATION (0x10)
+>   Element.dwInfoStatus = CERT_TRUST_AUTO_UPDATE_END_REVOCATION (0x20)
+    Element.dwInfoStatus = CERT_TRUST_HAS_PREFERRED_ISSUER (0x100)
+  
+> CMSG_SIGNER_INFO_PKCS_1_5_VERSION(1)
+  CERT_ID_ISSUER_SERIAL_NUMBER(1)
+      ???§Ü?: 3300000519daddaa8bdc44b292000000000519
+
+
+

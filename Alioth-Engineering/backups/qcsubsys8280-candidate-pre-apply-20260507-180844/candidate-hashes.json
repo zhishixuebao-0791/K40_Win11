@@ -1,0 +1,17 @@
+﻿[
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "C1A02521C045DAB516CB0BC98A8DEC96E00824A1ABBD155F3794F1E282C8760A",
+        "Path":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcsubsys8280\\qcsubsys8280.inf"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "A5CD92B4996B721B6ED99EAA133CB5F63F9AF605BABAE2F4A0EB7DA5ACDBEBD2",
+        "Path":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcsubsys8280\\qcsubsys8280.cat"
+    },
+    {
+        "Algorithm":  "SHA256",
+        "Hash":  "4DBA00A1B636D6B5737DAE82324B65E3E71FA0D969B06BEEB0B6DFF591D6A1DF",
+        "Path":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcsubsys8280\\qcsubsys8280.sys"
+    }
+]

@@ -1,0 +1,30 @@
+﻿Offline Windows root: D:\
+CodeIntegrity root: D:\Windows\System32\CodeIntegrity
+
+== driversipolicy.p7b ==
+Length: 229162
+LastWriteTime: 2026-04-14T19:34:42
+SHA256: B751601D6165D9D505F60057AD479417F68C6B574E9F2AADA3991D130916C74F
+SignatureStatus: UnknownError
+Signer: 
+Issuer: 
+
+== VbsSiPolicy.p7b ==
+Length: 68351
+LastWriteTime: 2026-04-14T19:39:48
+SHA256: B120EB25EC2274277FFD09A96ADF8B12E2AA9392FF476A7604D863B941943D7D
+SignatureStatus: UnknownError
+Signer: 
+Issuer: 
+
+== driver.stl ==
+Length: 15113
+LastWriteTime: 2026-04-14T19:34:36
+SHA256: DA879DB36A851772A633574EDF8E5BEBC7B6C94D74FFC493E2C2C065CF929DB8
+SignatureStatus: UnknownError
+Signer: CN=Microsoft Revoked List Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+Issuer: CN=Microsoft Certificate List CA 2011, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+
+== SiPolicy.p7b ==
+missing
+

@@ -9,8 +9,8 @@
               - device-specific Xiaomi alioth packages under components\Devices\Alioth
 
               Reference patterns:
-              - .\源码\windows_xiaomi_platforms_sparse\definitions\Desktop\ARM64\Internal\vayu.xml
-              - .\源码\windows_xiaomi_platforms_sparse\definitions\Desktop\ARM64\PE\vayu.xml
+              - .\sound_code\windows_xiaomi_platforms_sparse\definitions\Desktop\ARM64\Internal\vayu.xml
+              - .\sound_code\windows_xiaomi_platforms_sparse\definitions\Desktop\ARM64\PE\vayu.xml
             -->
 
             <!-- Example placeholders. Replace with real files when the packs exist. -->

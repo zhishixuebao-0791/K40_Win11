@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 ﻿[2026-04-25 10:23:16] Applying Alioth audio ADSP phase 1b.
-[2026-04-25 10:23:16] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
+[2026-04-25 10:23:16] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] 部署映像服务和管理工具
 [2026-04-25 10:23:33] 版本: 10.0.18362.1379
@@ -9,20 +9,20 @@
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] 正在搜索要安装的驱动程序包...
 [2026-04-25 10:23:33] 找到 1 个要安装的驱动程序包。
-[2026-04-25 10:23:33] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\CombinedSubsystem\qcsubsys8250.inf: 驱动程序包已成功安装。
+[2026-04-25 10:23:33] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\CombinedSubsystem\qcsubsys8250.inf: 驱动程序包已成功安装。
 [2026-04-25 10:23:33] 操作成功完成。
 [2026-04-25 10:23:33] Running: reg.exe load HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_15736 D:\Windows\System32\Config\SYSTEM
 [2026-04-25 10:23:33] 操作成功完成。
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ADSP_SYSTEM_15736\ControlSet001\Enum\ACPI\QCOM051D
-[2026-04-25 10:23:33] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-102333.json
+[2026-04-25 10:23:33] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-102333.json
 [2026-04-25 10:23:34] Running: reg.exe unload HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_15736
 [2026-04-25 10:23:34] 错误: 拒绝访问。
 [2026-04-25 10:23:34] System.Management.Automation.RemoteException
 [2026-04-25 10:23:34] Phase-1b ADSP alias apply completed. Boot Mu-alioth and run Trace-AudioAliasState.ps1.
 =======
 ﻿[2026-04-25 10:23:16] Applying Alioth audio ADSP phase 1b.
-[2026-04-25 10:23:16] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
+[2026-04-25 10:23:16] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] 部署映像服务和管理工具
 [2026-04-25 10:23:33] 版本: 10.0.18362.1379
@@ -31,13 +31,13 @@
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] 正在搜索要安装的驱动程序包...
 [2026-04-25 10:23:33] 找到 1 个要安装的驱动程序包。
-[2026-04-25 10:23:33] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\CombinedSubsystem\qcsubsys8250.inf: 驱动程序包已成功安装。
+[2026-04-25 10:23:33] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\CombinedSubsystem\qcsubsys8250.inf: 驱动程序包已成功安装。
 [2026-04-25 10:23:33] 操作成功完成。
 [2026-04-25 10:23:33] Running: reg.exe load HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_15736 D:\Windows\System32\Config\SYSTEM
 [2026-04-25 10:23:33] 操作成功完成。
 [2026-04-25 10:23:33] 
 [2026-04-25 10:23:33] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ADSP_SYSTEM_15736\ControlSet001\Enum\ACPI\QCOM051D
-[2026-04-25 10:23:33] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-102333.json
+[2026-04-25 10:23:33] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-102333.json
 [2026-04-25 10:23:34] Running: reg.exe unload HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_15736
 [2026-04-25 10:23:34] 错误: 拒绝访问。
 [2026-04-25 10:23:34] System.Management.Automation.RemoteException

@@ -1,0 +1,5 @@
+﻿WindowsRoot=D:\
+EspRoot=
+PolicyPresentCount=0
+If the 784C/8F9C policies are present, Microsoft documents these as Windows Driver Policy audit/enforcement policies.
+If only D2BDA982 is active in CodeIntegrity events and no 784C/8F9C files exist, this system is using an older/embedded driver policy source and disabling by GUID file may not be sufficient.

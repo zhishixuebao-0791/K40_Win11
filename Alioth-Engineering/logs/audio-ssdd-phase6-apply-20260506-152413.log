@@ -1,0 +1,18 @@
+﻿[2026-05-06 15:24:13] Applying Alioth audio SSDD phase6 narrow driver experiment.
+[2026-05-06 15:24:13] WindowsDrive=D
+[2026-05-06 15:24:13] SsddDriverRoot=C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem
+[2026-05-06 15:24:13] Expected ACPI HID after Phase6 UEFI: ACPI\QCOM2522
+[2026-05-06 15:24:13] Preparing SSDD driver from C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem
+[2026-05-06 15:24:13] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsubsys8250.cat => UnknownError; CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+[2026-05-06 15:24:13] Signature: C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsubsys8250.sys => UnknownError; CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+[2026-05-06 15:24:13] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsubsys8250.inf
+[2026-05-06 15:24:25] 
+[2026-05-06 15:24:25] 部署映像服务和管理工具
+[2026-05-06 15:24:25] 版本: 10.0.18362.1379
+[2026-05-06 15:24:25] 
+[2026-05-06 15:24:25] 映像版本: 10.0.22621.6060
+[2026-05-06 15:24:25] 
+[2026-05-06 15:24:25] 找到 1 个要安装的驱动程序包。
+[2026-05-06 15:24:25] 正在安装第 1 个，共有 1 个 - oem5.inf: 驱动程序包已成功安装。
+[2026-05-06 15:24:25] 操作成功完成。
+[2026-05-06 15:24:25] SSDD phase6 apply completed. Boot Mu-alioth phase6, then run Trace-AliothAcpiPhase3State.ps1 and Trace-AliothAudioDependencyState.ps1.

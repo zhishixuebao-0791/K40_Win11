@@ -3,7 +3,7 @@
     "Created":  "2026-04-25 11:20:03",
     "WindowsDrive":  "D",
     "WindowsRoot":  "D:\\",
-    "PackageRoot":  "C:\\yjc_code\\K40刷win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
+    "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
     "Changes":  [
                     {
                         "ControlSet":  "ControlSet001",
@@ -87,7 +87,7 @@
     "Created":  "2026-04-25 11:20:03",
     "WindowsDrive":  "D",
     "WindowsRoot":  "D:\\",
-    "PackageRoot":  "C:\\yjc_code\\K40刷win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
+    "PackageRoot":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\experiments\\audio-deps-phase2a\\signed-driver-package",
     "Changes":  [
                     {
                         "ControlSet":  "ControlSet001",

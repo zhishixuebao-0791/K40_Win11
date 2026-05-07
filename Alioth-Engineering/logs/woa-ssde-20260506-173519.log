@@ -1,0 +1,28 @@
+﻿[2026-05-06 17:35:19] Applying WOA SSDE package to offline Alioth Windows image.
+[2026-05-06 17:35:19] WindowsDrive=D
+[2026-05-06 17:35:19] SsdeDriverRoot=C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE
+[2026-05-06 17:35:20] Signature: C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE\ssde.inf => UnknownError; Subject=; Issuer=; 指定的信任提供程序不认识或不支持使用者的指定格式。
+[2026-05-06 17:35:20] Signature: C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE\ssde.cat => UnknownError; Subject=CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com; Issuer=CN=Windows On Andromeda Production PCA 2023; 无法建立到信任根颁发机构的证书链。
+[2026-05-06 17:35:20] Signature: C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE\ssde.sys => UnknownError; Subject=CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com; Issuer=CN=Windows On Andromeda Production PCA 2023; 无法建立到信任根颁发机构的证书链。
+[2026-05-06 17:35:20] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE\ssde.inf
+[2026-05-06 17:36:03] 
+[2026-05-06 17:36:03] 部署映像服务和管理工具
+[2026-05-06 17:36:03] 版本: 10.0.18362.1379
+[2026-05-06 17:36:03] 
+[2026-05-06 17:36:03] 映像版本: 10.0.22621.6060
+[2026-05-06 17:36:03] 
+[2026-05-06 17:36:03] 找到 1 个要安装的驱动程序包。
+[2026-05-06 17:36:03] 正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\windows_qcom_platforms\components\ANYSOC\Support\Desktop\SUPPORT.DESKTOP.BASE\Signature\SSDE\ssde.inf: 驱动程序包已成功安装。
+[2026-05-06 17:36:03] 操作成功完成。
+[2026-05-06 17:36:03] Running: reg.exe load HKLM\ALIOTH_SSDE_SYSTEM_1594194255 D:\Windows\System32\Config\SYSTEM
+[2026-05-06 17:36:04] 操作成功完成。
+[2026-05-06 17:36:04] 
+[2026-05-06 17:36:04] Offline active control set: ControlSet001
+[2026-05-06 17:36:04] Offline registry value: ControlSet001\Control\CI\Policy\WhqlSettings=0x1
+[2026-05-06 17:36:04] Offline registry value: ControlSet001\Control\CI\Protected\Licensed=0x1
+[2026-05-06 17:36:04] Offline registry value: ControlSet001\Services\ssde\Start=0x0
+[2026-05-06 17:36:04] SSDE offline registry verification passed.
+[2026-05-06 17:36:04] Running: reg.exe unload HKLM\ALIOTH_SSDE_SYSTEM_1594194255
+[2026-05-06 17:36:04] 操作成功完成。
+[2026-05-06 17:36:04] 
+[2026-05-06 17:36:04] WOA SSDE apply completed. Boot Phase6 UEFI, then re-run AcpiPhase3State, AudioDependencyState, and QcsubsysCodeIntegrity diagnostics.

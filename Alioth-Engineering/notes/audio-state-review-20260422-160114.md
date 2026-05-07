@@ -77,7 +77,7 @@
 
 而本地刚好存在一个 **精确匹配** 的 INF：
 
-- `源码\windows_xiaomi_platforms_full\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480\fsa4480.inf`
+- `sound_code\windows_xiaomi_platforms_full\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480\fsa4480.inf`
 
 这个 INF 的匹配项就是：
 

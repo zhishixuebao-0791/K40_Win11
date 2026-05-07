@@ -1,0 +1,40 @@
+﻿[2026-05-06 18:17:26] Rolling back WOA SSDE package from offline Alioth Windows image.
+[2026-05-06 18:17:26] WindowsDrive=D
+[2026-05-06 18:17:27] Matched SSDE OEM INF: D:\Windows\INF\oem15.inf
+[2026-05-06 18:17:27] Running: reg.exe load HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362 D:\Windows\System32\Config\SYSTEM
+[2026-05-06 18:17:27] 操作成功完成。
+[2026-05-06 18:17:27] 
+[2026-05-06 18:17:27] Offline active control set: ControlSet001
+[2026-05-06 18:17:27] Control sets selected for rollback: ControlSet001
+[2026-05-06 18:17:27] Running: reg.exe export HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362\ControlSet001\Services\ssde C:\yjc_code\K40_Win11\Alioth-Engineering\logs\woa-ssde-rollback-reg-backup-20260506-181727\ControlSet001-services-ssde.reg /y
+[2026-05-06 18:17:27] 操作成功完成。
+[2026-05-06 18:17:27] 
+[2026-05-06 18:17:28] Running: reg.exe export HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362\ControlSet001\Control\CI C:\yjc_code\K40_Win11\Alioth-Engineering\logs\woa-ssde-rollback-reg-backup-20260506-181727\ControlSet001-control-ci.reg /y
+[2026-05-06 18:17:28] 操作成功完成。
+[2026-05-06 18:17:28] 
+[2026-05-06 18:17:28] Registry backup directory: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\woa-ssde-rollback-reg-backup-20260506-181727
+[2026-05-06 18:17:28] Running: reg.exe add HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362\ControlSet001\Services\ssde /v Start /t REG_DWORD /d 4 /f
+[2026-05-06 18:17:28] 操作成功完成。
+[2026-05-06 18:17:28] 
+[2026-05-06 18:17:28] Disabled offline ssde service Start=4 under ControlSet001.
+[2026-05-06 18:17:28] Running: reg.exe add HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362\ControlSet001\Control\CI\Protected /v Licensed /t REG_DWORD /d 0 /f
+[2026-05-06 18:17:28] 操作成功完成。
+[2026-05-06 18:17:28] 
+[2026-05-06 18:17:28] Running: reg.exe add HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362\ControlSet001\Control\CI\Policy /v WhqlSettings /t REG_DWORD /d 0 /f
+[2026-05-06 18:17:28] 操作成功完成。
+[2026-05-06 18:17:28] 
+[2026-05-06 18:17:28] Running: reg.exe unload HKLM\ALIOTH_SSDE_ROLLBACK_SYSTEM_1853646362
+[2026-05-06 18:17:28] 操作成功完成。
+[2026-05-06 18:17:28] 
+[2026-05-06 18:17:28] Running: dism.exe /Image:D:\ /Remove-Driver /Driver:oem15.inf
+[2026-05-06 18:17:42] 
+[2026-05-06 18:17:42] 部署映像服务和管理工具
+[2026-05-06 18:17:42] 版本: 10.0.18362.1379
+[2026-05-06 18:17:42] 
+[2026-05-06 18:17:42] 映像版本: 10.0.22621.6060
+[2026-05-06 18:17:42] 
+[2026-05-06 18:17:42] 找到 1 个要删除的驱动程序包。
+[2026-05-06 18:17:42] 正在删除第 1 个，共有 1 个 - oem15.inf: 驱动程序包已成功删除。
+[2026-05-06 18:17:42] 操作成功完成。
+[2026-05-06 18:17:42] No remaining SSDE OEM INF matched.
+[2026-05-06 18:17:42] WOA SSDE rollback completed. Boot Phase6 UEFI again. Expected result: system should no longer fail on ssde.sys; qcsubsys may return to Code 52 until we choose a safer signing path.

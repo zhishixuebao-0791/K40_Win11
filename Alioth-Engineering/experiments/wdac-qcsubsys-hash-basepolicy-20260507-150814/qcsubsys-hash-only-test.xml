@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SiPolicy xmlns="urn:schemas-microsoft-com:sipolicy" PolicyType="Base Policy">
+  <VersionEx>10.0.0.0</VersionEx>
+  <PlatformID>{2E07F7E4-194C-4D20-B7C9-6F44A6C5A234}</PlatformID>
+  <Rules>
+    <Rule>
+      <Option>Enabled:Unsigned System Integrity Policy</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Audit Mode</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:Advanced Boot Options Menu</Option>
+    </Rule>
+    <Rule>
+      <Option>Required:Enforce Store Applications</Option>
+    </Rule>
+    <Rule>
+      <Option>Enabled:UMCI</Option>
+    </Rule>
+    <Rule>
+      <Option>Disabled:Script Enforcement</Option>
+    </Rule>
+  </Rules>
+  <!--EKUS-->
+  <EKUs />
+  <!--File Rules-->
+  <FileRules>
+    <Allow ID="ID_ALLOW_A_3" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Sha1" Hash="8F18117F15A55AADE03CF1AC44502CEF4CDC7A60" />
+    <Allow ID="ID_ALLOW_A_4" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Sha256" Hash="08544BB066ECBC8D9EB1BC89419369E285EA995DAE56C35250C2BAD428CE3A86" />
+    <Allow ID="ID_ALLOW_A_5" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Page Sha1" Hash="E4A1076D78D6B4487BF1446A060D5044E5A484D4" />
+    <Allow ID="ID_ALLOW_A_6" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Page Sha256" Hash="7BBE5C276DD895C09959933070A23CCBF6C5B6EBC23D058F0B36ADEFCF2CAFCA" />
+    <Allow ID="ID_ALLOW_A_7" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Sha1" Hash="8F18117F15A55AADE03CF1AC44502CEF4CDC7A60" />
+    <Allow ID="ID_ALLOW_A_8" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Sha256" Hash="08544BB066ECBC8D9EB1BC89419369E285EA995DAE56C35250C2BAD428CE3A86" />
+    <Allow ID="ID_ALLOW_A_9" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Page Sha1" Hash="E4A1076D78D6B4487BF1446A060D5044E5A484D4" />
+    <Allow ID="ID_ALLOW_A_A" FriendlyName="C:\Windows\System32\DriverStore\FileRepository\qcsubsys8250.inf_arm64_e2cfb35104da8880\qcsubsys8250.sys Hash Page Sha256" Hash="7BBE5C276DD895C09959933070A23CCBF6C5B6EBC23D058F0B36ADEFCF2CAFCA" />
+  </FileRules>
+  <!--Signers-->
+  <Signers />
+  <!--Driver Signing Scenarios-->
+  <SigningScenarios>
+    <SigningScenario Value="131" ID="ID_SIGNINGSCENARIO_DRIVERS_1" FriendlyName="Auto generated policy on 05-07-2026">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_3" />
+          <FileRuleRef RuleID="ID_ALLOW_A_4" />
+          <FileRuleRef RuleID="ID_ALLOW_A_5" />
+          <FileRuleRef RuleID="ID_ALLOW_A_6" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+    <SigningScenario Value="12" ID="ID_SIGNINGSCENARIO_WINDOWS" FriendlyName="Auto generated policy on 05-07-2026">
+      <ProductSigners>
+        <FileRulesRef>
+          <FileRuleRef RuleID="ID_ALLOW_A_7" />
+          <FileRuleRef RuleID="ID_ALLOW_A_8" />
+          <FileRuleRef RuleID="ID_ALLOW_A_9" />
+          <FileRuleRef RuleID="ID_ALLOW_A_A" />
+        </FileRulesRef>
+      </ProductSigners>
+    </SigningScenario>
+  </SigningScenarios>
+  <UpdatePolicySigners />
+  <CiSigners />
+  <HvciOptions>0</HvciOptions>
+  <BasePolicyID>{2C23D92F-C424-44DA-8EB0-DE6FD670EB71}</BasePolicyID>
+  <PolicyID>{2C23D92F-C424-44DA-8EB0-DE6FD670EB71}</PolicyID>
+</SiPolicy>

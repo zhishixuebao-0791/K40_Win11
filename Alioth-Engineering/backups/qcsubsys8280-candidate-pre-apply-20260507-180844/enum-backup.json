@@ -1,0 +1,34 @@
+﻿[
+    {
+        "Key":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\ALIOTH_QCSUBSYS8280_SYSTEM_7972\\ControlSet001\\Enum\\ACPI\\QCOM2522\\2\u0026daba3ff\u00260",
+        "HardwareID":  [
+                           "ACPI\\VEN_QCOM\u0026DEV_2522\u0026SUBSYS_MTP08250",
+                           "ACPI\\QCOM2522",
+                           "*QCOM2522"
+                       ],
+        "CompatibleIDs":  [
+                              "ACPI\\VEN_QCOM\u0026DEV_2522"
+                          ],
+        "NewCompatibleIDs":  [
+                                 "ACPI\\VEN_QCOM\u0026DEV_2522",
+                                 "ACPI\\QCOM0620"
+                             ],
+        "AliasAdded":  "ACPI\\QCOM0620"
+    },
+    {
+        "Key":  "Microsoft.PowerShell.Core\\Registry::HKEY_LOCAL_MACHINE\\ALIOTH_QCSUBSYS8280_SYSTEM_7972\\ControlSet001\\Enum\\ACPI\\QCOM0522\\2\u0026daba3ff\u00260",
+        "HardwareID":  [
+                           "ACPI\\VEN_QCOM\u0026DEV_0522\u0026SUBSYS_MTP08250",
+                           "ACPI\\QCOM0522",
+                           "*QCOM0522"
+                       ],
+        "CompatibleIDs":  [
+                              "ACPI\\VEN_QCOM\u0026DEV_0522"
+                          ],
+        "NewCompatibleIDs":  [
+                                 "ACPI\\VEN_QCOM\u0026DEV_0522",
+                                 "ACPI\\QCOM0620"
+                             ],
+        "AliasAdded":  "ACPI\\QCOM0620"
+    }
+]

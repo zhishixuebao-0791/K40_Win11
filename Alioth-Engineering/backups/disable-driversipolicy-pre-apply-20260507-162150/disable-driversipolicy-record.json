@@ -1,0 +1,10 @@
+﻿{
+    "AppliedAt":  "2026-05-07T16:21:51",
+    "WindowsDrive":  "D",
+    "OriginalPath":  "D:\\Windows\\System32\\CodeIntegrity\\driversipolicy.p7b",
+    "DisabledPath":  "D:\\Windows\\System32\\CodeIntegrity\\driversipolicy.p7b.disabled-by-alioth-20260507-162151",
+    "OriginalSha256":  "B751601D6165D9D505F60057AD479417F68C6B574E9F2AADA3991D130916C74F",
+    "OriginalLength":  229162,
+    "SignatureStatus":  "UnknownError",
+    "BackupDir":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\disable-driversipolicy-pre-apply-20260507-162150"
+}

@@ -64,22 +64,22 @@
 
 第一轮只允许从以下目录中挑选候选内容：
 
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\ADCM`
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\Device`
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\AudMiniport`
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\Slimbus`
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\RPC\ADSPRPC`
-- `源码\windows_silicon_qcom_kona\Drivers\Audio\RPC\ADSPRPCD`
-- `源码\windows_silicon_qcom_kona\Extensions\Audio\ACDB\MTP`
-- `源码\windows_silicon_qcom_kona\Extensions\Audio\AudMiniport\MTP`
-- `源码\windows_silicon_qcom_kona\Extensions\Audio\Device`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\ADCM`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\Device`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\AudMiniport`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\Slimbus`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\RPC\ADSPRPC`
+- `sound_code\windows_silicon_qcom_kona\Drivers\Audio\RPC\ADSPRPCD`
+- `sound_code\windows_silicon_qcom_kona\Extensions\Audio\ACDB\MTP`
+- `sound_code\windows_silicon_qcom_kona\Extensions\Audio\AudMiniport\MTP`
+- `sound_code\windows_silicon_qcom_kona\Extensions\Audio\Device`
 
 ## 明确排除项
 
 第一轮必须排除：
 
-- `源码\windows_silicon_qcom_kona\Drivers\SOC`
-- `源码\windows_silicon_qcom_kona\Drivers\USBFn`
+- `sound_code\windows_silicon_qcom_kona\Drivers\SOC`
+- `sound_code\windows_silicon_qcom_kona\Drivers\USBFn`
 - 任何 PMIC / PCIe / USBFn / 平台总线 / 启动级核心驱动
 - 任何来源不明的整包导入
 

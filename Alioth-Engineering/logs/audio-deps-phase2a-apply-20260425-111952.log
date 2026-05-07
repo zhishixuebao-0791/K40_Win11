@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 ﻿[2026-04-25 11:19:52] Applying Alioth audio dependency phase 2a.
-[2026-04-25 11:19:52] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package /Recurse
+[2026-04-25 11:19:52] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package /Recurse
 [2026-04-25 11:20:02] 
 [2026-04-25 11:20:02] 部署映像服务和管理工具
 [2026-04-25 11:20:02] 版本: 10.0.18362.1379
@@ -9,10 +9,10 @@
 [2026-04-25 11:20:02] 
 [2026-04-25 11:20:02] 正在搜索要安装的驱动程序包...
 [2026-04-25 11:20:02] 找到 4 个要安装的驱动程序包。
-[2026-04-25 11:20:02] 正在安装第 1 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\HexagonLoader\qcpil8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 2 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\ResetProtectionEnabler\qcrpen8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 3 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SCM\qcscm8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 4 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SMMU\qcsmmu8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 1 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\HexagonLoader\qcpil8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 2 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\ResetProtectionEnabler\qcrpen8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 3 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SCM\qcscm8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 4 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SMMU\qcsmmu8250.inf: 驱动程序包已成功安装。
 [2026-04-25 11:20:02] 操作成功完成。
 [2026-04-25 11:20:02] Running: reg.exe load HKLM\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316 D:\Windows\System32\Config\SYSTEM
 [2026-04-25 11:20:02] 操作成功完成。
@@ -21,14 +21,14 @@
 [2026-04-25 11:20:02] Added compatible alias ACPI\QCOM2533 to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\QCOM0533\2&daba3ff&0
 [2026-04-25 11:20:02] Added compatible alias ACPI\VEN_QCOM&DEV_2509&REV_0002 to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1
 [2026-04-25 11:20:03] Added compatible alias ACPI\QCOM250B to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\QCOM050B\0
-[2026-04-25 11:20:03] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-deps-phase2a-backup-20260425-112003.json
+[2026-04-25 11:20:03] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-deps-phase2a-backup-20260425-112003.json
 [2026-04-25 11:20:03] Running: reg.exe unload HKLM\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316
 [2026-04-25 11:20:03] 错误: 拒绝访问。
 [2026-04-25 11:20:03] System.Management.Automation.RemoteException
 [2026-04-25 11:20:03] Phase-2a dependency alias apply completed. Boot Mu-alioth, then collect AudioRootTrace/AudioRootCause and run dependency enum again.
 =======
 ﻿[2026-04-25 11:19:52] Applying Alioth audio dependency phase 2a.
-[2026-04-25 11:19:52] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package /Recurse
+[2026-04-25 11:19:52] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package /Recurse
 [2026-04-25 11:20:02] 
 [2026-04-25 11:20:02] 部署映像服务和管理工具
 [2026-04-25 11:20:02] 版本: 10.0.18362.1379
@@ -37,10 +37,10 @@
 [2026-04-25 11:20:02] 
 [2026-04-25 11:20:02] 正在搜索要安装的驱动程序包...
 [2026-04-25 11:20:02] 找到 4 个要安装的驱动程序包。
-[2026-04-25 11:20:02] 正在安装第 1 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\HexagonLoader\qcpil8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 2 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\ResetProtectionEnabler\qcrpen8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 3 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SCM\qcscm8250.inf: 驱动程序包已成功安装。
-[2026-04-25 11:20:02] 正在安装第 4 个，共有 4 个 - C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SMMU\qcsmmu8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 1 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\HexagonLoader\qcpil8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 2 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\ResetProtectionEnabler\qcrpen8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 3 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SCM\qcscm8250.inf: 驱动程序包已成功安装。
+[2026-04-25 11:20:02] 正在安装第 4 个，共有 4 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-deps-phase2a\signed-driver-package\SMMU\qcsmmu8250.inf: 驱动程序包已成功安装。
 [2026-04-25 11:20:02] 操作成功完成。
 [2026-04-25 11:20:02] Running: reg.exe load HKLM\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316 D:\Windows\System32\Config\SYSTEM
 [2026-04-25 11:20:02] 操作成功完成。
@@ -49,7 +49,7 @@
 [2026-04-25 11:20:02] Added compatible alias ACPI\QCOM2533 to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\QCOM0533\2&daba3ff&0
 [2026-04-25 11:20:02] Added compatible alias ACPI\VEN_QCOM&DEV_2509&REV_0002 to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1
 [2026-04-25 11:20:03] Added compatible alias ACPI\QCOM250B to HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316\ControlSet001\Enum\ACPI\QCOM050B\0
-[2026-04-25 11:20:03] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-deps-phase2a-backup-20260425-112003.json
+[2026-04-25 11:20:03] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-deps-phase2a-backup-20260425-112003.json
 [2026-04-25 11:20:03] Running: reg.exe unload HKLM\ALIOTH_AUDIO_DEPS2A_SYSTEM_7316
 [2026-04-25 11:20:03] 错误: 拒绝访问。
 [2026-04-25 11:20:03] System.Management.Automation.RemoteException

@@ -1,0 +1,8 @@
+﻿# Dry run:
+powershell -NoProfile -ExecutionPolicy Bypass -File "C:\yjc_code\K40_Win11\tools\Apply-WdacBasePolicyExperiment-Admin.ps1" -WindowsDrive D -CandidatePolicyPath "C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\wdac-qcsubsys-hash-basepolicy-20260507-150814\qcsubsys-hash-only-test.p7b" -AllowNonMicrosoftSignedCandidate -RiskAcknowledgement I_UNDERSTAND_THIS_CAN_BREAK_BOOT
+
+# Actual high-risk apply:
+powershell -NoProfile -ExecutionPolicy Bypass -File "C:\yjc_code\K40_Win11\tools\Apply-WdacBasePolicyExperiment-Admin.ps1" -WindowsDrive D -CandidatePolicyPath "C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\wdac-qcsubsys-hash-basepolicy-20260507-150814\qcsubsys-hash-only-test.p7b" -AllowNonMicrosoftSignedCandidate -RiskAcknowledgement I_UNDERSTAND_THIS_CAN_BREAK_BOOT -Apply
+
+# Rollback example, replace <backup-dir> with the backup directory printed by apply:
+powershell -NoProfile -ExecutionPolicy Bypass -File "C:\yjc_code\K40_Win11\tools\Rollback-WdacBasePolicy-Admin.ps1" -WindowsDrive D -BackupDir "<backup-dir>"

@@ -1,0 +1,63 @@
+﻿[2026-05-07 18:08:45] Running: dism.exe /Image:D:\ /Get-Drivers /Format:Table
+
+部署映像服务和管理工具
+版本: 10.0.18362.1379
+
+映像版本: 10.0.22621.6060
+
+正在从驱动程序存储中获得第三方驱动程序列表...
+
+驱动程序包列表:
+
+
+--------- | ------------------------- | ------ | --------- | ----------------------------------- | ---------- | ------------
+已发布的名称    | 原始文件名                     | 内置驱动程序 | 类名称       | 提供程序名称                              | 日期         | 版本          
+--------- | ------------------------- | ------ | --------- | ----------------------------------- | ---------- | ------------
+oem0.inf  | rustdeskprinterdriver.inf | 否      | Printer   | RustDesk                            | 2025/7/26  | 8.42.23.206 
+oem1.inf  | fsa4480.inf               | 否      | USBDevice | DuoWoA authors                      | 2024/3/23  | 21.16.19.177
+oem10.inf | qcglink8250.inf           | 否      | System    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+oem11.inf | qcipcrouter8250.inf       | 否      | SYSTEM    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem12.inf | qcpdsr.inf                | 否      | SYSTEM    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem13.inf | qctftpkmdf.inf            | 否      | SYSTEM    | Qualcomm Technologies, Incorporated | 2024/7/4   | 1.0.2100.0  
+oem14.inf | desktopsignature.inf      | 否      | SYSTEM    | DuoWoA authors                      | 2019/8/8   | 1.0.0.0     
+oem2.inf  | qcadsprpc8250.inf         | 否      | SYSTEM    | Qualcomm Technologies, Inc.         | 2021/12/15 | 1.0.1680.0  
+oem3.inf  | qcadsprpcd8250.inf        | 否      | SYSTEM    | Qualcomm Technologies, Inc.         | 2021/12/15 | 1.0.1680.0  
+oem4.inf  | audioservice8250.inf      | 否      | SYSTEM    | Qualcomm Technologies Inc.          | 2017/9/1   | 1.0.6200.0  
+oem5.inf  | qcsubsys8250.inf          | 否      | SYSTEM    | Qualcomm Technologies, Incorporated | 2024/10/30 | 1.0.2140.0  
+oem6.inf  | qcpil8250.inf             | 否      | System    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem7.inf  | qcrpen8250.inf            | 否      | System    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem8.inf  | qcscm8250.inf             | 否      | SYSTEM    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+oem9.inf  | qcsmmu8250.inf            | 否      | System    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+
+操作成功完成。
+
+部署映像服务和管理工具
+版本: 10.0.18362.1379
+
+映像版本: 10.0.22621.6060
+
+正在从驱动程序存储中获得第三方驱动程序列表...
+
+驱动程序包列表:
+
+
+--------- | ------------------------- | ------ | --------- | ----------------------------------- | ---------- | ------------
+已发布的名称    | 原始文件名                     | 内置驱动程序 | 类名称       | 提供程序名称                              | 日期         | 版本          
+--------- | ------------------------- | ------ | --------- | ----------------------------------- | ---------- | ------------
+oem0.inf  | rustdeskprinterdriver.inf | 否      | Printer   | RustDesk                            | 2025/7/26  | 8.42.23.206 
+oem1.inf  | fsa4480.inf               | 否      | USBDevice | DuoWoA authors                      | 2024/3/23  | 21.16.19.177
+oem10.inf | qcglink8250.inf           | 否      | System    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+oem11.inf | qcipcrouter8250.inf       | 否      | SYSTEM    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem12.inf | qcpdsr.inf                | 否      | SYSTEM    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem13.inf | qctftpkmdf.inf            | 否      | SYSTEM    | Qualcomm Technologies, Incorporated | 2024/7/4   | 1.0.2100.0  
+oem14.inf | desktopsignature.inf      | 否      | SYSTEM    | DuoWoA authors                      | 2019/8/8   | 1.0.0.0     
+oem2.inf  | qcadsprpc8250.inf         | 否      | SYSTEM    | Qualcomm Technologies, Inc.         | 2021/12/15 | 1.0.1680.0  
+oem3.inf  | qcadsprpcd8250.inf        | 否      | SYSTEM    | Qualcomm Technologies, Inc.         | 2021/12/15 | 1.0.1680.0  
+oem4.inf  | audioservice8250.inf      | 否      | SYSTEM    | Qualcomm Technologies Inc.          | 2017/9/1   | 1.0.6200.0  
+oem5.inf  | qcsubsys8250.inf          | 否      | SYSTEM    | Qualcomm Technologies, Incorporated | 2024/10/30 | 1.0.2140.0  
+oem6.inf  | qcpil8250.inf             | 否      | System    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem7.inf  | qcrpen8250.inf            | 否      | System    | Qualcomm Incorporated               | 2024/7/4   | 1.0.2100.0  
+oem8.inf  | qcscm8250.inf             | 否      | SYSTEM    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+oem9.inf  | qcsmmu8250.inf            | 否      | System    | Qualcomm Inc.                       | 2024/7/4   | 1.0.2100.0  
+
+操作成功完成。

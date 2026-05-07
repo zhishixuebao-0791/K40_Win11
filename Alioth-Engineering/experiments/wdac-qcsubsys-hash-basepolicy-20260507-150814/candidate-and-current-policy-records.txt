@@ -1,0 +1,25 @@
+﻿
+
+Path            : D:\Code\REDMIK40_Win11\WdacRebuildability_20260507_144907\qcsubsys-hash-only-test.xml
+Present         : True
+Length          : 3804
+Sha256          : 75AC28B0E6D80FC97D7CB5F7AE74CFB6A45B32E7B7CD1C866203F57962392132
+SignatureStatus : UnknownError
+SignatureType   : None
+
+Path            : D:\Code\REDMIK40_Win11\WdacRebuildability_20260507_144907\qcsubsys-hash-only-test.p7b
+Present         : True
+Length          : 1152
+Sha256          : 921904B372B20D9CF3F6798646C7F152F5599DF22BBD2FC7631EE4848DAE7AFB
+SignatureStatus : UnknownError
+SignatureType   : None
+
+Path            : D:\Windows\System32\CodeIntegrity\driversipolicy.p7b
+Present         : True
+Length          : 229162
+Sha256          : B751601D6165D9D505F60057AD479417F68C6B574E9F2AADA3991D130916C74F
+SignatureStatus : UnknownError
+SignatureType   : None
+
+
+

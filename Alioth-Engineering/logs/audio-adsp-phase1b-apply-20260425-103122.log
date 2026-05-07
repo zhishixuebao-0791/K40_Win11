@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 ﻿[2026-04-25 10:31:22] Applying Alioth audio ADSP phase 1b.
-[2026-04-25 10:31:22] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
+[2026-04-25 10:31:22] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
 [2026-04-25 10:31:36] 
 [2026-04-25 10:31:36] 部署映像服务和管理工具
 [2026-04-25 10:31:36] 版本: 10.0.18362.1379
@@ -15,14 +15,14 @@
 [2026-04-25 10:31:36] 操作成功完成。
 [2026-04-25 10:31:36] 
 [2026-04-25 10:31:36] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ADSP_SYSTEM_8064\ControlSet001\Enum\ACPI\QCOM051D
-[2026-04-25 10:31:36] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-103136.json
+[2026-04-25 10:31:36] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-103136.json
 [2026-04-25 10:31:37] Running: reg.exe unload HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_8064
 [2026-04-25 10:31:37] 错误: 拒绝访问。
 [2026-04-25 10:31:37] System.Management.Automation.RemoteException
 [2026-04-25 10:31:37] Phase-1b ADSP alias apply completed. Boot Mu-alioth and run Trace-AudioAliasState.ps1.
 =======
 ﻿[2026-04-25 10:31:22] Applying Alioth audio ADSP phase 1b.
-[2026-04-25 10:31:22] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40刷win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
+[2026-04-25 10:31:22] Running: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package /Recurse
 [2026-04-25 10:31:36] 
 [2026-04-25 10:31:36] 部署映像服务和管理工具
 [2026-04-25 10:31:36] 版本: 10.0.18362.1379
@@ -37,7 +37,7 @@
 [2026-04-25 10:31:36] 操作成功完成。
 [2026-04-25 10:31:36] 
 [2026-04-25 10:31:36] Device key not found, skipping alias: Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\ALIOTH_AUDIO_ADSP_SYSTEM_8064\ControlSet001\Enum\ACPI\QCOM051D
-[2026-04-25 10:31:36] Wrote registry backup: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-103136.json
+[2026-04-25 10:31:36] Wrote registry backup: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-adsp-phase1b-backup-20260425-103136.json
 [2026-04-25 10:31:37] Running: reg.exe unload HKLM\ALIOTH_AUDIO_ADSP_SYSTEM_8064
 [2026-04-25 10:31:37] 错误: 拒绝访问。
 [2026-04-25 10:31:37] System.Management.Automation.RemoteException

@@ -31,7 +31,7 @@ Prepared only.
 
 Original source path:
 
-- `源码\windows_xiaomi_platforms_full\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480`
+- `sound_code\windows_xiaomi_platforms_full\components\ANYSOC\Hardware\HARDWARE.USB.FSA4480`
 
 ## Files
 

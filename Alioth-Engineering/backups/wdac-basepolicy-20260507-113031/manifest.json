@@ -1,0 +1,70 @@
+﻿{
+    "CreatedAt":  "2026-05-07T11:30:31",
+    "WindowsDrive":  "D",
+    "OfflineWindowsRoot":  "D:\\",
+    "CodeIntegrityRoot":  "D:\\Windows\\System32\\CodeIntegrity",
+    "CoreFiles":  [
+                      {
+                          "Path":  "D:\\Windows\\System32\\CodeIntegrity\\driversipolicy.p7b",
+                          "Present":  true,
+                          "Length":  229162,
+                          "Sha256":  "B751601D6165D9D505F60057AD479417F68C6B574E9F2AADA3991D130916C74F"
+                      },
+                      {
+                          "Path":  "D:\\Windows\\System32\\CodeIntegrity\\VbsSiPolicy.p7b",
+                          "Present":  true,
+                          "Length":  68351,
+                          "Sha256":  "B120EB25EC2274277FFD09A96ADF8B12E2AA9392FF476A7604D863B941943D7D"
+                      },
+                      {
+                          "Path":  "D:\\Windows\\System32\\CodeIntegrity\\driver.stl",
+                          "Present":  true,
+                          "Length":  15113,
+                          "Sha256":  "DA879DB36A851772A633574EDF8E5BEBC7B6C94D74FFC493E2C2C065CF929DB8"
+                      },
+                      {
+                          "Path":  "D:\\Windows\\System32\\CodeIntegrity\\SiPolicy.p7b",
+                          "Present":  false,
+                          "Length":  null,
+                          "Sha256":  null
+                      }
+                  ],
+    "ActivePolicyFiles":  [
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{0283AC0F-FFF1-49AE-ADA1-8A933130CAD6}.cip",
+                                  "Present":  true,
+                                  "Length":  7079,
+                                  "Sha256":  "2668895A5B233A80432D00D67251D7B7F52686A3FB13780F4B242C5A1F937A01"
+                              },
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{0939ED82-BFD5-4D32-B58E-D31D3C49715A}.cip",
+                                  "Present":  true,
+                                  "Length":  4893,
+                                  "Sha256":  "942D89E221816611B90E3F94E511F764DE7E70A82F133984E433EAF2C4649EEF"
+                              },
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{1283AC0F-FFF1-49AE-ADA1-8A933130CAD6}.cip",
+                                  "Present":  true,
+                                  "Length":  79907,
+                                  "Sha256":  "345BAAD9D502153DBE789E72A9134BE079FCE848AB1A6474B6CF2C56CC19BF7B"
+                              },
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{1678656C-05EF-481F-BC5B-EBD8C991502D}.cip",
+                                  "Present":  true,
+                                  "Length":  4655,
+                                  "Sha256":  "140CE61A30A209A23B5D43906C9BF0E8AFCD7C2CFA952F5CD04E8058EBBFAFE2"
+                              },
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{1939ED82-BFD5-4D32-B58E-D31D3C49715A}.cip",
+                                  "Present":  true,
+                                  "Length":  4913,
+                                  "Sha256":  "9C83186172DBAF920BADE91D276F8C4AA286E93408A8C2069AEC429B773B2D32"
+                              },
+                              {
+                                  "Path":  "D:\\Windows\\System32\\CodeIntegrity\\CiPolicies\\Active\\{2678656C-05EF-481F-BC5B-EBD8C991502D}.cip",
+                                  "Present":  true,
+                                  "Length":  4660,
+                                  "Sha256":  "82FE7BA94892357F0D5E37C1674722E9BFF982378C278905EE82EF821BC1A68A"
+                              }
+                          ]
+}

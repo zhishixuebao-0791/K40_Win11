@@ -1,0 +1,34 @@
+﻿
+
+Path    : D:\Windows\System32\CodeIntegrity\CiPolicies\Active\{784C4414-79F4-4C32-A6A5-F0FB42A51D0D}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+Path    : D:\Windows\System32\CodeIntegrity\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+Path    : D:\Windows\System32\CodeIntegrity\CiPolicies\Active\{D2BDA982-CCF6-4344-AC5B-0B44427B6816}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+Path    : R:\EFI\Microsoft\Boot\CiPolicies\Active\{784C4414-79F4-4C32-A6A5-F0FB42A51D0D}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+Path    : R:\EFI\Microsoft\Boot\CiPolicies\Active\{8F9CB695-5D48-48D6-A329-7202B44607E3}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+Path    : R:\EFI\Microsoft\Boot\CiPolicies\Active\{D2BDA982-CCF6-4344-AC5B-0B44427B6816}.cip
+Present : False
+Length  : 
+Sha256  : 
+
+
+

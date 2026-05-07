@@ -1,0 +1,202 @@
+﻿
+
+Path            : C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\Combine
+                  dSubsystem\qcsubsys8250.cat
+Name            : qcsubsys8250.cat
+Length          : 10981
+Sha256          : D2744FFA19275C29B32B23512F2B9711EFE73ED5B59AD2316E62E9C903074498
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\Combine
+                  dSubsystem\qcsubsys8250.inf
+Name            : qcsubsys8250.inf
+Length          : 51630
+Sha256          : 7E49436478665D64F6AFD7E5C8CD367658D7923AB5C630290B2B994166DA4A14
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\Alioth-Engineering\experiments\audio-adsp-phase1b\signed-driver-package\Combine
+                  dSubsystem\qcsubsys8250.sys
+Name            : qcsubsys8250.sys
+Length          : 738912
+Sha256          : E33AB8E622C50347184A9D5717F93576F012C549D922A5062E11D620C6A997E1
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsub
+                  sys8250.cat
+Name            : qcsubsys8250.cat
+Length          : 10981
+Sha256          : D2744FFA19275C29B32B23512F2B9711EFE73ED5B59AD2316E62E9C903074498
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsub
+                  sys8250.inf
+Name            : qcsubsys8250.inf
+Length          : 51630
+Sha256          : 7E49436478665D64F6AFD7E5C8CD367658D7923AB5C630290B2B994166DA4A14
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\Subsystems\CombinedSubsystem\qcsub
+                  sys8250.sys
+Name            : qcsubsys8250.sys
+Length          : 738912
+Sha256          : E33AB8E622C50347184A9D5717F93576F012C549D922A5062E11D620C6A997E1
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Audio\qcsubsys_ext_a
+                  dsp8250.cat
+Name            : qcsubsys_ext_adsp8250.cat
+Length          : 34166
+Sha256          : 6939D0F87EFE5DC2387B6AF8539A36AED26FAA15DBB5E5385EBC2B865ECEDF26
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Audio\qcsubsys_ext_a
+                  dsp8250.inf
+Name            : qcsubsys_ext_adsp8250.inf
+Length          : 57880
+Sha256          : 596D7C419A94BED6F2B12816F18D5410CDC84A26A27682F2924D62FEE8B4E974
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Compute\qcsubsys_ext
+                  _cdsp8250.cat
+Name            : qcsubsys_ext_cdsp8250.cat
+Length          : 27671
+Sha256          : C1BFDCC0B3183D1ADA30812E7E053FF6EA14D22190F7F44981F2CA52A5A517EB
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Compute\qcsubsys_ext
+                  _cdsp8250.inf
+Name            : qcsubsys_ext_cdsp8250.inf
+Length          : 41200
+Sha256          : CC737C084E2F1866B01ED922B3B1BE686FA4F3F217534786DA9C4CEADC1F3B97
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Modem\qcsubsys_ext_m
+                  pss8250.cat
+Name            : qcsubsys_ext_mpss8250.cat
+Length          : 17752
+Sha256          : E9889FCAA0B1DF6DB0B64741086150560CB877C3BF14F411BDDBC8EE0CA98111
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Modem\qcsubsys_ext_m
+                  pss8250.inf
+Name            : qcsubsys_ext_mpss8250.inf
+Length          : 27134
+Sha256          : E8203F1E2BCD92DCA25ED485E857374195AF249AEDB72D1CE59AB6892AB37E04
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Sensors\qcsubsys_ext
+                  _scss8250.cat
+Name            : qcsubsys_ext_scss8250.cat
+Length          : 21627
+Sha256          : 13D0F9D3DA96A1BBFE448EA1147A854FDFB0AC67913E83C736DD7E3E925B404E
+SignatureStatus : UnknownError
+Signer          : CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+Issuer          : CN=Windows On Andromeda Production PCA 2023
+
+Path            : C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Extensions\Subsystems\Sensors\qcsubsys_ext
+                  _scss8250.inf
+Name            : qcsubsys_ext_scss8250.inf
+Length          : 32604
+Sha256          : D3EECDD37CAE6AD3DDA079C1DC5A8BFF3800BE0D0DAAE8CFCFB082058974E554
+SignatureStatus : 
+Signer          : 
+Issuer          : 
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Generic\Subsystems\SSDD\qc
+                  subsys850.cat
+Name            : qcsubsys850.cat
+Length          : 15255
+Sha256          : BDDF320C7E2D7B0EB305AA86DE605C0E8C23E8C573D1055ABC85278AFB31ACB0
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Generic\Subsystems\SSDD\qc
+                  subsys850.sys
+Name            : qcsubsys850.sys
+Length          : 517168
+Sha256          : F6AC4E8C240E42CD40C24C3F76B1DDC431EA6BF6F5C1B6510B78E072B4931931
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Generic\Subsystems\Subsys_
+                  Extension\qcsubsys_extension850.cat
+Name            : qcsubsys_extension850.cat
+Length          : 28826
+Sha256          : FF5A23DBAEB2E84BB0F2892C6E62B93544D257892D6C0656C7BA1CA7EDEFFEF2
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Oneplus\Subsystems\SSDD\qc
+                  subsys850.cat
+Name            : qcsubsys850.cat
+Length          : 15255
+Sha256          : BDDF320C7E2D7B0EB305AA86DE605C0E8C23E8C573D1055ABC85278AFB31ACB0
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Oneplus\Subsystems\SSDD\qc
+                  subsys850.sys
+Name            : qcsubsys850.sys
+Length          : 517168
+Sha256          : F6AC4E8C240E42CD40C24C3F76B1DDC431EA6BF6F5C1B6510B78E072B4931931
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Oneplus\Subsystems\Subsys_
+                  Extension\qcsubsys_extension850.cat
+Name            : qcsubsys_extension850.cat
+Length          : 28826
+Sha256          : FF5A23DBAEB2E84BB0F2892C6E62B93544D257892D6C0656C7BA1CA7EDEFFEF2
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Xiaomi\Subsystems\SSDD\qcs
+                  ubsys850.cat
+Name            : qcsubsys850.cat
+Length          : 15255
+Sha256          : BDDF320C7E2D7B0EB305AA86DE605C0E8C23E8C573D1055ABC85278AFB31ACB0
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+Path            : C:\yjc_code\K40_Win11\sound_code\WOA-Drivers-main\components\SDM845\Device\Xiaomi\Subsystems\SSDD\qcs
+                  ubsys850.sys
+Name            : qcsubsys850.sys
+Length          : 517168
+Sha256          : F6AC4E8C240E42CD40C24C3F76B1DDC431EA6BF6F5C1B6510B78E072B4931931
+SignatureStatus : Valid
+Signer          : CN=QUALCOMM Incorporated, O=QUALCOMM Incorporated, L=San Diego, S=California, C=US
+Issuer          : CN=DigiCert SHA2 High Assurance Code Signing CA, OU=www.digicert.com, O=DigiCert Inc, C=US
+
+
+

@@ -116,7 +116,7 @@ ADSP QCOM051D       False QCOM251D               False Target audio DSP root
 [2026-04-25 11:07:57] reg.exe unload HKLM\ALIOTH_DEP_CHECK_12964
 [2026-04-25 11:07:57] 操作成功完成。
 [2026-04-25 11:07:57] 
-[2026-04-25 11:07:57] Wrote dependency enum log: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-dependency-enum-20260425-110753.log
+[2026-04-25 11:07:57] Wrote dependency enum log: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-dependency-enum-20260425-110753.log
 =======
 ﻿[2026-04-25 11:07:53] Checking Alioth audio dependency enumeration in D:\Windows\System32\Config\SYSTEM
 [2026-04-25 11:07:54] reg.exe load HKLM\ALIOTH_DEP_CHECK_12964 D:\Windows\System32\Config\SYSTEM
@@ -235,5 +235,5 @@ ADSP QCOM051D       False QCOM251D               False Target audio DSP root
 [2026-04-25 11:07:57] reg.exe unload HKLM\ALIOTH_DEP_CHECK_12964
 [2026-04-25 11:07:57] 操作成功完成。
 [2026-04-25 11:07:57] 
-[2026-04-25 11:07:57] Wrote dependency enum log: C:\yjc_code\K40刷win11\Alioth-Engineering\logs\audio-dependency-enum-20260425-110753.log
+[2026-04-25 11:07:57] Wrote dependency enum log: C:\yjc_code\K40_Win11\Alioth-Engineering\logs\audio-dependency-enum-20260425-110753.log
 >>>>>>> 997c2b364a3178ae7a9b408834e9221f675f1cdb
