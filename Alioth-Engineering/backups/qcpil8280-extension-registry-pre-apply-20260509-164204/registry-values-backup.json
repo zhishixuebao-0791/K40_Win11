@@ -1,0 +1,51 @@
+﻿[
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\VENUS",
+        "Name":  "MemoryAlignment",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\VENUS",
+        "Name":  "MemoryReservation",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\GFXSUC",
+        "Name":  "MemoryAlignment",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PilConfig",
+        "Name":  "HypProtectionEnabled",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PilConfig",
+        "Name":  "DoNotReturnMemoryToHLOS",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PGCM",
+        "Name":  "BaseAddress",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PGCM",
+        "Name":  "Size",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "DWord"
+    }
+]

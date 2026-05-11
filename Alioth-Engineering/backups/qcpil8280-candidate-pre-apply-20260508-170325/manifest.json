@@ -1,0 +1,17 @@
+﻿{
+    "WindowsDrive":  "D",
+    "Root":  "D:\\",
+    "CandidateRoot":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate",
+    "IncludedInfPaths":  [
+                             "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcpil\\qcpil.inf",
+                             "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcpilfilterext\\qcpilfilterext.inf"
+                         ],
+    "IncludeSubsystemExtensions":  false,
+    "BackupDir":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcpil8280-candidate-pre-apply-20260508-170325",
+    "PublishedDriversAdded":  [
+                                  "oem16.inf",
+                                  "oem17.inf"
+                              ],
+    "CreatedAt":  "2026-05-08T17:04:45",
+    "RollbackCommand":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\yjc_code\\K40_Win11\\tools\\Rollback-Qcpil8280Candidate-Admin.ps1\" -WindowsDrive D -BackupDir \"C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcpil8280-candidate-pre-apply-20260508-170325\""
+}

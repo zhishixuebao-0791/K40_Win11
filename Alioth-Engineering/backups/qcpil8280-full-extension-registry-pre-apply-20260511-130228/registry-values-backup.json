@@ -1,0 +1,86 @@
+﻿[
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\VENUS",
+        "Name":  "MemoryAlignment",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\VENUS",
+        "Name":  "MemoryReservation",
+        "Existed":  true,
+        "Value":  5242880,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\GFXSUC",
+        "Name":  "MemoryAlignment",
+        "Existed":  true,
+        "Value":  4096,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\SubsystemLoad\\GFXSUC",
+        "Name":  "MemoryReservation",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PilConfig",
+        "Name":  "HypProtectionEnabled",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PilConfig",
+        "Name":  "DoNotReturnMemoryToHLOS",
+        "Existed":  true,
+        "Value":  1,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PGCM",
+        "Name":  "BaseAddress",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\PGCM",
+        "Name":  "Size",
+        "Existed":  true,
+        "Value":  131072000,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\IMEM",
+        "Name":  "BaseAddress",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\IMEM",
+        "Name":  "Offset",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\DPOP",
+        "Name":  "GUID",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_SZ"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260\\MSAL",
+        "Name":  "Type",
+        "Existed":  false,
+        "Value":  null,
+        "Type":  "REG_DWORD"
+    }
+]

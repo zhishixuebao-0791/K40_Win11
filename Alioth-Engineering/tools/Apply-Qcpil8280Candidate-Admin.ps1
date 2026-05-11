@@ -99,8 +99,8 @@ function Get-PublishedDriverNames {
 
     $output = Invoke-Captured -FilePath dism.exe -Arguments @("/Image:$Root", "/Get-Drivers", "/Format:Table") -IgnoreExitCode
     $rows = foreach ($line in $output) {
-        if ($line -match '^(oem\d+\.inf)\s+.+$') {
-            $matches[1]
+        if ($line -match '(?i)\b(oem\d+\.inf)\b') {
+            $matches[1].ToLowerInvariant()
         }
     }
     return @($rows | Sort-Object -Unique)
@@ -131,11 +131,11 @@ $root = Resolve-OfflineWindowsRoot -Drive $WindowsDrive
 $candidateFull = (Resolve-Path -LiteralPath $CandidateRoot).Path
 
 $infPaths = @(
-    Join-Path $candidateFull "qcpil\qcpil.inf",
-    Join-Path $candidateFull "qcpilfilterext\qcpilfilterext.inf"
+    (Join-Path $candidateFull "qcpil\qcpil.inf")
+    (Join-Path $candidateFull "qcpilfilterext\qcpilfilterext.inf")
 )
 if ($IncludeSubsystemExtensions) {
-    $infPaths += Join-Path $candidateFull "qcpilext8280\qcpilEXT8280.inf"
+    $infPaths += (Join-Path $candidateFull "qcpilext8280\qcpilEXT8280.inf")
 }
 
 foreach ($infPath in $infPaths) {

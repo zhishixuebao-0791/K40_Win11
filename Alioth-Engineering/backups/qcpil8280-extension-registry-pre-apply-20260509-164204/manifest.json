@@ -1,0 +1,9 @@
+﻿{
+    "WindowsDrive":  "D",
+    "Root":  "D:\\",
+    "ControlSet":  "ControlSet001",
+    "DeviceRelativePath":  "Enum\\ACPI\\QCOM06E0\\2\u0026daba3ff\u00260",
+    "BackupDir":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcpil8280-extension-registry-pre-apply-20260509-164204",
+    "CreatedAt":  "2026-05-09T16:42:05",
+    "RollbackCommand":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\yjc_code\\K40_Win11\\tools\\Rollback-Qcpil8280ExtensionRegistryExperiment-Admin.ps1\" -WindowsDrive D -BackupDir \"C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcpil8280-extension-registry-pre-apply-20260509-164204\""
+}
