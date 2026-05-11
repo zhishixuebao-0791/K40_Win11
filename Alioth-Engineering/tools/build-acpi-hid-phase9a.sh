@@ -176,10 +176,12 @@ for k, v in checks.items():
 PY
 
 ALIOTH_ACPI="$MU_ROOT/Silicium-ACPI/Platforms/Xiaomi/alioth"
-log "Compiling patched DSDT.asl to DSDT.aml with iasl"
+log "Compiling patched DSDT.asl to DSDT.aml with iasl -f"
 (
     cd "$ALIOTH_ACPI"
-    iasl -ve -p DSDT DSDT.asl
+    # The upstream alioth DSDT carries legacy ACPICA errors unrelated to this
+    # experiment. Prior phases used binary AML patching, so force AML output here.
+    iasl -f -ve -p DSDT DSDT.asl
 )
 
 log "Verifying compiled DSDT.aml"

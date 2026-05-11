@@ -1,0 +1,58 @@
+[2026-05-11 17:33:57] Build log: /home/ucchip/K40_Win11/Alioth-Engineering/logs/mu-alioth-phase9a-build-20260511-173357.log
+[2026-05-11 17:33:57] Project root: /home/ucchip/K40_Win11
+[2026-05-11 17:33:57] Mu root: /home/ucchip/K40_Win11/sound_code/Mu-Silicium
+[2026-05-11 17:33:57] Output dir: /home/ucchip/K40_Win11/UEFI-Images
+[2026-05-11 17:33:57] Tool clang -> /usr/bin/clang
+[2026-05-11 17:33:57] Tool lld-link -> /usr/bin/lld-link
+[2026-05-11 17:33:57] Tool llvm-lib -> /usr/bin/llvm-lib-18
+[2026-05-11 17:33:57] Tool llvm-rc -> /usr/bin/llvm-rc-18
+[2026-05-11 17:33:57] Tool llvm-objcopy -> /usr/bin/llvm-objcopy-18
+[2026-05-11 17:33:57] Updating submodules
+[2026-05-11 17:33:57] Ensuring Python build dependencies
+[2026-05-11 17:33:57] Normalizing migrated CRLF in build metadata
+[2026-05-11 17:33:58] Applying phase9a ACPI patch: Phase8 HID route plus PILC _SUB MTP08280
+patched ASL, backup: /home/ucchip/K40_Win11/sound_code/Mu-Silicium/Silicium-ACPI/Platforms/Xiaomi/alioth/DSDT.asl.pre-phase9a-20260511-173358.bak
+QCOM06E0: True
+QCOM0620: True
+MTP08280: True
+QCOM051B_absent: True
+QCOM251B_absent: True
+QCOM0522_absent: True
+QCOM2522_absent: True
+[2026-05-11 17:33:58] Compiling patched DSDT.asl to DSDT.aml with iasl
+DSDT.asl    281:                 "\\_SB.PMAP"
+Error    6105 -                            ^ Invalid object type for reserved name (_DEP: found String at index 0, Reference required)
+
+DSDT.asl  62474:             Name(_CLS, 0x3000000000000)
+Error    6105 -                                      ^ Invalid object type for reserved name (_CLS: found Integer, Package required)
+
+DSDT.asl  80683:                                     Store(Zero, \_SB_.QPPX.PMON)
+Error    6084 -                                         Object does not exist ^  (\_SB_.QPPX.PMON)
+
+DSDT.asl  80684:                                     Store(Zero, \_SB_.QPPX.PMDR)
+Error    6084 -                                         Object does not exist ^  (\_SB_.QPPX.PMDR)
+
+DSDT.asl  80685:                                     Store(Zero, \_SB_.QPPX.MPON)
+Error    6084 -                                         Object does not exist ^  (\_SB_.QPPX.MPON)
+
+DSDT.asl  80687:                                     Store(One, \_SB_.QPPX.MPON)
+Error    6084 -                                        Object does not exist ^  (\_SB_.QPPX.MPON)
+
+DSDT.asl  80688:                                     Store(One, \_SB_.QPPX.PMDR)
+Error    6084 -                                        Object does not exist ^  (\_SB_.QPPX.PMDR)
+
+DSDT.asl  80690:                                     Store(One, \_SB_.QPPX.PMON)
+Error    6084 -                                        Object does not exist ^  (\_SB_.QPPX.PMON)
+
+DSDT.asl  84130:         Device(URS0)
+Error    6141 -                   ^ Missing dependency (Device object requires a _HID or _ADR)
+
+
+Intel ACPI Component Architecture
+ASL+ Optimizing Compiler/Disassembler version 20230628
+Copyright (c) 2000 - 2023 Intel Corporation
+
+ASL Input:     DSDT.asl - 3950043 bytes   4864 keywords      0 source lines
+
+Compilation failed. 9 Errors, 65 Warnings, 411 Remarks
+No AML files were generated due to compiler error(s)
