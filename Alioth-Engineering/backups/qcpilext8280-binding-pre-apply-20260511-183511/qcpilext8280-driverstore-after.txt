@@ -1,0 +1,7 @@
+﻿
+
+FullName      : D:\Windows\System32\DriverStore\FileRepository\qcpilext8280.inf_arm64_0ac6ef587d216e20
+LastWriteTime : 2026/5/11 18:35:24
+
+
+

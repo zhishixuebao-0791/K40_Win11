@@ -1,0 +1,9 @@
+﻿{
+    "WindowsDrive":  "D",
+    "Root":  "D:\\",
+    "CandidateDir":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcpilext8280",
+    "InfPath":  "C:\\yjc_code\\K40_Win11\\sound_code\\driver_candidates\\surfacepro9_5g_22621_25.070.2191.0\\extracted\\SurfaceUpdate\\qcpilext8280\\qcpilEXT8280.inf",
+    "BackupDir":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcpilext8280-binding-pre-apply-20260511-183511",
+    "CreatedAt":  "2026-05-11T18:35:25",
+    "Notes":  "Installs qcpilEXT8280 and ensures qcpilEXT8280 PILC extension registry values on ACPI\\\\QCOM06E0."
+}
