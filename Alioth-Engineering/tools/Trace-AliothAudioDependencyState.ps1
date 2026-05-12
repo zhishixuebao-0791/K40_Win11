@@ -64,6 +64,7 @@ $targets = @(
     [pscustomobject]@{ Name = "PILC"; Native = "QCOM051B"; Alias = "QCOM251B"; ExpectedService = "qcPILC"; Role = "ADSP dependency" },
     [pscustomobject]@{ Name = "PILC 8280"; Native = "QCOM051B"; Alias = "QCOM06E0"; ExpectedService = "qcPILC"; Role = "Surface 8280 PIL candidate" },
     [pscustomobject]@{ Name = "RPEN"; Native = "QCOM0533"; Alias = "QCOM2533"; ExpectedService = "QCRPEN"; Role = "GLNK/ADSP dependency" },
+    [pscustomobject]@{ Name = "PEP0"; Native = "QCOM0519"; Alias = "QCOM0519"; ExpectedService = ""; Role = "Power/dependency provider for SPSS and several subsystem roots" },
     [pscustomobject]@{ Name = "MMU0"; Native = "QCOM0509"; Alias = "DEV_2509"; ExpectedService = "qcsmmu"; Role = "ARPC dependency" },
     [pscustomobject]@{ Name = "SCM0"; Native = "QCOM050B"; Alias = "QCOM250B"; ExpectedService = "qcscm"; Role = "ARPC dependency" },
     [pscustomobject]@{ Name = "GLNK"; Native = "QCOM058D"; Alias = "QCOM258D"; ExpectedService = "qcglink"; Role = "IPC0/SSDD/ARPC dependency" },
