@@ -68,3 +68,19 @@ Phase12 should compare and patch ACPI property/resource shape for `ADSP/CDSP/SCS
 3. Compare against `windows_qcom_platforms` Surface 8280 ACPI expectations.
 4. Build a very small Phase12 UEFI only after identifying the missing ACPI metadata.
 
+## Phase12 Build Update
+
+Phase12 UEFI has been built on Ubuntu.
+
+- Build script: `/home/ucchip/K40_Win11/Alioth-Engineering/tools/build-acpi-hid-phase12.sh`
+- Build log: `/home/ucchip/K40_Win11/Alioth-Engineering/logs/mu-alioth-phase12-build-20260513-195237.log`
+- Output image: `/home/ucchip/K40_Win11/UEFI-Images/Mu-alioth-1-acpi-hid-phase12-20260513-195332.img`
+- SHA256: `63b32591f672fbb95a63eb1162da8e8a98f28f1785628e86ef9a49b5a4922750`
+
+Phase12 keeps the Phase11 `_DEP` reduction and adds standard `_DSD` metadata to the four qcsubsys roots:
+
+- RPEC GUIDs for `ADSP`, `CDSP`, `SCSS`, and `SPSS`
+- Interface GUID lists for PIL TZ, FastRPC, and GLINK where appropriate
+- ADSP audio PD metadata: `PDInfo.NumPDs = 1`, `PDInfo.0.PDName = msm/adsp/audio_pd`, `PDInfo.0.GUID = {0A35A787-A69F-4A90-8B78-0710BA7BB82C}`
+
+Validation remains required on the phone. If Code 31 remains unchanged, the next branch should treat these values as registry-backed qcsubsys inputs rather than ACPI `_DSD` inputs.
