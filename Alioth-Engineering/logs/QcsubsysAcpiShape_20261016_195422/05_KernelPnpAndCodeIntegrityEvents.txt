@@ -1,0 +1,41 @@
+﻿==== Recent Kernel-PnP and CodeIntegrity events ====
+Time: 2026-10-16 19:55:26
+
+## System
+
+
+TimeCreated      : 2026/10/16 18:48:22
+Id               : 16
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : 信息
+Message          : 已经清除配置单元 \SystemRoot\System32\config\DRIVERS 中的访问历史记录，更新 33 个项并创建 17 个已修改的页面。
+
+
+
+
+## Microsoft-Windows-CodeIntegrity/Operational
+
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+
+
+
+## Microsoft-Windows-Kernel-PnP/Configuration
+<null>

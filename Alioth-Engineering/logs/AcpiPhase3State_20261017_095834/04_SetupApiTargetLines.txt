@@ -1,0 +1,57 @@
+﻿==== SetupAPI target lines ====
+Time: 2026-10-17 10:03:16
+
+
+Path                            LineNumber Line                                                                                         
+----                            ---------- ----                                                                                         
+C:\Windows\INF\setupapi.dev.log        170 >>>  [Device Install (Hardware initiated) - ACPI\QCOM05D2\0]                                 
+C:\Windows\INF\setupapi.dev.log        173      utl: {Select Drivers - ACPI\QCOM05D2\0} 18:51:58.235                                    
+C:\Windows\INF\setupapi.dev.log        185      dvi:      acpi\qcom05d2                                                                 
+C:\Windows\INF\setupapi.dev.log        186      dvi:      *qcom05d2                                                                     
+C:\Windows\INF\setupapi.dev.log        191      dvi:      {Install Device - ACPI\QCOM05D2\0} 18:51:58.376                               
+C:\Windows\INF\setupapi.dev.log        243      dvi:                     Install Device: Starting device 'ACPI\QCOM05D2\0'. 18:51:58.812
+C:\Windows\INF\setupapi.dev.log        259 >>>  [Device Install (Hardware initiated) - ACPI\QCOM0620\2&daba3ff&0]                       
+C:\Windows\INF\setupapi.dev.log        262      utl: {Select Drivers - ACPI\QCOM0620\2&daba3ff&0} 18:30:05.461                          
+C:\Windows\INF\setupapi.dev.log        268      utl:           Configuration  - ACPI\QCOM0620                                           
+C:\Windows\INF\setupapi.dev.log        274      dvi:      {Configure Device - ACPI\QCOM0620\2&daba3ff&0} 18:30:05.523                   
+C:\Windows\INF\setupapi.dev.log        279      sto:                Source Filter  = ACPI\QCOM0620                                      
+C:\Windows\INF\setupapi.dev.log        294      inf:                     Hardware Id  = ACPI\QCOM0620                                   
+C:\Windows\INF\setupapi.dev.log        306      dvi:                Configuration: oem15.inf:ACPI\QCOM0620,*                            
+C:\Windows\INF\setupapi.dev.log        310      dvi:                Needs Reinstall: ACPI\QCOM2522\2&DABA3FF&0                          
+C:\Windows\INF\setupapi.dev.log        311      dvi:                Start: ACPI\QCOM0620\2&DABA3FF&0                                    
+C:\Windows\INF\setupapi.dev.log        407      dvi:                Needs Reinstall: ACPI\QCOM251B\2&DABA3FF&0                          
+C:\Windows\INF\setupapi.dev.log        618 >>>  [Device Install (Hardware initiated) - ACPI\QCOM068D\2&daba3ff&0]                       
+C:\Windows\INF\setupapi.dev.log        621      utl: {Select Drivers - ACPI\QCOM068D\2&daba3ff&0} 10:17:52.239                          
+C:\Windows\INF\setupapi.dev.log        627      utl:           Configuration  - ACPI\QCOM068D                                           
+C:\Windows\INF\setupapi.dev.log        633      dvi:      {Configure Device - ACPI\QCOM068D\2&daba3ff&0} 10:17:52.412                   
+C:\Windows\INF\setupapi.dev.log        638      sto:                Source Filter  = ACPI\QCOM068D                                      
+C:\Windows\INF\setupapi.dev.log        651      inf:                     Hardware Id  = ACPI\QCOM068D                                   
+C:\Windows\INF\setupapi.dev.log        661      dvi:                Configuration: oem15.inf:ACPI\QCOM068D,*                            
+C:\Windows\INF\setupapi.dev.log        664      dvi:           Install Device: Starting device 'ACPI\QCOM068D\2&DABA3FF&0'. 10:17:52.540
+C:\Windows\INF\setupapi.dev.log        675 >>>  [Device Install (Hardware initiated) - ACPI\QCOM061B\2&daba3ff&0]                       
+C:\Windows\INF\setupapi.dev.log        678      utl: {Select Drivers - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.492                          
+C:\Windows\INF\setupapi.dev.log        684      utl:           Configuration  - ACPI\QCOM061B                                           
+C:\Windows\INF\setupapi.dev.log        691      dvi:      {Configure Device - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.992                   
+C:\Windows\INF\setupapi.dev.log        696      sto:                Source Filter  = ACPI\QCOM061B                                      
+C:\Windows\INF\setupapi.dev.log        709      inf:                     Hardware Id  = ACPI\QCOM061B                                   
+C:\Windows\INF\setupapi.dev.log        719      dvi:                Configuration: oem15.inf:ACPI\QCOM061B,*                            
+C:\Windows\INF\setupapi.dev.log        722      dvi:           Install Device: Starting device 'ACPI\QCOM061B\2&DABA3FF&0'. 12:35:48.173
+C:\Windows\INF\setupapi.dev.log        731 >>>  [Device Install (Hardware initiated) - ACPI\QCOM061F\2&daba3ff&0]                       
+C:\Windows\INF\setupapi.dev.log        734      utl: {Select Drivers - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.508                          
+C:\Windows\INF\setupapi.dev.log        740      utl:           Configuration  - ACPI\QCOM061F                                           
+C:\Windows\INF\setupapi.dev.log        746      dvi:      {Configure Device - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.539                   
+C:\Windows\INF\setupapi.dev.log        751      sto:                Source Filter  = ACPI\QCOM061F                                      
+C:\Windows\INF\setupapi.dev.log        764      inf:                     Hardware Id  = ACPI\QCOM061F                                   
+C:\Windows\INF\setupapi.dev.log        774      dvi:                Configuration: oem15.inf:ACPI\QCOM061F,*                            
+C:\Windows\INF\setupapi.dev.log        777      dvi:           Install Device: Starting device 'ACPI\QCOM061F\2&DABA3FF&0'. 12:35:47.695
+C:\Windows\INF\setupapi.dev.log        786 >>>  [Device Install (Hardware initiated) - ACPI\QCOM06B0\2&daba3ff&0]                       
+C:\Windows\INF\setupapi.dev.log        789      utl: {Select Drivers - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.523                          
+C:\Windows\INF\setupapi.dev.log        795      utl:           Configuration  - ACPI\QCOM06B0                                           
+C:\Windows\INF\setupapi.dev.log        801      dvi:      {Configure Device - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.758                   
+C:\Windows\INF\setupapi.dev.log        806      sto:                Source Filter  = ACPI\QCOM06B0                                      
+C:\Windows\INF\setupapi.dev.log        819      inf:                     Hardware Id  = ACPI\QCOM06B0                                   
+C:\Windows\INF\setupapi.dev.log        829      dvi:                Configuration: oem15.inf:ACPI\QCOM06B0,*                            
+C:\Windows\INF\setupapi.dev.log        832      dvi:           Install Device: Starting device 'ACPI\QCOM06B0\2&DABA3FF&0'. 12:35:47.963
+
+
+

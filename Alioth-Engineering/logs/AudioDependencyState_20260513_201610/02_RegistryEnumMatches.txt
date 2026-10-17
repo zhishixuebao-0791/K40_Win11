@@ -1,0 +1,2034 @@
+﻿==== Registry Enum Matches ====
+Time: 2026-05-13 20:21:46
+
+## PILC tokens=QCOM051B,QCOM251B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250, ACPI\QCOM051B, *QCOM051B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_051B}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_251B&SUBSYS_MTP08250, ACPI\QCOM251B, *QCOM251B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_251B}
+Service       : qcPILC
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0024
+ConfigFlags   : 32
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\DPOP
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\IMEM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\MSAL
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PGCM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PilConfig
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## PILC 8280 tokens=QCOM051B,QCOM06E0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250, ACPI\QCOM051B, *QCOM051B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_051B}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280, ACPI\QCOM06E0, *QCOM06E0}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_06E0}
+Service       : qcPILC
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0032
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\IMEM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\PGCM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\PilConfig
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\DPOP
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Filters
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Filters\*Upper
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\IMEM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\MSAL
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\PGCM
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\PilConfig
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\SubsystemLoad
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\SubsystemLoad\GFXSUC
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\SubsystemLoad\VENUS
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## RPEN tokens=QCOM0533,QCOM2533
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0533&SUBSYS_MTP08250, ACPI\QCOM0533, *QCOM0533}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0533}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_2533&SUBSYS_MTP08250, ACPI\QCOM2533, *QCOM2533}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_2533}
+Service       : QCRPEN
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0023
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## PEP0 tokens=QCOM0519
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0519&SUBSYS_MTP08250, ACPI\QCOM0519, *QCOM0519}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0519, ACPI\PNP0D80, PNP0D80}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Control
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## MMU0 tokens=DEV_2509,QCOM0509
+
+Not found
+
+## SCM0 tokens=QCOM050B,QCOM250B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_050B&SUBSYS_MTP08250, ACPI\QCOM050B, *QCOM050B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_050B}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_250B&SUBSYS_MTP08250, ACPI\QCOM250B, *QCOM250B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_250B}
+Service       : qcscm
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0025
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## GLNK tokens=QCOM058D,QCOM258D
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_058D&SUBSYS_MTP08250, ACPI\QCOM058D, *QCOM058D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_058D}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_258D&SUBSYS_MTP08250, ACPI\QCOM258D, *QCOM258D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_258D}
+Service       : qcGLINK
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0026
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Control
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## IPC0 tokens=QCOM050E,QCOM250E
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_050E&SUBSYS_MTP08250, ACPI\QCOM050E, *QCOM050E}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_050E}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_250E&SUBSYS_MTP08250, ACPI\QCOM250E, *QCOM250E}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_250E}
+Service       : QCIPC_ROUTER
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0027
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## PDSR tokens=QCOM057C,QCOM257C
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM057C
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM057C\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_057C&SUBSYS_MTP08250, ACPI\QCOM057C, *QCOM057C}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_057C}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM057C\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM257C
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM257C\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_257C&SUBSYS_MTP08250, ACPI\QCOM257C, *QCOM257C}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_257C}
+Service       : qcpdsr
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0028
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM257C\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM257C\2&daba3ff&0\Device Parameters\WDF
+
+<null>
+## TFTP tokens=QCOM058B,QCOM258B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_058B&SUBSYS_MTP08250, ACPI\QCOM058B, *QCOM058B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_058B}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_258B&SUBSYS_MTP08250, ACPI\QCOM258B, *QCOM258B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_258B}
+Service       : QcTftpKmdf
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0029
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258B\2&daba3ff&0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## SSDD native tokens=QCOM0522
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0522&SUBSYS_MTP08250, ACPI\QCOM0522, *QCOM0522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0522, ACPI\QCOM0620}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## SSDD phase6 tokens=QCOM0522,QCOM2522
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0522&SUBSYS_MTP08250, ACPI\QCOM0522, *QCOM0522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0522, ACPI\QCOM0620}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_2522&SUBSYS_MTP08250, ACPI\QCOM2522, *QCOM2522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_2522}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0030
+ConfigFlags   : 32
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## SSDD phase7 tokens=QCOM0522,QCOM0620
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0522&SUBSYS_MTP08250, ACPI\QCOM0522, *QCOM0522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0522, ACPI\QCOM0620}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0620&SUBSYS_MTP08250, ACPI\QCOM0620, *QCOM0620}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0620}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0031
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters\WDF
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## CDI native tokens=QCOM0532
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0532&SUBSYS_MTP08250, ACPI\QCOM0532, *QCOM0532}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0532}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## SCSS native tokens=QCOM0521
+
+Not found
+
+## ADSP native tokens=QCOM051D
+
+Not found
+
+## CDSP native tokens=QCOM0523
+
+Not found
+
+## SPSS native tokens=QCOM0599
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0599&SUBSYS_MTP08250, ACPI\QCOM0599, *QCOM0599}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0599}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## ADSP 8280 tokens=QCOM051D,QCOM061B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_061B&SUBSYS_MTP08280, ACPI\QCOM061B, *QCOM061B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_061B}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0\ADSP
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0\ADSP
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+
+<null>
+## CDSP 8280 tokens=QCOM0523,QCOM06B0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_06B0&SUBSYS_MTP08280, ACPI\QCOM06B0, *QCOM06B0}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_06B0, ACPI\QCOMFFE6, QCOMFFE6}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0035
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Control
+
+<null>
+## SPSS 8280 tokens=QCOM0599,QCOM068D
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0599&SUBSYS_MTP08250, ACPI\QCOM0599, *QCOM0599}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0599}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_068D&SUBSYS_MTP08280, ACPI\QCOM068D, *QCOM068D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_068D}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0033
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Control
+
+<null>
+## SCSS 8280 tokens=QCOM0521,QCOM061F
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_061F&SUBSYS_MTP08280, ACPI\QCOM061F, *QCOM061F}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_061F}
+Service       : qcsubsys
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0034
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Control
+
+<null>
+## QSM native tokens=QCOM0520
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250, ACPI\QCOM0520, *QCOM0520}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0520}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## QSM 8250 tokens=QCOM0520,QCOM2520
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250, ACPI\QCOM0520, *QCOM0520}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0520}
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 64
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## ARPC tokens=QCOM0560,QCOM2560
+
+Not found
+
+## ARPD tokens=QCOM058A,QCOM258A
+
+Not found
+
+## ADSP tokens=QCOM051D,QCOM251D
+
+Not found
+
+## AudioService tokens=QCOM05D2,QCOM25D2
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0
+
+
+
+HardwareID    : {ACPI\VEN_QCOM&DEV_05D2, ACPI\QCOM05D2, *QCOM05D2}
+CompatibleIDs : {ACPI\QCOM25D2}
+Service       : 
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0022
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+## FSA4480 tokens=FSA04480
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0
+
+
+
+HardwareID    : {ACPI\VEN_FSA0&DEV_4480&SUBSYS_MTP08250, ACPI\FSA04480, *FSA04480}
+CompatibleIDs : {ACPI\VEN_FSA0&DEV_4480}
+Service       : fsa4480
+ClassGUID     : {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Driver        : {88bae032-5a81-49f0-bc3d-a4ff138216d6}\0000
+ConfigFlags   : 0
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\Device Parameters
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\LogConf
+
+
+
+HardwareID    : 
+CompatibleIDs : 
+Service       : 
+ClassGUID     : 
+Driver        : 
+ConfigFlags   : 
+Problem       : 
+Status        : 
+
+
+
+

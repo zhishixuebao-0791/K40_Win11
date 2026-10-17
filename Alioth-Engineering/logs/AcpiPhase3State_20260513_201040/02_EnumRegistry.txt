@@ -1,0 +1,1309 @@
+﻿==== Enum registry for target IDs ====
+Time: 2026-05-13 20:15:06
+
+## PILC native stale / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250, ACPI\QCOM051B, *QCOM051B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_051B}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051B\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## PILC phase3 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_251B&SUBSYS_MTP08250, ACPI\QCOM251B, *QCOM251B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_251B}
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcPILC
+DeviceDesc    : @oem6.inf,%pil.devicedesc%;Qualcomm(R) Peripheral Image Loader Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0024
+Mfg           : @oem6.inf,%qualcomm%;Qualcomm Incorporated
+Security      : {1, 0, 4, 144...}
+ConfigFlags   : 32
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\DPOP
+
+
+
+GUID         : {ED9E8101-05FA-46B7-82AA-8D58770D200B}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\DPOP
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSChildName  : DPOP
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\IMEM
+
+
+
+BaseAddress  : 342618112
+Offset       : 2380
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\IMEM
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSChildName  : IMEM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\MSAL
+
+
+
+Type         : 1
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\MSAL
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSChildName  : MSAL
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PGCM
+
+
+
+BaseAddress  : 2346188800
+Size         : 242745344
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PGCM
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSChildName  : PGCM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PilConfig
+
+
+
+CryptoClockAddress    : 0
+CryptoClockEnableMask : 0
+DisableMasterMPU      : 0
+HypProtectionEnabled  : 1
+PSPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters\PilConfig
+PSParentPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251B\2&daba3ff&0\Device Parameters
+PSChildName           : PilConfig
+PSProvider            : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## RPEN native stale / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0533&SUBSYS_MTP08250, ACPI\QCOM0533, *QCOM0533}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0533}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0533\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## RPEN phase3 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_2533&SUBSYS_MTP08250, ACPI\QCOM2533, *QCOM2533}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_2533}
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : QCRPEN
+DeviceDesc    : @oem7.inf,%rpen.devicedesc%;Qualcomm(R) Reset Power Error Notifier Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0023
+Mfg           : @oem7.inf,%qualcomm%;Qualcomm Incorporated
+Security      : {1, 0, 4, 144...}
+ConfigFlags   : 0
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters\WDF
+
+
+
+IdleInWorkingState : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters\WDF
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0\Device Parameters
+PSChildName        : WDF
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## AudioService / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0
+
+
+
+Capabilities  : 48
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_05D2, ACPI\QCOM05D2, *QCOM05D2}
+ConfigFlags   : 0
+CompatibleIDs : {ACPI\QCOM25D2}
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0022
+Mfg           : @oem4.inf,%mfgname%;Qualcomm Technologies Inc.
+DeviceDesc    : @oem4.inf,%devicedesc%;Qualcomm(R) Audio Device Orientation Service
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2
+PSChildName   : 0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM05D2\0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## FSA4480 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_FSA0&DEV_4480&SUBSYS_MTP08250, ACPI\FSA04480, *FSA04480}
+CompatibleIDs : {ACPI\VEN_FSA0&DEV_4480}
+ConfigFlags   : 0
+ClassGUID     : {88bae032-5a81-49f0-bc3d-a4ff138216d6}
+Service       : fsa4480
+DeviceDesc    : @oem1.inf,%fsa4480.devicedesc%;ON Semiconductor USB Type-C Analog Audio Switch (FSA4480) Device
+Driver        : {88bae032-5a81-49f0-bc3d-a4ff138216d6}\0000
+Mfg           : @oem1.inf,%manufacturername%;ON Semiconductor
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\FSA04480\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## PEP0 native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+
+
+
+Capabilities  : 96
+ConfigFlags   : 0
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0519&SUBSYS_MTP08250, ACPI\QCOM0519, *QCOM0519}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0519, ACPI\PNP0D80, PNP0D80}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+
+
+
+TargetGroup  : 0
+TargetSet    : 255
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Device Parameters\Interrupt Management
+PSChildName  : Affinity Policy - Temporal
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Control
+
+
+
+FilteredConfigVector : 
+AllocConfig          : 
+PSPath               : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0\Control
+PSParentPath         : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0519\2&daba3ff&0
+PSChildName          : Control
+PSProvider           : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## MMU0 native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0509
+
+Not found
+
+## MMU0 kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2509
+
+Not found
+
+## SCM0 native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0
+
+
+
+Capabilities  : 48
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_050B&SUBSYS_MTP08250, ACPI\QCOM050B, *QCOM050B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_050B}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B
+PSChildName   : 0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050B\0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## SCM0 kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0
+
+
+
+Capabilities          : 48
+ContainerID           : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID            : {ACPI\VEN_QCOM&DEV_250B&SUBSYS_MTP08250, ACPI\QCOM250B, *QCOM250B}
+CompatibleIDs         : {ACPI\VEN_QCOM&DEV_250B}
+ClassGUID             : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service               : qcscm
+DeviceDesc            : @oem8.inf,%scm.devicedesc%;Qualcomm(R) System Manager SCM Device
+Driver                : {4d36e97d-e325-11ce-bfc1-08002be10318}\0025
+Mfg                   : @oem8.inf,%qualcomm%;Qualcomm Inc.
+Security              : {1, 0, 4, 144...}
+DeviceCharacteristics : 256
+ConfigFlags           : 0
+PSPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0
+PSParentPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B
+PSChildName           : 0
+PSProvider            : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters\WDF
+
+
+
+IdleInWorkingState : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters\WDF
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250B\0\Device Parameters
+PSChildName        : WDF
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## GLNK native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0
+
+
+
+Capabilities  : 48
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_058D&SUBSYS_MTP08250, ACPI\QCOM058D, *QCOM058D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_058D}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D
+PSChildName   : 0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058D\0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## GLNK kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+
+
+
+Capabilities  : 48
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_258D&SUBSYS_MTP08250, ACPI\QCOM258D, *QCOM258D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_258D}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcGLINK
+DeviceDesc    : @oem10.inf,%glink.devicedesc%;Qualcomm(R) Shared Memory Port Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0026
+Mfg           : @oem10.inf,%qualcomm%;Qualcomm Inc.
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D
+PSChildName   : 0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+
+
+
+TargetGroup  : 0
+TargetSet    : 255
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management\Affinity Policy - Temporal
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\Interrupt Management
+PSChildName  : Affinity Policy - Temporal
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\WDF
+
+
+
+IdleInWorkingState : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters\WDF
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Device Parameters
+PSChildName        : WDF
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Control
+
+
+
+FilteredConfigVector : 
+AllocConfig          : 
+PSPath               : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0\Control
+PSParentPath         : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258D\0
+PSChildName          : Control
+PSProvider           : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## IPC0 native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_050E&SUBSYS_MTP08250, ACPI\QCOM050E, *QCOM050E}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_050E}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM050E\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## IPC0 kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0
+
+
+
+Capabilities          : 32
+ContainerID           : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID            : {ACPI\VEN_QCOM&DEV_250E&SUBSYS_MTP08250, ACPI\QCOM250E, *QCOM250E}
+CompatibleIDs         : {ACPI\VEN_QCOM&DEV_250E}
+ConfigFlags           : 0
+ClassGUID             : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service               : QCIPC_ROUTER
+DeviceDesc            : @oem11.inf,%ipc_router.devicedesc%;Qualcomm(R) Data IPC Router Device
+Driver                : {4d36e97d-e325-11ce-bfc1-08002be10318}\0027
+Mfg                   : @oem11.inf,%qualcomm%;Qualcomm Incorporated
+Security              : {1, 0, 4, 144...}
+DeviceCharacteristics : 256
+PSPath                : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0
+PSParentPath          : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E
+PSChildName           : 2&daba3ff&0
+PSProvider            : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters\WDF
+
+
+
+IdleInWorkingState : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters\WDF
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM250E\2&daba3ff&0\Device Parameters
+PSChildName        : WDF
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## SSDD native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0522&SUBSYS_MTP08250, ACPI\QCOM0522, *QCOM0522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0522, ACPI\QCOM0620}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0522\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## SSDD kona old / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_2522&SUBSYS_MTP08250, ACPI\QCOM2522, *QCOM2522}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_2522}
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem5.inf,%ssdd.devicedesc%;Qualcomm Subsystem Dependency Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0030
+Mfg           : @oem5.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+ConfigFlags   : 32
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2522\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## SSDD phase7 8280 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0620&SUBSYS_MTP08250, ACPI\QCOM0620, *QCOM0620}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0620}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem15.inf,%ssdd.devicedesc%;Qualcomm(R) Subsystem Dependency Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0031
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters\WDF
+
+
+
+IdleInWorkingState : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters\WDF
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0\Device Parameters
+PSChildName        : WDF
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## CDI native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0532&SUBSYS_MTP08250, ACPI\QCOM0532, *QCOM0532}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0532}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## QSM native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250, ACPI\QCOM0520, *QCOM0520}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0520}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## QSM kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2520
+
+Not found
+
+## SCSS native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0521
+
+Not found
+
+## SCSS phase10 8280 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_061F&SUBSYS_MTP08280, ACPI\QCOM061F, *QCOM061F}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_061F}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem15.inf,%scss.devicedesc%;Qualcomm(R) Sensor Subsystem Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0034
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Control
+
+<null>
+## ADSP native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM051D
+
+Not found
+
+## ADSP kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM251D
+
+Not found
+
+## ADSP phase10 8280 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_061B&SUBSYS_MTP08280, ACPI\QCOM061B, *QCOM061B}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_061B}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem15.inf,%adsp.devicedesc%;Qualcomm(R) Audio DSP Subsystem Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0\ADSP
+
+
+
+Interfaces   : {{E2EB84C1-4068-4994-A48F-F3AC0D38DC29}, {E022FF1A-C06C-42D8-94FE-90D876FC0B75}, {F9D15453-8335-434c-AA72-FCD925F135F3}}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0\ADSP
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\0
+PSChildName  : ADSP
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0\ADSP
+
+
+
+Interfaces   : {{E2EB84C1-4068-4994-A48F-F3AC0D38DC29}, {E022FF1A-C06C-42D8-94FE-90D876FC0B75}, {F9D15453-8335-434c-AA72-FCD925F135F3}}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0\ADSP
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0
+PSChildName  : ADSP
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+
+
+
+NumPDs       : 1
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+PSChildName  : PDInfo
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0
+
+
+
+GUID         : {0A35A787-A69F-4A90-8B78-0710BA7BB82C}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+PSChildName  : 0
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+
+<null>
+## CDSP native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0523
+
+Not found
+
+## CDSP phase10 8280 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_06B0&SUBSYS_MTP08280, ACPI\QCOM06B0, *QCOM06B0}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_06B0, ACPI\QCOMFFE6, QCOMFFE6}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem15.inf,%cdsp.devicedesc%;Qualcomm(R) Compute DSP Subsystem Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0035
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Control
+
+<null>
+## SPSS native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_0599&SUBSYS_MTP08250, ACPI\QCOM0599, *QCOM0599}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_0599}
+ConfigFlags   : 64
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0599\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## SPSS phase10 8280 / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+
+
+
+Capabilities  : 32
+ContainerID   : {00000000-0000-0000-ffff-ffffffffffff}
+HardwareID    : {ACPI\VEN_QCOM&DEV_068D&SUBSYS_MTP08280, ACPI\QCOM068D, *QCOM068D}
+CompatibleIDs : {ACPI\VEN_QCOM&DEV_068D}
+ConfigFlags   : 0
+ClassGUID     : {4d36e97d-e325-11ce-bfc1-08002be10318}
+Service       : qcsubsys
+DeviceDesc    : @oem15.inf,%spss.devicedesc%;Qualcomm(R) Secure Processor Subsystem Device
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0033
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+Security      : {1, 0, 4, 144...}
+PSPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+PSParentPath  : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D
+PSChildName   : 2&daba3ff&0
+PSProvider    : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters
+
+
+
+FirmwareIdentified : 1
+PSPath             : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters
+PSParentPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+PSChildName        : Device Parameters
+PSProvider         : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\Interrupt Management
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+
+<null>
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\LogConf
+
+
+
+BasicConfigVector : 
+BootConfig        : 
+PSPath            : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\LogConf
+PSParentPath      : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+PSChildName       : LogConf
+PSProvider        : Microsoft.PowerShell.Core\Registry
+
+
+
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Control
+
+<null>
+## ARPC native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0560
+
+Not found
+
+## ARPC kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2560
+
+Not found
+
+## ARPD native / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM058A
+
+Not found
+
+## ARPD kona / HKLM:\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM258A
+
+Not found
+

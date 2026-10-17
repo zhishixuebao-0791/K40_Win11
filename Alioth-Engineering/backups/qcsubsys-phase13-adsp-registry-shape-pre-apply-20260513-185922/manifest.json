@@ -1,0 +1,10 @@
+﻿{
+    "WindowsDrive":  "E",
+    "Root":  "E:\\",
+    "ControlSet":  "ControlSet001",
+    "DeviceRelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260",
+    "IncludeChildren":  false,
+    "BackupDir":  "C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcsubsys-phase13-adsp-registry-shape-pre-apply-20260513-185922",
+    "CreatedAt":  "2026-05-13T18:59:23",
+    "RollbackCommand":  "powershell -NoProfile -ExecutionPolicy Bypass -File \"C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\tools\\Rollback-QcsubsysPhase13AdspRegistryShape-Admin.ps1\" -WindowsDrive E -BackupDir \"C:\\yjc_code\\K40_Win11\\Alioth-Engineering\\backups\\qcsubsys-phase13-adsp-registry-shape-pre-apply-20260513-185922\""
+}

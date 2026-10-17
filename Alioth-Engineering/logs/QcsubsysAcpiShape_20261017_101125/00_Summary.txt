@@ -1,0 +1,21 @@
+﻿==== Qcsubsys ACPI shape summary ====
+Time: 2026-10-17 10:11:25
+
+
+Name         Role                                     AcpiId   InstanceId                FriendlyName                                  Status ProblemCode ProblemStatus Service  MatchingDeviceId
+----         ----                                     ------   ----------                ------------                                  ------ ----------- ------------- -------  ----------------
+SSDD working Known working qcsubsys parent/dependency QCOM0620 ACPI\QCOM0620\2&DABA3FF&0 Qualcomm(R) Subsystem Dependency Device       OK                               qcsubsys ACPI\QCOM0620   
+ADSP failing Audio DSP root, Phase11 now enumerates   QCOM061B ACPI\QCOM061B\2&DABA3FF&0 Qualcomm(R) Audio DSP Subsystem Device        Error              3221225531    qcsubsys ACPI\QCOM061B   
+CDSP failing Compute DSP root, Phase11 now enumerates QCOM06B0 ACPI\QCOM06B0\2&DABA3FF&0 Qualcomm(R) Compute DSP Subsystem Device      Error              3221225524    qcsubsys ACPI\QCOM06B0   
+SCSS failing Sensor DSP root, Phase11 now enumerates  QCOM061F ACPI\QCOM061F\2&DABA3FF&0 Qualcomm(R) Sensor Subsystem Device           Error              3221225524    qcsubsys ACPI\QCOM061F   
+SPSS failing Secure processor DSP root                QCOM068D ACPI\QCOM068D\2&DABA3FF&0 Qualcomm(R) Secure Processor Subsystem Device Error              3221225531    qcsubsys ACPI\QCOM068D   
+CDI unbound  Native PIL dependent node, still Code 28 QCOM0532 ACPI\QCOM0532\2&DABA3FF&0                                               Error              3221226640                             
+QSM unbound  Subsystem service manager, still Code 28 QCOM0520 ACPI\QCOM0520\2&DABA3FF&0                                               Error              3221226640                             
+PILC working Working PIL dependency                   QCOM06E0 ACPI\QCOM06E0\2&DABA3FF&0 Qualcomm(R) Peripheral Image Loader Device    OK                               qcPILC   ACPI\QCOM06E0   
+RPEN working Working reset/power dependency           QCOM2533 ACPI\QCOM2533\2&DABA3FF&0 Qualcomm(R) Reset Power Error Notifier Device OK                               QCRPEN   ACPI\QCOM2533   
+
+
+
+
+PnP row count: 9
+Registry fallback row count: 0

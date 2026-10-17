@@ -1,0 +1,916 @@
+﻿==== Service and driver store state ====
+Time: 2026-10-16 19:55:17
+
+## qcsubsys
+
+
+DisplayName : Qualcomm(R) Combined Subsystem Driver
+Name        : qcsubsys
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+Length        : 1014912
+CreationTime  : 2025/7/2 10:20:02
+LastWriteTime : 2025/7/2 10:20:02
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+                InternalName:     qcsubsys8280.sys
+                OriginalFilename: qcsubsys8280.sys
+                FileVersion:      1.0.0.17556
+                FileDescription:  Qualcomm Audio DSP Subsystem Driver
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.0.17556
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Issuer]
+                           CN=Microsoft Windows Third Party Component CA 2012, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Serial Number]
+                           33000000F3158EA57D1C559F290000000000F3
+                         
+                         [Not Before]
+                           2023/1/13 3:14:51
+                         
+                         [Not After]
+                           2023/12/16 3:14:51
+                         
+                         [Thumbprint]
+                           A1355F1428C87090B6238B5F20C5C84A300FE419
+                         
+TimeStamperCertificate : [Subject]
+                           CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:3BD4-4B80-69C3, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Issuer]
+                           CN=Microsoft Time-Stamp PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Serial Number]
+                           33000001B4FB80084405D22DFA0001000001B4
+                         
+                         [Not Before]
+                           2022/9/21 4:22:09
+                         
+                         [Not After]
+                           2023/12/15 4:22:09
+                         
+                         [Thumbprint]
+                           659CD890F39B97F6737829126DFE01E4271E0908
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+SignatureType          : Catalog
+IsOSBinary             : False
+
+
+
+
+## qcPILC
+
+
+DisplayName : Qualcomm(R) Peripheral Image Loader Device
+Name        : qcPILC
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+Length        : 434304
+CreationTime  : 2025/7/2 10:19:56
+LastWriteTime : 2025/7/2 10:19:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+                InternalName:     qcpil.sys
+                OriginalFilename: qcpil.sys
+                FileVersion:      1.0.0.3084
+                FileDescription:  Qualcomm(R) System Manager Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.0.3084
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=Microsoft Windows Hardware Compatibility Publisher, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Issuer]
+                           CN=Microsoft Windows Third Party Component CA 2012, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Serial Number]
+                           33000000F3158EA57D1C559F290000000000F3
+                         
+                         [Not Before]
+                           2023/1/13 3:14:51
+                         
+                         [Not After]
+                           2023/12/16 3:14:51
+                         
+                         [Thumbprint]
+                           A1355F1428C87090B6238B5F20C5C84A300FE419
+                         
+TimeStamperCertificate : [Subject]
+                           CN=Microsoft Time-Stamp Service, OU=Thales TSS ESN:A240-4B82-130E, OU=Microsoft Ireland Operations Limited, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Issuer]
+                           CN=Microsoft Time-Stamp PCA 2010, O=Microsoft Corporation, L=Redmond, S=Washington, C=US
+                         
+                         [Serial Number]
+                           33000001B808D4C1B879E051490001000001B8
+                         
+                         [Not Before]
+                           2022/9/21 4:22:16
+                         
+                         [Not After]
+                           2023/12/15 4:22:16
+                         
+                         [Thumbprint]
+                           706B5E56A171FC86D32971CB7AE5C23D13CC0FBB
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+SignatureType          : Catalog
+IsOSBinary             : False
+
+
+
+
+## QCRPEN
+
+
+DisplayName : Qualcomm(R) Reset Power Error Notifier Device
+Name        : QCRPEN
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+Length        : 116864
+CreationTime  : 2026/4/25 11:18:04
+LastWriteTime : 2026/4/21 12:28:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+                InternalName:     qcrpen8180.sys
+                OriginalFilename: qcrpen8180.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Reset Power and Error Handling - Notifier driver that maintains and co-ordinates subsystems' states
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcGLINK
+
+
+DisplayName : Qualcomm(R) Shared Memory Port Device
+Name        : qcGLINK
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+Length        : 227448
+CreationTime  : 2026/4/21 12:28:55
+LastWriteTime : 2026/4/21 12:28:55
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+                InternalName:     qcglink8180.sys
+                OriginalFilename: qcglink8180.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm(R) Memory and File System Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## QCIPC_ROUTER
+
+
+DisplayName : Qualcomm(R) Data IPC Router Device
+Name        : QCIPC_ROUTER
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+Length        : 101488
+CreationTime  : 2026/4/21 12:28:47
+LastWriteTime : 2026/4/21 12:28:47
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+                InternalName:     qcipcrouter8180.sys
+                OriginalFilename: qcipcrouter8180.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm Asl Bridge Device Driver
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcpdsr
+
+
+DisplayName : Qualcomm(R) Protection Domain Service Registry Device
+Name        : qcpdsr
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcpdsr.inf_arm64_eedad8235d4fc0a9\qcpdsr.sys
+Length        : 90328
+CreationTime  : 2026/4/21 12:28:56
+LastWriteTime : 2026/4/21 12:28:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcpdsr.inf_arm64_eedad8235d4fc0a9\qcpdsr.sys
+                InternalName:     qcpdsr.sys
+                OriginalFilename: qcpdsr.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm(R) System Manager Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcpdsr.inf_arm64_eedad8235d4fc0a9\qcpdsr.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## QcTftpKmdf
+
+
+DisplayName : Qualcomm(R) TFTP Device
+Name        : QcTftpKmdf
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qctftpkmdf.inf_arm64_3caf890f721700b8\QcTftpKmdf.sys
+Length        : 251608
+CreationTime  : 2026/4/21 12:28:56
+LastWriteTime : 2026/4/21 12:28:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qctftpkmdf.inf_arm64_3caf890f721700b8\QcTftpKmdf.sys
+                InternalName:     QcTftpKmdf.sys
+                OriginalFilename: QcTftpKmdf.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm(R) Data Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qctftpkmdf.inf_arm64_3caf890f721700b8\QcTftpKmdf.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcscm
+
+
+DisplayName : Qualcomm(R) System Manager SCM Device
+Name        : qcscm
+State       : Running
+Status      : OK
+Started     : True
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+Length        : 320216
+CreationTime  : 2026/4/25 11:18:04
+LastWriteTime : 2026/4/21 12:28:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+                InternalName:     qcscm8180.sys
+                OriginalFilename: qcscm8180.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm(R) System Manager Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=QUALCOMM Inc., O=QUALCOMM Inc., L=San Diego, S=California, C=US, SERIALNUMBER=2271160, OID.2.5.4.15=Private Organization, OID.1.3.6.1.4.1.311.60.2.1.2=Delaware, OID.1.3.6.1.4.1.311.60.2.1.3=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 Code Signing RSA4096 SHA384 2021 CA1, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           062413F85A14155B122CA4AD21B2A905
+                         
+                         [Not Before]
+                           2022/3/21 8:00:00
+                         
+                         [Not After]
+                           2025/3/29 7:59:59
+                         
+                         [Thumbprint]
+                           541CFCCBF187CB189320A0ECC628ECC268E504FF
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcsmmu
+
+
+DisplayName : Qualcomm(R) System MMU Device
+Name        : qcsmmu
+State       : Stopped
+Status      : OK
+Started     : False
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcsmmu8250.inf_arm64_326da5121bfa3145\qcsmmu8250.sys
+Length        : 307304
+CreationTime  : 2026/4/25 11:18:04
+LastWriteTime : 2026/4/21 12:28:56
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcsmmu8250.inf_arm64_326da5121bfa3145\qcsmmu8250.sys
+                InternalName:     qcsmmu8180.sys
+                OriginalFilename: qcsmmu8180.sys
+                FileVersion:      1.0.2100.0000
+                FileDescription:  Qualcomm(R) Memory and File System Device
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.2100.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+                         
+                         [Issuer]
+                           CN=Windows On Andromeda Production PCA 2023
+                         
+                         [Serial Number]
+                           BF1DBEAA24A216A34095AF2CE34C7342
+                         
+                         [Not Before]
+                           2023/1/16 5:50:20
+                         
+                         [Not After]
+                           2040/1/1 7:59:59
+                         
+                         [Thumbprint]
+                           946CF507369A80E65F2B58BEBF5D02CC159A484D
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2023, O="DigiCert, Inc.", C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0544AFF3949D0839A6BFDB3F5FE56116
+                         
+                         [Not Before]
+                           2023/7/14 8:00:00
+                         
+                         [Not After]
+                           2034/10/14 7:59:59
+                         
+                         [Thumbprint]
+                           66F02B32C2C2C90F825DCEAA8AC9C64F199CCF40
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcsmmu8250.inf_arm64_326da5121bfa3145\qcsmmu8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcadsprpc
+
+
+DisplayName : Qualcomm(R) FastRPC Device
+Name        : qcadsprpc
+State       : Stopped
+Status      : OK
+Started     : False
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+Length        : 121440
+CreationTime  : 2026/4/24 18:05:37
+LastWriteTime : 2026/4/21 12:28:47
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+                InternalName:     qcadsprpc8180.sys
+                OriginalFilename: qcadsprpc8180.sys
+                FileVersion:      1.0.1680.0000
+                FileDescription:  Qualcomm(R) Hexagon(TM) 685 DSP
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.1680.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+                         
+                         [Issuer]
+                           CN=Windows On Andromeda Production PCA 2023
+                         
+                         [Serial Number]
+                           BF1DBEAA24A216A34095AF2CE34C7342
+                         
+                         [Not Before]
+                           2023/1/16 5:50:20
+                         
+                         [Not After]
+                           2040/1/1 7:59:59
+                         
+                         [Thumbprint]
+                           946CF507369A80E65F2B58BEBF5D02CC159A484D
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2022 - 2, O=DigiCert, C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0C4D69724B94FA3C2A4A3D2907803D5A
+                         
+                         [Not Before]
+                           2022/9/21 8:00:00
+                         
+                         [Not After]
+                           2033/11/22 7:59:59
+                         
+                         [Thumbprint]
+                           F387224D8633829235A994BCBD8F96E9FE1C7C73
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+
+## qcadsprpcd
+
+
+DisplayName : Qualcomm(R) Audio RPC Daemon Device
+Name        : qcadsprpcd
+State       : Stopped
+Status      : OK
+Started     : False
+
+
+
+
+
+
+FullName      : C:\Windows\system32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+Length        : 77920
+CreationTime  : 2026/4/24 18:05:37
+LastWriteTime : 2026/4/21 12:28:47
+VersionInfo   : File:             C:\Windows\system32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+                InternalName:     qcadsprpcd8180.sys
+                OriginalFilename: qcadsprpcd8180.sys
+                FileVersion:      1.0.1680.0000
+                FileDescription:  Qualcomm(R) Hexagon(TM) 685 DSP
+                Product:          Qualcomm Snapdragon
+                ProductVersion:   1.0.1680.0000
+                Debug:            False
+                Patched:          False
+                PreRelease:       False
+                PrivateBuild:     False
+                SpecialBuild:     False
+                Language:         英语(美国)
+                
+
+
+
+
+
+
+SignerCertificate      : [Subject]
+                           CN=Windows On Andromeda KMCI Codesigning, E=gustave.monce@outlook.com
+                         
+                         [Issuer]
+                           CN=Windows On Andromeda Production PCA 2023
+                         
+                         [Serial Number]
+                           BF1DBEAA24A216A34095AF2CE34C7342
+                         
+                         [Not Before]
+                           2023/1/16 5:50:20
+                         
+                         [Not After]
+                           2040/1/1 7:59:59
+                         
+                         [Thumbprint]
+                           946CF507369A80E65F2B58BEBF5D02CC159A484D
+                         
+TimeStamperCertificate : [Subject]
+                           CN=DigiCert Timestamp 2022 - 2, O=DigiCert, C=US
+                         
+                         [Issuer]
+                           CN=DigiCert Trusted G4 RSA4096 SHA256 TimeStamping CA, O="DigiCert, Inc.", C=US
+                         
+                         [Serial Number]
+                           0C4D69724B94FA3C2A4A3D2907803D5A
+                         
+                         [Not Before]
+                           2022/9/21 8:00:00
+                         
+                         [Not After]
+                           2033/11/22 7:59:59
+                         
+                         [Thumbprint]
+                           F387224D8633829235A994BCBD8F96E9FE1C7C73
+                         
+Status                 : Valid
+StatusMessage          : 签名已通过验证。
+Path                   : C:\Windows\system32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+SignatureType          : Authenticode
+IsOSBinary             : False
+
+
+
+

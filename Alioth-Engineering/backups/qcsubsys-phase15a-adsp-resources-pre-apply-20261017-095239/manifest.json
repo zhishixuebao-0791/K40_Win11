@@ -1,0 +1,21 @@
+﻿{
+    "CreatedAt":  "2026-10-17T09:52:40",
+    "WindowsDrive":  "D",
+    "HiveNamePrefix":  "ALIOTH_PHASE15A_APPLY_2340",
+    "FirmwareOnPhone":  "\\Windows\\System32\\Drivers\\Alioth\\ADSP\\RADS.bin",
+    "FirmwareExistedBefore":  false,
+    "FirmwareSha256":  "978E4812FE4625158657F345F2688BA39382B689783981E0636563C486026088",
+    "CreatedKeys":  [
+                        "ALIOTH_PHASE15A_APPLY_2340\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\Resources"
+                    ],
+    "Values":  [
+                   {
+                       "Path":  "ALIOTH_PHASE15A_APPLY_2340\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\Resources",
+                       "Name":  "BinaryPath",
+                       "KeyExisted":  false,
+                       "Existed":  false,
+                       "Kind":  null,
+                       "Value":  null
+                   }
+               ]
+}

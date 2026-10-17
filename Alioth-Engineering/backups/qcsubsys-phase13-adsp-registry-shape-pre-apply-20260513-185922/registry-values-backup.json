@@ -1,0 +1,51 @@
+﻿[
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\PDInfo",
+        "Name":  "NumPDs",
+        "Existed":  true,
+        "Value":  0,
+        "PropertyType":  "DWord"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\PDInfo\\0",
+        "Name":  "PDName",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "String"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\PDInfo\\0",
+        "Name":  "GUID",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "String"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\0\\ADSP",
+        "Name":  "RPEC",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "MultiString"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\Device Parameters\\0\\ADSP",
+        "Name":  "Interfaces",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "MultiString"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\0\\ADSP",
+        "Name":  "RPEC",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "MultiString"
+    },
+    {
+        "RelativePath":  "Enum\\ACPI\\QCOM061B\\2\u0026daba3ff\u00260\\0\\ADSP",
+        "Name":  "Interfaces",
+        "Existed":  false,
+        "Value":  null,
+        "PropertyType":  "MultiString"
+    }
+]

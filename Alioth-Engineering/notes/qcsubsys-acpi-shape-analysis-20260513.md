@@ -84,3 +84,21 @@ Phase12 keeps the Phase11 `_DEP` reduction and adds standard `_DSD` metadata to 
 - ADSP audio PD metadata: `PDInfo.NumPDs = 1`, `PDInfo.0.PDName = msm/adsp/audio_pd`, `PDInfo.0.GUID = {0A35A787-A69F-4A90-8B78-0710BA7BB82C}`
 
 Validation remains required on the phone. If Code 31 remains unchanged, the next branch should treat these values as registry-backed qcsubsys inputs rather than ACPI `_DSD` inputs.
+
+## Phase12 Phone Validation
+
+Phase12 was flashed as `Mu-alioth-1-acpi-hid-phase12-20260513-195332.img` and validated from:
+
+- `E:\Code\REDMIK40_Win11\AcpiPhase3State_20260513_182309`
+- `E:\Code\REDMIK40_Win11\AudioDependencyState_20260513_183129`
+- `E:\Code\REDMIK40_Win11\QcsubsysAcpiShape_20260513_184200`
+
+Result:
+
+- `QCOM0620`, `QCOM06E0`, and `QCOM2533` remain working.
+- `QCOM061B`, `QCOM06B0`, and `QCOM061F` remain Code 31 with `ProblemStatus=0xC0000034`.
+- `QCOM068D` remains Code 31 with `ProblemStatus=0xC000003B`.
+- `QCOM061B\...\Device Parameters\PDInfo\NumPDs` remains `0`.
+- The new Phase12 `_DSD` values are not visible in the Enum registry.
+
+Conclusion: standard `_DSD` was present in AML but did not become the registry-backed shape that `qcsubsys8280.sys` appears to consume. Phase13 should use an offline, backup-backed registry experiment before building another UEFI image.

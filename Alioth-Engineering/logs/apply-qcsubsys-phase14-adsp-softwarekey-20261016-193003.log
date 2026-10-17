@@ -1,0 +1,31 @@
+﻿[2026-10-16 19:30:03] Phase14 步骤C：ADSP 8280 软件键/硬件键/PIL 内存预留 离线写入开始。
+[2026-10-16 19:30:03] 备份目录: C:\yjc_code\K40_Win11\Alioth-Engineering\backups\qcsubsys-phase14-adsp-softwarekey-pre-apply-20261016-193003
+[2026-10-16 19:30:03] 固件: C:\yjc_code\K40_Win11\Alioth-Engineering\components\Devices\Alioth\firmware-squashed\qcadsp_alioth.mbn  SHA256=BB9DCAA9AEBA6A4C685FE012961C3217AF631C0D42B7A26E056F8DF15EF8B74C
+[2026-10-16 19:30:04] 固件已复制并校验: D:\Windows\System32\Drivers\Alioth\ADSP\qcadsp_alioth.mbn
+[2026-10-16 19:30:04] 执行: reg.exe load HKLM\ALIOTH_PHASE14_APPLY_12136 D:\Windows\System32\Config\SYSTEM
+操作成功完成。
+
+[2026-10-16 19:30:04] 离线当前 ControlSet: ControlSet001
+[2026-10-16 19:30:04] ADSP 驱动软件键: Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\ImagePath (String) = C:\Windows\System32\Drivers\Alioth\ADSP\qcadsp_alioth.mbn
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\RPEC (MultiString) = {99CA9C16-4E1E-4970-B49E-2CA56753588B}
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\Interfaces (MultiString) = {E2EB84C1-4068-4994-A48F-F3AC0D38DC29}, {E022FF1A-C06C-42D8-94FE-90D876FC0B75}, {F9D15453-8335-434c-AA72-FCD925F135F3}
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\MANU (DWord) = 0x0x06be0baf
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\IgnoreWdogEnabled (DWord) = 0x1
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysUefiLoadedImageAction (DWord) = 0x2
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedImageTZProcID (DWord) = 0x0x1F
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedSubsysDetectionStatus (DWord) = 0x0
+[2026-10-16 19:30:05] 设置 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SpuAriFuseWorkAroundEnabled (DWord) = 0x1
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\NumPDs (DWord) = 0x1
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\ServiceName (String) = msm/adsp/audio_pd
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\GUID (String) = {0A35A787-A69F-4A90-8B78-0710BA7BB82C}
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\FileNameWildCard (String) = pd_dump*audio*.elf
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\RootDirectory (String) = \DriverData\QUALCOMM\TFTP\rfs\msm\adsp\ramdumps\
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\CountFile (String) = pd_dump_audio_process.count
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Mappings\PathMappingKeyName (String) = Default
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAlignment (DWord) = 0x0x00100000
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryReservation (DWord) = 0x0x02000000
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM06E0\2&daba3ff&0\SubsystemLoad\ADSP\MemoryAlignment (DWord) = 0x0x00100000
+[2026-10-16 19:30:05] 设置 Enum\ACPI\QCOM06E0\2&daba3ff&0\SubsystemLoad\ADSP\MemoryReservation (DWord) = 0x0x02000000
+[2026-10-16 19:30:05] 删除 Phase13 残留 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\0\ADSP\Interfaces
+[2026-10-16 19:30:05] 删除 Phase13 残留 Enum\ACPI\QCOM061B\2&daba3ff&0\0\ADSP\Interfaces

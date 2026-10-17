@@ -1,0 +1,225 @@
+{
+  "CreatedAt": "2026-10-16T19:30:05",
+  "ReconstructedFrom": "logs\\QcsubsysPhase14Evidence_20261016-190042 (写入前离线取证) + apply 日志；原脚本因 PS5.1 @(List[object]) 缺陷未写出清单",
+  "WindowsDrive": "D",
+  "HiveNamePrefix": "ALIOTH_PHASE14_APPLY_12136",
+  "FirmwareOnPhone": "\\Windows\\System32\\Drivers\\Alioth\\ADSP\\qcadsp_alioth.mbn",
+  "FirmwareExistedBefore": false,
+  "FirmwareSha256": "BB9DCAA9AEBA6A4C685FE012961C3217AF631C0D42B7A26E056F8DF15EF8B74C",
+  "CreatedKeys": [
+    "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+    "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\Mappings",
+    "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\Device Parameters\\SubsystemLoad\\ADSP",
+    "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\SubsystemLoad\\ADSP"
+  ],
+  "Values": [
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "ImagePath",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "RPEC",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "Interfaces",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "MANU",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "IgnoreWdogEnabled",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "SubsysUefiLoadedImageAction",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "UefiLoadedImageTZProcID",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "UefiLoadedSubsysDetectionStatus",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Control\\Class\\{4d36e97d-e325-11ce-bfc1-08002be10318}\\0036\\ADSP",
+      "Name": "SpuAriFuseWorkAroundEnabled",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo",
+      "Name": "NumPDs",
+      "KeyExisted": true,
+      "Existed": true,
+      "Kind": "DWord",
+      "Value": 1
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "ServiceName",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "GUID",
+      "KeyExisted": true,
+      "Existed": true,
+      "Kind": "String",
+      "Value": "{0A35A787-A69F-4A90-8B78-0710BA7BB82C}"
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "FileNameWildCard",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "RootDirectory",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "CountFile",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\Mappings",
+      "Name": "PathMappingKeyName",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\Device Parameters\\SubsystemLoad\\ADSP",
+      "Name": "MemoryAlignment",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\Device Parameters\\SubsystemLoad\\ADSP",
+      "Name": "MemoryReservation",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\SubsystemLoad\\ADSP",
+      "Name": "MemoryAlignment",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM06E0\\2&daba3ff&0\\SubsystemLoad\\ADSP",
+      "Name": "MemoryReservation",
+      "KeyExisted": false,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\0\\ADSP",
+      "Name": "Interfaces",
+      "KeyExisted": true,
+      "Existed": true,
+      "Kind": "MultiString",
+      "Value": [
+        "{E2EB84C1-4068-4994-A48F-F3AC0D38DC29}",
+        "{E022FF1A-C06C-42D8-94FE-90D876FC0B75}",
+        "{F9D15453-8335-434c-AA72-FCD925F135F3}"
+      ]
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\0\\ADSP",
+      "Name": "RPEC",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\0\\ADSP",
+      "Name": "Interfaces",
+      "KeyExisted": true,
+      "Existed": true,
+      "Kind": "MultiString",
+      "Value": [
+        "{E2EB84C1-4068-4994-A48F-F3AC0D38DC29}",
+        "{E022FF1A-C06C-42D8-94FE-90D876FC0B75}",
+        "{F9D15453-8335-434c-AA72-FCD925F135F3}"
+      ]
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\0\\ADSP",
+      "Name": "RPEC",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    },
+    {
+      "Path": "ALIOTH_PHASE14_APPLY_12136\\ControlSet001\\Enum\\ACPI\\QCOM061B\\2&daba3ff&0\\Device Parameters\\PDInfo\\0",
+      "Name": "PDName",
+      "KeyExisted": true,
+      "Existed": false,
+      "Kind": null,
+      "Value": null
+    }
+  ]
+}

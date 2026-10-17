@@ -1,0 +1,992 @@
+总事件数: 3372166
+命中事件数: 1518
+表头: ['Time of Day', 'Process Name', 'PID', 'Operation', 'Path', 'Result', 'Detail']
+
+==== 按 (进程, 操作, 路径, 结果) 汇总 ====
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\Alioth\ADSP\qcadsp_alioth.mbn
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\Alioth\ADSP\qcadsp_alioth.mbn
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\Alioth\ADSP\qcadsp_alioth.mbn
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\apq\gnss\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\adsp\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\mpss\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\mdm\sparrow\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\adsp\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared\server_info.txt
+     1  System         QueryNetworkOpenInformationFile SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared\server_info.txt
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared\server_info.txt
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\msm\mpss\shared\server_info.txt
+     1  System         CreateFile               SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\shared
+     1  System         CloseFile                SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\shared
+     1  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\drivers\DriverData\Qualcomm\TFTP\rfs\shared
+     1  svchost.exe    CreateFile               SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78
+     1  svchost.exe    FileSystemControl        SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78
+     1  svchost.exe    CloseFile                SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78
+     1  svchost.exe    IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78
+    12  System         CreateFile               SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    10  System         CreateFileMapping        FILE LOCKED WITH ONLY READERS C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    12  System         QueryStandardInformationFile SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     2  System         ReadFile                 SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    20  System         FASTIO_RELEASE_FOR_SECTION_SYNCHRONIZATION SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    10  System         CreateFileMapping        SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    12  System         CloseFile                SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+    11  System         IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     5  System         Load Image               SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  System         QueryNameInformationFile BUFFER OVERFLOW        C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  System         QueryNameInformationFile SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  svchost.exe    CreateFile               SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  svchost.exe    FileSystemControl        SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  svchost.exe    CloseFile                SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  svchost.exe    IRP_MJ_CLOSE             SUCCESS                C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+     1  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKCU\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKCU\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+     1  System         RegQueryKey              SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+     1  System         RegSetInfoKey            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+     7  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP
+     7  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\IgnoreWdogEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\IgnoreWdogEnabled
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\ImagePath
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\ImagePath
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SpuAriFuseWorkAroundEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SpuAriFuseWorkAroundEnabled
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysErrorHandlingPolicy
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysUefiLoadedImageAction
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysUefiLoadedImageAction
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedImageTZProcID
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedImageTZProcID
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedSubsysDetectionStatus
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedSubsysDetectionStatus
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\Parameters
+     5  System         RegOpenKey               REPARSE                HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys
+     5  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys
+     1  RuntimeBroker.exe RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Control\DeviceClasses\{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\##?#ACPI#QCOM061B#2&daba3ff&0#{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\#
+     1  RuntimeBroker.exe RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Control\DeviceClasses\{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\##?#ACPI#QCOM061B#2&daba3ff&0#{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\#
+     1  Explorer.EXE   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Control\DeviceClasses\{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\##?#ACPI#QCOM061B#2&daba3ff&0#{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\#
+     1  Explorer.EXE   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Control\DeviceClasses\{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\##?#ACPI#QCOM061B#2&daba3ff&0#{2d332ef9-18b0-4615-b47b-6c2f745f9ce6}\#
+     2  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Control\DeviceContainers\{00000000-0000-0000-FFFF-FFFFFFFFFFFF}\BaseContainers\{00000000-0000-0000-FFFF-FFFFFFFFFFFF}\ACPI\QCOM061B\2&daba3ff&0
+    20  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+    20  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  smss.exe       RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  smss.exe       RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  services.exe   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&DABA3FF&0
+     1  services.exe   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     4  svchost.exe    RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&DABA3FF&0
+    18  svchost.exe    RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+    14  svchost.exe    RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     2  dwm.exe        RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     8  dwm.exe        RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     6  dwm.exe        RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&DABA3FF&0
+     1  ctfmon.exe     RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  ctfmon.exe     RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     3  Explorer.EXE   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     6  Explorer.EXE   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     3  Explorer.EXE   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&DABA3FF&0
+     1  RuntimeBroker.exe RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  RuntimeBroker.exe RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  TextInputHost.exe RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  TextInputHost.exe RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     4  spoolsv.exe    RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     4  spoolsv.exe    RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     8  sppsvc.exe     RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     8  sppsvc.exe     RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Address
+     3  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Capabilities
+     1  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Capabilities
+     1  Explorer.EXE   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Capabilities
+     2  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\CompatibleIDs
+     1  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\CompatibleIDs
+     2  sppsvc.exe     RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\CompatibleIDs
+    12  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     1  smss.exe       RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     1  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     3  dwm.exe        RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     3  Explorer.EXE   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ConfigFlags
+     2  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\ContainerID
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+     1  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control
+     1  System         RegDeleteValue           NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control\AllocConfig
+     7  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     7  System         RegQueryKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     7  System         RegSetInfoKey            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     7  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     1  services.exe   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&DABA3FF&0\Device Parameters
+     1  services.exe   RegQueryKeySecurity      SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     1  services.exe   RegQueryKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     1  services.exe   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters
+     2  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\FirmwareIdentified
+     2  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management
+     2  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\AssignmentSetOverride
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePolicy
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePriority
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupOverride
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupPolicy
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\IsBugCheckEnabled
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\CountFile
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\CountFile
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\FileNameWildCard
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\FileNameWildCard
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\GUID
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\GUID
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\RootDirectory
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\RootDirectory
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\serviceName
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\serviceName
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\NumPDs
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\NumPDs
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WaitForVolStartupAppComplete
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WUDF
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WUDF\CompanionConfigurations
+     4  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc
+     4  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc
+     1  ctfmon.exe     RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc
+     1  TextInputHost.exe RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Driver
+     4  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Filters
+     1  ctfmon.exe     RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\FriendlyName
+     1  TextInputHost.exe RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\FriendlyName
+     2  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     2  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     2  dwm.exe        RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     1  Explorer.EXE   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     1  RuntimeBroker.exe RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     1  spoolsv.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     2  sppsvc.exe     RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\HardwareID
+     3  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf
+     3  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf\BasicConfigVector
+     2  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LogConf\BootConfig
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LowerFilters
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\PendingConfiguration
+     1  svchost.exe    RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Phantom
+     2  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{24daeb80-9823-4ff8-92a6-3a4c6189f82c}\0002
+     6  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C
+     6  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C
+     1  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\0006
+     1  svchost.exe    RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\000A
+     1  svchost.exe    RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\000A
+     1  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\000A\(Default)
+     1  spoolsv.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0002
+     6  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008
+     1  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0009
+     5  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008
+     2  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\000D
+     1  Explorer.EXE   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\0064
+     6  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A
+     6  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A
+     1  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0001
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0004
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009
+     6  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009
+     6  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009
+     3  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A
+     4  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A
+     1  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A\(Default)
+     1  System         RegDeleteValue           SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A\(Default)
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A\(Default)
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A\(Default)
+     6  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A
+     6  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80497100-8c73-48b9-aad9-ce387e19c56e}\0006
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80497100-8c73-48b9-aad9-ce387e19c56e}\0006
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80497100-8c73-48b9-aad9-ce387e19c56e}\0006\(Default)
+     1  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80d81ea6-7473-4b0c-8216-efc11a2c4c8b}\0002
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80d81ea6-7473-4b0c-8216-efc11a2c4c8b}\0005
+     1  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0006
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\000A
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\000A
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\000A\(Default)
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0012
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0013
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0018
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\001A
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\001A
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\001A\(Default)
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0066
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0066
+     1  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0066
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0066\(Default)
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0066\(Default)
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0067
+     1  dwm.exe        RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0064
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0065
+     1  dwm.exe        RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0065
+     5  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004
+     5  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004
+     5  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0025
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0025
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0025\(Default)
+     3  svchost.exe    RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0005
+     3  svchost.exe    RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0005
+     3  svchost.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0005\(Default)
+     1  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0014
+     2  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0018
+     5  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A
+     5  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A
+     6  ctfmon.exe     RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006
+     6  TextInputHost.exe RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006
+     3  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Service
+     1  spoolsv.exe    RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Service
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UINumber
+     2  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters
+     1  dwm.exe        RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters
+     1  Explorer.EXE   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\PDInfo
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\PDInfo
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\PDInfo
+     2  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+     6  System         RegEnumKey               BUFFER TOO SMALL       HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+     6  System         RegEnumKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+     2  System         RegEnumKey               NO MORE ENTRIES        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad
+     2  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAddress
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAlignment
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAlignment
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAttribute
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryReservation
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryReservation
+     2  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAddress
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAlignment
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAlignment
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAttribute
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryReservation
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryReservation
+     2  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS
+     2  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAddress
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAlignment
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAlignment
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAttribute
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryReservation
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryReservation
+     1  System         RegOpenKey               REPARSE                HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  System         RegOpenKey               REPARSE                HKLM\System\CurrentControlSet\Hardware Profiles\Current\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+     1  services.exe   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpc
+     1  services.exe   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpc
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\DelayedAutostart
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\DeleteFlag
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\DependOnGroup
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\DependOnService
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpc\ErrorControl
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\Group
+     2  RustDesk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance
+     2  DingTalk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\Security
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpc\Start
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\StartOverride
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpc\Tag
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpc\Type
+     1  services.exe   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpcd
+     1  services.exe   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpcd
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\DelayedAutostart
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\DeleteFlag
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\DependOnGroup
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\DependOnService
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpcd\ErrorControl
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\Group
+     2  RustDesk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance
+     2  DingTalk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\Security
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpcd\Start
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\StartOverride
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcadsprpcd\Tag
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcadsprpcd\Type
+    61  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys
+    65  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys
+    19  System         RegQueryKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys
+     5  System         RegQueryKey              BUFFER TOO SMALL       HKLM\System\CurrentControlSet\Services\qcsubsys
+     4  System         RegOpenKey               REPARSE                HKLM\SYSTEM\CURRENTCONTROLSET\SERVICES\qcsubsys
+     4  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\SERVICES\qcsubsys
+     1  services.exe   RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys
+     1  services.exe   RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\DelayedAutostart
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\DeleteFlag
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\DependOnGroup
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\DependOnService
+     5  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum
+     5  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\0
+     4  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\0
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\1
+     3  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\1
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\2
+     2  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\2
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\3
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\3
+     1  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\4
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\Count
+     5  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\Count
+     4  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\Count
+     5  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\NextInstance
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\ErrorControl
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Group
+    15  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath
+     5  System         RegQueryValue            BUFFER TOO SMALL       HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath
+    14  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\OriginalServiceName
+    44  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters
+    49  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters
+     5  System         RegCreateKey             SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters
+     8  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\AdspLicensePath
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\AdspRestartEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\AdspRestartEnabled
+     8  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CdspRestartEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CdspRestartEnabled
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ChildRemovalTimeout
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\IsBugCheckEnabled
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LoadTimer
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\MaxRestartCount
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\RestartTimer
+     8  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ScssRestartEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ScssRestartEnabled
+     8  System         RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS
+     1  System         RegQueryValue            BUFFER OVERFLOW        HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SpssRestartEnabled
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SpssRestartEnabled
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionMatchConfig
+     4  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionSignature
+     3  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsystemRestartCrashDetection
+     1  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsytemRestartCrashDetection
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn
+    20  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf
+    20  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn
+     5  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\WdfMajorVersion
+     5  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\WdfMinorVersion
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs
+     5  System         RegSetValue              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_TraceGuid
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp
+     2  RustDesk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Performance
+     2  DingTalk.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Performance
+     5  System         RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Security
+     5  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Start
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Start
+     1  services.exe   RegOpenKey               NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\StartOverride
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State
+     1  System         RegQueryKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State
+     1  System         RegSetInfoKey            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State
+     1  System         RegOpenKey               SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State\Wdf
+     1  System         RegCloseKey              SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State\Wdf
+     1  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\State\Wdf\TimeOfLastTelemetryLog
+     1  services.exe   RegQueryValue            NAME NOT FOUND         HKLM\System\CurrentControlSet\Services\qcsubsys\Tag
+    39  System         RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Type
+     1  services.exe   RegQueryValue            SUCCESS                HKLM\System\CurrentControlSet\Services\qcsubsys\Type
+     4  svchost.exe    RegOpenKey               SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880
+     2  svchost.exe    RegQueryKeySecurity      SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880
+     4  svchost.exe    RegCloseKey              SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880
+     1  svchost.exe    RegQueryValue            SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880\(Default)
+     1  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006
+    20  svchost.exe    RegOpenKey               SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78
+    10  svchost.exe    RegQueryKeySecurity      SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78
+    20  svchost.exe    RegCloseKey              SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78
+     5  svchost.exe    RegQueryValue            SUCCESS                HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\(Default)
+     5  svchost.exe    RegOpenKey               NAME NOT FOUND         HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006
+
+==== 非 SUCCESS 事件（时间顺序）====
+10:34:36.2311236 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 0, Length: 0
+10:34:36.2312617 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 1, Length: 0
+10:34:36.2313457 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 2, Length: 0
+10:34:36.2314212 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | NO MORE ENTRIES | Index: 3, Length: 0
+10:34:36.2314462 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 0, Length: 0
+10:34:36.2315028 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryReservation | BUFFER OVERFLOW | Length: 12
+10:34:36.2315359 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAlignment | BUFFER OVERFLOW | Length: 12
+10:34:36.2315626 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAddress | NAME NOT FOUND | Length: 12
+10:34:36.2315751 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\ADSP\MemoryAttribute | NAME NOT FOUND | Length: 12
+10:34:36.2316054 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 1, Length: 0
+10:34:36.2316581 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryReservation | BUFFER OVERFLOW | Length: 12
+10:34:36.2316885 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAlignment | BUFFER OVERFLOW | Length: 12
+10:34:36.2317172 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAddress | NAME NOT FOUND | Length: 12
+10:34:36.2317294 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\GFXSUC\MemoryAttribute | NAME NOT FOUND | Length: 12
+10:34:36.2317583 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | BUFFER TOO SMALL | Index: 2, Length: 0
+10:34:36.2318081 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryReservation | BUFFER OVERFLOW | Length: 12
+10:34:36.2318437 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAlignment | BUFFER OVERFLOW | Length: 12
+10:34:36.2318728 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAddress | NAME NOT FOUND | Length: 12
+10:34:36.2318850 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad\VENUS\MemoryAttribute | NAME NOT FOUND | Length: 12
+10:34:36.2319141 | System | 4 | RegEnumKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0\Device Parameters\SubsystemLoad | NO MORE ENTRIES | Index: 3, Length: 0
+10:34:36.3813564 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Enum\Count | NAME NOT FOUND | Length: 44
+10:34:36.3835812 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.3838246 | System | 4 | RegQueryKey | HKLM\System\CurrentControlSet\Services\qcsubsys | BUFFER TOO SMALL | Query: Basic, Length: 0
+10:34:36.3838825 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.3856621 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE
+10:34:36.3887595 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_READONLY
+10:34:36.4020428 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | REPARSE | Desired Access: Read
+10:34:36.4020783 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | NAME NOT FOUND | Desired Access: Read
+10:34:36.4052043 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags | NAME NOT FOUND | Length: 44
+10:34:36.4052569 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices | NAME NOT FOUND | Length: 68
+10:34:36.4055265 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath | BUFFER TOO SMALL | Length: 0
+10:34:36.4058899 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions | NAME NOT FOUND | Length: 16
+10:34:36.4059898 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.4060001 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount | NAME NOT FOUND | Length: 134
+10:34:36.4060093 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn | NAME NOT FOUND | Length: 134
+10:34:36.4060176 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel | NAME NOT FOUND | Length: 134
+10:34:36.4060264 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.4060348 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog | NAME NOT FOUND | Length: 134
+10:34:36.4060434 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn | NAME NOT FOUND | Length: 134
+10:34:36.4060522 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn | NAME NOT FOUND | Length: 134
+10:34:36.4060608 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags | NAME NOT FOUND | Length: 134
+10:34:36.4060699 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn | NAME NOT FOUND | Length: 16
+10:34:36.4060784 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError | NAME NOT FOUND | Length: 16
+10:34:36.4060869 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError | NAME NOT FOUND | Length: 16
+10:34:36.4060968 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec | NAME NOT FOUND | Length: 16
+10:34:36.4061855 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages | NAME NOT FOUND | Length: 16
+10:34:36.4061942 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.4062029 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.4067076 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.4067177 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages | NAME NOT FOUND | Length: 134
+10:34:36.4067262 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.4067347 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes | NAME NOT FOUND | Length: 134
+10:34:36.4067433 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes | NAME NOT FOUND | Length: 134
+10:34:36.4067520 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled | NAME NOT FOUND | Length: 134
+10:34:36.4067606 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs | NAME NOT FOUND | Length: 134
+10:34:36.4067689 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.4067773 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.4071472 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS | NAME NOT FOUND | Length: 16
+10:34:36.4071594 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates | NAME NOT FOUND | Length: 16
+10:34:36.4071693 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat | NAME NOT FOUND | Length: 16
+10:34:36.4074118 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible | NAME NOT FOUND | Length: 76
+10:34:36.4091785 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0\Device Parameters\PDInfo | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094209 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094381 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094524 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094660 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094800 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4094932 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4095088 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ScssRestartEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.4095383 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\MaxRestartCount | NAME NOT FOUND | Length: 12
+10:34:36.4095503 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\RestartTimer | NAME NOT FOUND | Length: 12
+10:34:36.4095609 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LoadTimer | NAME NOT FOUND | Length: 12
+10:34:36.4095729 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4095870 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ChildRemovalTimeout | NAME NOT FOUND | Length: 12
+10:34:36.4095982 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\IsBugCheckEnabled | NAME NOT FOUND | Length: 12
+10:34:36.4096244 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SCSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4096376 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsystemRestartCrashDetection | NAME NOT FOUND | Length: 12
+10:34:36.4096498 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionSignature | NAME NOT FOUND | Length: 12
+10:34:36.4096620 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionMatchConfig | NAME NOT FOUND | Length: 12
+10:34:36.4109675 | System | 4 | RegOpenKey | HKLM\SYSTEM\CURRENTCONTROLSET\SERVICES\qcsubsys | REPARSE | Desired Access: Read
+10:34:36.4110218 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4268850 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4270927 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\000D | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4278442 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0067 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4282870 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UINumber | NAME NOT FOUND | Length: 140
+10:34:36.4282997 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Address | NAME NOT FOUND | Length: 140
+10:34:36.4294520 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4298200 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\PendingConfiguration | NAME NOT FOUND | Desired Access: Read
+10:34:36.4302171 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Hardware Profiles\Current\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0 | REPARSE | Desired Access: Read
+10:34:36.4302529 | System | 4 | RegOpenKey | HKLM\SYSTEM\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0 | REPARSE | Desired Access: Read
+10:34:36.4302726 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Hardware Profiles\0001\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0 | NAME NOT FOUND | Desired Access: Read
+10:34:36.4304770 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4305317 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0065 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4323585 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\AssignmentSetOverride | NAME NOT FOUND | Length: 0
+10:34:36.4323717 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupOverride | NAME NOT FOUND | Length: 134
+10:34:36.4323813 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePolicy | NAME NOT FOUND | Length: 134
+10:34:36.4323899 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePriority | NAME NOT FOUND | Length: 134
+10:34:36.4323983 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupPolicy | NAME NOT FOUND | Length: 134
+10:34:36.4333463 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UINumber | NAME NOT FOUND | Length: 140
+10:34:36.4333558 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Address | NAME NOT FOUND | Length: 140
+10:34:36.4335015 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Filters | NAME NOT FOUND | Desired Access: Read/Write
+10:34:36.4335129 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LowerFilters | NAME NOT FOUND | Length: 182
+10:34:36.4337130 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Filters | NAME NOT FOUND | Desired Access: Read/Write
+10:34:36.4337250 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters | NAME NOT FOUND | Length: 182
+10:34:36.4340501 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\000A\(Default) | NAME NOT FOUND | Length: 140
+10:34:36.4347541 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4348112 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{24daeb80-9823-4ff8-92a6-3a4c6189f82c}\0002 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4351458 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80d81ea6-7473-4b0c-8216-efc11a2c4c8b}\0005 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4355763 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0001 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4356128 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0013 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4358198 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Filters | NAME NOT FOUND | Desired Access: Read/Write
+10:34:36.4359249 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\LowerFilters | NAME NOT FOUND | Length: 524
+10:34:36.4360891 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4361495 | System | 4 | RegQueryKey | HKLM\System\CurrentControlSet\Services\qcsubsys | BUFFER TOO SMALL | Query: Basic, Length: 0
+10:34:36.4363033 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4371444 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE
+10:34:36.4419260 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_READONLY
+10:34:36.4559575 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | REPARSE | Desired Access: Read
+10:34:36.4559903 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | NAME NOT FOUND | Desired Access: Read
+10:34:36.4574004 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags | NAME NOT FOUND | Length: 44
+10:34:36.4574520 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices | NAME NOT FOUND | Length: 68
+10:34:36.4577253 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath | BUFFER TOO SMALL | Length: 0
+10:34:36.4579840 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions | NAME NOT FOUND | Length: 16
+10:34:36.4580867 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.4580964 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount | NAME NOT FOUND | Length: 134
+10:34:36.4581052 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn | NAME NOT FOUND | Length: 134
+10:34:36.4581139 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel | NAME NOT FOUND | Length: 134
+10:34:36.4581229 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.4581318 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog | NAME NOT FOUND | Length: 134
+10:34:36.4581406 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn | NAME NOT FOUND | Length: 134
+10:34:36.4581493 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn | NAME NOT FOUND | Length: 134
+10:34:36.4581581 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags | NAME NOT FOUND | Length: 134
+10:34:36.4581673 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn | NAME NOT FOUND | Length: 16
+10:34:36.4581755 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError | NAME NOT FOUND | Length: 16
+10:34:36.4581835 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError | NAME NOT FOUND | Length: 16
+10:34:36.4581916 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec | NAME NOT FOUND | Length: 16
+10:34:36.4582813 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages | NAME NOT FOUND | Length: 16
+10:34:36.4582898 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.4582981 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.4588242 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.4588343 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages | NAME NOT FOUND | Length: 134
+10:34:36.4588427 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.4588512 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes | NAME NOT FOUND | Length: 134
+10:34:36.4588597 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes | NAME NOT FOUND | Length: 134
+10:34:36.4588683 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled | NAME NOT FOUND | Length: 134
+10:34:36.4588765 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs | NAME NOT FOUND | Length: 134
+10:34:36.4588847 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.4588928 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.4592664 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS | NAME NOT FOUND | Length: 16
+10:34:36.4592785 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates | NAME NOT FOUND | Length: 16
+10:34:36.4592884 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat | NAME NOT FOUND | Length: 16
+10:34:36.4594114 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Filters | NAME NOT FOUND | Desired Access: Read/Write
+10:34:36.4594282 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters | NAME NOT FOUND | Length: 524
+10:34:36.4595160 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible | NAME NOT FOUND | Length: 76
+10:34:36.4595800 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{83da6326-97a6-4088-9453-a1923f573b29}\0012 | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4597095 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc | BUFFER OVERFLOW | Length: 140
+10:34:36.4597907 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc | BUFFER OVERFLOW | Length: 140
+10:34:36.4598699 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc | BUFFER OVERFLOW | Length: 140
+10:34:36.4599455 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\DeviceDesc | BUFFER OVERFLOW | Length: 140
+10:34:36.4602695 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WUDF\CompanionConfigurations | NAME NOT FOUND | Desired Access: Read
+10:34:36.4724504 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\NumPDs | BUFFER OVERFLOW | Length: 12
+10:34:36.4725290 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\GUID | BUFFER OVERFLOW | Length: 12
+10:34:36.4725656 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\serviceName | BUFFER OVERFLOW | Length: 12
+10:34:36.4726026 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\FileNameWildCard | BUFFER OVERFLOW | Length: 12
+10:34:36.4726308 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\RootDirectory | BUFFER OVERFLOW | Length: 12
+10:34:36.4726568 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\PDInfo\0\CountFile | BUFFER OVERFLOW | Length: 12
+10:34:36.4728963 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\ImagePath | BUFFER OVERFLOW | Length: 12
+10:34:36.4733516 | System | 4 | QueryNameInformationFile | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | BUFFER OVERFLOW | Name: \Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys
+10:34:36.4736479 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4736701 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4736866 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4737024 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4737181 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4737342 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4737508 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\AdspRestartEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.4737820 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\MaxRestartCount | NAME NOT FOUND | Length: 12
+10:34:36.4737946 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\RestartTimer | NAME NOT FOUND | Length: 12
+10:34:36.4738055 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LoadTimer | NAME NOT FOUND | Length: 12
+10:34:36.4738185 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4738332 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ChildRemovalTimeout | NAME NOT FOUND | Length: 12
+10:34:36.4738445 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\IsBugCheckEnabled | NAME NOT FOUND | Length: 12
+10:34:36.4738845 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SpuAriFuseWorkAroundEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.4739273 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ADSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4739423 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsystemRestartCrashDetection | NAME NOT FOUND | Length: 12
+10:34:36.4739553 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionSignature | NAME NOT FOUND | Length: 12
+10:34:36.4739684 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionMatchConfig | NAME NOT FOUND | Length: 12
+10:34:36.4739810 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\Parameters | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4740636 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WaitForVolStartupAppComplete | NAME NOT FOUND | Length: 12
+10:34:36.4740748 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\IsBugCheckEnabled | NAME NOT FOUND | Length: 12
+10:34:36.4741230 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\IgnoreWdogEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.4741885 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysUefiLoadedImageAction | BUFFER OVERFLOW | Length: 12
+10:34:36.4742503 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedImageTZProcID | BUFFER OVERFLOW | Length: 12
+10:34:36.4743120 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\UefiLoadedSubsysDetectionStatus | BUFFER OVERFLOW | Length: 12
+10:34:36.4743738 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0036\ADSP\SubsysErrorHandlingPolicy | NAME NOT FOUND | Length: 12
+10:34:36.4744012 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\AdspLicensePath | NAME NOT FOUND | Length: 12
+10:34:36.4762436 | System | 4 | RegOpenKey | HKLM\SYSTEM\CURRENTCONTROLSET\SERVICES\qcsubsys | REPARSE | Desired Access: Read
+10:34:36.4762983 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4802581 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control | NAME NOT FOUND | Desired Access: All Access
+10:34:36.4805302 | System | 4 | RegDeleteValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Control\AllocConfig | NAME NOT FOUND | 
+10:34:36.4814662 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\AssignmentSetOverride | NAME NOT FOUND | Length: 0
+10:34:36.4814817 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupOverride | NAME NOT FOUND | Length: 134
+10:34:36.4814926 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePolicy | NAME NOT FOUND | Length: 134
+10:34:36.4815024 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\DevicePriority | NAME NOT FOUND | Length: 134
+10:34:36.4815118 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Interrupt Management\Affinity Policy\GroupPolicy | NAME NOT FOUND | Length: 134
+10:34:36.4826881 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\000D | NAME NOT FOUND | Desired Access: Query Value
+10:34:36.4892631 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4893234 | System | 4 | RegQueryKey | HKLM\System\CurrentControlSet\Services\qcsubsys | BUFFER TOO SMALL | Query: Basic, Length: 0
+10:34:36.4894032 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.4898392 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE
+10:34:36.4927184 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_READONLY
+10:34:36.5061957 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | REPARSE | Desired Access: Read
+10:34:36.5062343 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | NAME NOT FOUND | Desired Access: Read
+10:34:36.5079351 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags | NAME NOT FOUND | Length: 44
+10:34:36.5079990 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices | NAME NOT FOUND | Length: 68
+10:34:36.5083401 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath | BUFFER TOO SMALL | Length: 0
+10:34:36.5086757 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions | NAME NOT FOUND | Length: 16
+10:34:36.5088143 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.5088305 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount | NAME NOT FOUND | Length: 134
+10:34:36.5088438 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn | NAME NOT FOUND | Length: 134
+10:34:36.5088561 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel | NAME NOT FOUND | Length: 134
+10:34:36.5088685 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.5088811 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog | NAME NOT FOUND | Length: 134
+10:34:36.5088939 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn | NAME NOT FOUND | Length: 134
+10:34:36.5089063 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn | NAME NOT FOUND | Length: 134
+10:34:36.5089187 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags | NAME NOT FOUND | Length: 134
+10:34:36.5089308 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn | NAME NOT FOUND | Length: 16
+10:34:36.5089410 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError | NAME NOT FOUND | Length: 16
+10:34:36.5089509 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError | NAME NOT FOUND | Length: 16
+10:34:36.5089619 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec | NAME NOT FOUND | Length: 16
+10:34:36.5090746 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages | NAME NOT FOUND | Length: 16
+10:34:36.5090847 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.5090945 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.5097124 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.5097247 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages | NAME NOT FOUND | Length: 134
+10:34:36.5097350 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.5097454 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes | NAME NOT FOUND | Length: 134
+10:34:36.5097558 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes | NAME NOT FOUND | Length: 134
+10:34:36.5097661 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled | NAME NOT FOUND | Length: 134
+10:34:36.5097763 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs | NAME NOT FOUND | Length: 134
+10:34:36.5097864 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.5097966 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.5102543 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS | NAME NOT FOUND | Length: 16
+10:34:36.5102921 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates | NAME NOT FOUND | Length: 16
+10:34:36.5103213 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat | NAME NOT FOUND | Length: 16
+10:34:36.5105736 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible | NAME NOT FOUND | Length: 76
+10:34:36.5125032 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0\Device Parameters\PDInfo | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5127554 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5127754 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5127921 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5128093 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5128258 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5128426 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5128593 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CdspRestartEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.5128903 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\MaxRestartCount | NAME NOT FOUND | Length: 12
+10:34:36.5129033 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\RestartTimer | NAME NOT FOUND | Length: 12
+10:34:36.5129152 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LoadTimer | NAME NOT FOUND | Length: 12
+10:34:36.5129285 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5129441 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ChildRemovalTimeout | NAME NOT FOUND | Length: 12
+10:34:36.5129566 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\IsBugCheckEnabled | NAME NOT FOUND | Length: 12
+10:34:36.5129857 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\CDSP | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5130005 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsystemRestartCrashDetection | NAME NOT FOUND | Length: 12
+10:34:36.5130125 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionSignature | NAME NOT FOUND | Length: 12
+10:34:36.5130251 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionMatchConfig | NAME NOT FOUND | Length: 12
+10:34:36.5142162 | System | 4 | RegOpenKey | HKLM\SYSTEM\CURRENTCONTROLSET\SERVICES\qcsubsys | REPARSE | Desired Access: Read
+10:34:36.5142578 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.5272771 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.5274270 | System | 4 | RegQueryKey | HKLM\System\CurrentControlSet\Services\qcsubsys | BUFFER TOO SMALL | Query: Basic, Length: 0
+10:34:36.5275460 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:36.5282339 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE
+10:34:36.5332480 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_READONLY
+10:34:36.5482378 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | REPARSE | Desired Access: Read
+10:34:36.5482697 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | NAME NOT FOUND | Desired Access: Read
+10:34:36.5496942 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags | NAME NOT FOUND | Length: 44
+10:34:36.5497475 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices | NAME NOT FOUND | Length: 68
+10:34:36.5500349 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath | BUFFER TOO SMALL | Length: 0
+10:34:36.5502933 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions | NAME NOT FOUND | Length: 16
+10:34:36.5504076 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.5504195 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount | NAME NOT FOUND | Length: 134
+10:34:36.5504298 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn | NAME NOT FOUND | Length: 134
+10:34:36.5504398 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel | NAME NOT FOUND | Length: 134
+10:34:36.5504499 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.5504600 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog | NAME NOT FOUND | Length: 134
+10:34:36.5504700 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn | NAME NOT FOUND | Length: 134
+10:34:36.5504801 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn | NAME NOT FOUND | Length: 134
+10:34:36.5504898 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags | NAME NOT FOUND | Length: 134
+10:34:36.5504990 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn | NAME NOT FOUND | Length: 16
+10:34:36.5505074 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError | NAME NOT FOUND | Length: 16
+10:34:36.5505155 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError | NAME NOT FOUND | Length: 16
+10:34:36.5505237 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec | NAME NOT FOUND | Length: 16
+10:34:36.5506184 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages | NAME NOT FOUND | Length: 16
+10:34:36.5506264 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.5506347 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:36.5511292 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:36.5511387 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages | NAME NOT FOUND | Length: 134
+10:34:36.5511473 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:36.5511564 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes | NAME NOT FOUND | Length: 134
+10:34:36.5511763 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes | NAME NOT FOUND | Length: 134
+10:34:36.5511852 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled | NAME NOT FOUND | Length: 134
+10:34:36.5511939 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs | NAME NOT FOUND | Length: 134
+10:34:36.5512023 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.5512108 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:36.5515948 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS | NAME NOT FOUND | Length: 16
+10:34:36.5516064 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates | NAME NOT FOUND | Length: 16
+10:34:36.5516158 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat | NAME NOT FOUND | Length: 16
+10:34:36.5518385 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible | NAME NOT FOUND | Length: 76
+10:34:36.5532710 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0\Device Parameters\PDInfo | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5533709 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5533855 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5533984 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5534110 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5534234 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5534359 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5534497 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SpssRestartEnabled | BUFFER OVERFLOW | Length: 12
+10:34:36.5534753 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\MaxRestartCount | NAME NOT FOUND | Length: 12
+10:34:36.5534863 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\RestartTimer | NAME NOT FOUND | Length: 12
+10:34:36.5534969 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LoadTimer | NAME NOT FOUND | Length: 12
+10:34:36.5535089 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5535220 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SPSS | NAME NOT FOUND | Desired Access: All Access
+10:34:36.5535342 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ChildRemovalTimeout | NAME NOT FOUND | Length: 12
+10:34:36.5535449 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\IsBugCheckEnabled | NAME NOT FOUND | Length: 12
+10:34:36.5535555 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsytemRestartCrashDetection | NAME NOT FOUND | Length: 12
+10:34:36.5535670 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionSignature | NAME NOT FOUND | Length: 12
+10:34:36.5535791 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\SubsysCrashDetectionMatchConfig | NAME NOT FOUND | Length: 12
+10:34:36.5546841 | System | 4 | RegOpenKey | HKLM\SYSTEM\CURRENTCONTROLSET\SERVICES\qcsubsys | REPARSE | Desired Access: Read
+10:34:36.5547316 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:37.0025241 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:37.0025706 | System | 4 | RegQueryKey | HKLM\System\CurrentControlSet\Services\qcsubsys | BUFFER TOO SMALL | Query: Basic, Length: 0
+10:34:37.0026155 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ObjectName | NAME NOT FOUND | Length: 112
+10:34:37.0030117 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_EXECUTE
+10:34:37.0055348 | System | 4 | CreateFileMapping | C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys | FILE LOCKED WITH ONLY READERS | SyncType: SyncTypeCreateSection, PageProtection: PAGE_READONLY
+10:34:37.0167378 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | REPARSE | Desired Access: Read
+10:34:37.0167695 | System | 4 | RegOpenKey | HKLM\System\CurrentControlSet\Control\Compatibility\Driver\qcsubsys8280.sys | NAME NOT FOUND | Desired Access: Read
+10:34:37.0181886 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\PnpFlags | NAME NOT FOUND | Length: 44
+10:34:37.0182379 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\PnpAsyncNewDevices | NAME NOT FOUND | Length: 68
+10:34:37.0185163 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\ImagePath | BUFFER TOO SMALL | Length: 0
+10:34:37.0188573 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\EnhancedVerifierOptions | NAME NOT FOUND | Length: 16
+10:34:37.0189655 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:37.0189759 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierAllocateFailCount | NAME NOT FOUND | Length: 134
+10:34:37.0189850 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifierOn | NAME NOT FOUND | Length: 134
+10:34:37.0189939 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyDownLevel | NAME NOT FOUND | Length: 134
+10:34:37.0190031 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:37.0190123 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\TrackDriverForMiniDumpLog | NAME NOT FOUND | Length: 134
+10:34:37.0190218 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RequestParentOptimizationOn | NAME NOT FOUND | Length: 134
+10:34:37.0190306 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DsfOn | NAME NOT FOUND | Length: 134
+10:34:37.0190394 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\RemoveLockOptionFlags | NAME NOT FOUND | Length: 134
+10:34:37.0190486 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\VerifyOn | NAME NOT FOUND | Length: 16
+10:34:37.0190569 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnError | NAME NOT FOUND | Length: 16
+10:34:37.0190651 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgBreakOnDeviceStateError | NAME NOT FOUND | Length: 16
+10:34:37.0190738 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\DbgWaitForWakeInterruptIsrTimeoutInSec | NAME NOT FOUND | Length: 16
+10:34:37.0191653 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPages | NAME NOT FOUND | Length: 16
+10:34:37.0191738 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogUseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:37.0191824 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\Wdf\LogPreciseTimeStamp | NAME NOT FOUND | Length: 16
+10:34:37.0197122 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\VerboseOn | NAME NOT FOUND | Length: 134
+10:34:37.0197224 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\LogPages | NAME NOT FOUND | Length: 134
+10:34:37.0197318 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\ForceLogsInMiniDump | NAME NOT FOUND | Length: 134
+10:34:37.0197410 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMinBytes | NAME NOT FOUND | Length: 134
+10:34:37.0197501 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PerBufferMaxBytes | NAME NOT FOUND | Length: 134
+10:34:37.0197591 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_ReplayEnabled | NAME NOT FOUND | Length: 134
+10:34:37.0197680 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_RetainLastNDeletedLogs | NAME NOT FOUND | Length: 134
+10:34:37.0197768 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_UseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:37.0197856 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\WppRecorder_PreciseTimeStamp | NAME NOT FOUND | Length: 134
+10:34:37.0201887 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DebugSS | NAME NOT FOUND | Length: 16
+10:34:37.0202001 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DisableTimeoutForWaitStates | NAME NOT FOUND | Length: 16
+10:34:37.0202099 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\UseOldSFRFormat | NAME NOT FOUND | Length: 16
+10:34:37.0204343 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Parameters\DmaRemappingCompatible | NAME NOT FOUND | Length: 76
+10:34:37.0246647 | System | 4 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\OriginalServiceName | NAME NOT FOUND | Length: 320
+10:34:40.4012525 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\StartOverride | NAME NOT FOUND | Desired Access: Query Value
+10:34:40.4012899 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\Tag | NAME NOT FOUND | Length: 16
+10:34:40.4013014 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\Group | NAME NOT FOUND | Length: 268
+10:34:40.4013128 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\DependOnService | NAME NOT FOUND | Length: 268
+10:34:40.4013237 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\DependOnGroup | NAME NOT FOUND | Length: 268
+10:34:40.4013357 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\Security | NAME NOT FOUND | Desired Access: Read
+10:34:40.4013495 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\DelayedAutostart | NAME NOT FOUND | Length: 16
+10:34:40.4014035 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpc\DeleteFlag | NAME NOT FOUND | Length: 16
+10:34:40.4015130 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\StartOverride | NAME NOT FOUND | Desired Access: Query Value
+10:34:40.4015503 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Tag | NAME NOT FOUND | Length: 16
+10:34:40.4015617 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Group | NAME NOT FOUND | Length: 268
+10:34:40.4015729 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\DependOnService | NAME NOT FOUND | Length: 268
+10:34:40.4015836 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\DependOnGroup | NAME NOT FOUND | Length: 268
+10:34:40.4015947 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Security | NAME NOT FOUND | Desired Access: Read
+10:34:40.4016068 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\DelayedAutostart | NAME NOT FOUND | Length: 16
+10:34:40.4016750 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcadsprpcd\DeleteFlag | NAME NOT FOUND | Length: 16
+10:34:40.4040163 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\StartOverride | NAME NOT FOUND | Desired Access: Query Value
+10:34:40.4040549 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\Tag | NAME NOT FOUND | Length: 16
+10:34:40.4040792 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\DependOnService | NAME NOT FOUND | Length: 268
+10:34:40.4040903 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\DependOnGroup | NAME NOT FOUND | Length: 268
+10:34:40.4041012 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Security | NAME NOT FOUND | Desired Access: Read
+10:34:40.4041136 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\DelayedAutostart | NAME NOT FOUND | Length: 16
+10:34:40.4041663 | services.exe | 884 | RegQueryValue | HKLM\System\CurrentControlSet\Services\qcsubsys\DeleteFlag | NAME NOT FOUND | Length: 16
+10:34:40.8717653 | services.exe | 884 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\WUDF | NAME NOT FOUND | Desired Access: Read
+10:34:41.8623246 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5871460 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5874282 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5876989 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5880135 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5917538 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{4340a6c5-93fa-4706-972c-7b648008a5a7}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5927111 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5929824 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5932195 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5935347 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5937269 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5939162 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0008 | NAME NOT FOUND | Desired Access: Query Value
+10:34:42.5963934 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3464f7a4-2444-40b1-980a-e0903cb6d912}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:43.1783061 | dwm.exe | 1440 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0064 | NAME NOT FOUND | Desired Access: Query Value
+10:34:43.1784431 | dwm.exe | 1440 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c439ff0-9cf7-43cd-961e-9299a4c6c157}\0065 | NAME NOT FOUND | Desired Access: Query Value
+10:34:43.6281424 | dwm.exe | 1440 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters | NAME NOT FOUND | Length: 140
+10:34:44.3724401 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:44.6037036 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{80d81ea6-7473-4b0c-8216-efc11a2c4c8b}\0002 | NAME NOT FOUND | Desired Access: Query Value
+10:34:45.5007937 | svchost.exe | 2200 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.1787378 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.1788113 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.1789110 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.1790320 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.1790782 | svchost.exe | 1180 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a45c254e-df1c-4efd-8020-67d146a850e0}\0018 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2489346 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2489782 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2490104 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2490358 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2490596 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2492376 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2493913 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2495096 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2496068 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2496542 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2496997 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2498389 | ctfmon.exe | 4480 | RegOpenKey | HKCU\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2499898 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2500466 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2501047 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2502185 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2504367 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2506150 | ctfmon.exe | 4480 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\FriendlyName | NAME NOT FOUND | Length: 524
+10:34:49.2509793 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2511460 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2513739 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2514663 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2516584 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2519886 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2522374 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2524307 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2526056 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2528432 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2529554 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2529977 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2530366 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2530689 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2531596 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2531987 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2532403 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2533408 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2534459 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2535208 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2535587 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2536562 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2537110 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:49.2537520 | ctfmon.exe | 4480 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:34:52.1257086 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:34:52.1257781 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance | NAME NOT FOUND | Desired Access: Read
+10:34:52.1259616 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:34:52.1260364 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance | NAME NOT FOUND | Desired Access: Read
+10:34:52.1277461 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:34:52.1278207 | RustDesk.exe | 4656 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Performance | NAME NOT FOUND | Desired Access: Read
+10:35:04.0158984 | Explorer.EXE | 5760 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\UpperFilters | NAME NOT FOUND | Length: 140
+10:35:04.6051111 | Explorer.EXE | 5760 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\0064 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2026372 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2026663 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2026907 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2027151 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2027392 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{8c7ed206-3f8a-4827-b3ab-ae9e1faefc6c}\0004 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2028117 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2028403 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2028667 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2028932 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2029195 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2029463 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{540b947e-8b40-45bc-a8a2-6a0b894cbda2}\0009 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2029912 | TextInputHost.exe | 5112 | RegOpenKey | HKCU\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2030995 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2031259 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2031503 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2031751 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2031987 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{b725f130-47ef-101a-a5f1-02608c9eebac}\000A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2032186 | TextInputHost.exe | 5112 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\FriendlyName | NAME NOT FOUND | Length: 524
+10:35:37.2032531 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2032770 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2033002 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2033234 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2033463 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2033701 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{cf73bb51-3abf-44a2-85e0-9a3dc7a12132}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2033939 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2034180 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2034418 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2034648 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2034879 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2035205 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{78c34fc8-104a-4aca-9ea4-524d52996e57}\005A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2035451 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2035692 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2036062 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2036293 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2036526 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2036760 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{259abffc-50a7-47ce-af08-68c9a7d73366}\000C | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2036991 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2037228 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2037462 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2037693 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2037929 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:35:37.2038176 | TextInputHost.exe | 5112 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{51236583-0c4a-4fe8-b81f-166aec13f510}\007A | NAME NOT FOUND | Desired Access: Query Value
+10:36:46.3007635 | spoolsv.exe | 3312 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{3b2ce006-5e61-4fde-bab8-9b8aac9b26df}\0002 | NAME NOT FOUND | Desired Access: Query Value
+10:36:57.0491197 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:36:57.0492200 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpc\Performance | NAME NOT FOUND | Desired Access: Read
+10:36:57.0493561 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:36:57.0494756 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcadsprpcd\Performance | NAME NOT FOUND | Desired Access: Read
+10:36:57.0507977 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Performance | NAME NOT FOUND | Desired Access: Read/Write
+10:36:57.0508544 | DingTalk.exe | 9036 | RegOpenKey | HKLM\System\CurrentControlSet\Services\qcsubsys\Performance | NAME NOT FOUND | Desired Access: Read
+10:37:01.1243636 | svchost.exe | 3544 | RegOpenKey | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Properties\{a8b865dd-2e3d-4094-ad97-e593a70c75d6}\0014 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.2731881 | svchost.exe | 3544 | RegQueryValue | HKLM\System\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0\Phantom | NAME NOT FOUND | Length: 140
+10:37:01.2740309 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.2957382 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.3268171 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.3330279 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.3936720 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8250.inf_arm64_e2cfb35104da8880\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value
+10:37:01.4828429 | svchost.exe | 3544 | RegOpenKey | HKLM\SYSTEM\DriverDatabase\DriverPackages\qcsubsys8280.inf_arm64_aa16b5350e005f78\Properties\{4da162c1-5eb1-4140-a444-5064c9814e76}\0006 | NAME NOT FOUND | Desired Access: Query Value

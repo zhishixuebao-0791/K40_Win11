@@ -1,0 +1,16 @@
+﻿[2026-10-17 09:52:39] Phase15A：ADSP Resources\BinaryPath 离线写入开始。
+[2026-10-17 09:52:39] 备份目录: C:\yjc_code\K40_Win11\Alioth-Engineering\backups\qcsubsys-phase15a-adsp-resources-pre-apply-20261017-095239
+[2026-10-17 09:52:39] AeoB 资源文件: C:\yjc_code\K40_Win11\sound_code\driver_candidates\surfacepro9_5g_22621_25.070.2191.0\extracted\SurfaceUpdate\surfaceproextadsp8280\RADS.bin  SHA256=978E4812FE4625158657F345F2688BA39382B689783981E0636563C486026088
+[2026-10-17 09:52:39] 资源文件已复制并校验: D:\Windows\System32\Drivers\Alioth\ADSP\RADS.bin
+[2026-10-17 09:52:39] 执行: reg.exe load HKLM\ALIOTH_PHASE15A_APPLY_2340 D:\Windows\System32\Config\SYSTEM
+操作成功完成。
+
+[2026-10-17 09:52:40] 离线当前 ControlSet: ControlSet001
+[2026-10-17 09:52:40] 设置 Enum\ACPI\QCOM061B\2&daba3ff&0\Device Parameters\Resources\BinaryPath (String) = C:\Windows\System32\Drivers\Alioth\ADSP\RADS.bin
+[2026-10-17 09:52:40] 备份清单已写入 manifest.json（1 个值，新建键 1 个）。
+[2026-10-17 09:52:40] 执行: reg.exe unload HKLM\ALIOTH_PHASE15A_APPLY_2340
+操作成功完成。
+
+[2026-10-17 09:52:40] 第 1 次尝试成功卸载 HKLM\ALIOTH_PHASE15A_APPLY_2340。
+[2026-10-17 09:52:40] Phase15A 写入完成。
+[2026-10-17 09:52:40] 回滚命令: powershell -NoProfile -ExecutionPolicy Bypass -File "C:\yjc_code\K40_Win11\Alioth-Engineering\tools\Rollback-QcsubsysPhase14AdspSoftwareKey-Admin.ps1" -WindowsDrive D -BackupDir "C:\yjc_code\K40_Win11\Alioth-Engineering\backups\qcsubsys-phase15a-adsp-resources-pre-apply-20261017-095239"
