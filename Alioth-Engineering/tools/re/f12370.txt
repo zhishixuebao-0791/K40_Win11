@@ -1,0 +1,248 @@
+func ['0x12370', '0x127d4']
+ 12370 pacibsp                                      
+ 12374 stp    x29, x30, [sp, #-0x80]!              
+ 12378 mov    x29, sp                              
+ 1237c str    x0, [x29, #0x50]                     
+ 12380 str    x1, [x29, #0x60]                     
+ 12384 str    x2, [x29, #0x58]                     
+ 12388 mov    w8, #-0x3fffffff                     
+ 1238c str    w8, [x29, #0x10]                     
+ 12390 mov    x8, #0                               
+ 12394 str    x8, [x29, #0x48]                     
+ 12398 mov    x8, #0                               
+ 1239c str    x8, [x29, #0x40]                     
+ 123a0 mov    x8, #0                               
+ 123a4 str    x8, [x29, #0x18]                     
+ 123a8 ldr    x0, [x29, #0x50]                     
+ 123ac bl     #0x22f8                              sub_0x22f8
+ 123b0 str    x0, [x29, #0x20]                     
+ 123b4 ldr    x8, [x29, #0x20]                     
+ 123b8 cmp    x8, #0                               
+ 123bc b.ne   #0x12424                             
+ 123c0 adrp   x8, #0x5e000                         
+ 123c8 adrp   x8, #0x5e000                         
+ 123d0 cmp    x8, x9                               
+ 123d4 b.eq   #0x12418                             
+ 123d8 mov    w8, #1                               
+ 123dc cmp    w8, #0                               
+ 123e0 b.eq   #0x12418                             
+ 123e4 adrp   x8, #0x5e000                         
+ 123f0 adrp   x8, #0x5c000                         
+ 123f4 add    x4, x8, #0x1d0                       0x5c1d0 
+ 123f8 mov    w3, #0x1b                            
+ 123fc mov    w2, #2                               
+ 12400 mov    w1, #2                               
+ 12404 ldr    x0, [x9]                             
+ 12408 bl     #0x2368                              sub_0x2368
+ 1240c mov    w8, #1                               
+ 12410 str    w8, [x29, #0x28]                     
+ 12414 b      #0x12420                             
+ 12418 mov    w8, #0                               
+ 1241c str    w8, [x29, #0x28]                     
+ 12420 b      #0x12740                             
+ 12424 add    x1, x29, #0x40                       
+ 12428 add    x0, x29, #0x48                       
+ 1242c bl     #0x116a8                             sub_0x116a8
+ 12430 mov    w0, w0                               
+ 12434 str    w0, [x29, #0x10]                     
+ 12438 ldr    w8, [x29, #0x10]                     
+ 1243c cmp    w8, #0                               
+ 12440 b.lt   #0x126e0                             
+ 12444 ldr    x8, [x29, #0x48]                     
+ 12448 cmp    x8, #0                               
+ 1244c b.eq   #0x126e0                             
+ 12450 ldr    x8, [x29, #0x40]                     
+ 12454 cmp    x8, #0                               
+ 12458 b.eq   #0x126e0                             
+ 1245c add    x3, x29, #0x18                       
+ 12460 ldr    x2, [x29, #0x40]                     
+ 12464 ldr    x1, [x29, #0x48]                     
+ 12468 ldr    x0, [x29, #0x20]                     
+ 1246c bl     #0x3e9a8                             sub_0x3e9a8
+ 12470 mov    w0, w0                               
+ 12474 str    w0, [x29, #0x10]                     
+ 12478 ldr    w8, [x29, #0x10]                     
+ 1247c cmp    w8, #0                               
+ 12480 b.ge   #0x12500                             
+ 12484 ldr    w8, [x29, #0x10]                     
+ 12488 cmp    w8, #0                               
+ 1248c ldr    w8, [x29, #0x10]                     
+ 12498 adrp   x8, #0x5e000                         
+ 124a0 adrp   x8, #0x5e000                         
+ 124a8 cmp    x8, x9                               
+ 124ac b.eq   #0x124f4                             
+ 124b0 mov    w8, #1                               
+ 124b4 cmp    w8, #0                               
+ 124b8 b.eq   #0x124f4                             
+ 124bc adrp   x8, #0x5e000                         
+ 124c8 ldr    w5, [x29, #0x10]                     
+ 124cc adrp   x8, #0x5c000                         
+ 124d0 add    x4, x8, #0x1d0                       0x5c1d0 
+ 124d4 mov    w3, #0x1c                            
+ 124d8 mov    w2, #2                               
+ 124dc mov    w1, #2                               
+ 124e0 ldr    x0, [x9]                             
+ 124e4 bl     #0x24d0                              sub_0x24d0
+ 124e8 mov    w8, #1                               
+ 124ec str    w8, [x29, #0x2c]                     
+ 124f0 b      #0x124fc                             
+ 124f4 mov    w8, #0                               
+ 124f8 str    w8, [x29, #0x2c]                     
+ 124fc b      #0x12740                             
+ 12500 ldr    x9, [x29, #0x20]                     
+ 12504 mov    x8, #0x2510                          
+ 12508 add    x3, x9, x8                           
+ 1250c adrp   x8, #0x5c000                         
+ 12510 ldr    x2, [x8, #0xc8]                      0x5c0c8
+ 12514 adrp   x8, #0x5c000                         
+ 12518 ldr    x1, [x8, #0xc0]                      0x5c0c0
+ 1251c ldr    x0, [x29, #0x18]                     
+ 12520 bl     #0x3ec30                             sub_0x3ec30
+ 12524 mov    w0, w0                               
+ 12528 str    w0, [x29, #0x10]                     
+ 1252c ldr    w8, [x29, #0x10]                     
+ 12530 cmp    w8, #0                               
+ 12534 b.ge   #0x1259c                             
+ 12538 adrp   x8, #0x5e000                         
+ 12540 adrp   x8, #0x5e000                         
+ 12548 cmp    x8, x9                               
+ 1254c b.eq   #0x12590                             
+ 12550 mov    w8, #1                               
+ 12554 cmp    w8, #0                               
+ 12558 b.eq   #0x12590                             
+ 1255c adrp   x8, #0x5e000                         
+ 12568 adrp   x8, #0x5c000                         
+ 1256c add    x4, x8, #0x1d0                       0x5c1d0 
+ 12570 mov    w3, #0x1d                            
+ 12574 mov    w2, #2                               
+ 12578 mov    w1, #2                               
+ 1257c ldr    x0, [x9]                             
+ 12580 bl     #0x2368                              sub_0x2368
+ 12584 mov    w8, #1                               
+ 12588 str    w8, [x29, #0x30]                     
+ 1258c b      #0x12598                             
+ 12590 mov    w8, #0                               
+ 12594 str    w8, [x29, #0x30]                     
+ 12598 b      #0x12740                             
+ 1259c add    x3, x29, #0x68                       
+ 125a0 ldr    x2, [x29, #0x58]                     
+ 125a4 ldr    x1, [x29, #0x60]                     
+ 125a8 ldr    x0, [x29, #0x50]                     
+ 125ac bl     #0x11898                             sub_0x11898
+ 125b0 mov    w0, w0                               
+ 125b4 str    w0, [x29, #0x10]                     
+ 125b8 ldr    w8, [x29, #0x10]                     
+ 125bc cmp    w8, #0                               
+ 125c0 b.ge   #0x12640                             
+ 125c4 ldr    w8, [x29, #0x10]                     
+ 125c8 cmp    w8, #0                               
+ 125cc ldr    w8, [x29, #0x10]                     
+ 125d8 adrp   x8, #0x5e000                         
+ 125e0 adrp   x8, #0x5e000                         
+ 125e8 cmp    x8, x9                               
+ 125ec b.eq   #0x12634                             
+ 125f0 mov    w8, #1                               
+ 125f4 cmp    w8, #0                               
+ 125f8 b.eq   #0x12634                             
+ 125fc adrp   x8, #0x5e000                         
+ 12608 ldr    w5, [x29, #0x10]                     
+ 1260c adrp   x8, #0x5c000                         
+ 12610 add    x4, x8, #0x1d0                       0x5c1d0 
+ 12614 mov    w3, #0x1e                            
+ 12618 mov    w2, #2                               
+ 1261c mov    w1, #2                               
+ 12620 ldr    x0, [x9]                             
+ 12624 bl     #0x24d0                              sub_0x24d0
+ 12628 mov    w8, #1                               
+ 1262c str    w8, [x29, #0x34]                     
+ 12630 b      #0x1263c                             
+ 12634 mov    w8, #0                               
+ 12638 str    w8, [x29, #0x34]                     
+ 1263c b      #0x12740                             
+ 12640 ldr    x1, [x29, #0x50]                     
+ 12644 add    x0, x29, #0x68                       
+ 12648 bl     #0x11ca8                             sub_0x11ca8
+ 1264c mov    w0, w0                               
+ 12650 str    w0, [x29, #0x10]                     
+ 12654 ldr    w8, [x29, #0x10]                     
+ 12658 cmp    w8, #0                               
+ 1265c b.ge   #0x126dc                             
+ 12660 ldr    w8, [x29, #0x10]                     
+ 12664 cmp    w8, #0                               
+ 12668 ldr    w8, [x29, #0x10]                     
+ 12674 adrp   x8, #0x5e000                         
+ 1267c adrp   x8, #0x5e000                         
+ 12684 cmp    x8, x9                               
+ 12688 b.eq   #0x126d0                             
+ 1268c mov    w8, #1                               
+ 12690 cmp    w8, #0                               
+ 12694 b.eq   #0x126d0                             
+ 12698 adrp   x8, #0x5e000                         
+ 126a4 ldr    w5, [x29, #0x10]                     
+ 126a8 adrp   x8, #0x5c000                         
+ 126ac add    x4, x8, #0x1d0                       0x5c1d0 
+ 126b0 mov    w3, #0x1f                            
+ 126b4 mov    w2, #2                               
+ 126b8 mov    w1, #2                               
+ 126bc ldr    x0, [x9]                             
+ 126c0 bl     #0x24d0                              sub_0x24d0
+ 126c4 mov    w8, #1                               
+ 126c8 str    w8, [x29, #0x38]                     
+ 126cc b      #0x126d8                             
+ 126d0 mov    w8, #0                               
+ 126d4 str    w8, [x29, #0x38]                     
+ 126d8 b      #0x12740                             
+ 126dc b      #0x12740                             
+ 126e0 adrp   x8, #0x5e000                         
+ 126e8 adrp   x8, #0x5e000                         
+ 126f0 cmp    x8, x9                               
+ 126f4 b.eq   #0x12738                             
+ 126f8 mov    w8, #1                               
+ 126fc cmp    w8, #0                               
+ 12700 b.eq   #0x12738                             
+ 12704 adrp   x8, #0x5e000                         
+ 12710 adrp   x8, #0x5c000                         
+ 12714 add    x4, x8, #0x1d0                       0x5c1d0 
+ 12718 mov    w3, #0x20                            
+ 1271c mov    w2, #2                               
+ 12720 mov    w1, #2                               
+ 12724 ldr    x0, [x9]                             
+ 12728 bl     #0x2368                              sub_0x2368
+ 1272c mov    w8, #1                               
+ 12730 str    w8, [x29, #0x3c]                     
+ 12734 b      #0x12740                             
+ 12738 mov    w8, #0                               
+ 1273c str    w8, [x29, #0x3c]                     
+ 12740 ldr    x8, [x29, #0x20]                     
+ 12744 cmp    x8, #0                               
+ 12748 b.eq   #0x127c4                             
+ 1274c add    x8, x29, #0x18                       
+ 12750 cmp    x8, #0                               
+ 12754 b.ne   #0x127bc                             
+ 12758 adrp   x8, #0x5e000                         
+ 12760 adrp   x8, #0x5e000                         
+ 12768 cmp    x8, x9                               
+ 1276c b.eq   #0x127b0                             
+ 12770 mov    w8, #1                               
+ 12774 cmp    w8, #0                               
+ 12778 b.eq   #0x127b0                             
+ 1277c adrp   x8, #0x5e000                         
+ 12788 adrp   x8, #0x5c000                         
+ 1278c add    x4, x8, #0x1d0                       0x5c1d0 
+ 12790 mov    w3, #0x21                            
+ 12794 mov    w2, #2                               
+ 12798 mov    w1, #2                               
+ 1279c ldr    x0, [x9]                             
+ 127a0 bl     #0x2368                              sub_0x2368
+ 127a4 mov    w8, #1                               
+ 127a8 str    w8, [x29, #0x14]                     
+ 127ac b      #0x127b8                             
+ 127b0 mov    w8, #0                               
+ 127b4 str    w8, [x29, #0x14]                     
+ 127b8 b      #0x127c4                             
+ 127bc add    x0, x29, #0x18                       
+ 127c0 bl     #0x3ebd0                             sub_0x3ebd0
+ 127c4 ldr    w0, [x29, #0x10]                     
+ 127c8 ldp    x29, x30, [sp], #0x80                
+ 127cc autibsp                                      
+ 127d0 ret                                         

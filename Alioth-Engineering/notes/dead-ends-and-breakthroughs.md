@@ -30,6 +30,16 @@
 - 实测：BinaryPath 和 RADS.bin 都在位，状态码仍是 0xC000003B。单独补这一项不够。
 - 静态扫描显示 0xC000003B 来自内核 API 透传，而不是驱动自己构造的。下一步改为用反汇编或 Procmon 精确定位，不要再逐项猜注册表值。
 
+### 8. 使用 Kona 包里由 Andromeda 证书签名的驱动（qcsmmu8250 等）（2026-10-17 再次确认）
+- Phase16 中 qcsmmu8250 虽已匹配成功，但 CI 3004 / Code 52 拒绝加载。凡是由 `Windows On Andromeda KMCI Codesigning` 签名的 Kona 驱动都会遇到这个问题。
+- 对策：改用 Surface 8280 包中 WHQL 签名的同类驱动程序本体，并沿用 8250 的配置（注册表和资源文件）。
+- 不要直接用 8280 INF 安装 SMMU：它的流映射表是 SC8280XP 的。
+
+### 9. 用 DebugView 抓 qcsmmu8280 的 DbgPrintEx 来定位 AddDevice 失败（Phase16d，2026-10-20）
+- 实测：Live 模式（重启 MMU1）三次、开机模式一次，DebugView 都能抓到其他驱动的内核打印（CcFlushCachePriv、IPC_Router、QMI），但 qcsmmu 一行都没有。
+- 原因（反汇编确认）：`SmmuError` 这类字符串只出现在 PrepareHardware/SmmuInitHardware 路径，AddDevice 走不到那里。驱动唯一的 DbgPrintEx 是 WDF 存根里的 "DriverEntry failed"。AddDevice 的诊断全部通过 WPP 输出（sub_2368/sub_24d0），DebugView 看不到。
+- 对策：改用 ETW 抓 WPP。控制 GUID `{cf6bfd48-e161-4949-96d5-8647cfc488c8}`，AddDevice 所在源文件的消息 GUID `{6062ceb3-6692-336b-146c-b3eb83582bc2}`。不需要 TMF，用消息编号对照反汇编即可。
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）
@@ -51,6 +61,22 @@
 - 方法：手机上 `Procmon64a.exe /EnableBootLogging` → 重启 → `/ConvertBootLog`；电脑上 `Procmon64.exe /NoFilter /OpenLog x.pml /SaveAs x.csv`，再用 `tools\filter_procmon_csv.py` 筛选。这是定位驱动 Code 31 的通用高效方法，以后优先使用。
 - 结论：qcsubsys 在确认固件存在之后，去查询设备接口类 `{55beca03-ba2c-4fbc-9efc-ee8eca56f0c7}`（SMMU 接口），找不到就失败。根因是 SMMU（MMU0/MMU1，HID QCOM0509）没有绑定 qcsmmu8250（INF 只认 DEV_2509）。
 - 以前诊断脚本把 MMU 判为 not present 是误判：实例路径是 `ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1`。
+
+### 7. SMMU 绕过 Andromeda 签名：WHQL qcsmmu8280.sys + 8250v2 配置（Phase16b，2026-10-17）
+- 做法：DISM 离线注入 Surface qcsmmu8280 包，把 `Services\qcsmmu\ImagePath` 指向 qcsmmu8280.sys，设备仍由 qcsmmu8250.inf（8250v2 节）安装，保留 8250 的流映射表。
+- 结果：没有 CI 3004，驱动成功加载，开机正常；MMU1 从 Code 52 变为 Code 31（0xC0000001，AddDevice 失败）。
+- 启示：“8250 INF 装配置 + 8280 WHQL 驱动程序本体”这种组合能够绕过签名问题，其他 Kona 驱动（如 qciommu）也可以借鉴。剩下的是配置兼容性问题。
+
+### 8. 根因链定位：{55beca03} 是 PEP 提供的接口，PEP0 没有驱动导致 SMMU 和 ADSP 连锁失败（Phase16e，2026-10-20）
+- 方法：用 logman 建 ETW 会话，抓 qcsmmu8280 的 WPP 跟踪（控制 GUID cf6bfd48-…），然后重启 MMU1，tracerpt 输出事件，按"消息 GUID + 编号"对照反汇编（tools\re\wppmsg.py、guidref.py）。不需要 TMF。这是定位 WDF 驱动 Code 31 的通用方法。
+- 结果：AddDevice 依次打出消息 0xc、0x20、0x22。sub_116a8 用 `IoGetDeviceInterfaces({55beca03})` 得到空列表，`IoGetDeviceObjectPointer` 失败，sub_12370 失败，AddDevice 返回 0xC0000001。
+- 反汇编 qcpep8280.sys 和 qcpep8250.sys：两者都用 {55beca03} 调用 WDF 函数表第 77 项 `WdfDeviceCreateDeviceInterface`，所以**提供者是 PEP**。其余高通驱动（smmu、subsys、gpu、i2c/spi/uart、相机、scm…）都是使用方。
+- 依赖链：PEP0（QCOM0519）没有驱动 → 没有 {55beca03} → SMMU Code 31 → ADSP 0xC000003B。修好 PEP 是整条音频链路的前提。
+
+### 9. 测试签名可用（Phase17a，2026-10-21）
+- 设备没有启用安全启动（`Confirm-SecureBootUEFI` 报变量未定义 0xC0000100），`bcdedit /set {current} testsigning on` 之后可以正常开机，出现"测试模式"水印。
+- 同时把 qcsmmu 换回 Andromeda 签名的 qcsmmu8250.sys 后，开机卡在 Silicium logo。离线恢复 8280 的 ImagePath 后恢复正常。说明 8250 驱动在测试签名下很可能已被加载（不再被 CI 拒绝），这为原生 Kona 驱动（qcpep8250 等）打开了路。
+- 注意：单独换 qcsmmu8250 会导致开机卡死，在 PEP 修好之前不要再这样做。
 
 ### 4. 取得 alioth 自签名 DSP 固件（2026-10-16）
 - 可靠流程：`fastboot boot` 临时启动 TWRP → 只读挂载当前槽的 `modem_x` → adb pull → 按 SHA256 清单校验 → `tools\pil_squasher.py` 合并。

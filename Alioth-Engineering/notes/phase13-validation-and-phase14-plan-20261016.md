@@ -183,6 +183,101 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
 - 验证：开机后看 MMU0/MMU1 是否绑定 qcsmmu 且状态 OK、`Control\DeviceClasses\{55beca03-...}` 是否存在、ADSP 状态码是否变化。可再做一次 Procmon 开机日志看 ADSP 走到哪一步。
 - 诊断脚本需要修正：MMU 的实例路径是 `ACPI\VEN_QCOM&DEV_0509&...` 形式，不能只按 `ACPI\QCOM0509` 查找。
 
+## Phase16 验证结果（2026-10-17，镜像 `Mu-alioth-1-acpi-hid-phase16-20261017-113041.img`，日志 `*_20261017_104223/104743/105509`）
+
+- HID 改动生效：MMU1 = `ACPI\VEN_QCOM&DEV_2509&SUBSYS_MTP08250&REV_0002\1`，匹配 `oem9.inf`（qcsmmu8250.inf）`SMMU_Device_8250v2`，Service=qcsmmu，Driver=`{4d36e97d...}\0037`。
+- 但 **Code 52**：CI 事件 3004 显示“无法验证 qcsmmu8250.sys 的映像完整性，因为在系统上找不到文件哈希”。与 2026-05 qcsubsys8250 的情况相同：Kona 包由 `Windows On Andromeda KMCI Codesigning` 签名，不被 Microsoft Windows Driver Policy 信任（信任该证书的 WDAC/SSDE 路线已证实是死路）。
+- 所以 SMMU 接口仍未注册，MMU0 仍未出现，ADSP 仍是 `0xC000003B`（符合预期）。
+
+## Phase16b 计划：WHQL 签名的 qcsmmu8280.sys + 保留 8250v2 配置（不需要重新编译 UEFI）
+
+- 对比：Surface `qcsmmu8280.cat` 为 Microsoft WHQL 签名（有效）；两个 SMMC.bin **SHA256 相同**；Parameters\0/1 的 GUID、OFFI 等结构一致；只有 Dynamic 段的 CTXI/S2CB 流映射表完全不同（0 行相同，8280 的是 SC8280XP 的流 ID）。
+- 因此**不走**“把 HID 改成 QCOM0609、让 8280 INF 安装”这条路：首次开机会按 8280 的流 ID 表编程 SMMU，8250 的 UFS/显示 DMA 很可能发生故障。
+- 改为：MMU1 已由 oem9.inf 安装，软件键 `Class\...\0037` 里已经有 8250v2 的 ChipSetVersion/CTXI/S2CB/Resources\SMMU；只需
+  1. `dism /Add-Driver` 离线注入 Surface qcsmmu8280 包（注册 WHQL catalog，让 CI 能找到哈希）；
+  2. 把 `Services\qcsmmu\ImagePath` 指向 DriverStore 中的 `qcsmmu8280.sys`。
+- 脚本：`tools\Apply-QcsmmuPhase16b8280Binary-Admin.ps1 -WindowsDrive <盘符>`（先校验 8250v2 配置是否完整，不完整就中止；ImagePath 有备份，可用通用回滚脚本恢复）。
+- 验证：MMU1 状态 OK、MMU0 出现并启动、`Control\DeviceClasses\{55beca03-...}` 存在、ADSP 状态码变化；以及开机是否正常（SMMU 接管后的稳定性）。
+- 风险与回退：8280 驱动程序能否正确使用 8250 的表需要实测；如果开机异常，进 Mass Storage 运行回滚脚本恢复 ImagePath 即可（qcsmmu8250 会重新被 CI 拒绝，等于回到 Phase16 的状态）。
+- 附带修复：通用回滚脚本加了防护，FirmwareOnPhone 为空时不会去删除任何文件。
+
+## Phase16b 验证结果（2026-10-17，日志 `*_20261017_121152/121706/141905`，写入日志 `logs\apply-qcsmmu-phase16b-8280-binary-20261017-120621.log`）
+
+- 写入成功：DISM 注入 `qcsmmu8280.inf_arm64_1d80adabc6ef3b6d`，`Services\qcsmmu\ImagePath` 已指向 `qcsmmu8280.sys`。手机正常开机，没有出现存储/显示异常。
+- **签名问题已解决**：本次开机没有新的 CI 3004，也没有新的 Kernel-PnP 219（驱动加载失败）事件，说明 `qcsmmu8280.sys` 已被 CI 接受并成功加载（DriverEntry 通过）。
+- MMU1 从 **Code 52 变为 Code 31**，ProblemStatus = `0xC0000001`（STATUS_UNSUCCESSFUL）。设备栈只有 `\Driver\ACPI`。Code 31 = CM_PROB_FAILED_ADD，即失败发生在 **AddDevice（EvtDriverDeviceAdd）阶段**，此时还没有开始操作硬件，最可能是读取或校验配置时失败。
+- 静态对比两版驱动程序中的宽字符串（注册表值名）：
+  - 共有：ChipSetVersion、ErrataApplicableClients、Resources\SMMU、Guid、`\OFFI`/`\CTXI`/`\S2CB`/`\HYPD`/`\ARMV`/`\CLCK`/`\SCLCK`/`\MMUV`/`\MMU_ERRATA`/`\PREFETCHDETAILS`/`\DynamicCBAssignment`、EnablePtCaching、EnableGuardPages、EnableTestInterface。
+  - 仅 8280 有：`EnableIOCoherentPTW`、`\EnableSMMUStallOnFault`（值 `Disabled`）、`Control\LKMDTel`（TimesRun/MaxReportSizeInMB/BranchTrackEnabled，遥测用）。
+  - 两个 INF 的配置差异：8280 多写 `Parameters\EnableIOCoherentPTW=1` 与 `Parameters\<N>\EnableSMMUStallOnFault\Disabled=0`；`Parameters\1\OFFI` 不同（8250：`00 01 FF 03 FF 06 08`，8280：`00 01 02 03 FF 06 10`）；`ErrataApplicableClients` 不同（8250v2：`FF`，8280：`00 01 04`）；8280 INF 不写 ChipSetVersion，但驱动程序仍会读取。
+- 候选原因有好几个，按规则 2 不盲改，下一步用 Procmon 开机日志精确定位 qcsmmu8280 在 AddDevice 中最后读取了什么、哪一项 NAME NOT FOUND。
+
+## Phase16c 计划：Procmon 开机日志定位 qcsmmu8280 的 AddDevice 失败点
+
+- 手机上：`Collect-ProcmonBootLog-OnPhone.ps1 -Mode Enable` → 重启 → `-Mode Collect`（脚本已更新，会额外记录 `smmu_status.txt`）。
+- 电脑上：`Procmon64.exe /NoFilter /OpenLog boot.pml /SaveAs boot_all.csv`，然后 `python tools\filter_procmon_csv.py boot_all.csv <输出目录> smmu`。
+  - smmu 模式的关键词：qcsmmu、`\0037`、dev_2509、smmc.bin、lkmdtel、55beca03；
+  - 另外输出 `context_after_load.csv`：`qcsmmu8280.sys` Load Image 之后 System 进程的前 3000 条事件（不限路径），用来看 AddDevice 期间的全部访问。
+- 判定：看 qcsmmu 在失败前读取的最后几项注册表值/文件及其结果，再决定补值（如 EnableIOCoherentPTW、EnableSMMUStallOnFault）还是修改 OFFI/ChipSetVersion 等。
+
+## Phase16c 结果：Procmon 开机日志（`logs\ProcmonBoot_20261017_142448`，`smmu\` 为筛选结果）
+
+- 本次开机：ADSP 仍为 0xC000003B；MMU1 为 CM_PROB_FAILED_ADD / 0xC0000001。
+- qcsmmu8280 的时间线（System 进程）：Load Image → DriverEntry（WPP/WDF 相关注册表，正常）→ PnP 读取 DmaRemappingCompatible → **AddDevice**：读取 `WUDF\CompanionConfigurations`（WdfDeviceCreate 的一部分）→ 打开 `DeviceClasses\{55beca03-...}`，结果 NAME NOT FOUND，之后没有创建 → 约 0.6ms 后 PnP 收尾（失败）。
+- **AddDevice 期间驱动完全没有读取自己的配置**（`Class\...\0037` 中的 CTXI/S2CB/ChipSetVersion、`Resources\SMMU`、Services\qcsmmu\Parameters\0/1 一项都没碰）。所以失败与 8250/8280 配置差异无关，是在读配置之前就失败了。这样一来，上一轮列出的注册表候选（EnableIOCoherentPTW/OFFI 等）**都不是 AddDevice 失败的原因**。
+- 静态线索（qcsmmu8280.sys）：
+  - 导入了 `ZwQuerySystemInformation`，文字池中有 `'DSDT'`、`'ACPI'`、`STATUS_BUFFER_TOO_SMALL` 三个常量，说明驱动会自己读取整张 DSDT（firmware table 接口，Procmon 看不到）。
+  - 使用 Microsoft DMF（DeviceInterfaceTarget、CrashDump、LiveKernelDump 等模块）；8250 版没有 DMF，并且内置一张芯片名称表（MSM/SDM…）。
+  - 导入了 `DbgPrintEx`；诊断字符串形如 `SmmuInitHardware() : SmmuError : ...`，所以可以用 DebugView 抓取。
+- 关于 `{55beca03-...}`：在 Surface/Kona 包中，qcpep/qcscm/i2c/spi/uart/相机/GPU/qcsubsys/qcsmmu 都引用了它，而且都是查询或订阅方（`IoGetDeviceInterfaces`/`IoRegisterPlugPlayNotification`）。手机系统分区中没有其他驱动包含它。WDF 驱动通过 WdfDeviceCreateDeviceInterface 注册接口，不会出现导入名，所以提供者仍然很可能是 qcsmmu 本身（和最初的判断一致），但还没有直接证据。
+- 附带发现：**PEP0（`ACPI\QCOM0519`）没有任何驱动**：没有 Service，设备栈只有 ACPI。Kona 的 qcpep.wd8250.inf 只认 `QCOM2519`，8280 版只认 `QCOM0617`。启动日志中 `qcpep` 出现 0 次。MMU1 的 `_DEP` 指向 PEP0；SMMC.bin、RADS.bin 这类 AeoB 资源都是 PEP 框架的电源资源。这是一个独立的大问题，以后要处理（qcpep 是 boot-start 驱动，而且与 SoC 强相关，不能直接套用 8280 版）。
+
+## Phase16d 计划：DebugView 抓取 qcsmmu8280 的 DbgPrintEx 输出
+
+- 工具：Sysinternals DebugView 命令行 ARM64 版 `dbgviewcli64a.exe`（已下载，微软签名有效），已复制到手机 `C:\Code\REDMIK40_Win11\`。
+- 脚本：`tools\Capture-QcsmmuDebugOutput-OnPhone.ps1`
+  - `-Mode Live`（默认）：打开 Debug Print Filter（DEFAULT/IHVDRIVER/IHVBUS=0xFFFFFFFF）→ 开始抓取内核输出 → `pnputil /restart-device` 重启 MMU1（失败就改用禁用再启用）→ 保存 `dbgview.log`、`smmu_lines.txt`、`mmu1_status.txt`。不需要重启手机。
+  - 如果 Live 没有抓到输出，改用 `-Mode BootEnable`，重启手机后运行 `-Mode BootCollect`。
+- 判定：根据 SmmuError 行和状态码确定 AddDevice 失败在哪一步（DSDT 解析 / DMF 模块 / 接口 / 其他）。
+
+## Phase16d 结果与 Phase16e 计划（2026-10-20）
+
+- DebugView 没有抓到 qcsmmu 的任何输出，已记入死路第 9 条。
+- 反汇编 qcsmmu8280.sys（工具在 tools\re\：xref.py / smmudis.py / blscan.py，基于 capstone，脚本不要命名为 dis.py，否则会和标准库冲突）：
+  - DriverEntry（0x2da0）调用 0x2aa0：先用 `MmGetSystemRoutineAddress("IoGetIommuInterface")`，再调用 `IoGetIommuInterface(1, &iface)`，然后执行 iface->CreateDomain / DeleteDomain，成功时把驱动上下文中的标志字节置 1，表示"Windows 内核 IOMMU（DMA 重映射）可用"。
+  - AddDevice（EvtDriverDeviceAdd = 0x3690）读取这个标志：为 0 走 0x37ec（DMF 初始化），为 1 走 0x3944。返回 0xC0000001 的分支及其 WPP 消息编号为：0x19（取驱动上下文失败）、0x1a（0x65a28 DMF 配置分配失败）、0x3ccc 附近的分支、0x22（0x3f74 → sub_12370，仅在标志为 0 且 sub_2a1e0 返回 0 时执行）。
+- 新线索：alioth 的 `aliothPkg/Include/ACPI.inc` 中 `Kona/IORT.aml` 被注释掉了，而且 Silicium-ACPI 里根本没有 Kona 的 IORT。Windows 内核的 IOMMU 是依靠 IORT 才知道 SMMU 存在的，所以在 alioth 上内核 IOMMU 很可能不可用，8280 驱动只能走"标志为 0"的分支。哪一步失败，等 WPP 消息编号来确认。
+- Phase16e：手机运行 `tools\Capture-QcsmmuWpp-OnPhone.ps1`（logman ETW 会话 + 重启 MMU1），电脑端解析 ETL 中的消息编号。
+
+## Phase16e 结果（2026-10-20）：根因是 PEP
+
+- ETW 抓到 qcsmmu8280 的 WPP 消息依次为 `{750ad4a7} 0xc` → `{750ad4a7} 0x20` → `{6062ceb3} 0x22`，然后是 DMF 清理消息。日志在 `logs\QcsmmuWpp_Live_20261020_183347`（ETL + tracerpt 生成的 wpp.xml）。
+- 含义：SMMU 自己就要打开 {55beca03} 接口，打不开就让 AddDevice 失败。这个接口由 qcpep 的 `WdfDeviceCreateDeviceInterface` 注册，而 PEP0 没有驱动，所以接口不存在。（IORT/内核 IOMMU 的怀疑可以先放下：失败点并不在那个分支。）
+- 详见 dead-ends-and-breakthroughs.md 突破第 8 条。
+
+## Phase17 计划：给 PEP0 装上驱动
+
+- 现状：DSDT 中 PEP0 的 `_HID` 是 QCOM0519，没有任何 INF 匹配。qcpep.wd8250.inf 匹配 `ACPI\QCOM2519`（服务名 qcpep，并带 PEP 资源注册表和 PPMSettings-8250Profiles.wd.ppkg 配置包），但 qcpep8250.sys 是 Andromeda 签名。qcpep8280.sys 虽然是 WHQL 签名，但内部是 SC8280XP 的电源逻辑，用在 SM8250 上开机蓝屏的风险很高（PEP 是开机加载驱动）。
+- 笔记中从未尝试过测试签名（`bcdedit testsigning`）。WOA 社区常用这个办法加载高通参考签名驱动；Andromeda 签名的驱动在测试签名模式下有可能被接受，需要实测。前提是 UEFI 安全启动关闭。
+- 首选路线 A：先只读检查安全启动和 BCD 状态 → 开启测试签名 → 验证 Andromeda 签名驱动能否加载（可以用当前已经匹配的 qcsmmu8250 来验证：把 ImagePath 改回 8250）→ UEFI 中把 PEP0 的 HID 改成 QCOM2519，用原生 qcpep8250。
+- 备选路线 B：UEFI 中把 PEP0 改为 2519，并按 Phase16b 的办法把 ImagePath 指向 qcpep8280.sys。必须先离线备份，并准备好回滚。
+
+## Phase17a 实测（2026-10-21）：开机卡在 Silicium 启动画面
+
+- 改动：`bcdedit testsigning on`，同时把 `Services\qcsmmu\ImagePath` 改回 qcsmmu8250.sys（Andromeda 签名）。
+- 现象：重启后停在 Project Silicium logo + 转圈，进不了 Windows。
+- 推断（待验证）：测试签名很可能已经放行了 qcsmmu8250.sys，它是开机加载驱动，在初始化时卡住（例如一直等待 PEP 接口，或对 SMMU 硬件的编程不当）。另一种可能是 testsigning 本身导致卡死（可能性低）。
+- 隔离办法：只离线恢复 ImagePath（`tools\Restore-Qcsmmu8280ImagePath-Offline-Admin.ps1`），保留 testsigning。如果之后能正常开机，就说明测试签名有效，卡死的是 8250 驱动。
+- 结果：恢复 ImagePath 后正常开机，桌面出现"测试模式"水印（Build 22621）。结论：testsigning 本身没有问题。卡死与 qcsmmu8250.sys 有关，说明它在测试签名下很可能已经被加载（Andromeda 签名被放行，下一阶段用 CI 事件直接确认）。目前 qcsmmu 仍然使用 8280。
+
+## Phase17b 计划：UEFI 中把 PEP0 的 HID 改为 QCOM2519，用原生 qcpep8250
+
+- 构建脚本：`tools/build-acpi-hid-phase17.sh`，即 Phase16 加一项 `("QCOM0519", "QCOM2519")`，并增加 ASL/AML 校验。在 Ubuntu 上运行，用法和 Phase16 一样。
+- 验证时用 `fastboot boot` 启动 Phase17 镜像，不要 flash。如果出问题，重启后改用 Phase16 镜像就能回退（HID 变回 0519，qcpep 不会再被匹配）。
+- 预期：PEP0 绑定 qcpep（qcpep.wd8250.inf，Andromeda 签名，靠测试签名放行）→ 出现 `DeviceClasses\{55beca03}` → MMU1（qcsmmu8280）的 AddDevice 不再报 0x22 → 再看 ADSP。
+- 风险：qcpep 是 PoFx 的 PEP 插件，又是开机加载驱动，可能导致开机卡死或蓝屏。回退方法同上。
+- 前置发现（2026-10-21）：手机驱动库中根本没有 qcpep 包，Services\qcpep 也不存在。原因是当初 `apply-alioth-offline-fixes-admin.ps1` 把 Kona 的 `Drivers\SOC` 整个排除在注入范围之外。需要先在 Mass Storage 下运行 `tools\Apply-Phase17QcpepInject-Admin.ps1`（DISM 离线注入 qcpep.wd8250.inf）。注入后只要 HID 还是 0519，就不会匹配任何设备，开机行为不变。
+
 ## 未决问题
 
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。

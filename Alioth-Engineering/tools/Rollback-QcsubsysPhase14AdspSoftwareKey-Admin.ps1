@@ -113,7 +113,7 @@ try {
     if ($loaded) { Unload-HiveWithRetry -HiveName $hiveName }
 }
 
-if (-not $manifest.FirmwareExistedBefore) {
+if ((-not $manifest.FirmwareExistedBefore) -and ([string]$manifest.FirmwareOnPhone) -match '^\\Windows\\.+\.\w+$') {
     $fw = "${drive}:$($manifest.FirmwareOnPhone)"
     if (Test-Path -LiteralPath $fw) {
         Remove-Item -LiteralPath $fw -Force

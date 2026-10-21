@@ -1,0 +1,7 @@
+1	09:49:59.424	[0004:1bb8]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+2	09:50:04.430	[0004:0080]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+3	09:50:09.436	[0004:18e8]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+4	09:50:14.439	[0004:0108]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+5	09:50:19.449	[0004:0108]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+6	09:50:24.451	[0004:0080]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFC70AEA1DEC58, IoStatus=0x0)
+7	09:50:27.719	[5468]	Suspending

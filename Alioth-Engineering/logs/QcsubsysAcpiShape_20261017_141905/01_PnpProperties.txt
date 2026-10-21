@@ -1,0 +1,837 @@
+﻿==== Target PnP properties ====
+Time: 2026-10-17 14:19:32
+
+## SSDD working / ACPI\QCOM0620\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM0620\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Subsystem Dependency Device
+Status       : OK
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                              Data
+-------                                                 ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String           oem15.inf:d051a865e6577e35:SUBSYS_Device.NT:1.0.3741.8500:ACPI\QCOM0620
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                         \_SB.SSDD
+DEVPKEY_Device_BusNumber                              UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                32
+DEVPKEY_Device_Class                                  String                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                          {ACPI\VEN_QCOM&DEV_0620}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                          oem15.inf:ACPI\QCOM0620,SUBSYS_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList                                                                       {\_SB.AMSS}
+DEVPKEY_Device_DependencyProviders                StringList           {ACPI\QCOM258D\0, ACPI\QCOM257C\2&daba3ff&0, ACPI\QCOM258B\2&daba3ff&0}
+DEVPKEY_Device_DeviceDesc                             String                                           Qualcomm(R) Subsystem Dependency Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                          25165834
+DEVPKEY_Device_Driver                                 String                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0031
+DEVPKEY_Device_DriverDate                           FileTime                                                                  2023/5/3 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                           Qualcomm(R) Subsystem Dependency Device
+DEVPKEY_Device_DriverInfPath                          String                                                                         oem15.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                  SUBSYS_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                     1.0.3741.8500
+DEVPKEY_Device_EnumeratorName                         String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                 2026/5/7 18:30:05
+DEVPKEY_Device_HardwareIds                        StringList                {ACPI\VEN_QCOM&DEV_0620&SUBSYS_MTP08250, ACPI\QCOM0620, *QCOM0620}
+DEVPKEY_Device_HasProblem                            Boolean                                                                             False
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                 2026/5/7 18:30:05
+DEVPKEY_Device_InstallState                           UInt32                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                         ACPI\QCOM0620\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                           {ACPI(_SB_)#ACPI(SSDD)}
+DEVPKEY_Device_Manufacturer                           String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                     ACPI\QCOM0620
+DEVPKEY_Device_Parent                                 String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                  \Device\00000035
+DEVPKEY_Device_PowerData                              Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                 0
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                         392711681
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                          qcsubsys
+DEVPKEY_Device_Siblings                           StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                  {\Driver\qcsubsys, \Driver\ACPI}
+DEVPKEY_NAME                                          String                                           Qualcomm(R) Subsystem Dependency Device
+
+
+
+## Registry fallback: SSDD working / ACPI\QCOM0620\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM0620\2&daba3ff&0
+FriendlyName  : @oem15.inf,%ssdd.devicedesc%;Qualcomm(R) Subsystem Dependency Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_0620&SUBSYS_MTP08250;ACPI\QCOM0620;*QCOM0620
+CompatibleIDs : ACPI\VEN_QCOM&DEV_0620
+Service       : qcsubsys
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0031
+ConfigFlags   : 0
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0620\2&daba3ff&0
+
+
+
+
+## ADSP failing / ACPI\QCOM061B\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM061B\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Audio DSP Subsystem Device
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                              Data
+-------                                                 ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String      oem15.inf:d051a86580f7abf5:SUBSYS_Device_ADSP.NT:1.0.3741.8500:ACPI\QCOM061B
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                         \_SB.ADSP
+DEVPKEY_Device_BusNumber                              UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                32
+DEVPKEY_Device_Class                                  String                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                          {ACPI\VEN_QCOM&DEV_061B}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                     oem15.inf:ACPI\QCOM061B,SUBSYS_Device_ADSP.NT
+DEVPKEY_Device_ContainerId                              Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList                                                                       {\_SB.ARPD}
+DEVPKEY_Device_DependencyProviders                StringList {ACPI\QCOM0519\2&daba3ff&0, ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DeviceDesc                             String                                            Qualcomm(R) Audio DSP Subsystem Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                          25175040
+DEVPKEY_Device_Driver                                 String                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+DEVPKEY_Device_DriverDate                           FileTime                                                                  2023/5/3 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                            Qualcomm(R) Audio DSP Subsystem Device
+DEVPKEY_Device_DriverInfPath                          String                                                                         oem15.inf
+DEVPKEY_Device_DriverInfSection                       String                                                             SUBSYS_Device_ADSP.NT
+DEVPKEY_Device_DriverProvider                         String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                     1.0.3741.8500
+DEVPKEY_Device_EnumeratorName                         String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                2026/5/12 12:35:48
+DEVPKEY_Device_HardwareIds                        StringList                {ACPI\VEN_QCOM&DEV_061B&SUBSYS_MTP08280, ACPI\QCOM061B, *QCOM061B}
+DEVPKEY_Device_HasProblem                            Boolean                                                                              True
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                2026/5/12 12:35:48
+DEVPKEY_Device_InstallState                           UInt32                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                         ACPI\QCOM061B\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                           {ACPI(_SB_)#ACPI(ADSP)}
+DEVPKEY_Device_Manufacturer                           String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                     ACPI\QCOM061B
+DEVPKEY_Device_Parent                                 String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                  \Device\00000031
+DEVPKEY_Device_PowerData                              Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                31
+DEVPKEY_Device_ProblemStatus                        NTStatus                                                                        3221225531
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                        2930147850
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                          qcsubsys
+DEVPKEY_Device_Siblings                           StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                    {\Driver\ACPI}
+DEVPKEY_NAME                                          String                                            Qualcomm(R) Audio DSP Subsystem Device
+
+
+
+## Registry fallback: ADSP failing / ACPI\QCOM061B\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM061B\2&daba3ff&0
+FriendlyName  : @oem15.inf,%adsp.devicedesc%;Qualcomm(R) Audio DSP Subsystem Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_061B&SUBSYS_MTP08280;ACPI\QCOM061B;*QCOM061B
+CompatibleIDs : ACPI\VEN_QCOM&DEV_061B
+Service       : qcsubsys
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0036
+ConfigFlags   : 0
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061B\2&daba3ff&0
+
+
+
+
+## CDSP failing / ACPI\QCOM06B0\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM06B0\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Compute DSP Subsystem Device
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                              Data
+-------                                                 ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String           oem15.inf:d051a8659c409373:SUBSYS_Device.NT:1.0.3741.8500:ACPI\QCOM06B0
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                         \_SB.CDSP
+DEVPKEY_Device_BusNumber                              UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                32
+DEVPKEY_Device_Class                                  String                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                 {ACPI\VEN_QCOM&DEV_06B0, ACPI\QCOMFFE6, QCOMFFE6}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                          oem15.inf:ACPI\QCOM06B0,SUBSYS_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyProviders                StringList {ACPI\QCOM0519\2&daba3ff&0, ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DeviceDesc                             String                                          Qualcomm(R) Compute DSP Subsystem Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                          25175040
+DEVPKEY_Device_Driver                                 String                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0035
+DEVPKEY_Device_DriverDate                           FileTime                                                                  2023/5/3 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                          Qualcomm(R) Compute DSP Subsystem Device
+DEVPKEY_Device_DriverInfPath                          String                                                                         oem15.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                  SUBSYS_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                     1.0.3741.8500
+DEVPKEY_Device_EnumeratorName                         String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                2026/5/12 12:35:47
+DEVPKEY_Device_HardwareIds                        StringList                {ACPI\VEN_QCOM&DEV_06B0&SUBSYS_MTP08280, ACPI\QCOM06B0, *QCOM06B0}
+DEVPKEY_Device_HasProblem                            Boolean                                                                              True
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                2026/5/12 12:35:47
+DEVPKEY_Device_InstallState                           UInt32                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                         ACPI\QCOM06B0\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                           {ACPI(_SB_)#ACPI(CDSP)}
+DEVPKEY_Device_Manufacturer                           String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                     ACPI\QCOM06B0
+DEVPKEY_Device_Parent                                 String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                  \Device\00000038
+DEVPKEY_Device_PowerData                              Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                31
+DEVPKEY_Device_ProblemStatus                        NTStatus                                                                        3221225524
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                         740133793
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                          qcsubsys
+DEVPKEY_Device_Siblings                           StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                    {\Driver\ACPI}
+DEVPKEY_NAME                                          String                                          Qualcomm(R) Compute DSP Subsystem Device
+
+
+
+## Registry fallback: CDSP failing / ACPI\QCOM06B0\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM06B0\2&daba3ff&0
+FriendlyName  : @oem15.inf,%cdsp.devicedesc%;Qualcomm(R) Compute DSP Subsystem Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_06B0&SUBSYS_MTP08280;ACPI\QCOM06B0;*QCOM06B0
+CompatibleIDs : ACPI\VEN_QCOM&DEV_06B0;ACPI\QCOMFFE6;QCOMFFE6
+Service       : qcsubsys
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0035
+ConfigFlags   : 0
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06B0\2&daba3ff&0
+
+
+
+
+## SCSS failing / ACPI\QCOM061F\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM061F\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Sensor Subsystem Device
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                              Data
+-------                                                 ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String           oem15.inf:d051a8658b5879e5:SUBSYS_Device.NT:1.0.3741.8500:ACPI\QCOM061F
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                         \_SB.SCSS
+DEVPKEY_Device_BusNumber                              UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                32
+DEVPKEY_Device_Class                                  String                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                          {ACPI\VEN_QCOM&DEV_061F}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                          oem15.inf:ACPI\QCOM061F,SUBSYS_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList                                                                       {\_SB.SEN2}
+DEVPKEY_Device_DependencyProviders                StringList {ACPI\QCOM0519\2&daba3ff&0, ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DeviceDesc                             String                                               Qualcomm(R) Sensor Subsystem Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                          25175040
+DEVPKEY_Device_Driver                                 String                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0034
+DEVPKEY_Device_DriverDate                           FileTime                                                                  2023/5/3 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                               Qualcomm(R) Sensor Subsystem Device
+DEVPKEY_Device_DriverInfPath                          String                                                                         oem15.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                  SUBSYS_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                     1.0.3741.8500
+DEVPKEY_Device_EnumeratorName                         String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                2026/5/12 12:35:47
+DEVPKEY_Device_HardwareIds                        StringList                {ACPI\VEN_QCOM&DEV_061F&SUBSYS_MTP08280, ACPI\QCOM061F, *QCOM061F}
+DEVPKEY_Device_HasProblem                            Boolean                                                                              True
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                2026/5/12 12:35:47
+DEVPKEY_Device_InstallState                           UInt32                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                         ACPI\QCOM061F\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                           {ACPI(_SB_)#ACPI(SCSS)}
+DEVPKEY_Device_Manufacturer                           String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                     ACPI\QCOM061F
+DEVPKEY_Device_Parent                                 String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                  \Device\00000030
+DEVPKEY_Device_PowerData                              Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                31
+DEVPKEY_Device_ProblemStatus                        NTStatus                                                                        3221225524
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                        3951325722
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                          qcsubsys
+DEVPKEY_Device_Siblings                           StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                    {\Driver\ACPI}
+DEVPKEY_NAME                                          String                                               Qualcomm(R) Sensor Subsystem Device
+
+
+
+## Registry fallback: SCSS failing / ACPI\QCOM061F\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM061F\2&daba3ff&0
+FriendlyName  : @oem15.inf,%scss.devicedesc%;Qualcomm(R) Sensor Subsystem Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_061F&SUBSYS_MTP08280;ACPI\QCOM061F;*QCOM061F
+CompatibleIDs : ACPI\VEN_QCOM&DEV_061F
+Service       : qcsubsys
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0034
+ConfigFlags   : 0
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM061F\2&daba3ff&0
+
+
+
+
+## SPSS failing / ACPI\QCOM068D\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM068D\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Secure Processor Subsystem Device
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                              Data
+-------                                                 ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String           oem15.inf:d051a865a57c3c72:SUBSYS_Device.NT:1.0.3741.8500:ACPI\QCOM068D
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                         \_SB.SPSS
+DEVPKEY_Device_BusNumber                              UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                32
+DEVPKEY_Device_Class                                  String                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                          {ACPI\VEN_QCOM&DEV_068D}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                          oem15.inf:ACPI\QCOM068D,SUBSYS_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList                                                                       {\_SB.QCSP}
+DEVPKEY_Device_DependencyProviders                StringList {ACPI\QCOM0519\2&daba3ff&0, ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DeviceDesc                             String                                     Qualcomm(R) Secure Processor Subsystem Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                          25175040
+DEVPKEY_Device_Driver                                 String                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0033
+DEVPKEY_Device_DriverDate                           FileTime                                                                  2023/5/3 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                     Qualcomm(R) Secure Processor Subsystem Device
+DEVPKEY_Device_DriverInfPath                          String                                                                         oem15.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                  SUBSYS_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                     1.0.3741.8500
+DEVPKEY_Device_EnumeratorName                         String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                2026/5/12 10:17:52
+DEVPKEY_Device_HardwareIds                        StringList                {ACPI\VEN_QCOM&DEV_068D&SUBSYS_MTP08280, ACPI\QCOM068D, *QCOM068D}
+DEVPKEY_Device_HasProblem                            Boolean                                                                              True
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                2026/5/12 10:17:52
+DEVPKEY_Device_InstallState                           UInt32                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                         ACPI\QCOM068D\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                           {ACPI(_SB_)#ACPI(SPSS)}
+DEVPKEY_Device_Manufacturer                           String                                               Qualcomm Technologies, Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                     ACPI\QCOM068D
+DEVPKEY_Device_Parent                                 String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                  \Device\00000039
+DEVPKEY_Device_PowerData                              Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                31
+DEVPKEY_Device_ProblemStatus                        NTStatus                                                                        3221225531
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                         667294966
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                          qcsubsys
+DEVPKEY_Device_Siblings                           StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                    {\Driver\ACPI}
+DEVPKEY_NAME                                          String                                     Qualcomm(R) Secure Processor Subsystem Device
+
+
+
+## Registry fallback: SPSS failing / ACPI\QCOM068D\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM068D\2&daba3ff&0
+FriendlyName  : @oem15.inf,%spss.devicedesc%;Qualcomm(R) Secure Processor Subsystem Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_068D&SUBSYS_MTP08280;ACPI\QCOM068D;*QCOM068D
+CompatibleIDs : ACPI\VEN_QCOM&DEV_068D
+Service       : qcsubsys
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0033
+ConfigFlags   : 0
+Mfg           : @oem15.inf,%qualcomm%;Qualcomm Technologies, Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM068D\2&daba3ff&0
+
+
+
+
+## CDI unbound / ACPI\QCOM0532\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM0532\2&DABA3FF&0
+FriendlyName : 
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                         Type                                                                              Data
+-------                                         ----                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10     UInt32                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6      UInt32                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10     String                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15    Boolean                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 5       Error                                                                        3758096936
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26    Boolean                                                                             False
+DEVPKEY_Device_BaseContainerId                  Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                 String                                                                          \_SB.CDI
+DEVPKEY_Device_BusNumber                      UInt32                                                                                 0
+DEVPKEY_Device_BusTypeGuid                      Guid                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                   UInt32                                                                                32
+DEVPKEY_Device_CompatibleIds              StringList                                                          {ACPI\VEN_QCOM&DEV_0532}
+DEVPKEY_Device_ConfigFlags                    UInt32                                                                                64
+DEVPKEY_Device_ConfigurationId                String                                                                                  
+DEVPKEY_Device_ContainerId                      Guid                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyProviders        StringList                            {ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DevNodeStatus                  UInt32                                                                          25175040
+DEVPKEY_Device_EnumeratorName                 String                                                                              ACPI
+DEVPKEY_Device_FirstInstallDate             FileTime                                                                2026/5/11 19:39:41
+DEVPKEY_Device_HardwareIds                StringList                {ACPI\VEN_QCOM&DEV_0532&SUBSYS_MTP08250, ACPI\QCOM0532, *QCOM0532}
+DEVPKEY_Device_HasProblem                    Boolean                                                                              True
+DEVPKEY_Device_InLocalMachineContainer       Boolean                                                                              True
+DEVPKEY_Device_InstallDate                  FileTime                                                                2026/5/11 19:39:41
+DEVPKEY_Device_InstallState                   UInt32                                                                                 2
+DEVPKEY_Device_InstanceId                     String                                                         ACPI\QCOM0532\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                     Boolean                                                                              True
+DEVPKEY_Device_IsRebootRequired              Boolean                                                                             False
+DEVPKEY_Device_LastArrivalDate              FileTime                                                               2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                  UInt32                                                                                17
+DEVPKEY_Device_LocationPaths              StringList                                                           {ACPI(_SB_)#ACPI(CDI_)}
+DEVPKEY_Device_Parent                         String                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                        String                                                                  \Device\0000002f
+DEVPKEY_Device_PowerData                      Binary                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                    UInt32                                                                                28
+DEVPKEY_Device_ProblemStatus                NTStatus                                                                        3221226640
+DEVPKEY_Device_RemovalPolicy                  UInt32                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault           UInt32                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash          UInt32                                                                        2068910337
+DEVPKEY_Device_SafeRemovalRequired           Boolean                                                                             False
+DEVPKEY_Device_Siblings                   StringList {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                      StringList                                                                    {\Driver\ACPI}
+
+
+
+## Registry fallback: CDI unbound / ACPI\QCOM0532\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM0532\2&daba3ff&0
+FriendlyName  : 
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_0532&SUBSYS_MTP08250;ACPI\QCOM0532;*QCOM0532
+CompatibleIDs : ACPI\VEN_QCOM&DEV_0532
+Service       : 
+Driver        : 
+ConfigFlags   : 64
+Mfg           : 
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0532\2&daba3ff&0
+
+
+
+
+## QSM unbound / ACPI\QCOM0520\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM0520\2&DABA3FF&0
+FriendlyName : 
+Status       : Error
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                         Type                                                                                               Data
+-------                                         ----                                                                                               ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10     UInt32                                                                                                  2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6      UInt32                                                                                                  0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10     String                                                                                 ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15    Boolean                                                                                               True
+{83DA6326-97A6-4088-9453-A1923F573B29} 5       Error                                                                                         3758096936
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26    Boolean                                                                                              False
+DEVPKEY_Device_BaseContainerId                  Guid                                                             {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                 String                                                                                           \_SB.QSM
+DEVPKEY_Device_BusNumber                      UInt32                                                                                                  0
+DEVPKEY_Device_BusTypeGuid                      Guid                                                             {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                   UInt32                                                                                                 32
+DEVPKEY_Device_CompatibleIds              StringList                                                                           {ACPI\VEN_QCOM&DEV_0520}
+DEVPKEY_Device_ConfigFlags                    UInt32                                                                                                 64
+DEVPKEY_Device_ConfigurationId                String                                                                                                   
+DEVPKEY_Device_ContainerId                      Guid                                                             {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyProviders        StringList {ACPI\QCOM258D\0, ACPI\QCOM250E\2&daba3ff&0, ACPI\QCOM06E0\2&daba3ff&0, ACPI\QCOM2533\2&daba3ff&0}
+DEVPKEY_Device_DevNodeStatus                  UInt32                                                                                           25175040
+DEVPKEY_Device_EnumeratorName                 String                                                                                               ACPI
+DEVPKEY_Device_FirstInstallDate             FileTime                                                                                 2026/5/11 19:39:41
+DEVPKEY_Device_HardwareIds                StringList                                 {ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250, ACPI\QCOM0520, *QCOM0520}
+DEVPKEY_Device_HasProblem                    Boolean                                                                                               True
+DEVPKEY_Device_InLocalMachineContainer       Boolean                                                                                               True
+DEVPKEY_Device_InstallDate                  FileTime                                                                                 2026/5/11 19:39:41
+DEVPKEY_Device_InstallState                   UInt32                                                                                                  2
+DEVPKEY_Device_InstanceId                     String                                                                          ACPI\QCOM0520\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                     Boolean                                                                                               True
+DEVPKEY_Device_IsRebootRequired              Boolean                                                                                              False
+DEVPKEY_Device_LastArrivalDate              FileTime                                                                                2026/10/17 10:56:56
+DEVPKEY_Device_LegacyBusType                  UInt32                                                                                                 17
+DEVPKEY_Device_LocationPaths              StringList                                                                            {ACPI(_SB_)#ACPI(QSM_)}
+DEVPKEY_Device_Parent                         String                                                                                 ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                        String                                                                                   \Device\00000034
+DEVPKEY_Device_PowerData                      Binary                                                                                   {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                    UInt32                                                                                                 28
+DEVPKEY_Device_ProblemStatus                NTStatus                                                                                         3221226640
+DEVPKEY_Device_RemovalPolicy                  UInt32                                                                                                  1
+DEVPKEY_Device_RemovalPolicyDefault           UInt32                                                                                                  1
+DEVPKEY_Device_ReportedDeviceIdsHash          UInt32                                                                                         3795227645
+DEVPKEY_Device_SafeRemovalRequired           Boolean                                                                                              False
+DEVPKEY_Device_Siblings                   StringList                  {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                      StringList                                                                                     {\Driver\ACPI}
+
+
+
+## Registry fallback: QSM unbound / ACPI\QCOM0520\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM0520\2&daba3ff&0
+FriendlyName  : 
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250;ACPI\QCOM0520;*QCOM0520
+CompatibleIDs : ACPI\VEN_QCOM&DEV_0520
+Service       : 
+Driver        : 
+ConfigFlags   : 64
+Mfg           : 
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM0520\2&daba3ff&0
+
+
+
+
+## PILC working / ACPI\QCOM06E0\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM06E0\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Peripheral Image Loader Device
+Status       : OK
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                                                                                                              Data
+-------                                                 ----                                                                                                                                                              ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                                                                                                 2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                                                                                                 2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                                                                                                 0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                                                                                                ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                                                                                                              True
+{83DA6326-97A6-4088-9453-A1923F573B29} 22         StringList                                                                                                                                                         {qcPILFC}
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                                                                                                               {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String                                                                                              oem16.inf:d051a865ae30587e:PIL_Device.NT:1.0.3681.5800:ACPI\QCOM06E0
+{A193307D-1245-46D3-BE67-D8128670E09B} 2          StringList                                                                                                                                                 {*Upper, qcPILFC}
+{A193307D-1245-46D3-BE67-D8128670E09B} 3          StringList                                                                                                                                                          {*Lower}
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 20         StringList                                                                                                                                            {oem18.inf, oem17.inf}
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                                                                                                             False
+DEVPKEY_Device_BaseContainerId                          Guid                                                                                                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                                                                                                         \_SB.PILC
+DEVPKEY_Device_BusNumber                              UInt32                                                                                                                                                                 0
+DEVPKEY_Device_BusTypeGuid                              Guid                                                                                                                            {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                                                                                                32
+DEVPKEY_Device_Class                                  String                                                                                                                                                            System
+DEVPKEY_Device_ClassGuid                                Guid                                                                                                                            {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                                                                                                          {ACPI\VEN_QCOM&DEV_06E0}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                                                                                                 0
+DEVPKEY_Device_ConfigurationId                        String                                                                                                                             oem16.inf:ACPI\QCOM06E0,PIL_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                                                                                                            {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList                                                                   {ACPI\QCOM0532\2&daba3ff&0, ACPI\QCOM061F\2&daba3ff&0, ACPI\QCOM061B\2&daba3ff&0, \_SB.AMSS...}
+DEVPKEY_Device_DeviceDesc                             String                                                                                                                        Qualcomm(R) Peripheral Image Loader Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                                                                                                          25165834
+DEVPKEY_Device_Driver                                 String                                                                                                                       {4d36e97d-e325-11ce-bfc1-08002be10318}\0032
+DEVPKEY_Device_DriverDate                           FileTime                                                                                                                                                 2023/2/12 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                                                                                                        Qualcomm(R) Peripheral Image Loader Device
+DEVPKEY_Device_DriverInfPath                          String                                                                                                                                                         oem16.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                                                                                                     PIL_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                                                                                                                             Qualcomm Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                                                                                                          16711681
+DEVPKEY_Device_DriverVersion                          String                                                                                                                                                     1.0.3681.5800
+DEVPKEY_Device_EnumeratorName                         String                                                                                                                                                              ACPI
+DEVPKEY_Device_ExtendedConfigurationIds           StringList {oem18.inf:ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280,PIL_Device_Ext.NT,02/12/2023,1.0.3681.5800, oem17.inf:ACPI\QCOM06E0,PIL_Device_Ext.NT,02/12/2023,1.0.3681.5800}
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                                                                                                 2026/5/8 13:21:06
+DEVPKEY_Device_HardwareIds                        StringList                                                                                                {ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280, ACPI\QCOM06E0, *QCOM06E0}
+DEVPKEY_Device_HasProblem                            Boolean                                                                                                                                                             False
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                                                                                                              True
+DEVPKEY_Device_InstallDate                          FileTime                                                                                                                                                2026/5/11 19:39:41
+DEVPKEY_Device_InstallState                           UInt32                                                                                                                                                                 0
+DEVPKEY_Device_InstanceId                             String                                                                                                                                         ACPI\QCOM06E0\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                                                                                                              True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                                                                                                             False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                                                                                                               2026/10/17 10:56:53
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                                                                                                17
+DEVPKEY_Device_LocationPaths                      StringList                                                                                                                                           {ACPI(_SB_)#ACPI(PILC)}
+DEVPKEY_Device_Manufacturer                           String                                                                                                                                             Qualcomm Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                                                                                                     ACPI\QCOM06E0
+DEVPKEY_Device_Parent                                 String                                                                                                                                                ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                                                                                                  \Device\0000002e
+DEVPKEY_Device_PowerData                              Binary                                                                                                                                                  {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                                                                                                 0
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                                                                                                 1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                                                                                                 1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                                                                                                        2988846450
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                                                                                                             False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                                                                                                          Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                                                                                                            qcPILC
+DEVPKEY_Device_Siblings                           StringList                                                                                 {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                                                                   {\Driver\qcPILFC, \Driver\qcPILC, \Driver\ACPI}
+DEVPKEY_NAME                                          String                                                                                                                        Qualcomm(R) Peripheral Image Loader Device
+
+
+
+## Registry fallback: PILC working / ACPI\QCOM06E0\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM06E0\2&daba3ff&0
+FriendlyName  : @oem16.inf,%pil.devicedesc%;Qualcomm(R) Peripheral Image Loader Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280;ACPI\QCOM06E0;*QCOM06E0
+CompatibleIDs : ACPI\VEN_QCOM&DEV_06E0
+Service       : qcPILC
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0032
+ConfigFlags   : 0
+Mfg           : @oem16.inf,%qualcomm%;Qualcomm Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM06E0\2&daba3ff&0
+
+
+
+
+## RPEN working / ACPI\QCOM2533\2&DABA3FF&0
+
+
+InstanceId   : ACPI\QCOM2533\2&DABA3FF&0
+FriendlyName : Qualcomm(R) Reset Power Error Notifier Device
+Status       : OK
+ProblemCode  : 
+Source       : Get-PnpDevice
+
+
+
+
+
+KeyName                                                 Type                                                                                            Data
+-------                                                 ----                                                                                            ----
+{3464F7A4-2444-40B1-980A-E0903CB6D912} 10             UInt32                                                                                               2
+{5D078032-6378-437B-8DA5-9B32B7CA3FDD} 2              UInt32                                                                                               2
+{80497100-8C73-48B9-AAD9-CE387E19C56E} 6              UInt32                                                                                               0
+{83DA6326-97A6-4088-9453-A1923F573B29} 10             String                                                                              ACPI_HAL\PNP0C08\0
+{83DA6326-97A6-4088-9453-A1923F573B29} 15            Boolean                                                                                            True
+{83DA6326-97A6-4088-9453-A1923F573B29} 26             Binary                                                                                             {0}
+{83DA6326-97A6-4088-9453-A1923F573B29} 3              String                               oem7.inf:d051a865d62d4a3c:RPEN_Device.NT:1.0.2100.0:ACPI\QCOM2533
+{A8B865DD-2E3D-4094-AD97-E593A70C75D6} 26            Boolean                                                                                           False
+DEVPKEY_Device_BaseContainerId                          Guid                                                          {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_BiosDeviceName                         String                                                                                       \_SB.RPEN
+DEVPKEY_Device_BusNumber                              UInt32                                                                                               0
+DEVPKEY_Device_BusTypeGuid                              Guid                                                          {D7B46895-001A-4942-891F-A7D46610A843}
+DEVPKEY_Device_Capabilities                           UInt32                                                                                              32
+DEVPKEY_Device_Class                                  String                                                                                          System
+DEVPKEY_Device_ClassGuid                                Guid                                                          {4D36E97D-E325-11CE-BFC1-08002BE10318}
+DEVPKEY_Device_CompatibleIds                      StringList                                                                        {ACPI\VEN_QCOM&DEV_2533}
+DEVPKEY_Device_ConfigFlags                            UInt32                                                                                               0
+DEVPKEY_Device_ConfigurationId                        String                                                           oem7.inf:ACPI\QCOM2533,RPEN_Device.NT
+DEVPKEY_Device_ContainerId                              Guid                                                          {00000000-0000-0000-FFFF-FFFFFFFFFFFF}
+DEVPKEY_Device_DependencyDependents               StringList {ACPI\QCOM0532\2&daba3ff&0, ACPI\QCOM061F\2&daba3ff&0, ACPI\QCOM061B\2&daba3ff&0, \_SB.AMSS...}
+DEVPKEY_Device_DeviceDesc                             String                                                   Qualcomm(R) Reset Power Error Notifier Device
+DEVPKEY_Device_DevNodeStatus                          UInt32                                                                                        25165834
+DEVPKEY_Device_Driver                                 String                                                     {4d36e97d-e325-11ce-bfc1-08002be10318}\0023
+DEVPKEY_Device_DriverDate                           FileTime                                                                                2024/7/4 8:00:00
+DEVPKEY_Device_DriverDesc                             String                                                   Qualcomm(R) Reset Power Error Notifier Device
+DEVPKEY_Device_DriverInfPath                          String                                                                                        oem7.inf
+DEVPKEY_Device_DriverInfSection                       String                                                                                  RPEN_Device.NT
+DEVPKEY_Device_DriverProvider                         String                                                                           Qualcomm Incorporated
+DEVPKEY_Device_DriverRank                             UInt32                                                                                        16711681
+DEVPKEY_Device_DriverVersion                          String                                                                                      1.0.2100.0
+DEVPKEY_Device_EnumeratorName                         String                                                                                            ACPI
+DEVPKEY_Device_FirstInstallDate                     FileTime                                                                              2026/4/25 12:07:23
+DEVPKEY_Device_HardwareIds                        StringList                              {ACPI\VEN_QCOM&DEV_2533&SUBSYS_MTP08250, ACPI\QCOM2533, *QCOM2533}
+DEVPKEY_Device_HasProblem                            Boolean                                                                                           False
+DEVPKEY_Device_InLocalMachineContainer               Boolean                                                                                            True
+DEVPKEY_Device_InstallDate                          FileTime                                                                              2026/4/25 12:07:23
+DEVPKEY_Device_InstallState                           UInt32                                                                                               0
+DEVPKEY_Device_InstanceId                             String                                                                       ACPI\QCOM2533\2&DABA3FF&0
+DEVPKEY_Device_IsPresent                             Boolean                                                                                            True
+DEVPKEY_Device_IsRebootRequired                      Boolean                                                                                           False
+DEVPKEY_Device_LastArrivalDate                      FileTime                                                                             2026/10/17 10:56:53
+DEVPKEY_Device_LegacyBusType                          UInt32                                                                                              17
+DEVPKEY_Device_LocationPaths                      StringList                                                                         {ACPI(_SB_)#ACPI(RPEN)}
+DEVPKEY_Device_Manufacturer                           String                                                                           Qualcomm Incorporated
+DEVPKEY_Device_MatchingDeviceId                       String                                                                                   ACPI\QCOM2533
+DEVPKEY_Device_Parent                                 String                                                                              ACPI_HAL\PNP0C08\0
+DEVPKEY_Device_PDOName                                String                                                                                \Device\0000002d
+DEVPKEY_Device_PowerData                              Binary                                                                                {56, 0, 0, 0...}
+DEVPKEY_Device_ProblemCode                            UInt32                                                                                               0
+DEVPKEY_Device_RemovalPolicy                          UInt32                                                                                               1
+DEVPKEY_Device_RemovalPolicyDefault                   UInt32                                                                                               1
+DEVPKEY_Device_ReportedDeviceIdsHash                  UInt32                                                                                      1829378813
+DEVPKEY_Device_SafeRemovalRequired                   Boolean                                                                                           False
+DEVPKEY_Device_Security                   SecurityDescriptor                                                                        Win32_SecurityDescriptor
+DEVPKEY_Device_Service                                String                                                                                          QCRPEN
+DEVPKEY_Device_Siblings                           StringList               {ACPI\QCOM05D2\0, ACPI\QCOM24A5\0, ACPI\QCOM0527\0, ACPI\QCOM052E\2&daba3ff&0...}
+DEVPKEY_Device_Stack                              StringList                                                                  {\Driver\QCRPEN, \Driver\ACPI}
+DEVPKEY_NAME                                          String                                                   Qualcomm(R) Reset Power Error Notifier Device
+
+
+
+## Registry fallback: RPEN working / ACPI\QCOM2533\2&daba3ff&0
+
+
+InstanceId    : ACPI\QCOM2533\2&daba3ff&0
+FriendlyName  : @oem7.inf,%rpen.devicedesc%;Qualcomm(R) Reset Power Error Notifier Device
+Status        : <registry-only>
+ProblemCode   : 
+Source        : EnumRegistry
+HardwareID    : ACPI\VEN_QCOM&DEV_2533&SUBSYS_MTP08250;ACPI\QCOM2533;*QCOM2533
+CompatibleIDs : ACPI\VEN_QCOM&DEV_2533
+Service       : QCRPEN
+Driver        : {4d36e97d-e325-11ce-bfc1-08002be10318}\0023
+ConfigFlags   : 0
+Mfg           : @oem7.inf,%qualcomm%;Qualcomm Incorporated
+PsPath        : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\ACPI\QCOM2533\2&daba3ff&0
+
+
+
+

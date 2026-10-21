@@ -1,0 +1,125 @@
+﻿==== Recent Kernel-PnP and CodeIntegrity events ====
+Time: 2026-10-17 10:56:11
+
+## System
+
+
+TimeCreated      : 2026/10/17 10:39:56
+Id               : 219
+ProviderName     : Microsoft-Windows-Kernel-PnP
+LevelDisplayName : 警告
+Message          : 为设备 ACPI\VEN_QCOM&DEV_2509&SUBSYS_MTP08250&REV_0002\1 加载驱动程序 \Driver\qcsmmu 失败。
+
+TimeCreated      : 2026/10/16 18:48:22
+Id               : 16
+ProviderName     : Microsoft-Windows-Kernel-General
+LevelDisplayName : 信息
+Message          : 已经清除配置单元 \SystemRoot\System32\config\DRIVERS 中的访问历史记录，更新 33 个项并创建 17 个已修改的页面。
+
+
+
+
+## Microsoft-Windows-CodeIntegrity/Operational
+
+
+TimeCreated      : 2026/10/17 10:39:56
+Id               : 3004
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 错误
+Message          : Windows is unable to verify the image integrity of the file \Device\HarddiskVolume37\Windows\System32\DriverStore\FileRepository\qcsmmu8250.inf_arm64_326da5121bfa3145\qcsmmu8250.sys because file hash could not be found on the system. A recent hardware or software change might have installed a file that is signed incorrectly or damaged, or that might be malicious software from an unknown source.
+
+TimeCreated      : 2026/10/17 10:39:50
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/17 10:39:50
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/17 10:39:50
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+TimeCreated      : 2026/10/17 10:34:35
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/17 10:34:35
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/17 10:34:35
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+TimeCreated      : 2026/10/17 10:14:40
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/17 10:14:40
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/17 10:14:40
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+TimeCreated      : 2026/10/16 19:57:01
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/16 19:57:01
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/16 19:57:01
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3116
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Signature information for Code Integrity policy ID {d2bda982-ccf6-4344-ac5b-0b44427b6816}.
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3099
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Refreshed and activated Code Integrity policy {d2bda982-ccf6-4344-ac5b-0b44427b6816} Microsoft Windows Driver Policy. id 10.0.27805.0. Status 0x0
+
+TimeCreated      : 2026/10/16 18:46:27
+Id               : 3085
+ProviderName     : Microsoft-Windows-CodeIntegrity
+LevelDisplayName : 信息
+Message          : Code Integrity will disable WHQL driver enforcement for this boot session.  Settings 0x0.
+
+
+
+
+## Microsoft-Windows-Kernel-PnP/Configuration
+<null>

@@ -1,0 +1,21 @@
+Files Processed:
+	qcsmmu_wpp.etl
+Total Buffers Processed 3
+Total Events  Processed 29
+Total Events  Lost      0
+Start Time              20261020
+End Time                20261020
+Elapsed Time            15 sec
++-------------------------------------------------------------------------------------------------------------------------+
+|Event Count   Event Name           Task            Opcode          Version         Guid                                  |
++-------------------------------------------------------------------------------------------------------------------------+
+|          1   EventTrace           0               DbgIdRSDS       2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          1   EventTrace           0               BuildInfo       2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          1   EventTrace           0               PartitionInfoExtension 2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          1   EventTrace           0               Header          2               {68fdd900-4a3e-11d1-84f4-0000f80464e3}|
+|          2   Unknown              0               0               0               {750ad4a7-56b8-3e11-5792-63f932f20489}|
+|          1   Unknown              0               0               0               {6062ceb3-6692-336b-146c-b3eb83582bc2}|
+|         18   Unknown              0               0               0               {a2883218-12f8-35cd-19da-774f5444ebdc}|
+|          2   Unknown              0               0               0               {18f2679f-ea6d-381c-a603-91fea6d83e7c}|
+|          2   Unknown              0               0               0               {0ef132d4-f152-3fe2-8645-fde56413a376}|
++-------------------------------------------------------------------------------------------------------------------------+

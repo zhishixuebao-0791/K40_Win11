@@ -1,0 +1,22 @@
+﻿{
+    "CreatedAt":  "2026-10-17T12:06:34",
+    "WindowsDrive":  "D",
+    "HiveNamePrefix":  "ALIOTH_PHASE16B_APPLY_3864",
+    "FirmwareOnPhone":  "",
+    "FirmwareExistedBefore":  true,
+    "FirmwareSha256":  "",
+    "Note":  "Phase16b 只改 Services\\qcsmmu\\ImagePath；DISM 注入的 qcsmmu8280 包不随回滚删除",
+    "CreatedKeys":  [
+
+                    ],
+    "Values":  [
+                   {
+                       "Path":  "ALIOTH_PHASE16B_APPLY_3864\\ControlSet001\\Services\\qcsmmu",
+                       "Name":  "ImagePath",
+                       "KeyExisted":  true,
+                       "Existed":  true,
+                       "Kind":  "ExpandString",
+                       "Value":  "\\SystemRoot\\System32\\DriverStore\\FileRepository\\qcsmmu8250.inf_arm64_326da5121bfa3145\\qcsmmu8250.sys"
+                   }
+               ]
+}

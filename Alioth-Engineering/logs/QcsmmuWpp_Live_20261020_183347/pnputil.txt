@@ -1,0 +1,5 @@
+﻿Microsoft PnP 工具
+
+正在重启设备:         ACPI\VEN_QCOM&DEV_2509&SUBSYS_MTP08250&REV_0002\1
+已成功重启设备。
+

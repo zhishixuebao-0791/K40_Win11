@@ -1,0 +1,20 @@
+﻿[10:24:08] 注入前驱动库中的 qcpep* 目录：0 个
+[10:24:08] 执行: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\PowerManagement\qcpep.wd8250.inf
+
+部署映像服务和管理工具
+版本: 10.0.18362.1379
+
+映像版本: 10.0.22621.6060
+
+找到 1 个要安装的驱动程序包。
+正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\windows_silicon_qcom_kona\Drivers\SOC\PowerManagement\qcpep.wd8250.inf: 驱动程序包已成功安装。
+操作成功完成。
+[10:24:21] DISM 退出码：0
+[10:24:21] 注入后驱动库中的 qcpep* 目录：1 个
+[10:24:21]   qcpep.wd8250.inf_arm64_5946bbfc6d49db89
+[10:24:21]      PPMSettings-8250Profiles.wd.ppkg  6,695 字节
+[10:24:21]      qcpep.wd8250.cat  13,056 字节
+[10:24:21]      qcpep.wd8250.inf  223,988 字节
+[10:24:21]      qcpep8250.sys  2,286,176 字节
+[10:24:21] 注入成功。下一步：用 Phase17 UEFI（PEP0 → QCOM2519）fastboot boot 启动手机。
+[10:24:21] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\apply-phase17-qcpep-inject-20261021-102408.log

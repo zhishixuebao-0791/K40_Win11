@@ -1,0 +1,167 @@
+﻿==== Services ====
+Time: 2026-10-17 10:54:02
+
+## 
+
+Not found
+
+## AudioService
+
+Not found
+
+## fsa4480
+
+
+
+Name        : fsa4480
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\fsa4480.inf_arm64_70c08a4681f12b10\fsa4480.sys
+DisplayName : ON Semiconductor USB Type-C Analog Audio Switch (FSA4480) Service
+
+
+
+
+## qcadsprpc
+
+
+
+Name        : qcadsprpc
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+DisplayName : Qualcomm(R) FastRPC Device
+
+
+
+
+## qcadsprpcd
+
+
+
+Name        : qcadsprpcd
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+DisplayName : Qualcomm(R) Audio RPC Daemon Device
+
+
+
+
+## qcglink
+
+
+
+Name        : qcGLINK
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+DisplayName : Qualcomm(R) Shared Memory Port Device
+
+
+
+
+## QCIPC_ROUTER
+
+
+
+Name        : QCIPC_ROUTER
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+DisplayName : Qualcomm(R) Data IPC Router Device
+
+
+
+
+## qcpdsr
+
+
+
+Name        : qcpdsr
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcpdsr.inf_arm64_eedad8235d4fc0a9\qcpdsr.sys
+DisplayName : Qualcomm(R) Protection Domain Service Registry Device
+
+
+
+
+## qcPILC
+
+
+
+Name        : qcPILC
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+DisplayName : Qualcomm(R) Peripheral Image Loader Device
+
+
+
+
+## QCRPEN
+
+
+
+Name        : QCRPEN
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+DisplayName : Qualcomm(R) Reset Power Error Notifier Device
+
+
+
+
+## qcscm
+
+
+
+Name        : qcscm
+State       : Running
+StartMode   : Boot
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+DisplayName : Qualcomm(R) System Manager SCM Device
+
+
+
+
+## qcsmmu
+
+
+
+Name        : qcsmmu
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcsmmu8250.inf_arm64_326da5121bfa3145\qcsmmu8250.sys
+DisplayName : Qualcomm(R) System MMU Device
+
+
+
+
+## qcsubsys
+
+
+
+Name        : qcsubsys
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+DisplayName : Qualcomm(R) Combined Subsystem Driver
+
+
+
+
+## QcTftpKmdf
+
+
+
+Name        : QcTftpKmdf
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qctftpkmdf.inf_arm64_3caf890f721700b8\QcTftpKmdf.sys
+DisplayName : Qualcomm(R) TFTP Device
+
+
+
+

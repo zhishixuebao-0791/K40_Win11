@@ -13,3 +13,6 @@ Alioth-Engineering/components/Devices/Alioth/firmware-squashed/
 # Procmon 原始开机日志（GB 级，超过 GitHub 单文件限制）；筛选结果 filtered/ 仍上传
 Alioth-Engineering/logs/ProcmonBoot_*/boot.pml
 Alioth-Engineering/logs/ProcmonBoot_*/boot_all.csv
+
+# Python 缓存
+__pycache__/

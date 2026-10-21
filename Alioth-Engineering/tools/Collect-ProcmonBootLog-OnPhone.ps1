@@ -45,4 +45,11 @@ Get-PnpDevice -InstanceId 'ACPI\QCOM061B\2&DABA3FF&0' -ErrorAction SilentlyConti
         "ADSP Status={0} ProblemStatus=0x{1:X8}" -f $_.Status, [uint32]$ps
     } | Tee-Object -FilePath (Join-Path $outDir "adsp_status.txt")
 
+# 记录 SMMU（MMU1）状态，Phase16b 之后用于对照
+Get-PnpDevice -PresentOnly -ErrorAction SilentlyContinue | Where-Object { $_.InstanceId -like 'ACPI\VEN_QCOM&DEV_?509*' } |
+    ForEach-Object {
+        $ps = (Get-PnpDeviceProperty -InstanceId $_.InstanceId -KeyName DEVPKEY_Device_ProblemStatus -ErrorAction SilentlyContinue).Data
+        "SMMU {0} Status={1} ProblemCode={2} ProblemStatus=0x{3:X8}" -f $_.InstanceId, $_.Status, $_.Problem, [uint32]$ps
+    } | Tee-Object -FilePath (Join-Path $outDir "smmu_status.txt")
+
 Write-Host "完成。请回到 Mass Storage 模式，把目录 $outDir 告诉电脑端。"

@@ -1,0 +1,520 @@
+﻿==== SetupAPI context ====
+Time: 2026-10-17 10:56:10
+
+
+==== SetupAPI context for QCOM0620 ====
+0000231:      dvi:                          {Writing Device Properties - Complete}
+0000232:      inf:                          AddService=AudioService,0x00000000,AudioService_Service,  (audioservice8250.inf line 47)
+0000233:      dvi:                          Add Service: Modified existing service 'AudioService'.
+0000234:      inf:                          {Install from INF Section - AudioService_Service} 18:51:58.768
+0000235:      inf:                               Flags         - 0x00100004
+0000236:      inf:                          {Install from INF Section - exit(0x00000000)} 18:51:58.768
+0000237:      inf:                          AddService=,0x00000002  (machine.inf line 1162)
+0000238: !    dvi:                          Add Service: NULL Controlling service.
+0000239:      dvi:                     {Install DEVICE exit (0x00000000)}
+0000240:      dvi:                     Install Device: Configuring device class. 18:51:58.784
+0000241:      dvi:                     Install Device: Configuring device class completed. 18:51:58.803
+0000242:      dvi:                     Device Status: 0x01802000
+0000243:      dvi:                     Install Device: Starting device 'ACPI\QCOM05D2\0'. 18:51:58.812
+0000244:      dvi:                     Install Device: Starting device completed. 18:51:58.818
+0000245:      dvi:                Default installer: Exit
+0000246:      dvi:           {DIF_INSTALLDEVICE - exit(0x00000000)} 18:51:58.818
+0000247:      dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL} 18:51:58.818
+0000248:      dvi:                Default installer: Enter 18:51:58.818
+0000249:      dvi:                Default installer: Exit
+0000250:      dvi:           {DIF_NEWDEVICEWIZARD_FINISHINSTALL - exit(0xe000020e)} 18:51:58.818
+0000251:      dvi:      {Install Device - exit(0x00000000)} 18:51:58.831
+0000252:      dvi: {Core Device Install - exit(0x00000000)} 18:51:58.831
+0000253: <<<  Section end 2026/04/23 18:51:58.847
+0000254: <<<  [Exit status: SUCCESS]
+0000255: 
+0000256: 
+0000257: [Boot Session: 2026/05/07 18:29:53.052]
+0000258: 
+0000259: >>>  [Device Install (Hardware initiated) - ACPI\QCOM0620\2&daba3ff&0]
+0000260: >>>  Section start 2026/05/07 18:30:05.383
+0000261:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000262:      utl: {Select Drivers - ACPI\QCOM0620\2&daba3ff&0} 18:30:05.461
+0000263:      utl:      Driver Node:
+0000264:      utl:           Status         - Selected
+0000265:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000266:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000267:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000268:      utl:           Configuration  - ACPI\QCOM0620
+0000269:      utl:           Driver Rank    - 00FF0001
+0000270:      utl:           Signer Score   - WHQL (0D000005)
+0000271:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000272:      utl: {Select Drivers - exit(0x00000000} 18:30:05.508
+0000273:      dvi: {Core Device Install} 18:30:05.508
+0000274:      dvi:      {Configure Device - ACPI\QCOM0620\2&daba3ff&0} 18:30:05.523
+0000275:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000276:      dvi:           Config Flags: 0x00000000
+0000277:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000278:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+0000279:      sto:                Source Filter  = ACPI\QCOM0620
+0000280:      inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000281:      inf:                Class Options  = Configurable BootCritical
+0000282:      inf:                {Configure Driver: Qualcomm(R) Subsystem Dependency Device}
+0000283:      inf:                     Section Name = SUBSYS_Device.NT
+0000284:      inf:                     {Add Service: qcsubsys}
+0000285:      inf:                          Start Type    = 3
+0000286:      inf:                          Service Type  = 1
+0000287:      inf:                          Error Control = 1
+0000288:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000289:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000290:      inf:                          Updated service 'qcsubsys'.
+0000291:      inf:                          Service image path changed. Restart required for any devices using this service.
+0000292: !    idb:                          Last driver package 'qcsubsys8250.inf_arm64_e2cfb35104da8880' using service 'qcsubsys' needs reconfiguration.
+0000293:      inf:                     {Add Service: exit(0x00000000)}
+0000294:      inf:                     Hardware Id  = ACPI\QCOM0620
+0000295:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000296:      inf:                          Service Name  = qcsubsys
+0000297:      inf:                          Config Flags  = 0x00000000
+0000298:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000299:      inf:                {Configure Driver: exit(0x00000000)}
+0000300:      flq:                {FILE_QUEUE_COMMIT} 18:30:05.617
+0000301:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 18:30:05.633
+0000302:      dvi:                Existing files modified, may need to restart related services.
+0000303:      sto:           {Configure Driver Package: exit(0x00000bc3)}
+0000304:      dvi:           Restart required for any devices using this driver.
+0000305:      dvi:           Install Device: Configuring device. 18:30:05.633
+0000306:      dvi:                Configuration: oem15.inf:ACPI\QCOM0620,*
+0000307:      dvi:           Install Device: Configuring device completed. 18:30:05.648
+0000308:      dvi:           Device Status: 0x01802000
+0000309:      dvi:           {Restarting Devices} 18:30:05.648
+0000310:      dvi:                Needs Reinstall: ACPI\QCOM2522\2&DABA3FF&0
+0000311:      dvi:                Start: ACPI\QCOM0620\2&DABA3FF&0
+0000312:      dvi:           {Restarting Devices exit} 18:30:05.758
+0000313:      dvi:      {Configure Device - exit(0x00000000)} 18:30:05.758
+0000314:      dvi: {Core Device Install - exit(0x00000000)} 18:30:05.773
+0000315: <<<  Section end 2026/05/07 18:30:05.821
+0000316: <<<  [Exit status: SUCCESS]
+0000317: 
+0000318: 
+0000319: [Boot Session: 2026/05/08 13:20:54.025]
+0000320: 
+0000321: >>>  [Device Install (Hardware initiated) - ACPI\QCOM06E0\2&daba3ff&0]
+0000322: >>>  Section start 2026/05/08 13:21:05.819
+0000323:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000324:      utl: {Select Drivers - ACPI\QCOM06E0\2&daba3ff&0} 13:21:05.881
+0000325:      utl:      Driver Node:
+0000326:      utl:           Status         - Selected
+0000327:      utl:           Driver INF     - oem16.inf (C:\Windows\System32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.inf)
+0000328:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000329:      utl:           Driver Version - 02/12/2023,1.0.3681.5800
+0000330:      utl:           Configuration  - ACPI\QCOM06E0
+0000331:      utl:           Driver Rank    - 00FF0001
+0000332:      utl:           Signer Score   - WHQL (0D000005)
+0000333:      utl:           Submission ID  - 30099410_13587508433297649_1152921505695937805
+0000334:      utl:      Driver Extension Node:
+0000335:      utl:           Status         - Selected
+0000336:      utl:           Driver INF     - oem17.inf (C:\Windows\System32\DriverStore\FileRepository\qcpilfilterext.inf_arm64_434b25d65262a1b2\qcpilfilterext.inf)
+0000337:      utl:           Class GUID     - {e2f84ce7-8efa-411c-aa69-97454ca4cb57}
+0000338:      utl:           Extension ID   - {43fbcbaf-546d-4e01-917e-655f10a64afc}
+0000339:      utl:           Driver Version - 02/12/2023,1.0.3681.5800
+
+==== SetupAPI context for QCOM061B ====
+0000647:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000648:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000649:      inf:                          Updated service 'qcsubsys'.
+0000650:      inf:                     {Add Service: exit(0x00000000)}
+0000651:      inf:                     Hardware Id  = ACPI\QCOM068D
+0000652:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000653:      inf:                          Service Name  = qcsubsys
+0000654:      inf:                          Config Flags  = 0x00000000
+0000655:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000656:      inf:                {Configure Driver: exit(0x00000000)}
+0000657:      flq:                {FILE_QUEUE_COMMIT} 10:17:52.522
+0000658:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 10:17:52.522
+0000659:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000660:      dvi:           Install Device: Configuring device. 10:17:52.525
+0000661:      dvi:                Configuration: oem15.inf:ACPI\QCOM068D,*
+0000662:      dvi:           Install Device: Configuring device completed. 10:17:52.531
+0000663:      dvi:           Device Status: 0x01802000
+0000664:      dvi:           Install Device: Starting device 'ACPI\QCOM068D\2&DABA3FF&0'. 10:17:52.540
+0000665:      dvi:           Install Device: Starting device completed. 10:17:52.559
+0000666: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc000003b.
+0000667:      dvi:      {Configure Device - exit(0x00000000)} 10:17:52.562
+0000668:      dvi: {Core Device Install - exit(0x00000000)} 10:17:52.570
+0000669: <<<  Section end 2026/05/12 10:17:52.573
+0000670: <<<  [Exit status: SUCCESS]
+0000671: 
+0000672: 
+0000673: [Boot Session: 2026/05/12 12:35:35.696]
+0000674: 
+0000675: >>>  [Device Install (Hardware initiated) - ACPI\QCOM061B\2&daba3ff&0]
+0000676: >>>  Section start 2026/05/12 12:35:47.398
+0000677:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000678:      utl: {Select Drivers - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.492
+0000679:      utl:      Driver Node:
+0000680:      utl:           Status         - Selected
+0000681:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000682:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000683:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000684:      utl:           Configuration  - ACPI\QCOM061B
+0000685:      utl:           Driver Rank    - 00FF0001
+0000686:      utl:           Signer Score   - WHQL (0D000005)
+0000687:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000688:      utl: {Select Drivers - exit(0x00000000} 12:35:47.758
+0000689:      dvi: Waiting for previous device install to complete. 12:35:47.773
+0000690:      dvi: {Core Device Install} 12:35:47.992
+0000691:      dvi:      {Configure Device - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.992
+0000692:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000693:      dvi:           Config Flags: 0x00000000
+0000694:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000695:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+0000696:      sto:                Source Filter  = ACPI\QCOM061B
+0000697:      inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000698:      inf:                Class Options  = Configurable BootCritical
+0000699:      inf:                {Configure Driver: Qualcomm(R) Audio DSP Subsystem Device}
+0000700:      inf:                     Section Name = SUBSYS_Device_ADSP.NT
+0000701:      inf:                     {Add Service: qcsubsys}
+0000702:      inf:                          Start Type    = 3
+0000703:      inf:                          Service Type  = 1
+0000704:      inf:                          Error Control = 1
+0000705:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000706:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000707:      inf:                          Updated service 'qcsubsys'.
+0000708:      inf:                     {Add Service: exit(0x00000000)}
+0000709:      inf:                     Hardware Id  = ACPI\QCOM061B
+0000710:      inf:                     {Configure Driver Configuration: SUBSYS_Device_ADSP.NT}
+0000711:      inf:                          Service Name  = qcsubsys
+0000712:      inf:                          Config Flags  = 0x00000000
+0000713:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000714:      inf:                {Configure Driver: exit(0x00000000)}
+0000715:      flq:                {FILE_QUEUE_COMMIT} 12:35:48.154
+0000716:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:35:48.160
+0000717:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000718:      dvi:           Install Device: Configuring device. 12:35:48.165
+0000719:      dvi:                Configuration: oem15.inf:ACPI\QCOM061B,*
+0000720:      dvi:           Install Device: Configuring device completed. 12:35:48.173
+0000721:      dvi:           Device Status: 0x01802000
+0000722:      dvi:           Install Device: Starting device 'ACPI\QCOM061B\2&DABA3FF&0'. 12:35:48.173
+0000723:      dvi:           Install Device: Starting device completed. 12:35:48.213
+0000724: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc0000034.
+0000725:      dvi:      {Configure Device - exit(0x00000000)} 12:35:48.215
+0000726:      dvi: {Core Device Install - exit(0x00000000)} 12:35:48.215
+0000727: <<<  Section end 2026/05/12 12:35:48.245
+0000728: <<<  [Exit status: SUCCESS]
+0000729: 
+0000730: 
+0000731: >>>  [Device Install (Hardware initiated) - ACPI\QCOM061F\2&daba3ff&0]
+0000732: >>>  Section start 2026/05/12 12:35:47.414
+0000733:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000734:      utl: {Select Drivers - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.508
+0000735:      utl:      Driver Node:
+0000736:      utl:           Status         - Selected
+0000737:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000738:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000739:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000740:      utl:           Configuration  - ACPI\QCOM061F
+0000741:      utl:           Driver Rank    - 00FF0001
+0000742:      utl:           Signer Score   - WHQL (0D000005)
+0000743:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000744:      utl: {Select Drivers - exit(0x00000000} 12:35:47.539
+0000745:      dvi: {Core Device Install} 12:35:47.539
+0000746:      dvi:      {Configure Device - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.539
+0000747:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000748:      dvi:           Config Flags: 0x00000000
+0000749:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000750:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+
+==== SetupAPI context for QCOM06B0 ====
+0000758:      inf:                          Service Type  = 1
+0000759:      inf:                          Error Control = 1
+0000760:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000761:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000762:      inf:                          Updated service 'qcsubsys'.
+0000763:      inf:                     {Add Service: exit(0x00000000)}
+0000764:      inf:                     Hardware Id  = ACPI\QCOM061F
+0000765:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000766:      inf:                          Service Name  = qcsubsys
+0000767:      inf:                          Config Flags  = 0x00000000
+0000768:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000769:      inf:                {Configure Driver: exit(0x00000000)}
+0000770:      flq:                {FILE_QUEUE_COMMIT} 12:35:47.664
+0000771:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:35:47.664
+0000772:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000773:      dvi:           Install Device: Configuring device. 12:35:47.680
+0000774:      dvi:                Configuration: oem15.inf:ACPI\QCOM061F,*
+0000775:      dvi:           Install Device: Configuring device completed. 12:35:47.680
+0000776:      dvi:           Device Status: 0x01802000
+0000777:      dvi:           Install Device: Starting device 'ACPI\QCOM061F\2&DABA3FF&0'. 12:35:47.695
+0000778:      dvi:           Install Device: Starting device completed. 12:35:47.711
+0000779: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc0000034.
+0000780:      dvi:      {Configure Device - exit(0x00000000)} 12:35:47.711
+0000781:      dvi: {Core Device Install - exit(0x00000000)} 12:35:47.711
+0000782: <<<  Section end 2026/05/12 12:35:47.758
+0000783: <<<  [Exit status: SUCCESS]
+0000784: 
+0000785: 
+0000786: >>>  [Device Install (Hardware initiated) - ACPI\QCOM06B0\2&daba3ff&0]
+0000787: >>>  Section start 2026/05/12 12:35:47.414
+0000788:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000789:      utl: {Select Drivers - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.523
+0000790:      utl:      Driver Node:
+0000791:      utl:           Status         - Selected
+0000792:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000793:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000794:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000795:      utl:           Configuration  - ACPI\QCOM06B0
+0000796:      utl:           Driver Rank    - 00FF0001
+0000797:      utl:           Signer Score   - WHQL (0D000005)
+0000798:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000799:      utl: {Select Drivers - exit(0x00000000} 12:35:47.742
+0000800:      dvi: {Core Device Install} 12:35:47.742
+0000801:      dvi:      {Configure Device - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.758
+0000802:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000803:      dvi:           Config Flags: 0x00000000
+0000804:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000805:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+0000806:      sto:                Source Filter  = ACPI\QCOM06B0
+0000807:      inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000808:      inf:                Class Options  = Configurable BootCritical
+0000809:      inf:                {Configure Driver: Qualcomm(R) Compute DSP Subsystem Device}
+0000810:      inf:                     Section Name = SUBSYS_Device.NT
+0000811:      inf:                     {Add Service: qcsubsys}
+0000812:      inf:                          Start Type    = 3
+0000813:      inf:                          Service Type  = 1
+0000814:      inf:                          Error Control = 1
+0000815:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000816:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000817:      inf:                          Updated service 'qcsubsys'.
+0000818:      inf:                     {Add Service: exit(0x00000000)}
+0000819:      inf:                     Hardware Id  = ACPI\QCOM06B0
+0000820:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000821:      inf:                          Service Name  = qcsubsys
+0000822:      inf:                          Config Flags  = 0x00000000
+0000823:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000824:      inf:                {Configure Driver: exit(0x00000000)}
+0000825:      flq:                {FILE_QUEUE_COMMIT} 12:35:47.945
+0000826:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:35:47.945
+0000827:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000828:      dvi:           Install Device: Configuring device. 12:35:47.945
+0000829:      dvi:                Configuration: oem15.inf:ACPI\QCOM06B0,*
+0000830:      dvi:           Install Device: Configuring device completed. 12:35:47.963
+0000831:      dvi:           Device Status: 0x01802000
+0000832:      dvi:           Install Device: Starting device 'ACPI\QCOM06B0\2&DABA3FF&0'. 12:35:47.963
+0000833:      dvi:           Install Device: Starting device completed. 12:35:47.977
+0000834: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc0000034.
+0000835:      dvi:      {Configure Device - exit(0x00000000)} 12:35:47.977
+0000836:      dvi: {Core Device Install - exit(0x00000000)} 12:35:47.992
+0000837: <<<  Section end 2026/05/12 12:35:48.024
+0000838: <<<  [Exit status: SUCCESS]
+0000839: 
+
+==== SetupAPI context for QCOM061F ====
+0000703:      inf:                          Service Type  = 1
+0000704:      inf:                          Error Control = 1
+0000705:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000706:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000707:      inf:                          Updated service 'qcsubsys'.
+0000708:      inf:                     {Add Service: exit(0x00000000)}
+0000709:      inf:                     Hardware Id  = ACPI\QCOM061B
+0000710:      inf:                     {Configure Driver Configuration: SUBSYS_Device_ADSP.NT}
+0000711:      inf:                          Service Name  = qcsubsys
+0000712:      inf:                          Config Flags  = 0x00000000
+0000713:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000714:      inf:                {Configure Driver: exit(0x00000000)}
+0000715:      flq:                {FILE_QUEUE_COMMIT} 12:35:48.154
+0000716:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:35:48.160
+0000717:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000718:      dvi:           Install Device: Configuring device. 12:35:48.165
+0000719:      dvi:                Configuration: oem15.inf:ACPI\QCOM061B,*
+0000720:      dvi:           Install Device: Configuring device completed. 12:35:48.173
+0000721:      dvi:           Device Status: 0x01802000
+0000722:      dvi:           Install Device: Starting device 'ACPI\QCOM061B\2&DABA3FF&0'. 12:35:48.173
+0000723:      dvi:           Install Device: Starting device completed. 12:35:48.213
+0000724: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc0000034.
+0000725:      dvi:      {Configure Device - exit(0x00000000)} 12:35:48.215
+0000726:      dvi: {Core Device Install - exit(0x00000000)} 12:35:48.215
+0000727: <<<  Section end 2026/05/12 12:35:48.245
+0000728: <<<  [Exit status: SUCCESS]
+0000729: 
+0000730: 
+0000731: >>>  [Device Install (Hardware initiated) - ACPI\QCOM061F\2&daba3ff&0]
+0000732: >>>  Section start 2026/05/12 12:35:47.414
+0000733:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000734:      utl: {Select Drivers - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.508
+0000735:      utl:      Driver Node:
+0000736:      utl:           Status         - Selected
+0000737:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000738:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000739:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000740:      utl:           Configuration  - ACPI\QCOM061F
+0000741:      utl:           Driver Rank    - 00FF0001
+0000742:      utl:           Signer Score   - WHQL (0D000005)
+0000743:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000744:      utl: {Select Drivers - exit(0x00000000} 12:35:47.539
+0000745:      dvi: {Core Device Install} 12:35:47.539
+0000746:      dvi:      {Configure Device - ACPI\QCOM061F\2&daba3ff&0} 12:35:47.539
+0000747:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000748:      dvi:           Config Flags: 0x00000000
+0000749:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000750:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+0000751:      sto:                Source Filter  = ACPI\QCOM061F
+0000752:      inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000753:      inf:                Class Options  = Configurable BootCritical
+0000754:      inf:                {Configure Driver: Qualcomm(R) Sensor Subsystem Device}
+0000755:      inf:                     Section Name = SUBSYS_Device.NT
+0000756:      inf:                     {Add Service: qcsubsys}
+0000757:      inf:                          Start Type    = 3
+0000758:      inf:                          Service Type  = 1
+0000759:      inf:                          Error Control = 1
+0000760:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000761:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000762:      inf:                          Updated service 'qcsubsys'.
+0000763:      inf:                     {Add Service: exit(0x00000000)}
+0000764:      inf:                     Hardware Id  = ACPI\QCOM061F
+0000765:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000766:      inf:                          Service Name  = qcsubsys
+0000767:      inf:                          Config Flags  = 0x00000000
+0000768:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000769:      inf:                {Configure Driver: exit(0x00000000)}
+0000770:      flq:                {FILE_QUEUE_COMMIT} 12:35:47.664
+0000771:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 12:35:47.664
+0000772:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000773:      dvi:           Install Device: Configuring device. 12:35:47.680
+0000774:      dvi:                Configuration: oem15.inf:ACPI\QCOM061F,*
+0000775:      dvi:           Install Device: Configuring device completed. 12:35:47.680
+0000776:      dvi:           Device Status: 0x01802000
+0000777:      dvi:           Install Device: Starting device 'ACPI\QCOM061F\2&DABA3FF&0'. 12:35:47.695
+0000778:      dvi:           Install Device: Starting device completed. 12:35:47.711
+0000779: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc0000034.
+0000780:      dvi:      {Configure Device - exit(0x00000000)} 12:35:47.711
+0000781:      dvi: {Core Device Install - exit(0x00000000)} 12:35:47.711
+0000782: <<<  Section end 2026/05/12 12:35:47.758
+0000783: <<<  [Exit status: SUCCESS]
+0000784: 
+0000785: 
+0000786: >>>  [Device Install (Hardware initiated) - ACPI\QCOM06B0\2&daba3ff&0]
+0000787: >>>  Section start 2026/05/12 12:35:47.414
+0000788:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000789:      utl: {Select Drivers - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.523
+0000790:      utl:      Driver Node:
+0000791:      utl:           Status         - Selected
+0000792:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000793:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000794:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000795:      utl:           Configuration  - ACPI\QCOM06B0
+0000796:      utl:           Driver Rank    - 00FF0001
+0000797:      utl:           Signer Score   - WHQL (0D000005)
+0000798:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000799:      utl: {Select Drivers - exit(0x00000000} 12:35:47.742
+0000800:      dvi: {Core Device Install} 12:35:47.742
+0000801:      dvi:      {Configure Device - ACPI\QCOM06B0\2&daba3ff&0} 12:35:47.758
+0000802:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000803:      dvi:           Config Flags: 0x00000000
+0000804:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000805:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+
+==== SetupAPI context for QCOM068D ====
+0000590:      inf:                                    No associated service.
+0000591:      inf:                                    Declarative Filters = qcPILFC
+0000592:      inf:                                    Config Flags  = 0x00000000
+0000593:      inf:                               {Configure Driver Configuration: exit(0x00000000)}
+0000594:      inf:                          {Configure Driver: exit(0x00000000)}
+0000595:      flq:                          {FILE_QUEUE_COMMIT} 19:39:41.372
+0000596:      flq:                          {FILE_QUEUE_COMMIT - exit(0x00000000)} 19:39:41.372
+0000597:      sto:                     {Configure Driver Package: exit(0x00000000)}
+0000598:      dvi:                     Install Device: Configuring device. 19:39:41.372
+0000599:      dvi:                          Configuration: oem16.inf:ACPI\QCOM06E0,PIL_Device.NT
+0000600:      dvi:                          Configuration: oem18.inf:ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280,*
+0000601:      dvi:                          Configuration: oem17.inf:ACPI\QCOM06E0,PIL_Device_Ext.NT
+0000602:      dvi:                     Install Device: Configuring device completed. 19:39:41.393
+0000603:      dvi:                     Device Status: 0x01802400 [0x1f - 0xc0000001]
+0000604:      dvi:                     Install Device: Starting device 'ACPI\QCOM06E0\2&DABA3FF&0'. 19:39:41.393
+0000605:      dvi:                     Install Device: Starting device completed. 19:39:41.440
+0000606:      dvi:                {Configure Device - exit(0x00000000)} 19:39:41.440
+0000607:      dvi:           {Core Device Install - exit(0x00000000)} 19:39:41.450
+0000608:      ump:      {Plug and Play Service: Device Install exit(00000000)}
+0000609:      dvs:      {Install Related Drivers} 19:39:41.466
+0000610:      dvs:      {Install Related Drivers: exit(0x00000000)} 19:39:41.482
+0000611:      dvs: {Driver Setup Update Device - exit(0x00000000)} 19:39:41.482
+0000612: <<<  Section end 2026/05/11 19:39:41.514
+0000613: <<<  [Exit status: SUCCESS]
+0000614: 
+0000615: 
+0000616: [Boot Session: 2026/05/12 10:17:40.323]
+0000617: 
+0000618: >>>  [Device Install (Hardware initiated) - ACPI\QCOM068D\2&daba3ff&0]
+0000619: >>>  Section start 2026/05/12 10:17:52.098
+0000620:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000621:      utl: {Select Drivers - ACPI\QCOM068D\2&daba3ff&0} 10:17:52.239
+0000622:      utl:      Driver Node:
+0000623:      utl:           Status         - Selected
+0000624:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000625:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000626:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000627:      utl:           Configuration  - ACPI\QCOM068D
+0000628:      utl:           Driver Rank    - 00FF0001
+0000629:      utl:           Signer Score   - WHQL (0D000005)
+0000630:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000631:      utl: {Select Drivers - exit(0x00000000} 10:17:52.396
+0000632:      dvi: {Core Device Install} 10:17:52.396
+0000633:      dvi:      {Configure Device - ACPI\QCOM068D\2&daba3ff&0} 10:17:52.412
+0000634:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+0000635:      dvi:           Config Flags: 0x00000000
+0000636:      dvi:           Parent Device: ACPI_HAL\PNP0C08\0
+0000637:      sto:           {Configure Driver Package: C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf}
+0000638:      sto:                Source Filter  = ACPI\QCOM068D
+0000639:      inf:                Class GUID     = {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000640:      inf:                Class Options  = Configurable BootCritical
+0000641:      inf:                {Configure Driver: Qualcomm(R) Secure Processor Subsystem Device}
+0000642:      inf:                     Section Name = SUBSYS_Device.NT
+0000643:      inf:                     {Add Service: qcsubsys}
+0000644:      inf:                          Start Type    = 3
+0000645:      inf:                          Service Type  = 1
+0000646:      inf:                          Error Control = 1
+0000647:      inf:                          Image Path    = \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+0000648:      inf:                          Display Name  = Qualcomm(R) Combined Subsystem Driver
+0000649:      inf:                          Updated service 'qcsubsys'.
+0000650:      inf:                     {Add Service: exit(0x00000000)}
+0000651:      inf:                     Hardware Id  = ACPI\QCOM068D
+0000652:      inf:                     {Configure Driver Configuration: SUBSYS_Device.NT}
+0000653:      inf:                          Service Name  = qcsubsys
+0000654:      inf:                          Config Flags  = 0x00000000
+0000655:      inf:                     {Configure Driver Configuration: exit(0x00000000)}
+0000656:      inf:                {Configure Driver: exit(0x00000000)}
+0000657:      flq:                {FILE_QUEUE_COMMIT} 10:17:52.522
+0000658:      flq:                {FILE_QUEUE_COMMIT - exit(0x00000000)} 10:17:52.522
+0000659:      sto:           {Configure Driver Package: exit(0x00000000)}
+0000660:      dvi:           Install Device: Configuring device. 10:17:52.525
+0000661:      dvi:                Configuration: oem15.inf:ACPI\QCOM068D,*
+0000662:      dvi:           Install Device: Configuring device completed. 10:17:52.531
+0000663:      dvi:           Device Status: 0x01802000
+0000664:      dvi:           Install Device: Starting device 'ACPI\QCOM068D\2&DABA3FF&0'. 10:17:52.540
+0000665:      dvi:           Install Device: Starting device completed. 10:17:52.559
+0000666: !!!  dvi:           Device not started: Device has problem: 0x1f (CM_PROB_FAILED_ADD), problem status: 0xc000003b.
+0000667:      dvi:      {Configure Device - exit(0x00000000)} 10:17:52.562
+0000668:      dvi: {Core Device Install - exit(0x00000000)} 10:17:52.570
+0000669: <<<  Section end 2026/05/12 10:17:52.573
+0000670: <<<  [Exit status: SUCCESS]
+0000671: 
+0000672: 
+0000673: [Boot Session: 2026/05/12 12:35:35.696]
+0000674: 
+0000675: >>>  [Device Install (Hardware initiated) - ACPI\QCOM061B\2&daba3ff&0]
+0000676: >>>  Section start 2026/05/12 12:35:47.398
+0000677:      ump: Install needed due to device having problem code CM_PROB_NOT_CONFIGURED
+0000678:      utl: {Select Drivers - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.492
+0000679:      utl:      Driver Node:
+0000680:      utl:           Status         - Selected
+0000681:      utl:           Driver INF     - oem15.inf (C:\Windows\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.inf)
+0000682:      utl:           Class GUID     - {4d36e97d-e325-11ce-bfc1-08002be10318}
+0000683:      utl:           Driver Version - 05/03/2023,1.0.3741.8500
+0000684:      utl:           Configuration  - ACPI\QCOM061B
+0000685:      utl:           Driver Rank    - 00FF0001
+0000686:      utl:           Signer Score   - WHQL (0D000005)
+0000687:      utl:           Submission ID  - 30099410_14481228897727152_1152921505696280191
+0000688:      utl: {Select Drivers - exit(0x00000000} 12:35:47.758
+0000689:      dvi: Waiting for previous device install to complete. 12:35:47.773
+0000690:      dvi: {Core Device Install} 12:35:47.992
+0000691:      dvi:      {Configure Device - ACPI\QCOM061B\2&daba3ff&0} 12:35:47.992
+0000692:      dvi:           Device Status: 0x01802400 [0x01 - 0xc0000493]
+
+==== SetupAPI context for QCOM0532 ====
+No matches.
+
+==== SetupAPI context for QCOM0520 ====
+No matches.

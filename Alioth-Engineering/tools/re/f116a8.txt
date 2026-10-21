@@ -1,0 +1,111 @@
+func ['0x116a8', '0x11894']
+ 116a8 pacibsp                                      
+ 116ac stp    x29, x30, [sp, #-0x50]!              
+ 116b0 mov    x29, sp                              
+ 116b4 str    x0, [x29, #0x20]                     
+ 116b8 str    x1, [x29, #0x28]                     
+ 116bc mov    w8, #-0x3fffffff                     
+ 116c0 str    w8, [x29, #0x10]                     
+ 116c4 ldr    x8, [x29, #0x20]                     
+ 116c8 cmp    x8, #0                               
+ 116cc b.eq   #0x116dc                             
+ 116d0 ldr    x8, [x29, #0x28]                     
+ 116d4 cmp    x8, #0                               
+ 116d8 b.ne   #0x11740                             
+ 116dc adrp   x8, #0x5e000                         
+ 116e4 adrp   x8, #0x5e000                         
+ 116ec cmp    x8, x9                               
+ 116f0 b.eq   #0x11734                             
+ 116f4 mov    w8, #1                               
+ 116f8 cmp    w8, #0                               
+ 116fc b.eq   #0x11734                             
+ 11700 adrp   x8, #0x5e000                         
+ 1170c adrp   x8, #0x5c000                         
+ 11710 add    x4, x8, #0x1d0                       0x5c1d0 
+ 11714 mov    w3, #0xa                             
+ 11718 mov    w2, #2                               
+ 1171c mov    w1, #2                               
+ 11720 ldr    x0, [x9]                             
+ 11724 bl     #0x2368                              sub_0x2368
+ 11728 mov    w8, #1                               
+ 1172c str    w8, [x29, #0x14]                     
+ 11730 b      #0x1173c                             
+ 11734 mov    w8, #0                               
+ 11738 str    w8, [x29, #0x14]                     
+ 1173c b      #0x1187c                             
+ 11740 add    x3, x29, #0x30                       
+ 11744 mov    w2, #1                               
+ 11748 mov    x1, #0                               
+ 1174c adrp   x8, #0x5c000                         
+ 11750 add    x0, x8, #0x130                       0x5c130 
+ 11754 adrp   x8, #0x5b000                         
+ 11758 ldr    x8, [x8, #0xd8]                      IoGetDeviceInterfaces
+ 1175c blr    x8                                   
+ 11760 mov    w0, w0                               
+ 11764 str    w0, [x29, #0x10]                     
+ 11768 ldr    w8, [x29, #0x10]                     
+ 1176c cmp    w8, #0                               
+ 11770 b.ge   #0x117d8                             
+ 11774 adrp   x8, #0x5e000                         
+ 1177c adrp   x8, #0x5e000                         
+ 11784 cmp    x8, x9                               
+ 11788 b.eq   #0x117cc                             
+ 1178c mov    w8, #1                               
+ 11790 cmp    w8, #0                               
+ 11794 b.eq   #0x117cc                             
+ 11798 adrp   x8, #0x5e000                         
+ 117a4 adrp   x8, #0x5c000                         
+ 117a8 add    x4, x8, #0x1d0                       0x5c1d0 
+ 117ac mov    w3, #0xb                             
+ 117b0 mov    w2, #2                               
+ 117b4 mov    w1, #2                               
+ 117b8 ldr    x0, [x9]                             
+ 117bc bl     #0x2368                              sub_0x2368
+ 117c0 mov    w8, #1                               
+ 117c4 str    w8, [x29, #0x18]                     
+ 117c8 b      #0x117d4                             
+ 117cc mov    w8, #0                               
+ 117d0 str    w8, [x29, #0x18]                     
+ 117d4 b      #0x1187c                             
+ 117d8 ldr    x1, [x29, #0x30]                     
+ 117dc add    x0, x29, #0x38                       
+ 117e0 adrp   x8, #0x5b000                         
+ 117e4 ldr    x8, [x8, #0x370]                     RtlInitUnicodeString
+ 117e8 blr    x8                                   
+ 117ec ldr    x3, [x29, #0x20]                     
+ 117f0 ldr    x2, [x29, #0x28]                     
+ 117f4 ldr    w1, #0x11890                         
+ 117f8 add    x0, x29, #0x38                       
+ 117fc adrp   x8, #0x5b000                         
+ 11800 ldr    x8, [x8, #0xc8]                      IoGetDeviceObjectPointer
+ 11804 blr    x8                                   
+ 11808 mov    w0, w0                               
+ 1180c str    w0, [x29, #0x10]                     
+ 11810 ldr    w8, [x29, #0x10]                     
+ 11814 cmp    w8, #0                               
+ 11818 b.ge   #0x1187c                             
+ 1181c adrp   x8, #0x5e000                         
+ 11824 adrp   x8, #0x5e000                         
+ 1182c cmp    x8, x9                               
+ 11830 b.eq   #0x11874                             
+ 11834 mov    w8, #1                               
+ 11838 cmp    w8, #0                               
+ 1183c b.eq   #0x11874                             
+ 11840 adrp   x8, #0x5e000                         
+ 1184c adrp   x8, #0x5c000                         
+ 11850 add    x4, x8, #0x1d0                       0x5c1d0 
+ 11854 mov    w3, #0xc                             
+ 11858 mov    w2, #2                               
+ 1185c mov    w1, #2                               
+ 11860 ldr    x0, [x9]                             
+ 11864 bl     #0x2368                              sub_0x2368
+ 11868 mov    w8, #1                               
+ 1186c str    w8, [x29, #0x1c]                     
+ 11870 b      #0x1187c                             
+ 11874 mov    w8, #0                               
+ 11878 str    w8, [x29, #0x1c]                     
+ 1187c ldr    w0, [x29, #0x10]                     
+ 11880 ldp    x29, x30, [sp], #0x50                
+ 11884 autibsp                                      
+ 11888 ret                                         
+ 1188c nop                                         

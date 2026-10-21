@@ -1,0 +1,25 @@
+1	10:04:19.486	minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+2	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFCE8BE76DAD80, name:IPCRTR, remote_ss:mpss
+3	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+4	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+5	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFCE8BE76D6D30, name:IPCRTR, remote_ss:lpass
+6	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+7	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+8	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFCE8BE76B6D20, name:IPCRTR, remote_ss:dsps
+9	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+10	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+11	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFCE8BE76B8D20, name:IPCRTR, remote_ss:cdsp
+12	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+13	10:04:22.345	Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+14	10:04:22.470	X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+15	10:04:22.470	X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+16	10:04:22.470	X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFFCE8BE770ACF0).
+17	10:04:22.470	X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFFCE8BE770ACF0).
+18	10:04:22.470	X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+19	10:04:22.611	X:\qcdksrc\main\latest\b\src\qmi\qcci\km\qmi_cci_xport_ipc_wdf.c: 462. qmi_cci_xport_ipc_wdf_init: Entry.
+20	10:04:22.611	X:\qcdksrc\main\latest\b\src\qmi\qcci\km\qmi_cci_xport_ipc_wdf.c: 464. qmi_cci_xport_ipc_wdf_init: Exit.
+21	10:04:36.249	:rimInputApc [pRimObj:FFFFCE8BE7FF7AC0, pRimDev:FFFFCE8BEB882178] Status: c000009d..retrying read as maximum nretryErrorCompletion not reached
+22	10:06:26.719	:rimInputApc [pRimObj:FFFFCE8BE7FF7AC0, pRimDev:FFFFCE8BEB882178] Status: C000009D..not retrying read as maximum retryReads reached or encountered non-memory error[0004:172c]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFCE8BE81C6B18, IoStatus=0x0)
+23	10:06:26.881	Closing PosixDeleteHandle, SCB=0xFFFFAD8321CF6170
+24	10:06:31.727	[0004:124c]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFCE8BE81C6B18, IoStatus=0x0)
+25	10:06:36.733	[0004:17d4]CcFlushCachePriv: PreProcess returned FALSE, nothing to do (SOP=FFFFCE8BE81C6B18, IoStatus=0x0)

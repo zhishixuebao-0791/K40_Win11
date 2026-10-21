@@ -1,0 +1,311 @@
+﻿==== Related service state ====
+Time: 2026-10-17 12:16:31
+
+## AudioService
+
+Not found
+
+## fsa4480
+
+
+
+Name        : fsa4480
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\fsa4480.inf_arm64_70c08a4681f12b10\fsa4480.sys
+DisplayName : ON Semiconductor USB Type-C Analog Audio Switch (FSA4480) Service
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\fsa4480.inf_arm64_70c08a4681f12b10\fsa4480.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem1.inf,%fsa4480.SVCDESC%;ON Semiconductor USB Type-C Analog Audio Switch (FSA4480) Service
+Owners       : {oem1.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\fsa4480
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : fsa4480
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcadsprpc
+
+
+
+Name        : qcadsprpc
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+DisplayName : Qualcomm(R) FastRPC Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcadsprpc8250.inf_arm64_fae6cc8d8e5a489b\qcadsprpc8250.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem2.inf,%ADSPRPC.SVCDESC%;Qualcomm(R) FastRPC Device
+Owners       : {oem2.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcadsprpc
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcadsprpc
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcadsprpcd
+
+
+
+Name        : qcadsprpcd
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+DisplayName : Qualcomm(R) Audio RPC Daemon Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcadsprpcd8250.inf_arm64_2cde9d0a49b603fe\qcadsprpcd8250.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem3.inf,%ADSPRPCD.SVCDESC%;Qualcomm(R) Audio RPC Daemon Device
+Owners       : {oem3.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcadsprpcd
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcadsprpcd
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcglink
+
+
+
+Name        : qcGLINK
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+DisplayName : Qualcomm(R) Shared Memory Port Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem10.inf,%GLINK.SVCDESC%;Qualcomm(R) Shared Memory Port Device
+Owners       : {oem10.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcglink
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcglink
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## QCIPC_ROUTER
+
+
+
+Name        : QCIPC_ROUTER
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+DisplayName : Qualcomm(R) Data IPC Router Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem11.inf,%IPC_ROUTER.SVCDESC%;Qualcomm(R) Data IPC Router Device
+Owners       : {oem11.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\QCIPC_ROUTER
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : QCIPC_ROUTER
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcPILC
+
+
+
+Name        : qcPILC
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+DisplayName : Qualcomm(R) Peripheral Image Loader Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+Group        : 
+DisplayName  : @oem16.inf,%PIL.SVCDESC%;Qualcomm(R) Peripheral Image Loader Device
+Owners       : {oem16.inf, oem6.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcPILC
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcPILC
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## QCRPEN
+
+
+
+Name        : QCRPEN
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+DisplayName : Qualcomm(R) Reset Power Error Notifier Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem7.inf,%RPEN.SVCDESC%;Qualcomm(R) Reset Power Error Notifier Device
+Owners       : {oem7.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\QCRPEN
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : QCRPEN
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcscm
+
+
+
+Name        : qcscm
+State       : Running
+StartMode   : Boot
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+DisplayName : Qualcomm(R) System Manager SCM Device
+
+
+
+
+
+
+ImagePath    : System32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+Type         : 1
+Start        : 0
+ErrorControl : 1
+Group        : Extended Base
+Tag          : 11
+DisplayName  : @oem8.inf,%SCM.SVCDESC%;Qualcomm(R) System Manager SCM Device
+Owners       : {oem8.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcscm
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcscm
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcsmmu
+
+
+
+Name        : qcsmmu
+State       : Stopped
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcsmmu8280.inf_arm64_1d80adabc6ef3b6d\qcsmmu8280.sys
+DisplayName : Qualcomm(R) System MMU Device
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcsmmu8280.inf_arm64_1d80adabc6ef3b6d\qcsmmu8280.sys
+Type         : 1
+Start        : 3
+ErrorControl : 0
+DisplayName  : @oem9.inf,%SMMU.SVCDESC%;Qualcomm(R) System MMU Device
+Owners       : {oem9.inf}
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcsmmu
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcsmmu
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
+## qcsubsys
+
+
+
+Name        : qcsubsys
+State       : Running
+StartMode   : Manual
+PathName    : C:\Windows\system32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+DisplayName : Qualcomm(R) Combined Subsystem Driver
+
+
+
+
+
+
+ImagePath    : \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+Type         : 1
+Start        : 3
+ErrorControl : 1
+DisplayName  : @oem15.inf,%SUBSYS.SVCDESC%;Qualcomm(R) Combined Subsystem Driver
+Owners       : {oem15.inf, oem5.inf}
+Group        : 
+PSPath       : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\qcsubsys
+PSParentPath : Microsoft.PowerShell.Core\Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services
+PSChildName  : qcsubsys
+PSDrive      : HKLM
+PSProvider   : Microsoft.PowerShell.Core\Registry
+
+
+
+
