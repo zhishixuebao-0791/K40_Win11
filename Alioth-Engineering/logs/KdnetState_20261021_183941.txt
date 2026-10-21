@@ -1,0 +1,96 @@
+﻿SYSTEM hive 修改时间：2026/10/21 18:32:18
+当前控制集：ControlSet001
+==== ControlSet001\Services\kdnet
+错误: 系统找不到指定的注册表项或值。
+==== ControlSet001\Services\kdnic
+
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Services\kdnic
+    Type    REG_DWORD    0x1
+    Start    REG_DWORD    0x3
+    ErrorControl    REG_DWORD    0x1
+    Tag    REG_DWORD    0xd
+    ImagePath    REG_EXPAND_SZ    \SystemRoot\System32\drivers\kdnic.sys
+    DisplayName    REG_SZ    @kdnic630.inf,%KdNic.Service.DispName%;Microsoft Kernel Debug Network Miniport (NDIS 6.30)
+    Group    REG_SZ    NDIS
+    Owners    REG_MULTI_SZ    kdnic630.inf
+    TextModeFlags    REG_DWORD    0x1
+
+==== ControlSet001\Services\kdnet\Parameters
+错误: 系统找不到指定的注册表项或值。
+==== ControlSet001\Control SystemStartOptions
+
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Control
+    SystemStartOptions    REG_SZ     TESTSIGNING  NOEXECUTE=OPTIN  BOOTLOG  DEBUG  BUSPARAMS=0  ENCRYPTION_KEY=1.2.3.4  DEBUGPORT=NET  HOST_IP=169.254.255.255  HOST_PORT=50005  NO_DHCP  FVEBOOT=2685960192  NOVGA
+
+==== ControlSet001\Enum\ACPI\QCOM0597（递归）
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\ACPI\QCOM0597\0
+    Capabilities    REG_DWORD    0x30
+    Service    REG_SZ    UrsSynopsys
+    Driver    REG_SZ    {36fc9e60-c465-11cf-8056-444553540000}\0000
+    ConfigFlags    REG_DWORD    0x0
+    DeviceDesc    REG_SZ    @urssynopsys.inf,%urssynopsys.devicedesc%;Synopsys USB 3.0 Dual-Role Controller
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\ACPI\QCOM0597\0\Device Parameters
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\ACPI\QCOM0597\0\Device Parameters\WDF
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\ACPI\QCOM0597\0\LogConf
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\ACPI\QCOM0597\0\Properties
+==== ControlSet001\Enum\URS（递归）
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0
+    Capabilities    REG_DWORD    0x80
+    Service    REG_SZ    USBXHCI
+    DeviceDesc    REG_SZ    @usbxhci.inf,%acpi\pnp0d15.devicedesc%;USB xHCI Compliant Host Controller
+    Driver    REG_SZ    {36fc9e60-c465-11cf-8056-444553540000}\0001
+    ConfigFlags    REG_DWORD    0x0
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters\e5b3b5ac-9725-4f78-963f-03dfb1d828c7
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters\Interrupt Management
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters\Interrupt Management\Affinity Policy
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters\Interrupt Management\MessageSignaledInterruptProperties
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Device Parameters\WDF
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\LogConf
+HKEY_LOCAL_MACHINE\ALIOTH_P17F_KD_14104\ControlSet001\Enum\URS\VEN_QCOM&DEV_0597&SUBSYS_MTP08250&HOST\3&4281cf3&0&0\Properties
+注册表 hive 已卸载。
+==== System.evtx（修改时间 2026/10/21 18:32:16），最近 3 小时内与调试相关或级别≤3 的事件
+2026-10-21 18:32:15 [] winsrvext #100: 
+2026-10-21 18:32:07 [警告] Microsoft-Windows-DNS-Client #1014: 
+2026-10-21 18:29:55 [警告] Microsoft-Windows-DistributedCOM #10016: 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\SYSTEM SID (S-1-5-18)授予针对 CLSID 为 
+2026-10-21 18:29:55 [警告] Microsoft-Windows-DistributedCOM #10016: 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\SYSTEM SID (S-1-5-18)授予针对 CLSID 为 
+2026-10-21 18:29:55 [警告] Microsoft-Windows-DistributedCOM #10016: 应用程序-特定 权限设置并未向在应用程序容器 不可用 SID (不可用)中运行的地址 LocalHost (使用 LRPC) 中的用户 NT AUTHORITY\SYSTEM SID (S-1-5-18)授予针对 CLSID 为 
+2026-10-21 18:27:45 [错误] Service Control Manager #7000: 由于下列错误，XLWFP 服务启动失败: 
+2026-10-21 18:27:45 [错误] Application Popup #1060: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:42 [警告] LsaSrv #6155: 
+2026-10-21 18:27:41 [警告] Microsoft-Windows-Wininit #15: Credential Guard 已配置，但安全内核未运行；继续操作而不使用 Credential Guard。
+2026-10-21 18:27:41 [信息] Microsoft-Windows-Kernel-General #24: 
+2026-10-21 18:27:36 [警告] disk #158: 磁盘 5 的磁盘标识符与连接到系统的一个或多个磁盘的磁盘标识符相同。请转到 Microsoft 的支持网站(http://support.microsoft.com)，并搜索 KB2983588 以解决此问题。
+2026-10-21 18:27:36 [警告] disk #158: 磁盘 4 的磁盘标识符与连接到系统的一个或多个磁盘的磁盘标识符相同。请转到 Microsoft 的支持网站(http://support.microsoft.com)，并搜索 KB2983588 以解决此问题。
+2026-10-21 18:27:36 [警告] disk #158: 磁盘 3 的磁盘标识符与连接到系统的一个或多个磁盘的磁盘标识符相同。请转到 Microsoft 的支持网站(http://support.microsoft.com)，并搜索 KB2983588 以解决此问题。
+2026-10-21 18:27:36 [警告] disk #158: 磁盘 2 的磁盘标识符与连接到系统的一个或多个磁盘的磁盘标识符相同。请转到 Microsoft 的支持网站(http://support.microsoft.com)，并搜索 KB2983588 以解决此问题。
+2026-10-21 18:27:36 [警告] disk #158: 磁盘 1 的磁盘标识符与连接到系统的一个或多个磁盘的磁盘标识符相同。请转到 Microsoft 的支持网站(http://support.microsoft.com)，并搜索 KB2983588 以解决此问题。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-General #20: 闰秒配置已更新。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #32: bootmgr 花费了 0 毫秒等待用户输入。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #18: 此系统有 0x1 个引导选项。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #27: 引导类型为 0x0。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #25: 引导菜单策略为 0x1。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #238: 
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #20: 上一次关机的成功状态为“true”。上一次引导的成功状态为“true”。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-Boot #153: 基于虚拟化的安全性(策略: 0)是 disabled。
+2026-10-21 18:27:35 [信息] Microsoft-Windows-Kernel-General #12: 操作系统已在系统时间 ‎2026‎-‎10‎-‎21T10:27:34.517046700Z 启动。
+2026-10-21 18:27:33 [信息] Microsoft-Windows-Kernel-General #13: 操作系统将在系统时间 ‎2026‎-‎10‎-‎21T10:27:33.034643400Z 关闭。
+2026-10-21 18:27:26 [错误] Microsoft-Windows-DistributedCOM #10010: 服务器 {69B7FE84-6361-4423-B948-1D64820B1E96} 没有在要求的超时时间内向 DCOM 注册。
+2026-10-21 18:27:17 [警告] Microsoft-Windows-DNS-Client #1014: 
+2026-10-21 18:18:12 [警告] Microsoft-Windows-DNS-Client #1014: 
+2026-10-21 18:12:31 [信息] Microsoft-Windows-Kernel-General #1: 
+2026-10-21 18:12:31 [信息] Microsoft-Windows-Kernel-General #24: 
+2026-10-21 18:12:24 [信息] Microsoft-Windows-Kernel-General #1: 
+2026-10-21 18:12:24 [信息] Microsoft-Windows-Kernel-General #24: 
+2026-10-21 18:12:24 [信息] Microsoft-Windows-Kernel-General #1: 
+2026-10-21 18:12:24 [信息] Microsoft-Windows-Kernel-General #24: 

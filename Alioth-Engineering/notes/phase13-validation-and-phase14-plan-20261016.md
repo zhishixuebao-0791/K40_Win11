@@ -323,6 +323,47 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
   - 脚本每次先撤销旧桩再重新打桩，17d 的 PEPH 替换也改成已替换时跳过，可以在 Ubuntu 上叠加修改过的 DSDT.asl 上重复执行。已在电脑上用 all→storage→none→all→storage 测试，iasl 错误数与原版相同（10 个，原有）。
   - 测试时保持 qcsmmu、qcsubsys 的 Start=4 以及 qcpep 参数不变，只看 qcpep 本身。
 
-## 未决问题
+## Phase17e 实测（2026-10-21）：all 版仍然卡死
+
+- `PEP_STUB=all`（清空全部 27 个设备电源配置方法）后，开机现象与 17d 相同（转圈约 2 秒后整机卡死）。**排除设备电源配置**，storage 版不必再测。
+- 结论：卡死发生在 qcpep 核心初始化，即 PEP 核心配置（`_CRS`、GEPT、STND、CTPM、PPPM/PPRR 等）或驱动内部的硬件访问（GLINK/QMP 连 AOP、PPP 框架给 PMIC 投票、CPU/时钟/L3 等）。
+
+### 静态分析（本次）
+
+- 社区里 SM8250 的完整 DSDT 都没有能用的 PEP：Silicium 所有 SM8250 机型都是 QCOM0519；edk2-msm（Renegade）中 alioth/lmi/apollo/elish/联想/一加都是 4 KB 精简表（没有 PEP0）；唯一完整的三星 r8q 表头是 `SDM8150/MTP08150`，PEPH 也是 `DEV_0519`。**网上没有 SM8250 上 qcpep 能工作的先例。**
+- alioth PEP0 的 `INTR` 中 `0x86000000/0x200000` 是 SM8150 的 SMEM 地址（SM8250 的 SMEM 在 `0x80900000`）；`0x17c0000c` 是 SM8150 的 APCS 门铃（SM8250 改用 IPCC `0x408000`）。但三个版本的 qcpep（8250/8280/850）都**没有** `INTR` 字符串，暂时不能认定 INTR 会被 qcpep 读取。
+- qcpep8250.sys 的源码模块：`Framework\PEP`（含 acpi、idle）、`SystemLibs\GLINK`（含 `xport_qmp`）、`SystemLibs\PPP`。内部文件名是 `qcpep8180.sys`。驱动自带 QMP 配置结构（`.rdata 0x177f60`）：消息内存 `0xc300000`、大小 `0x400`、中断 `0x1a5`（与 PEP0 `_CRS` 中的 `0x1a5` 一致）。
+- **误判，不要再追**：结构中紧跟的 `0x18321000/0x18323000/0x18325800` 正是 SC8180X 的 OSM L3 和两个 CPU 调频域（SM8250 是 EPSS `0x18590000` 起）。但 SC8280XP 也是 EPSS，而能正常工作的 qcpep8280.sys 里有完全相同的表，所以这只是公共库默认数据，**不能作为卡死的根因**。
+- 新增脚本（`tools\re\`）：`addrscan.py`（跟踪 movz/movk 拼常量 + 数据段扫描物理地址）、`dumprva.py`（按 RVA 转储结构体并解析指针字符串）。
+
+### 定位方法的结论
+
+- 卡死发生在开机启动驱动初始化阶段，文件系统还没起来，ETW/WPP/ntbtlog 都落不了盘；再在 DSDT 里二分核心配置，结果会被"驱动遇到空配置提前退出"干扰（17c 就是这样），不精确。
+- **成熟方案：KDNET over USB EEM（微软官方 ARM64 内核调试）**。要求目标机有 Synopsys USB 3.0 控制器，用 `kd_8003_5143.dll`，主机端固定 IP `169.254.255.255`。
+- alioth 当前的 UEFI 已经带有 `Kona/DBG2.aml`（`aliothPkg/Include/ACPI.inc`）：端口类型 `0x8003`（网络）、子类型 `0x5143`（高通）、基址 `0x0a600000`、命名空间 `\_SB.URS0`，**固件这边已经满足条件，不需要改 UEFI**。
+
+## Phase17f 计划：KDNET USB EEM 内核调试，直接定位 qcpep 卡死点
+
+1. 电脑安装 WinDbg（需要用户授权）。
+2. 手机进 Mass Storage，确认 `Windows\System32\kd_8003_5143.dll` 存在；离线修改手机 BCD：
+   `bcdedit /store <ESP>\EFI\Microsoft\Boot\BCD /dbgsettings net hostip:169.254.255.255 port:50005 key:1.2.3.4 busparams:1`，`/set {dbgsettings} dhcp no`，`/set {default} debug on`。
+3. 先用 Phase16 镜像开机，验证 WinDbg 能连上（同时确认主机端出现 KDNET-USB-EEM 网卡）。
+4. 再用 Phase17e-all（或 17d）开机：`sxe ld:qcpep8250.sys` 断在驱动加载，对 DriverEntry / AddDevice / PrepareHardware 及 PPP、GLINK 初始化函数下断点，看最后命中的是哪一个；卡死后尝试 Break 看各 CPU 的调用栈。
+5. 风险：如果是总线挂死，Break 可能也没反应，但断点二分仍然能定位到具体函数。
+
+## Phase17f 实测（2026-10-21）：KD 通道没起来，根因是镜像里没有 DBG2
+
+- 电脑装了 WinDbg 1.2610（winget `Microsoft.WinDbg`）。手机系统里有 `kd_8003_5143.dll`。用 `tools\Set-KdnetEem-Offline-Admin.ps1` 离线改 BCD（debug on，net，hostip 169.254.255.255，port 50005，key 1.2.3.4，dhcp no，busparams 先 1 后 0），每次改之前都备份 BCD 到 `logs\BCD-backup-phase17f-*.bin`。
+- 第 1 次（busparams 1）：手机接的是 USB 扩展坞（手机当主机），不算有效测试。
+- 第 2、3 次（直连电脑，busparams 1 和 0）：电脑端**没有枚举到任何 USB 设备**（连"未知 USB 设备"都没有），WinDbg 一直 `Waiting to reconnect...`。
+- 离线取证（`tools\Export-KdnetState-Offline-Admin.ps1` → `logs\KdnetState_20261021_183941.txt`）：`SystemStartOptions` 里有 `DEBUG BUSPARAMS=0 ... DEBUGPORT=NET`；**没有 `Services\kdnet`**（kdnet 一旦跑过初始化，会写 `KdInitStatus`/`KdInitResultString`）；Synopsys 控制器 `ACPI\QCOM0597` 由 `UrsSynopsys` 正常接管并工作在 xHCI 主机模式。ntbtlog 里调试关闭和开启时都只记录 `kd.dll`，靠它分辨不出来。
+- **根因**：`aliothPkg/Include/ACPI.inc` 里 `Kona/DBG2.aml` 包在 `!if $(TARGET) == DEBUG` 里，而 `build_uefi.sh` 默认 `TARGET=RELEASE`（Phase16 构建日志第 144、319 行）。**之前所有镜像都没有 DBG2**，winload 找不到调试设备，KD 传输模块没有加载。上一节"固件已满足条件、不用改 UEFI"的说法是错的。
+- busparams：Kona DBG2 只有 1 个设备（USB，序号 0），所以应该用 **0**（微软示例里的 1 是因为 Surface 的 0 号是串口）。
+- DBG2 的 OEM 数据：`kd_8003_5143` 会把 OEM 数据**从开头整块**拷进缓冲区，检查 `+4` 处的签名（Synopsys 路径用 `2XIF`，函数 `0x4340`；ChipIdea 路径用 `1XIF`），条目为 16 字节，格式是 `类型(0/1=基址0/1，0xff=延时) | 阶段 | 偏移 | AND | OR`，对控制器寄存器做读-改-写。Silicium 的 Kona 表 OEM 区开头是一份 DBG2 表头，签名对不上，所以**修补会被跳过，但不会导致 KD 失败**。这些修补本来就是照抄 Kailua（SM8550）的，跳过反而更安全。
+- 修正（2026-10-21）：`tools\build-acpi-hid-phase17f.sh` 在 RELEASE 构建中临时去掉 DBG2 的 DEBUG 条件（构建结束后恢复 ACPI.inc），并在 FV 中查找 DBG2 原始字节，确认它进了镜像。
+  - `VARIANT=pep`（默认）：沿用 Ubuntu 上的叠加 DSDT 状态，调用 17e 脚本（`PEP_STUB=all`），即 17e-all + DBG2。KD 在开机最早期就会连上，所以一个镜像就能同时验证通道和调试 qcpep。
+  - `VARIANT=base`：用最早一份 `DSDT.asl.pre-phase17-*.bak`（会检查是否为 Phase16 状态）编译，即 Phase16 + DBG2，用来排查通道问题。
+  - 教训：16、17e 的构建脚本**都不能从 Silicium-ACPI 原始 DSDT 开始**（电脑上试跑报 `PILC _SUB scope exists but does not contain MTP08280`），它们依赖 Ubuntu 上叠加出来的状态，不要 `git checkout DSDT.asl`。
+- 剩余风险：kd_8003_5143 不会初始化 USB PHY 和时钟，需要 UEFI 在退出前让 USB 保持上电。如果带 DBG2 后电脑端仍然完全没有枚举，下一步就查这一点（以及 KdInitStatus）。
 
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。

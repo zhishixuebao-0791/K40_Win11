@@ -40,6 +40,16 @@
 - 原因（反汇编确认）：`SmmuError` 这类字符串只出现在 PrepareHardware/SmmuInitHardware 路径，AddDevice 走不到那里。驱动唯一的 DbgPrintEx 是 WDF 存根里的 "DriverEntry failed"。AddDevice 的诊断全部通过 WPP 输出（sub_2368/sub_24d0），DebugView 看不到。
 - 对策：改用 ETW 抓 WPP。控制 GUID `{cf6bfd48-e161-4949-96d5-8647cfc488c8}`，AddDevice 所在源文件的消息 GUID `{6062ceb3-6692-336b-146c-b3eb83582bc2}`。不需要 TMF，用消息编号对照反汇编即可。
 
+### 10. 在 DSDT 中清空 PEP0 的设备电源配置方法来解决 qcpep 卡死（Phase17e，2026-10-21）
+- 做法：把 27 个设备电源配置方法（APMD/GPMD/BPMD/SDMD/…）都改成返回空包。
+- 结果：仍然在转圈约 2 秒后整机卡死。卡死与设备电源配置无关，在 qcpep 核心初始化里。
+- 另外：qcpep8250.sys 中的 OSM 地址表（`0x18321000/0x18323000/0x18325800`，SC8180X 布局）**不是根因**，因为能正常工作的 qcpep8280.sys 里有一模一样的表。不要再顺着这条线追。
+
+### 11. 在默认 RELEASE 镜像上改 BCD 的 busparams 来打通 KDNET USB EEM（Phase17f，2026-10-21）
+- 现象：busparams 1 和 0 都试过，电脑端什么都枚举不到，手机上也没有 `Services\kdnet`。
+- 原因：`ACPI.inc` 中 DBG2 只在 `TARGET == DEBUG` 时打包，RELEASE 镜像里根本没有 DBG2。只改 BCD 没有用，必须用 `tools/build-acpi-hid-phase17f.sh` 构建带 DBG2 的镜像。
+- 附带结论：Kona DBG2 只有一个设备，busparams 应为 0；DBG2 OEM 数据签名不对只会让寄存器修补被跳过，不会导致 KD 失败。
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）

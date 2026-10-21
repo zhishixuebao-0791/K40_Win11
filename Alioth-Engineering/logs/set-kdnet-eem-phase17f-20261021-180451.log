@@ -1,0 +1,62 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20261021180454
+用户名: UCCHIP\jcyang
+RunAs 用户: UCCHIP\jcyang
+配置名称: 
+计算机: JCYANG-DESK (Microsoft Windows NT 10.0.18363.0)
+主机应用程序: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\yjc_code\K40_Win11\Alioth-Engineering\tools\Set-KdnetEem-Offline-Admin.ps1 -WindowsDrive D -LogFile C:\yjc_code\K40_Win11\Alioth-Engineering\logs\set-kdnet-eem-phase17f-20261021-180451.log
+进程 ID: 16168
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+手机磁盘 1，ESP 为分区 36（954 MB）
+BCD 已备份到 C:\yjc_code\K40_Win11\Alioth-Engineering\tools\..\logs\BCD-backup-phase17f-20261021-180458.bin
+bcdedit /dbgsettings net hostip:169.254.255.255 port:50005 key:1.2.3.4 busparams:1 → Key=1.2.3.4
+bcdedit /set {dbgsettings} dhcp no → 操作成功完成。
+bcdedit /set {default} debug on → 操作成功完成。
+---- 当前 {dbgsettings} ----
+
+调试器设置
+-----------------
+标识符                  {dbgsettings}
+busparams               1
+key                     1.2.3.4
+debugtype               NET
+hostip                  169.254.255.255
+port                    50005
+dhcp                    No
+---- 当前 {default} ----
+
+Windows 启动加载器
+-------------------
+标识符                  {default}
+device                  partition=D:
+path                    \Windows\system32\winload.efi
+description             Windows 11
+locale                  zh-CN
+inherit                 {bootloadersettings}
+recoveryenabled         No
+testsigning             Yes
+isolatedcontext         Yes
+allowedinmemorysettings 0x15000075
+osdevice                partition=D:
+systemroot              \Windows
+resumeobject            {e7d841e8-3d62-11f1-9be1-00e04c6b0499}
+nx                      OptIn
+bootmenupolicy          Standard
+bootstatuspolicy        IgnoreAllFailures
+bootlog                 Yes
+debug                   Yes
+已移除 ESP 的临时盘符 E:
+完成。
+**********************
+Windows PowerShell 脚本结束
+结束时间: 20261021180458
+**********************
