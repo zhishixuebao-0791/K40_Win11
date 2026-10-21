@@ -278,6 +278,17 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
 - 风险：qcpep 是 PoFx 的 PEP 插件，又是开机加载驱动，可能导致开机卡死或蓝屏。回退方法同上。
 - 前置发现（2026-10-21）：手机驱动库中根本没有 qcpep 包，Services\qcpep 也不存在。原因是当初 `apply-alioth-offline-fixes-admin.ps1` 把 Kona 的 `Drivers\SOC` 整个排除在注入范围之外。需要先在 Mass Storage 下运行 `tools\Apply-Phase17QcpepInject-Admin.ps1`（DISM 离线注入 qcpep.wd8250.inf）。注入后只要 HID 还是 0519，就不会匹配任何设备，开机行为不变。
 
+## Phase17b 实测（2026-10-21）：INACCESSIBLE_BOOT_DEVICE（0x7B）蓝屏
+
+- 条件：fastboot boot Phase17 镜像（PEP0 → QCOM2519），testsigning 开启，qcpep.wd8250 已离线注入，qcsmmu 为 8280。
+- 关键事实：DSDT 中 `UFS0`（QCOM24A5）的 `_DEP` 是 `\_SB_.PEP0`。HID 为 0519 时 PEP0 没有驱动，作为空设备启动，依赖得到满足；改为 2519 后 PEP0 必须由 qcpep 启动，UFS 才能启动。
+- 待区分：A）qcpep8250 在开机时被加载但初始化失败；B）qcpep 没有装到 PEP0 上，设备停在待安装状态。回退到 Phase16 镜像后，查 `Services\qcpep`、`Enum\ACPI\QCOM2519` 的 Service 值和 setupapi.dev.log 来判断。
+- 回退后的证据（Phase16 镜像下开机）：
+  - `Services\qcpep` 存在（Start=0，ImagePath 指向 DriverStore 中的 qcpep8250.sys），这个键是 DISM 离线注入开机关键驱动时创建的。
+  - qcpep 作为开机启动驱动处于 **Running/OK**，说明 Andromeda 签名的开机驱动在测试签名下已被 winload 加载，签名这一关过了。
+  - `Enum\ACPI\QCOM2519` 不存在，setupapi.dev.log 中也没有 QCOM2519：Phase17 那次开机时，PEP0 作为新设备没有完成安装（或者安装结果因蓝屏没有保存到注册表），UFS 一直在等 PEP0，所以出现 0x7B。更接近 B。
+- Phase17c：`tools/build-acpi-hid-phase17c.sh` = Phase17 + 删除 UFS0 的 `_DEP`（只删这一处，`_DEP` 总数从 73 变为 72，已在电脑上单独测试过删除函数）。目的是让系统先从 UFS 正常开机，再由用户态 PnP 按 INF 完整安装 qcpep（包括 `.HW` 中的 PEP 资源配置）。安装完成后可能需要再重启一次，qcpep 才会真正接管 PEP0。回退方法仍是 Phase16 镜像。
+
 ## 未决问题
 
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。
