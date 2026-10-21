@@ -211,6 +211,10 @@ def replace_top_level_dep(source: str, device_name: str, providers: list[str]) -
     if dep_pos < 0:
         dep_pos = block.find("Name (_DEP", 0, hid_pos)
         dep_len = len("Name (_DEP")
+    if dep_pos < 0 and not providers:
+        # phase17d: 源码 DSDT.asl 是逐阶段叠加修改的，Phase17c 已删掉 UFS0 的 _DEP；再次执行时直接跳过，保证可重复构建
+        print(f"{device_name} _DEP already removed, skip")
+        return source
     if dep_pos < 0:
         raise SystemExit(f"Cannot locate top-level _DEP before _HID in Device({device_name})")
 
