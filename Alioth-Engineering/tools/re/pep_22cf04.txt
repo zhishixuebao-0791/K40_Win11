@@ -1,0 +1,242 @@
+func ['0x22cd88', '0x22d158']
+22cd88 stp    x29, x30, [sp, #-0x10]!              
+22cd8c mov    x29, sp                              
+22cd90 bl     #0x1280                              sub_0x1280
+22cd94 sub    sp, sp, #0x50                        
+22cd98 str    x0, [sp]                             
+22cd9c str    w1, [sp, #0x28]                      
+22cda0 str    x2, [sp, #0x10]                      
+22cda4 adrp   x8, #0x16a000                        
+22cda8 ldr    x8, [x8, #8]                         KeGetCurrentIrql
+22cdac blr    x8                                   
+22cdb0 uxtb   w8, w0                               
+22cdb4 strb   w8, [sp, #8]                         
+22cdb8 ldrb   w8, [sp, #8]                         
+22cdbc mov    w8, w8                               
+22cdc0 cmp    w8, #1                               
+22cdc4 b.le   #0x22cdd8                            
+22cdc8 brk    #0xf001                              
+22cdcc mov    w8, #0                               
+22cdd0 str    w8, [sp, #0x24]                      
+22cdd4 b      #0x22cde0                            
+22cdd8 mov    w8, #1                               
+22cddc str    w8, [sp, #0x24]                      
+22cde0 mov    x8, #0                               
+22cde4 str    x8, [sp, #0x30]                      
+22cde8 mov    w8, #0                               
+22cdec str    w8, [sp, #0x18]                      
+22cdf0 mov    x8, #0                               
+22cdf4 str    x8, [sp, #0x38]                      
+22cdf8 mov    w8, #0                               
+22cdfc str    w8, [sp, #0x40]                      
+22ce00 mov    w8, #0                               
+22ce04 str    w8, [sp, #0x44]                      
+22ce08 mov    w8, #0                               
+22ce0c str    w8, [sp, #0x48]                      
+22ce10 mov    w8, #5                               
+22ce14 str    w8, [sp, #0x4c]                      
+22ce18 ldr    x8, [sp]                             
+22ce1c add    x8, x8, #0x18                        0x16a018 
+22ce20 ldr    x8, [x8]                             
+22ce24 add    x8, x8, #9                           0x16a009 'p#'
+22ce28 ldrb   w9, [x8]                             
+22ce2c mov    w9, w9                               
+22ce30 mov    w8, #0                               
+22ce34 cmp    w8, w9                               
+22ce38 b.ne   #0x22ce70                            
+22ce3c ldr    x9, [sp, #0x10]                      
+22ce40 mov    w8, #0xaaa                           
+22ce44 str    w8, [x9]                             
+22ce48 ldr    x9, [sp]                             
+22ce4c ldr    x8, [sp, #0x10]                      
+22ce50 ldr    w8, [x8]                             
+22ce54 str    w8, [x9]                             
+22ce58 ldr    x8, [sp]                             
+22ce5c add    x9, x8, #4                           0x16a004 
+22ce60 mov    w8, #0                               
+22ce64 str    w8, [x9]                             
+22ce68 ldr    w0, #0x22d148                        
+22ce6c b      #0x22d134                            
+22ce70 ldr    x8, [sp]                             
+22ce74 add    x8, x8, #0x24                        0x16a024 
+22ce78 ldr    w8, [x8]                             
+22ce7c cmp    w8, #9                               
+22ce80 b.eq   #0x22cec8                            
+22ce84 ldr    x8, [sp]                             
+22ce88 ldr    w8, [x8]                             
+22ce8c add    w9, w8, #0xa                         
+22ce90 ldr    x8, [sp, #0x10]                      
+22ce94 str    w9, [x8]                             
+22ce98 ldr    x8, [sp]                             
+22ce9c add    x9, x8, #4                           0x16a004 
+22cea0 ldr    x8, [sp]                             
+22cea4 mov    w5, #0                               
+22cea8 ldr    w4, [x9]                             
+22ceac ldr    w3, [x8]                             
+22ceb0 mov    w2, #2                               
+22ceb4 mov    w1, #0x1a                            
+22ceb8 mov    w0, #0                               
+22cebc bl     #0x22d760                            sub_0x22d760
+22cec0 mov    w0, #0                               
+22cec4 b      #0x22d134                            
+22cec8 ldr    x8, [sp]                             
+22cecc add    x8, x8, #0x18                        0x16a018 
+22ced0 ldr    x8, [x8]                             
+22ced4 add    x6, sp, #0x30                        
+22ced8 mov    w5, #0x10                            
+22cedc add    x4, sp, #0x40                        
+22cee0 mov    w3, #0                               
+22cee4 ldr    x2, [sp, #0x38]                      
+22cee8 ldr    w1, #0x22d14c                        
+22ceec ldr    x0, [x8]                             
+22cef0 bl     #0x22b718                            sub_0x22b718
+22cef4 mov    w0, w0                               
+22cef8 str    w0, [sp, #0x1c]                      
+22cefc ldr    w8, [sp, #0x1c]                      
+22cf00 str    w8, [sp, #0x20]                      
+22cf04 ldr    w9, #0x22d150                        
+22cf08 ldr    w8, [sp, #0x20]                      
+22cf0c cmp    w8, w9                               
+22cf10 b.eq   #0x22cf34                            
+22cf14 ldr    w9, #0x22d154                        
+22cf18 ldr    w8, [sp, #0x20]                      
+22cf1c cmp    w8, w9                               
+22cf20 b.eq   #0x22cf98                            
+22cf24 ldr    w8, [sp, #0x20]                      
+22cf28 cmp    w8, #0                               
+22cf2c b.eq   #0x22cff0                            
+22cf30 b      #0x22d0b4                            
+22cf34 ldr    x9, [sp, #0x10]                      
+22cf38 mov    w8, #0xaaa                           
+22cf3c str    w8, [x9]                             
+22cf40 ldr    x9, [sp]                             
+22cf44 ldr    x8, [sp, #0x10]                      
+22cf48 ldr    w8, [x8]                             
+22cf4c str    w8, [x9]                             
+22cf50 ldr    x8, [sp]                             
+22cf54 add    x9, x8, #4                           0x16a004 
+22cf58 mov    w8, #0                               
+22cf5c str    w8, [x9]                             
+22cf60 ldr    x8, [sp]                             
+22cf64 add    x8, x8, #0x18                        0x16a018 
+22cf68 ldr    x8, [x8]                             
+22cf6c add    x9, x8, #8                           0x16a008 
+22cf70 mov    w8, #0                               
+22cf74 strb   w8, [x9]                             
+22cf78 mov    w5, #0                               
+22cf7c mov    w4, #0                               
+22cf80 ldr    w3, [sp, #0x1c]                      
+22cf84 mov    w2, #1                               
+22cf88 mov    w1, #0xb                             
+22cf8c mov    w0, #0                               
+22cf90 bl     #0x22d760                            sub_0x22d760
+22cf94 b      #0x22d0e4                            
+22cf98 ldr    x9, [sp, #0x10]                      
+22cf9c mov    w8, #0xaaa                           
+22cfa0 str    w8, [x9]                             
+22cfa4 ldr    x9, [sp]                             
+22cfa8 ldr    x8, [sp, #0x10]                      
+22cfac ldr    w8, [x8]                             
+22cfb0 str    w8, [x9]                             
+22cfb4 ldr    x8, [sp]                             
+22cfb8 add    x9, x8, #4                           0x16a004 
+22cfbc mov    w8, #0                               
+22cfc0 str    w8, [x9]                             
+22cfc4 mov    w5, #0                               
+22cfc8 mov    w4, #0                               
+22cfcc ldr    w3, [sp, #0x1c]                      
+22cfd0 mov    w2, #1                               
+22cfd4 mov    w1, #0xb                             
+22cfd8 mov    w0, #0                               
+22cfdc bl     #0x22d760                            sub_0x22d760
+22cfe0 adrp   x9, #0x1d4000                        
+22cfe4 mov    w8, #1                               
+22cfe8 strb   w8, [x9, #0xdb1]                     
+22cfec b      #0x22d0e4                            
+22cff0 ldr    x8, [sp]                             
+22cff4 add    x8, x8, #0x18                        0x16a018 
+22cff8 ldr    x8, [x8]                             
+22cffc add    x8, x8, #8                           0x16a008 
+22d000 ldrb   w8, [x8]                             
+22d004 mov    w8, w8                               
+22d008 cmp    w8, #0                               
+22d00c b.ne   #0x22d01c                            
+22d010 ldr    w1, [sp, #0x4c]                      
+22d014 ldr    x0, [sp]                             
+22d018 bl     #0x22d6b8                            sub_0x22d6b8
+22d01c adrp   x9, #0x1d4000                        
+22d020 mov    w8, #0                               
+22d024 strb   w8, [x9, #0xdb1]                     
+22d028 ldr    x8, [sp, #0x30]                      
+22d02c cmp    x8, #0x10                            
+22d030 b.ne   #0x22d040                            
+22d034 ldr    w8, [sp, #0x40]                      
+22d038 cmp    w8, #0                               
+22d03c b.gt   #0x22d05c                            
+22d040 ldr    x9, [sp, #0x10]                      
+22d044 mov    w8, #0xaaa                           
+22d048 str    w8, [x9]                             
+22d04c mov    w8, #0                               
+22d050 str    w8, [sp, #0x18]                      
+22d054 mov    w0, #0                               
+22d058 b      #0x22d134                            
+22d05c add    x3, sp, #0x18                        
+22d060 ldr    x2, [sp, #0x10]                      
+22d064 ldr    x1, [sp, #0x48]                      
+22d068 ldr    x0, [sp, #0x40]                      
+22d06c bl     #0x22d158                            sub_0x22d158
+22d070 ldr    x9, [sp]                             
+22d074 ldr    x8, [sp, #0x10]                      
+22d078 ldr    w8, [x8]                             
+22d07c str    w8, [x9]                             
+22d080 ldr    x8, [sp]                             
+22d084 add    x9, x8, #4                           0x16a004 
+22d088 ldr    w8, [sp, #0x18]                      
+22d08c str    w8, [x9]                             
+22d090 ldr    w5, [sp, #0x28]                      
+22d094 ldr    w4, [sp, #0x18]                      
+22d098 ldr    x8, [sp, #0x10]                      
+22d09c ldr    w3, [x8]                             
+22d0a0 mov    w2, #2                               
+22d0a4 mov    w1, #0xb                             
+22d0a8 mov    w0, #0                               
+22d0ac bl     #0x22d760                            sub_0x22d760
+22d0b0 b      #0x22d0e4                            
+22d0b4 mov    w5, #0                               
+22d0b8 mov    w4, #0                               
+22d0bc ldr    w3, [sp, #0x1c]                      
+22d0c0 mov    w2, #1                               
+22d0c4 mov    w1, #0xb                             
+22d0c8 mov    w0, #1                               
+22d0cc bl     #0x22d760                            sub_0x22d760
+22d0d0 ldr    x9, [sp, #0x10]                      
+22d0d4 mov    w8, #0                               
+22d0d8 str    w8, [x9]                             
+22d0dc mov    w8, #0                               
+22d0e0 str    w8, [sp, #0x18]                      
+22d0e4 adrp   x8, #0x1d4000                        
+22d0e8 ldrb   w8, [x8, #0xdb1]                     
+22d0ec mov    w8, w8                               
+22d0f0 cmp    w8, #0                               
+22d0f4 b.eq   #0x22d130                            
+22d0f8 adrp   x8, #0x1d4000                        
+22d0fc ldrb   w8, [x8, #0xdb0]                     
+22d100 mov    w8, w8                               
+22d104 cmp    w8, #0                               
+22d108 b.eq   #0x22d130                            
+22d10c adrp   x9, #0x1d4000                        
+22d110 mov    w8, #0                               
+22d114 strb   w8, [x9, #0xdb0]                     
+22d118 mov    w1, #0                               
+22d11c adrp   x8, #0x1d4000                        
+22d120 ldrb   w0, [x8, #0xdb0]                     
+22d124 bl     #0xc6e50                             sub_0xc6e50
+22d128 mov    w0, #0                               
+22d12c b      #0x22d134                            
+22d130 mov    w0, #0                               
+22d134 add    sp, sp, #0x50                        
+22d138 bl     #0x1298                              sub_0x1298
+22d13c ldp    x29, x30, [sp], #0x10                
+22d140 ret                                         
+22d144 nop                                         
+22d148 mov    za0h.b[w12, 3], p0/m, z5.b           

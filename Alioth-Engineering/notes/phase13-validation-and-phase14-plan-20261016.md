@@ -289,6 +289,17 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
   - `Enum\ACPI\QCOM2519` 不存在，setupapi.dev.log 中也没有 QCOM2519：Phase17 那次开机时，PEP0 作为新设备没有完成安装（或者安装结果因蓝屏没有保存到注册表），UFS 一直在等 PEP0，所以出现 0x7B。更接近 B。
 - Phase17c：`tools/build-acpi-hid-phase17c.sh` = Phase17 + 删除 UFS0 的 `_DEP`（只删这一处，`_DEP` 总数从 73 变为 72，已在电脑上单独测试过删除函数）。目的是让系统先从 UFS 正常开机，再由用户态 PnP 按 INF 完整安装 qcpep（包括 `.HW` 中的 PEP 资源配置）。安装完成后可能需要再重启一次，qcpep 才会真正接管 PEP0。回退方法仍是 Phase16 镜像。
 
+## Phase17c 实测与 Phase17d（2026-10-21）
+
+- Phase17c 可以正常开机。PEP0 = `ACPI\QCOM2519\2&DABA3FF&0`，Service=qcpep，`Device Parameters\Resources\ResourceList`（VRDL…SRDL）已按 INF 完整写入；但 PEP0 为 **Code 31 / 0xC000000E**，重启后不变。MMU1、ADSP 因 `_DEP` 指向 PEP0 而没有被枚举。
+- 反汇编 qcpep8250.sys（tools\re\findconst.py、addrref.py）：
+  - 0xC000000E 来自 PAGE:0x20f488（初始化大函数 0x20dd20）。
+  - sub_3e170 通过 IOCTL_ACPI_EVAL_METHOD（0x32C004）执行 PEP0 的 **`PEPH`** 方法，输入为 `AeiB`+`PEPH`，输出 `AeoB` 中的第一个字符串，存入全局 0x1c8ea0。
+  - sub_50cd8 = WDF 函数表第 126 项，以参数 1/2 读取 PEP0 的 HardwareID / CompatibleIDs，再用 sub_154568 与 PEPH 字符串比较；两个都不匹配时，记录 WPP 消息 0x52 并返回 0xC000000E。
+- alioth DSDT 的 `Scope(\_SB_.PEP0)` 中 PEPH 返回 `"ACPI\\VEN_QCOM&DEV_0519"`（全文只此一处），而 `_HID` 已改成 2519，所以比对失败。
+- Phase17d：`tools/build-acpi-hid-phase17d.sh` = Phase17c + PEPH 中的 `DEV_0519` 改为 `DEV_2519`，并增加检查 `phase17d_peph_2519`、`phase17d_DEV_0519_absent`，AML 中不得出现 `DEV_0519`。
+- 教训：改高通设备的 HID 时，要同时搜索 `VEN_QCOM&DEV_xxxx` 形式的硬编码字符串（例如 PEPH）。
+
 ## 未决问题
 
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。
