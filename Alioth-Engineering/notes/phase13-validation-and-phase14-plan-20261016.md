@@ -299,6 +299,29 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
 - alioth DSDT 的 `Scope(\_SB_.PEP0)` 中 PEPH 返回 `"ACPI\\VEN_QCOM&DEV_0519"`（全文只此一处），而 `_HID` 已改成 2519，所以比对失败。
 - Phase17d：`tools/build-acpi-hid-phase17d.sh` = Phase17c + PEPH 中的 `DEV_0519` 改为 `DEV_2519`，并增加检查 `phase17d_peph_2519`、`phase17d_DEV_0519_absent`，AML 中不得出现 `DEV_0519`。
 - 教训：改高通设备的 HID 时，要同时搜索 `VEN_QCOM&DEV_xxxx` 形式的硬编码字符串（例如 PEPH）。
+- Phase17d 实测（2026-10-21）：开机卡在 Silicium logo 加转圈。这说明 PEP 的 ID 校验已经通过，问题出在后续阶段。
+  - 嫌疑 1：qcpep 接管时钟、电源和 CPU 空闲状态之后卡死。
+  - 嫌疑 2：PEP 起来后 {55beca03} 出现，MMU1（qcsmmu8280 + 8250v2 配置）不再卡在 AddDevice，真正开始改写 SMMU 流映射，导致 UFS/显示的 DMA 异常。
+  - 隔离办法：在 Phase16 下把 `Services\qcsmmu\Start` 设为 4，然后再启动 Phase17d。
+  - 隔离 1：qcsmmu Start 从 3 改为 4（禁用 SMMU）后，Phase17d 仍然卡死，排除 SMMU。恢复时把 Start 改回 3。
+  - 隔离 2：`Services\qcpep\Parameters` 中设置 EnableProcessorManagement=0、DisableSystemLPM=1、DisableCpuVdd=1、DisableCCI=1、EnableACPILPIPEP=0、EnableLTVR=0、EnableBCL=0（原值依次为 1/0/0/0/1/1/1，DisableCpuRet 本来就是 255；备份在手机 `C:\Code\REDMIK40_Win11\qcpep_service_backup.reg`）后，仍然卡死，排除 CPU/系统低功耗。
+  - 已开启 `bcdedit bootlog yes`。下一步不进 Phase16 的 Windows（避免日志被追加），直接进 Mass Storage，读取 `Windows\ntbtlog.txt` 和离线注册表。
+  - 结果：没有 ntbtlog.txt，也没有转储文件。离线导出（`tools\Export-OfflineDeviceState-Admin.ps1` → `logs\OfflineDeviceState_20261021_121626.txt`）显示：依赖 PEP0 且装有驱动的只有 UFS0（storufs，_DEP 已删）和 ADSP/CDSP/SPSS/SCSS（qcsubsys8280，Start=3）。
+  - 隔离 3：qcsubsys Start 从 3 改为 4（离线，ControlSet001）后，仍然卡死，排除 DSP 子系统。恢复时改回 3。
+  - 现象更正：开机时转圈动画先在转，**卡死后动画也停了**。所以要么是系统硬死机（总线或时钟挂死），要么是 PEP 关掉了显示相关资源，屏幕冻结而系统仍在后台运行。
+  - 区分实验：卡死后再等 10 分钟，然后直接进 Mass Storage，看 ntbtlog.txt 和 System.evtx 的修改时间有没有变化。实验前 System.evtx 的修改时间是 2026/10/20 19:39:59。
+  - qcpep 参数中有 `WPPEnabled=0`、`WppRecorder_TraceGuid={a77e292c-44cf-4821-907a-93ac09231a2d}`、`EnableBugcheck=9`，之后抓 WPP 时可以用。
+  - 区分实验结果（2026-10-21 15:22 检查）：转圈只转了约 2 秒就停住。磁盘上没有 ntbtlog.txt（bootlog 已开），bootstat.dat、System.evtx 等文件最后一次写入都停在 2026/10/20 19:39~19:40，D:\Windows 下今天中午以后没有任何文件被手机改动过。说明卡死发生在开机启动驱动初始化阶段（内核还没开始写盘），**不是"屏幕冻结、系统仍在跑"**。卡死时机与 qcpep（Start=0，Group Base）初始化吻合：17c 时 qcpep 在 PEPH 校验失败后提前返回，所以能开机；17d 校验通过后继续初始化，就卡死。
+  - 联网查询：没有找到 SM8250 + qcpep 卡开机的现成方案。Silicium 所有 SM8150/SM8250 小米机型的 PEP0 都写成 QCOM0519（没有驱动能匹配），看起来是有意不让 PEP 加载。
+- PEP0 的配置结构（用 tools\re\pepscan.py 解析 DSDT.asl）：
+  - Device(PEP0)：_CRS、INTR（PEP 映射的物理地址：0x17911008、0x86000000/0x200000、0xc300000/0x1000 即 AOP 消息 RAM、0x1fd4000/8、0x17c0000c）、STND、CTPM（8 核拓扑）、PPPM（61 个 PMIC 电源轨 PPP_RESOURCE_ID_*）、PPRR 等核心配置。
+  - Scope(PEP0) 中各设备的电源配置方法：APMD（音频）、GPMD+G0MD~GLMD（GPU/显示）、MPMD/OPMD（空）、LPMD、BPMD（UFS0，3 套变体）、SDMD（SDC2）、IPMD（IPA）、EWMD（WLAN/BT）、PEMD（PCIe）、CPMX+C0MD~C2MD（相机）、BSMD（I2C/SPI/UART）。
+- Phase17e（二分 qcpep 卡死）：`tools/build-acpi-hid-phase17e.sh`，环境变量 `PEP_STUB` 选择要清空的设备配置方法（方法改成直接返回空包，原方法末字母改成 Z 保留）：
+  - `PEP_STUB=all`：清空全部 27 个设备配置方法，只保留 PEP 核心配置。能开机 → 卡死来自某个设备的电源配置，继续二分；仍卡死 → 卡死来自 PEP 核心（PMIC/RPMh/AOP 初始化），转向 PPPM/INTR 等。
+  - `PEP_STUB=storage`：只清空 BPMD/SDMD（UFS/SD），验证"PEP 关掉了 UFS 的时钟/电源"这一怀疑。
+  - `PEP_STUB=none`：撤销全部桩，等同 17d。
+  - 脚本每次先撤销旧桩再重新打桩，17d 的 PEPH 替换也改成已替换时跳过，可以在 Ubuntu 上叠加修改过的 DSDT.asl 上重复执行。已在电脑上用 all→storage→none→all→storage 测试，iasl 错误数与原版相同（10 个，原有）。
+  - 测试时保持 qcsmmu、qcsubsys 的 Start=4 以及 qcpep 参数不变，只看 qcpep 本身。
 
 ## 未决问题
 

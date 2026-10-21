@@ -1,0 +1,155 @@
+﻿ControlSet001
+DEV ACPI000C\2&daba3ff&0 | Service=acpipagr | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0010 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_000C
+DEV ACPI0010\10 | Service= | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0011 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0010
+DEV ACPI0010\100000 | Service= | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0009 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0010
+DEV ACPI0011\0 | Service=hidinterrupt | Driver={745a17a0-74d3-11d0-b6fe-00a0c90f57da}\0000 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0011&SUBSYS_MTP08250
+DEV FSA04480\2&daba3ff&0 | Service=fsa4480 | Driver={88bae032-5a81-49f0-bc3d-a4ff138216d6}\0000 | ConfigFlags=0 | HWID=ACPI\VEN_FSA0&DEV_4480&SUBSYS_MTP08250
+DEV QCOM0507\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0507&SUBSYS_MTP08250
+DEV QCOM0508\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0508&SUBSYS_MTP08250
+DEV QCOM050A\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\10 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\5 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\6 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\7 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\d | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\e | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050A\f | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050A&SUBSYS_MTP08250
+DEV QCOM050B\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050B&SUBSYS_MTP08250
+DEV QCOM050C\1 | Service= | Driver= | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_050C&SUBSYS_MTP08250
+DEV QCOM050D\0 | Service=GenPass | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0007 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_050D&SUBSYS_MTP08250
+DEV QCOM050E\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_050E&SUBSYS_MTP08250
+DEV QCOM0511\5 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250
+DEV QCOM0511\8 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250
+DEV QCOM0511\a | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0511&SUBSYS_MTP08250
+DEV QCOM0512\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250
+DEV QCOM0512\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250
+DEV QCOM0512\2 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0512&SUBSYS_MTP08250
+DEV QCOM0513\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0513&SUBSYS_MTP08250
+DEV QCOM0514\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0514&SUBSYS_MTP08250
+DEV QCOM0517\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0517&SUBSYS_MTP08250
+DEV QCOM0518\12 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250
+DEV QCOM0518\14 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250
+DEV QCOM0518\d | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250
+DEV QCOM0518\e | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0518&SUBSYS_MTP08250
+DEV QCOM0519\2&daba3ff&0 | Service= | Driver= | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_0519&SUBSYS_MTP08250
+DEV QCOM051B\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_051B&SUBSYS_MTP08250
+DEV QCOM0520\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0520&SUBSYS_MTP08250
+DEV QCOM0522\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0522&SUBSYS_MTP08250
+DEV QCOM0527\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0527&SUBSYS_MTP08250
+DEV QCOM052E\2&daba3ff&0 | Service= | Driver= | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_052E&SUBSYS_MTP08250
+DEV QCOM0530\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0530&SUBSYS_MTP08250
+DEV QCOM0532\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0532&SUBSYS_MTP08250
+DEV QCOM0533\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0533&SUBSYS_MTP08250
+DEV QCOM0535\1b | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0535&SUBSYS_MTP08250
+DEV QCOM054C\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_054C
+DEV QCOM054E\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_054E
+DEV QCOM0550\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0550
+DEV QCOM055A\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055A&SUBSYS_MTP08250
+DEV QCOM055C\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055C
+DEV QCOM055C\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055C
+DEV QCOM055D\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055D
+DEV QCOM055D\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055D
+DEV QCOM055E\64 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055E
+DEV QCOM055F\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055F
+DEV QCOM055F\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_055F&SUBSYS_MTP08250
+DEV QCOM0561\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0561&SUBSYS_MTP08250
+DEV QCOM056D\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_056D&SUBSYS_MTP08250
+DEV QCOM0572\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0572&SUBSYS_MTP08250
+DEV QCOM0576\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0576&SUBSYS_MTP08250
+DEV QCOM0577\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0577&SUBSYS_MTP08250
+DEV QCOM057C\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_057C&SUBSYS_MTP08250
+DEV QCOM057F\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_057F&SUBSYS_MTP08250
+DEV QCOM0581\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0581&SUBSYS_MTP08250
+DEV QCOM0582\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0582&SUBSYS_MTP08250
+DEV QCOM0583\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0583&SUBSYS_MTP08250
+DEV QCOM058B\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_058B&SUBSYS_MTP08250
+DEV QCOM058D\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_058D&SUBSYS_MTP08250
+DEV QCOM0593\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250
+DEV QCOM0593\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250
+DEV QCOM0593\2 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0593&SUBSYS_MTP08250
+DEV QCOM0597\0 | Service=UrsSynopsys | Driver={36fc9e60-c465-11cf-8056-444553540000}\0000 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_0597&SUBSYS_MTP08250
+DEV QCOM0599\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0599&SUBSYS_MTP08250
+DEV QCOM059B\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_059B&SUBSYS_MTP08250
+DEV QCOM059B\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_059B&SUBSYS_MTP08250
+DEV QCOM059D\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_059D
+DEV QCOM059E\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_059E
+DEV QCOM05A1\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05A1&SUBSYS_MTP08250
+DEV QCOM05A2\0 | Service=GenPass | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0008 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_05A2&SUBSYS_MTP08250
+DEV QCOM05A7\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05A7&SUBSYS_MTP08250
+DEV QCOM05A8\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05A8&SUBSYS_MTP08250
+DEV QCOM05AA\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05AA&SUBSYS_MTP08250
+DEV QCOM05AE\0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05AE
+DEV QCOM05CE\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05CE&SUBSYS_MTP08250
+DEV QCOM05CF\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_05CF&SUBSYS_MTP08250
+DEV QCOM05D2\0 | Service= | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0022 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_05D2
+DEV QCOM061B\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0036 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_061B&SUBSYS_MTP08280
+DEV QCOM061F\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0034 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_061F&SUBSYS_MTP08280
+DEV QCOM0620\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0031 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_0620&SUBSYS_MTP08250
+DEV QCOM068D\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0033 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_068D&SUBSYS_MTP08280
+DEV QCOM06B0\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0035 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_06B0&SUBSYS_MTP08280
+DEV QCOM06E0\2&daba3ff&0 | Service=qcPILC | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0032 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_06E0&SUBSYS_MTP08280
+DEV QCOM24A5\0 | Service=storufs | Driver={4d36e97b-e325-11ce-bfc1-08002be10318}\0000 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_24A5&SUBSYS_MTP08250
+DEV QCOM250B\0 | Service=qcscm | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0025 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_250B&SUBSYS_MTP08250
+DEV QCOM250E\2&daba3ff&0 | Service=QCIPC_ROUTER | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0027 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_250E&SUBSYS_MTP08250
+DEV QCOM2519\2&daba3ff&0 | Service=qcpep | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0038 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_2519&SUBSYS_MTP08250
+DEV QCOM251B\2&daba3ff&0 | Service=qcPILC | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0024 | ConfigFlags=32 | HWID=ACPI\VEN_QCOM&DEV_251B&SUBSYS_MTP08250
+DEV QCOM2522\2&daba3ff&0 | Service=qcsubsys | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0030 | ConfigFlags=32 | HWID=ACPI\VEN_QCOM&DEV_2522&SUBSYS_MTP08250
+DEV QCOM2533\2&daba3ff&0 | Service=QCRPEN | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0023 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_2533&SUBSYS_MTP08250
+DEV QCOM257C\2&daba3ff&0 | Service=qcpdsr | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0028 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_257C&SUBSYS_MTP08250
+DEV QCOM258B\2&daba3ff&0 | Service=QcTftpKmdf | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0029 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_258B&SUBSYS_MTP08250
+DEV QCOM258D\0 | Service=qcGLINK | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0026 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_258D&SUBSYS_MTP08250
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\0 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0000 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\1 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0001 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\2 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0002 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\3 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0003 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\4 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0004 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\5 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0005 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\6 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0006 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV Qualcomm_Technologies__Inc._-_ARMv8_(64-bit)_Family_8_Model_805_Revision_D0E\7 | Service=FxPPM | Driver={50127dc3-0f36-415e-a6cc-4cb3be910b65}\0007 | ConfigFlags=0 | HWID=ACPI\VEN_ACPI&DEV_0007
+DEV SSDE\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\SSDE
+DEV VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002\1 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_0509&SUBSYS_MTP08250&REV_0002
+DEV VEN_QCOM&DEV_058C&SUBSYS_MTP08250&REV_0002\2&daba3ff&0 | Service= | Driver= | ConfigFlags=64 | HWID=ACPI\VEN_QCOM&DEV_058C&SUBSYS_MTP08250&REV_0002
+DEV VEN_QCOM&DEV_2509&SUBSYS_MTP08250&REV_0002\1 | Service=qcsmmu | Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0037 | ConfigFlags=0 | HWID=ACPI\VEN_QCOM&DEV_2509&SUBSYS_MTP08250&REV_0002
+SVC acpipagr | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\drivers\acpipagr.sys
+SVC fsa4480 | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\fsa4480.inf_arm64_70c08a4681f12b10\fsa4480.sys
+SVC FxPPM | Start=3 | Type=1 | Group=Extended Base | ImagePath=\SystemRoot\System32\drivers\fxppm.sys
+SVC GenPass | Start=0 | Type=1 | Group= | ImagePath=System32\DriverStore\FileRepository\genpass.inf_arm64_d319fdce0a0ffaba\genpass.sys
+SVC hidinterrupt | Start=3 | Type=1 | Group=Extended Base | ImagePath=\SystemRoot\System32\drivers\hidinterrupt.sys
+SVC qcGLINK | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcglink8250.inf_arm64_6ba1888dcc0081e2\qcglink8250.sys
+SVC QCIPC_ROUTER | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcipcrouter8250.inf_arm64_9dc0a37b7144690f\qcipcrouter8250.sys
+SVC qcpdsr | Start=3 | Type=1 | Group=Extended Base | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcpdsr.inf_arm64_eedad8235d4fc0a9\qcpdsr.sys
+SVC qcpep | Start=0 | Type=1 | Group=Base | ImagePath=System32\DriverStore\FileRepository\qcpep.wd8250.inf_arm64_5946bbfc6d49db89\qcpep8250.sys
+SVC qcPILC | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcpil.inf_arm64_717ca28e5df381b5\qcpil.sys
+SVC QCRPEN | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcrpen8250.inf_arm64_c865e38278f43172\qcrpen8250.sys
+SVC qcscm | Start=0 | Type=1 | Group=Extended Base | ImagePath=System32\DriverStore\FileRepository\qcscm8250.inf_arm64_19014d591fc93996\qcscm8250.sys
+SVC qcsmmu | Start=4 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcsmmu8280.inf_arm64_1d80adabc6ef3b6d\qcsmmu8280.sys
+SVC qcsubsys | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+SVC QcTftpKmdf | Start=3 | Type=1 | Group= | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\qctftpkmdf.inf_arm64_3caf890f721700b8\QcTftpKmdf.sys
+SVC storufs | Start=0 | Type=1 | Group= | ImagePath=System32\drivers\storufs.sys
+SVC UrsSynopsys | Start=3 | Type=1 | Group=Base | ImagePath=\SystemRoot\System32\DriverStore\FileRepository\urssynopsys.inf_arm64_75870528b4a286be\urssynopsys.sys
+QCPEP_PARAM DisableCpuRet=255
+QCPEP_PARAM DisableCpuVdd=1
+QCPEP_PARAM DisableCCI=1
+QCPEP_PARAM EnableProcessorManagement=0
+QCPEP_PARAM EnableIdleCrashDebug=0
+QCPEP_PARAM DisablePhaseScaling=1
+QCPEP_PARAM DisablePCE=0
+QCPEP_PARAM EnableCVSPerfSelection=0
+QCPEP_PARAM EnableCVSThermalPerfSelection=0
+QCPEP_PARAM CprFlags=65535
+QCPEP_PARAM EnableMsftSdPStates=0
+QCPEP_PARAM DisablePEPQDSSLogs=1
+QCPEP_PARAM DisableBWMonBusDCVS=0
+QCPEP_PARAM DisableAVS=1
+QCPEP_PARAM CprRpmStat=0
+QCPEP_PARAM RpmCprStatsMillis=0
+QCPEP_PARAM EnableACPILPIPEP=0
+QCPEP_PARAM DisableSystemLPM=1
+QCPEP_PARAM EnableLTVR=0
+QCPEP_PARAM DDRIBFloorFactor=150
+QCPEP_PARAM DDRIBFloorCpuFreqThresholdMhz=2000
+QCPEP_PARAM EnableBCL=0
+QCPEP_PARAM WPPEnabled=0
+QCPEP_PARAM EnableBugcheck=9
+QCPEP_PARAM WppRecorder_PerBufferMaxBytes=49152
+QCPEP_PARAM WppRecorder_TraceGuid={a77e292c-44cf-4821-907a-93ac09231a2d}
