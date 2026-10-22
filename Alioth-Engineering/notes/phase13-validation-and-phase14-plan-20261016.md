@@ -381,4 +381,15 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
 - 下一步：Ubuntu 构建 `VARIANT=base`（先验证通道）和 `VARIANT=pep`；手机直连，`fastboot boot` phase17g-base，看电脑端是否出现 KDNET EEM 设备、WinDbg 是否连上。
 - 注意：phase17f-base / phase17f-pep 两个镜像都会卡在 KD 等待连接，不要再用。手机卡住时长按电源键 + 音量下强制重启。
 
+## Phase17h 计划（2026-10-22）：实测 Surface WHQL 的 qcpep8280.sys
+
+- 依据：qcpep8250 卡死的根因是写 SM8150 的 LMH（见 dead-ends 突破第 11 条）。原始字节搜索显示 qcpep8280.sys **不含** SM8150 的 LMH（0x18350800/0x18358800/0x18350bc0）和 OSM 调频域地址（0x18323704/0x18325f04），CPU 调频用的是 EPSS 0x18591000/0x18592000，与 SM8250 一致（SM8250 的第 3 个域 0x18593000 它不会管）。
+- 未确认：qcpep8280 写死的其他硬件地址在 SM8250 上是否都存在（`tools/re/mmio_compat.py` 静态对照有解析错误，结果不可用）。改用实测，卡在哪里由 kd 直接看。
+- INF（qcpep.wd8280.inf，DriverVer 09/13/2023, 1.0.3851.4800）：硬件 ID `ACPI\QCOM0617`；服务名同样是 `qcpep`（开机启动，Base 组，qcpep8280.sys），**会覆盖手机上现有的 Services\qcpep**；安装时写入 `PEP_Common_Resource_Reg` 和 `PEP_MTP_Specific_Resource_Reg`（SC8280XP 参考机的平台配置，重点观察）。qcpep8280.sys 中找不到 `0617` 字符串，PEPH 校验值无法静态确认，所以 PEPH 也一并改成 DEV_0617；如果比对失败会像 17c 一样是 Code 31。
+- 步骤：
+  1. 手机 Mass Storage：`tools\Apply-Phase17hQcpep8280Inject-Admin.ps1 -WindowsDrive D`（先导出 Services\qcpep 备份到 logs，再 DISM 注入）。
+  2. Ubuntu：`bash Alioth-Engineering/tools/build-acpi-hid-phase17h.sh`（在 17e-all 状态上只改 PEP0 _HID/PEPH 为 0617，打包修复版 DBG2；构建前检查 17e-all 前提，构建后恢复 DSDT.asl/ACPI.inc/DBG2）。
+  3. 电脑端先启动 kd 桥接（`-b`），再 `fastboot boot` phase17h 镜像。
+- 判读：开机正常且 PEP0 正常工作、`{55beca03}` 出现 → 再逐步恢复 qcsmmu/qcsubsys 的 Start=3；卡死 → 用 kd 看 CPU 停在哪个驱动/地址；Code 31/10 → 看 qcpep8280 的 WPP 或 PEPH 比对。
+
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。
