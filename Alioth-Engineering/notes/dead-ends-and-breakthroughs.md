@@ -48,7 +48,8 @@
 ### 11. 在默认 RELEASE 镜像上改 BCD 的 busparams 来打通 KDNET USB EEM（Phase17f，2026-10-21）
 - 现象：busparams 1 和 0 都试过，电脑端什么都枚举不到，手机上也没有 `Services\kdnet`。
 - 原因：`ACPI.inc` 中 DBG2 只在 `TARGET == DEBUG` 时打包，RELEASE 镜像里根本没有 DBG2。只改 BCD 没有用，必须用 `tools/build-acpi-hid-phase17f.sh` 构建带 DBG2 的镜像。
-- 附带结论：Kona DBG2 只有一个设备，busparams 应为 0；DBG2 OEM 数据签名不对只会让寄存器修补被跳过，不会导致 KD 失败。
+- 附带结论：Kona DBG2 只有一个设备，busparams 应为 0。
+- **更正（2026-10-22）**：之前写"DBG2 OEM 数据签名不对只会跳过寄存器修补、不会导致 KD 失败"，这是错的。修补里有强制 VBUS 有效（QSCRATCH `0xf8810 = 0x10100000`）这一条，不执行它 DWC3 就不上拉，KD 会一直卡在等待连接，把开机挡住（Phase17f-base 停在 Silicium 画面）。Silicium 原版 Kona/DBG2.aml 不能直接用于 KDNET，要用 `acpi/Kona-DBG2-oemfix.aml`（phase17g）。
 
 ## 突破
 

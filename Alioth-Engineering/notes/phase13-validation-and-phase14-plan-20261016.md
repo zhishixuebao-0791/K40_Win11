@@ -366,4 +366,19 @@ RPEC/Interfaces/MANU/Mappings/Resources\BinaryPath **都没被读到**，说明�
   - 教训：16、17e 的构建脚本**都不能从 Silicium-ACPI 原始 DSDT 开始**（电脑上试跑报 `PILC _SUB scope exists but does not contain MTP08280`），它们依赖 Ubuntu 上叠加出来的状态，不要 `git checkout DSDT.asl`。
 - 剩余风险：kd_8003_5143 不会初始化 USB PHY 和时钟，需要 UEFI 在退出前让 USB 保持上电。如果带 DBG2 后电脑端仍然完全没有枚举，下一步就查这一点（以及 KdInitStatus）。
 
+## Phase17f-base 实测（2026-10-22）与 Phase17g：修复 Kona DBG2 的 OEM 数据
+
+- 镜像 `Mu-alioth-1-acpi-hid-phase17f-base-dbg2-20261022-150011.img`（Phase16 + DBG2），手机直连电脑，busparams 0：**停在 Silicium 画面，连转圈都没有出现**。电脑端仍然没有枚举到任何 USB 设备，WinDbg 仍是 `Waiting to reconnect...`。
+- 判断：这次 DBG2 生效了，KD 在开机最早期运行，卡在 `KdUsbFnWaitForConnection`，等 USB 连接时把开机挡住了。USB 没有接上总线。
+- **根因（更正上一节"OEM 签名不对只会跳过修补、无害"的判断）**：高通原版 Hana(8150)/Lahaina(8350)/Waipio(8450)/Kailua(8550) 的 DBG2 中，USB 调试设备的 `2XIF` 修补条目**完全一致**：
+  - `0xc700`（DWC3 DCFG）`&= ~7`：速度设为 High Speed
+  - `0xf8810`（QSCRATCH HS_PHY_CTRL）`= 0x10100000`：bit28 `SW_SESSVLD_SEL` + bit20 `UTMI_OTG_VBUS_VALID`，**软件强制 VBUS/会话有效**
+  - `0xf88b4`（QSCRATCH）`= 0xdeb`
+  - 不强制 VBUS 有效，DWC3 就不会上拉 D+，电脑什么都看不到。Silicium 的 Kona 表 OEM 区装的是"表开头的前 0x94 字节"（截取偏移取错），签名错位、条目被截断，这三条修补都没有执行。
+- SM8250 与 SM8150 的 USB 布局相同（Linux 设备树：`usb_1` QSCRATCH `0xa6f8800`、DWC3 `0xa600000`），所以直接沿用 Hana 的 OEM 数据。
+- 修复：`tools\re\fix_kona_dbg2.py` 把 Kona DBG2 的 OEM 区换成 Hana 的 OEM 数据并重算校验和，其他字节一个不改。产物是 `acpi\Kona-DBG2-oemfix.aml`（SHA256 `b49338c2…b200`）。
+- `tools\build-acpi-hid-phase17f.sh` 新增 `DBG2_FIX`（默认 1）：构建期间替换 `Silicium-ACPI/SoCs/Qualcomm/Kona/DBG2.aml`，结束后恢复，镜像名改为 `phase17g-<variant>-dbg2`。构建前会校验 SHA256、校验和和 `2XIF` 签名。
+- 下一步：Ubuntu 构建 `VARIANT=base`（先验证通道）和 `VARIANT=pep`；手机直连，`fastboot boot` phase17g-base，看电脑端是否出现 KDNET EEM 设备、WinDbg 是否连上。
+- 注意：phase17f-base / phase17f-pep 两个镜像都会卡在 KD 等待连接，不要再用。手机卡住时长按电源键 + 音量下强制重启。
+
 - Phase13 写入的 `RPEC` 和 `PDName` 开机后被删除，删除者未知，可能是驱动自己清理不认识的值。这不影响 Phase14 的方向，但步骤C之后要再核对一次。

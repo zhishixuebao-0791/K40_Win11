@@ -18,12 +18,18 @@ case "$VARIANT" in
     pep|base) ;;
     *) echo "VARIANT 只能是 pep / base"; exit 1 ;;
 esac
+# phase17g：DBG2_FIX=1（默认）在构建期间用 Alioth-Engineering/acpi/Kona-DBG2-oemfix.aml 替换 Silicium 的 Kona/DBG2.aml。
+# Silicium 原表的 OEM 区错位（装的是表头前 0x94 字节），2XIF 修补（强制 VBUS 有效 QSCRATCH HS_PHY_CTRL=0x10100000 等）失效，
+# DWC3 不上拉，KD 卡在 KdUsbFnWaitForConnection（Phase17f-base 实测停在 Silicium 画面）。修复表由 tools/re/fix_kona_dbg2.py 生成。
+DBG2_FIX="${DBG2_FIX:-1}"
+if [ "$DBG2_FIX" = "1" ]; then PHASE_TAG="phase17g"; else PHASE_TAG="phase17f"; fi
+FIXED_DBG2_SHA256="b49338c28cdaa96773cc71798e191859c9212f4d5d3da5fc428d6c4bd601b200"
 
 TOOLS="$PROJECT_ROOT/Alioth-Engineering/tools"
 LOG_DIR="$PROJECT_ROOT/Alioth-Engineering/logs"
 mkdir -p "$LOG_DIR" "$OUTPUT_DIR"
 STAMP="$(date +%Y%m%d-%H%M%S)"
-BUILD_LOG="$LOG_DIR/mu-alioth-phase17f-${VARIANT}-build-$STAMP.log"
+BUILD_LOG="$LOG_DIR/mu-alioth-${PHASE_TAG}-${VARIANT}-build-$STAMP.log"
 exec > >(tee "$BUILD_LOG") 2>&1
 
 log() { printf '[%(%Y-%m-%d %H:%M:%S)T] %s\n' -1 "$*"; }
@@ -35,16 +41,41 @@ for f in "$ACPI_INC" "$ALIOTH_ACPI/DSDT.asl" "$KONA_DBG2"; do
     [ -f "$f" ] || { log "找不到 $f"; exit 1; }
 done
 
-log "phase17f 变体：$VARIANT，日志：$BUILD_LOG"
+log "$PHASE_TAG 变体：$VARIANT，DBG2_FIX=$DBG2_FIX，日志：$BUILD_LOG"
 
-# 1. 让 DBG2 在 RELEASE 中也打包（构建结束后恢复原 ACPI.inc）
+# 1. 让 DBG2 在 RELEASE 中也打包（构建结束后恢复原 ACPI.inc）；DBG2_FIX=1 时同时换上修复后的 Kona DBG2（结束后恢复）
 ACPI_INC_BAK="$ACPI_INC.pre-phase17f-$STAMP.bak"
 cp -f "$ACPI_INC" "$ACPI_INC_BAK"
-restore_acpi_inc() {
+KONA_DBG2_BAK="$KONA_DBG2.pre-$PHASE_TAG-$STAMP.bak"
+cp -f "$KONA_DBG2" "$KONA_DBG2_BAK"
+restore_sources() {
     cp -f "$ACPI_INC_BAK" "$ACPI_INC"
     log "已恢复 ACPI.inc（备份 $ACPI_INC_BAK）"
+    cp -f "$KONA_DBG2_BAK" "$KONA_DBG2"
+    log "已恢复 Kona/DBG2.aml（备份 $KONA_DBG2_BAK）"
 }
-trap restore_acpi_inc EXIT
+trap restore_sources EXIT
+
+if [ "$DBG2_FIX" = "1" ]; then
+    FIXED_DBG2="$PROJECT_ROOT/Alioth-Engineering/acpi/Kona-DBG2-oemfix.aml"
+    [ -f "$FIXED_DBG2" ] || { log "找不到 $FIXED_DBG2"; exit 1; }
+    echo "$FIXED_DBG2_SHA256  $FIXED_DBG2" | sha256sum -c -
+    cp -f "$FIXED_DBG2" "$KONA_DBG2"
+    log "已换上修复后的 Kona DBG2（OEM 区为 2XIF 修补表）"
+fi
+python3 - "$KONA_DBG2" "$DBG2_FIX" <<'PY'
+import struct, sys
+d = open(sys.argv[1], 'rb').read()
+off, num = struct.unpack_from('<II', d, 36)
+p = off
+_, ln, _, nsl, nso, oeml, oemo, pt, pst = struct.unpack_from('<BHBHHHHHH', d, p)
+o = d[p + oemo:p + oemo + oeml]
+print(f'DBG2：校验和 {sum(d) % 256}（应为 0），设备数 {num}，类型 {pt:#x}/{pst:#x}，OEM+4 = {o[4:8]!r}')
+if sum(d) % 256:
+    raise SystemExit('DBG2 校验和错误')
+if sys.argv[2] == '1' and o[4:8] != b'2XIF':
+    raise SystemExit('DBG2 OEM 区没有 2XIF 签名，修复未生效')
+PY
 
 python3 - "$ACPI_INC" <<'PY'
 import re, sys
@@ -119,7 +150,7 @@ if not any(h.lower().endswith('.fv') for h in hits):
     raise SystemExit('FV 中没有找到 DBG2，镜像不可用')
 PY
 
-DEST="$OUTPUT_DIR/Mu-alioth-1-acpi-hid-phase17f-${VARIANT}-dbg2-$STAMP.img"
+DEST="$OUTPUT_DIR/Mu-alioth-1-acpi-hid-${PHASE_TAG}-${VARIANT}-dbg2-$STAMP.img"
 cp -f "$BUILT" "$DEST"
 log "镜像：$DEST"
 sha256sum "$DEST"
