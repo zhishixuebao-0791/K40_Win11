@@ -1,0 +1,239 @@
+
+==== kd_bridge 鍚姩 2026-10-22 17:56:19锛欳:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -b -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.67.89 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 17:56:23.994 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff802`d4200000 PsLoadedModuleList = 0xfffff802`d4edb050
+System Uptime: 0 days 0:00:25.106
+nt!DebugService2+0x8:
+fffff802`d440c988 d43e0000 brk         #0xF000
+kd> 
+>>> 17:56:34 bu qcpep8280+0x27afb0 ".echotime;.echo P17H_HIT AddDevice_entry;g"
+
+>>> 17:56:34 bu qcpep8280+0x338b4 ".echotime;.printf \"P17H_ARGS x0=%p x1=%p x2=%p x3=%p lr=%y\n\", @x0, @x1, @x2, @x3, @lr;g"
+
+>>> 17:56:34 bu qcpep8280+0x338b0 4
+
+>>> 17:56:34 bl
+
+>>> 17:56:34 g
+*** Bp expression 'qcpep8280+0x27afb0' contains symbols not qualified with module name.
+kd> *** Bp expression 'qcpep8280+0x338b4' contains symbols not qualified with module name.
+kd> *** Bp expression 'qcpep8280+0x338b0' contains symbols not qualified with module name.
+kd>      0 e Disable Clear u                      0001 (0001) (qcpep8280+0x27afb0) ".echotime;.echo P17H_HIT AddDevice_entry;g"
+     1 e Disable Clear u                      0001 (0001) (qcpep8280+0x338b4) ".echotime;.printf \"P17H_ARGS x0=%p x1=%p x2=%p x3=%p lr=%y\n\", @x0, @x1, @x2, @x3, @lr;g"
+     2 e Disable Clear u                      0004 (0004) (qcpep8280+0x338b0)
+
+kd> *** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x27afb0' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b4' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Ntfs.sys'.
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+KDTARGET: Refreshing KD connection
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF800D42494D00, name:IPCRTR, remote_ss:mpss
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF800D42702CF0, name:IPCRTR, remote_ss:lpass
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF800D42724CF0, name:IPCRTR, remote_ss:dsps
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF800D42735CF0, name:IPCRTR, remote_ss:cdsp
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFF800D42493DC0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFF800D42493DC0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+Starting kernel vertical - C:\Windows\system32\WerFault.exe -k -c 
+DfsDs RPC server started.
+DispBroker.Desktop.dll: 10/21/26 18:42:30 中国标准时间: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=ba5f connected to {MSNILNOEDID_1414_008D_FFFFFFFF_FFFFFFFF_0}
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 656. xport_close: ipc_router_core_close succeeded.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 829. qmi_csi_xport_ipc_wdf_deinit: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 837. qmi_csi_xport_ipc_wdf_deinit: Exit.
+Debugger (not debuggee) time: Thu Oct 22 17:57:06.646 2026 (UTC + 8:00)
+P17H_HIT AddDevice_entry
+Debugger (not debuggee) time: Thu Oct 22 17:57:06.678 2026 (UTC + 8:00)
+P17H_ARGS x0=Unable to load image qcpep8280.sys, Win32 error 0n2
+00007ff2ba64c448 x1=ffffd98ed8fd2b40 x2=ffffd98ed8fd2b08 x3=fffff802d6af8280 lr=qcpep8280+0x140d18 (fffff802`d6a10d18) Debugger (not debuggee) time: Thu Oct 22 17:57:09.372 2026 (UTC + 8:00)
+P17H_ARGS x0=00007ff2ba64c448 x1=ffffd98ed8fd2b40 x2=ffffd98ed8fd2b08 x3=fffff802d6af8288 lr=qcpep8280+0x140d18 (fffff802`d6a10d18) Debugger (not debuggee) time: Thu Oct 22 17:57:09.385 2026 (UTC + 8:00)
+P17H_ARGS x0=00007ff2ba64c448 x1=ffffd98ed8fd2b40 x2=ffffd98ed8fd2b08 x3=fffff802d6af83a8 lr=qcpep8280+0x140d18 (fffff802`d6a10d18) Debugger (not debuggee) time: Thu Oct 22 17:57:09.399 2026 (UTC + 8:00)
+P17H_ARGS x0=00007ff2ba64c448 x1=ffffd98ed8fd2b40 x2=ffffd98ed8fd2b08 x3=fffff802d6af83b0 lr=qcpep8280+0x140d18 (fffff802`d6a10d18) KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x00000101
+                       (0x0000000000000018,0x0000000000000000,0xFFFFA78192000980,0x0000000000000004)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPoint:
+fffff802`d440c930 d43e0000 brk         #0xF000
+0: kd> 

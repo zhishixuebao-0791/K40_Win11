@@ -1,0 +1,90 @@
+.echo ==== LM0
+lm m qcpep*
+.echo ==== END0
+sxe ld:qcpep8280.sys
+g
+.echo ==== LM1
+lm m qcpep*
+k 5
+.echo ==== END1
+sxi ld
+g
+.echo ==== A
+!analyze -v
+.echo ==== END_A
+.echo ==== B
+~6s
+r
+!prcb 6
+!thread ffff828d3e88e080 1f
+dps ffffdf81`e1cffe10 L40
+.echo ==== END_B
+.echo ==== C
+dps ffffac0e`a310c600 ffffac0e`a310ddb0
+.echo ==== END_C
+.echo ==== D
+k = ffffac0e`a310c6e0 ffffac0e`a310c6e0 fffff800`4b20c554 30
+.echo ==== D2
+dq ffffac0e`a310c6e0 L2
+.echo ==== END_D
+.echo ==== E
+u nt!KxSwitchStackAndPlayInterrupt L14
+dps ffffac0e`a310c680 L20
+.echo ==== END_E
+.echo ==== F
+?? sizeof(nt!_KTRAP_FRAME)
+dt nt!_KTRAP_FRAME ffffac0e`a310c6f0 Pc Lr Sp Fp Spsr ExceptionActive
+.echo ==== END_F
+.echo ==== G
+k = ffffac0e`a310c890 ffffac0e`a310c840 30
+.echo ==== END_G
+.echo ==== H
+r @$t0 = ffffac0e`a310c890
+.for (r @$t1=0; @$t1 < 0n24; r @$t1=@$t1+1) { .if (@$t0 == 0) {.break}; .printf "fp=%p lr=%y\n", @$t0, poi(@$t0+8); r @$t0 = poi(@$t0) }
+.echo ==== END_H
+.echo ==== I
+!running -t
+.echo ==== I2
+!ppm
+.echo ==== I3
+!pcr 6
+.echo ==== END_I
+.echo ==== J
+bc *
+bu qcpep8280+0x27afb0 ".echotime;.echo P17H_HIT AddDevice_entry;g"
+bu qcpep8280+0x27f690 ".echotime;.echo P17H_HIT AddDevice_call_239d20;g"
+bu qcpep8280+0x239d20 ".echotime;.echo P17H_HIT f239d20;g"
+bu qcpep8280+0x2b8bc0 ".echotime;.echo P17H_HIT f2b8bc0;g"
+bu qcpep8280+0x140b18 ".echotime;.echo P17H_HIT f140b18;g"
+bu qcpep8280+0x338b0 ".echotime;.echo P17H_HIT f338b0_IntCreate;g"
+bu qcpep8280+0x27f694 ".echotime;.echo P17H_HIT AddDevice_after_239d20;g"
+bl
+.echo ==== END_J
+g
+.echo ==== 中文测试
+bl
+.echo ==== 结束K
+bc *
+bu qcpep8280+0x27afb0 ".echotime;.echo P17H_HIT AddDevice_entry;g"
+bu qcpep8280+0x27f690 ".echotime;.echo P17H_HIT AddDevice_call_239d20;g"
+bu qcpep8280+0x239d20 ".echotime;.echo P17H_HIT f239d20;g"
+bu qcpep8280+0x2b8bc0 ".echotime;.echo P17H_HIT f2b8bc0;g"
+bu qcpep8280+0x140b18 ".echotime;.echo P17H_HIT f140b18;g"
+bu qcpep8280+0x338b0 ".echotime;.echo P17H_HIT f338b0_IntCreate;g"
+bu qcpep8280+0x27f694 ".echotime;.echo P17H_HIT AddDevice_after_239d20;g"
+bl
+.echo ==== END_L
+g
+.echo ==== M
+!prcb 6
+.echo ==== END_M
+.echo ==== N
+!thread ffffe38228332080 6
+.echo ==== END_N
+.echo ==== O
+dps ffff9a80`0990b800 ffff9a80`0990d400
+.echo ==== END_O
+.echo ==== P
+!wdfkd.wdflogdump qcpep8280.sys
+.echo ==== END_P
+g

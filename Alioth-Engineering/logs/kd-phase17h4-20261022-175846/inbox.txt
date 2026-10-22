@@ -1,0 +1,58 @@
+g
+r $t9 = 0
+bu qcpep8280+0x338b0 "r $t9 = @$t9 + 1; .printf \"P17H_CALL %d x3=%p\n\", @$t9, @x3; .if (@$t9 < 4) {g} .else {.echo P17H_STOP4}"
+bl
+g
+.echo ==== Q
+r
+!irql
+u qcpep8280+0x338b0 qcpep8280+0x33924
+.echo ==== END_Q
+.echo ==== R
+dt Wdf01000!_WDF_INTERRUPT_CONFIG fffff88e`2fdc9b40
+dt Wdf01000!_WDF_OBJECT_ATTRIBUTES fffff88e`2fdc9b08
+dq fffff803`d2658280 L2
+dq fffff803`d26583a8 L2
+.echo ==== END_R
+.echo ==== S
+ga qcpep8280+0x3390c
+.echotime
+.echo P17H_AT_CALL
+p
+.echotime
+.echo P17H_AFTER_CALL
+r x0, psr
+!irql
+.echo ==== END_S
+.echo ==== T
+gu
+.echo P17H_GU1
+gu
+.echo P17H_GU2
+gu
+.echo P17H_GU3
+gu
+.echo P17H_GU4
+.echo ==== END_T
+.echo ==== U
+r @$t0 = poi(qcpep8280+0x2301c0)
+.printf "P17H_G base=%p\n", @$t0
+r @$t1 = poi(@$t0+0x3ab8)
+.printf "P17H_COUNT=%d\n", dwo(@$t1+0x10)
+.for (r @$t2=0; @$t2 < 4; r @$t2=@$t2+1) { .printf "P17H_INST %d va100=%p va108=%p\n", @$t2, poi(@$t0+@$t2*0x128+0x100), poi(@$t0+@$t2*0x128+0x108) }
+.echo ==== END_U
+.echo ==== V
+!vtop 0 ffffe100491bb000
+!vtop 0 ffffe100491bc000
+!vtop 0 ffffe100491bd000
+!vtop 0 ffffe100491be000
+!vtop 0 ffffe100491bf000
+!vtop 0 ffffe10049700000
+!vtop 0 ffffe10049701000
+!vtop 0 ffffe10049702000
+.echo ==== END_V
+.echo ==== W
+r @$t1 = poi(poi(qcpep8280+0x2301c0)+0x3ab8)
+.printf "P17H_CFG=%p rva=%p\n", @$t1, @$t1-qcpep8280
+dd @$t1 L10
+.echo ==== END_W

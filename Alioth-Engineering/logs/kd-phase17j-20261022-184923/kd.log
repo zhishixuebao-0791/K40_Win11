@@ -1,0 +1,755 @@
+
+==== kd_bridge 启动 2026-10-22 18:49:23：C:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -b -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.016 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.78.198 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 18:50:55.534 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff802`25600000 PsLoadedModuleList = 0xfffff802`262db050
+System Uptime: 0 days 0:00:13.959
+nt!DebugService2+0x8:
+fffff802`2580c988 d43e0000 brk         #0xF000
+kd> 
+>>> 18:51:06 bu qcsmmu8280+0x2af4 ".echotime;.printf \"P17J_ROUTINE addr=%p\n\", @x0;g"
+
+>>> 18:51:06 bu qcsmmu8280+0x2b1c ".echotime;.printf \"P17J_IOMMU_STATUS w0=%x\n\", @w0;g"
+
+>>> 18:51:06 bu qcsmmu8280+0x2b70 ".echotime;.printf \"P17J_CREATEDOMAIN w0=%x\n\", @w0;g"
+
+>>> 18:51:06 bu qcsmmu8280+0x2bac ".echotime;.echo P17J_FLAG_SET_TO_1;g"
+
+>>> 18:51:06 g
+*** Bp expression 'qcsmmu8280+0x2af4' contains symbols not qualified with module name.
+kd> *** Bp expression 'qcsmmu8280+0x2b1c' contains symbols not qualified with module name.
+kd> *** Bp expression 'qcsmmu8280+0x2b70' contains symbols not qualified with module name.
+kd> *** Bp expression 'qcsmmu8280+0x2bac' contains symbols not qualified with module name.
+kd> *** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Ntfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcpep8280.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcpep8280.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcpep8280.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcpep8280.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Fs_Rec.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Fs_Rec.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Fs_Rec.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Fs_Rec.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ndis.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ndis.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ndis.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ndis.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'NETIO.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'NETIO.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'NETIO.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'NETIO.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ksecpkg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ksecpkg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ksecpkg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ksecpkg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tcpip.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tcpip.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tcpip.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tcpip.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'fwpkclnt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'fwpkclnt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'fwpkclnt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'fwpkclnt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'wfplwfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'wfplwfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'wfplwfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'wfplwfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcscm8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcscm8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcscm8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcscm8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'fvevol.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'fvevol.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'fvevol.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'fvevol.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'volume.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'volume.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'volume.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'volume.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'volsnap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'volsnap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'volsnap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'volsnap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'storport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'storport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'storport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'storport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'rdyboost.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'rdyboost.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'rdyboost.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'rdyboost.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mup.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mup.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mup.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mup.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'iorate.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'iorate.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'iorate.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'iorate.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'genpass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'genpass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'genpass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'genpass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'disk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'disk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'disk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'disk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CLASSPNP.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CLASSPNP.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CLASSPNP.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CLASSPNP.SYS'.
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'crashdmp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'crashdmp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'crashdmp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'crashdmp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'cdrom.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'cdrom.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'cdrom.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'cdrom.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tbs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tbs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tbs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tbs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'filecrypt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'filecrypt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'filecrypt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'filecrypt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Null.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Null.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Null.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Null.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Beep.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Beep.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Beep.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Beep.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'watchdog.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'watchdog.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'watchdog.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'watchdog.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dxgkrnl.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dxgkrnl.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dxgkrnl.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dxgkrnl.sys'.
+KDTARGET: Refreshing KD connection
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'BasicDisplay.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'BasicDisplay.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'BasicDisplay.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'BasicDisplay.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'BasicRender.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'BasicRender.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'BasicRender.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'BasicRender.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Npfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Npfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Npfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Npfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Msfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Msfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Msfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Msfs.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CimFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CimFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CimFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CimFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'TDI.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'TDI.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'TDI.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'TDI.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tdx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tdx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tdx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tdx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'netbt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'netbt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'netbt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'netbt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'afunix.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'afunix.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'afunix.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'afunix.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'afd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'afd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'afd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'afd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'vwififlt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'vwififlt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'vwififlt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'vwififlt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'pacer.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'pacer.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'pacer.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'pacer.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ndiscap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ndiscap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ndiscap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ndiscap.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'netbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'netbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'netbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'netbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'winhvr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'winhvr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'winhvr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'winhvr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Vid.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Vid.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Vid.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Vid.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'rdbss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'rdbss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'rdbss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'rdbss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'csc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'csc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'csc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'csc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'nsiproxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'nsiproxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'nsiproxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'nsiproxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'npsvctrig.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'npsvctrig.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'npsvctrig.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'npsvctrig.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mssmbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mssmbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mssmbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mssmbios.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dfsc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dfsc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dfsc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dfsc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'KMPDC.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'KMPDC.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'KMPDC.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'KMPDC.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'fastfat.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'fastfat.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'fastfat.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'fastfat.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'bam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'bam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'bam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'bam.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ahcache.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ahcache.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ahcache.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ahcache.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'CompositeBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'CompositeBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'CompositeBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'CompositeBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'kdnic.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'kdnic.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'kdnic.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'kdnic.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'umbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'umbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'umbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'umbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcrpen8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcrpen8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcrpen8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcrpen8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcpil.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcpil.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcpil.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcpil.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'QCPILFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'QCPILFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'QCPILFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'QCPILFilter.sys'.
+Debugger (not debuggee) time: Thu Oct 22 18:51:58.544 2026 (UTC + 8:00)
+P17J_ROUTINE addr=Unable to load image qcsmmu8280.sys, Win32 error 0n2
+fffff80225c048d0 Debugger (not debuggee) time: Thu Oct 22 18:52:00.849 2026 (UTC + 8:00)
+P17J_IOMMU_STATUS w0=c00000bb *** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'fxppm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'fxppm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'fxppm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'fxppm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'acpipagr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'acpipagr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'acpipagr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'acpipagr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'NdisVirtualBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'NdisVirtualBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'NdisVirtualBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'NdisVirtualBus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'ks.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'ks.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'ks.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'ks.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'swenum.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'swenum.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'swenum.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'swenum.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'rdpbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'rdpbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'rdpbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'rdpbus.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'drmk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'drmk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'drmk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'drmk.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'portcls.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'portcls.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'portcls.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'portcls.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcglink8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcglink8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcglink8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcglink8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcipcrouter8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcipcrouter8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcipcrouter8250.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcipcrouter8250.sys'.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFB4045FBACCF0, name:IPCRTR, remote_ss:mpss
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFB4045FC02CF0, name:IPCRTR, remote_ss:lpass
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFB4045FC13CF0, name:IPCRTR, remote_ss:dsps
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFB4045FC24CF0, name:IPCRTR, remote_ss:cdsp
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'qcpdsr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'qcpdsr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'qcpdsr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'qcpdsr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'QcTftpKmdf.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'QcTftpKmdf.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'QcTftpKmdf.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'QcTftpKmdf.sys'.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFFB4045F9DFCF0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFFB4045F9DFCF0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_dumpstorport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_storufs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dump_dumpfve.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WIN32KSGD.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WIN32KSGD.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WIN32KSGD.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WIN32KSGD.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'win32k.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'win32k.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'win32k.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'win32k.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'win32kbase.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'win32kbase.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'win32kbase.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'win32kbase.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'HIDPARSE.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'HIDPARSE.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'HIDPARSE.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'HIDPARSE.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'win32kfull.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'win32kfull.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'win32kfull.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'win32kfull.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'dxgmms2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'dxgmms2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'dxgmms2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'dxgmms2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'monitor.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'monitor.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'monitor.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'monitor.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'cdd.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'cdd.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'cdd.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'cdd.dll'.
+
+>>> 18:52:16 !!BREAK
+[桥接] Ctrl+Break 辅助进程返回码 3221225786（10 表示挂接控制台失败）
+
+>>> 18:52:16 .echo ==== F1
+
+>>> 18:52:16 !acpicache
+
+>>> 18:52:16 .echo ==== F2
+
+>>> 18:52:16 x nt!IoGetIommuInterface
+
+>>> 18:52:16 .echo ==== END_F
+Break instruction exception - code 80000003 (first chance)
+*******************************************************************************
+*                                                                             *
+*   You are seeing this message because you pressed either                    *
+*       CTRL+C (if you run console kernel debugger) or,                       *
+*       CTRL+BREAK (if you run GUI kernel debugger),                          *
+*   on your debugger machine's keyboard.                                      *
+*                                                                             *
+*                   THIS IS NOT A BUG OR A SYSTEM CRASH                       *
+*                                                                             *
+* If you did not intend to break into the debugger, press the "g" key, then   *
+* press the "Enter" key now.  This message might immediately reappear.  If it *
+* does, press "g" and "Enter" again.                                          *
+*                                                                             *
+*******************************************************************************
+nt!DbgBreakPoint:
+fffff802`2580c930 d43e0000 brk         #0xF000
+0: kd> ==== F1
+0: kd> Dumping cached ACPI tables...
+  XSDT @(fffff7e300003018) Rev: 0x1 Len: 0x00005c TableID: QCOMEDK2
+  FACP @(fffff7e300004018) Rev: 0x6 Len: 0x000114 TableID: QCOMEDK2
+  APIC @(fffff7e300005018) Rev: 0x5 Len: 0x0002d4 TableID: QCOMEDK2
+  PPTT @(fffff7e300163018) Rev: 0x1 Len: 0x00019e TableID: QCOMEDK2
+  GTDT @(fffff7e300164018) Rev: 0x2 Len: 0x00009c TableID: QCOMEDK2
+  DBG2 @(ffffb404588f3718) Rev: 0x1 Len: 0x000100 TableID: QCOMEDK2
+  SSDT @(ffffb404588f3848) Rev: 0x2 Len: 0x00003d TableID: 
+  BGRT @(ffffb404588f3b58) Rev: 0x1 Len: 0x000038 TableID: EDK2    
+  DSDT @(ffffb40458c02018) Rev: 0x2 Len: 0x068ebe TableID: SDM8250 
+0: kd> ==== F2
+0: kd> fffff802`25c048d0 nt!IoGetIommuInterface (IoGetIommuInterface)
+0: kd> ==== END_F
+0: kd> 
+>>> 18:52:32 g
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'rdpdr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'rdpdr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'rdpdr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'rdpdr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'bfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'bfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'bfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'bfs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'luafv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'luafv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'luafv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'luafv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'wcifs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'wcifs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'wcifs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'wcifs.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'cldflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'cldflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'cldflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'cldflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'storqosflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'storqosflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'storqosflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'storqosflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tsusbhub.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tsusbhub.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tsusbhub.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tsusbhub.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'bindflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'bindflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'bindflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'bindflt.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'bowser.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'bowser.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'bowser.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'bowser.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mrxsmb.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mrxsmb.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mrxsmb.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mrxsmb.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mrxsmb20.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mrxsmb20.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mrxsmb20.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mrxsmb20.sys'.
+DfsDs RPC server started.
+DispBroker.Desktop.dll: 10/21/26 18:46:55 �й���׼ʱ��: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=baf2 connected to {MSNILNOEDID_1414_008D_FFFFFFFF_FFFFFFFF_0}
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'lltdio.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'lltdio.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'lltdio.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'lltdio.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mslldp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mslldp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mslldp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mslldp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'rspndr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'rspndr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'rspndr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'rspndr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'wanarp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'wanarp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'wanarp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'wanarp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'HTTP.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'HTTP.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'HTTP.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'HTTP.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mpsdrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mpsdrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mpsdrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mpsdrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'srvnet.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'srvnet.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'srvnet.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'srvnet.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'mmcss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'mmcss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'mmcss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'mmcss.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'Ndu.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'Ndu.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'Ndu.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'Ndu.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'srv2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'srv2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'srv2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'srv2.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'peauth.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'peauth.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'peauth.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'peauth.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'tcpipreg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'tcpipreg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'tcpipreg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'tcpipreg.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'wtd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'wtd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'wtd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'wtd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'condrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'condrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'condrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'condrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2af4' from module 'WdNisDrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b1c' from module 'WdNisDrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2b70' from module 'WdNisDrv.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcsmmu8280+0x2bac' from module 'WdNisDrv.sys'.

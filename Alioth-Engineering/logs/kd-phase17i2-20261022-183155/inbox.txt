@@ -1,0 +1,8 @@
+bu qcpep8280+0x27cb2c ".echotime;.printf \"P17I2_REGREAD flag=%x\n\", dwo(qcpep8280+0x223f74);ed qcpep8280+0x223f74 1;.printf \"P17I2_FORCED flag=%x\n\", dwo(qcpep8280+0x223f74);g"
+bu qcpep8280+0x239d84 ".echotime;.printf \"P17I2_STUBFLAG w8=%x\n\", @w8;g"
+bu qcpep8280+0x2b8bc0 ".echotime;.echo P17I2_TSENS_INIT_UNEXPECTED;g"
+bu qcpep8280+0x27f694 ".echotime;.printf \"P17I2_AFTER239 w0=%x\n\", @w0;g"
+g
+.echo ==== E1
+!analyze -v
+.echo ==== END_E

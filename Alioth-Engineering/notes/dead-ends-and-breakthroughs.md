@@ -51,6 +51,13 @@
 - 附带结论：Kona DBG2 只有一个设备，busparams 应为 0。
 - **更正（2026-10-22）**：之前写"DBG2 OEM 数据签名不对只会跳过寄存器修补、不会导致 KD 失败"，这是错的。修补里有强制 VBUS 有效（QSCRATCH `0xf8810 = 0x10100000`）这一条，不执行它 DWC3 就不上拉，KD 会一直卡在等待连接，把开机挡住（Phase17f-base 停在 Silicium 画面）。Silicium 原版 Kona/DBG2.aml 不能直接用于 KDNET，要用 `acpi/Kona-DBG2-oemfix.aml`（phase17g）。
 
+### 12. 只用 DISM /Add-Driver 注入 qcpep8280 就认为会加载 8280 驱动（Phase17h 首测，2026-10-22）
+- 现象：Phase17h（PEP0→QCOM0617）能开到用户态（DispBroker、IPC Router 输出都有），开机约 2 分钟后出现 **BugCheck 0x101 CLOCK_WATCHDOG_TIMEOUT**（参数 0x18, 0, PRCB=CPU5, 5），CPU5 不响应时钟中断，栈无法解析。
+- 关键证据：kd 中 `lm m qcpep*` **只加载了 qcpep8250**，qcpep8280 根本没有运行。
+- 原因：8250 和 8280 的 INF 都 `AddService = qcpep`（BOOT_START）。离线 DISM 只把包放进 DriverStore，**不会改已存在的 `Services\qcpep\ImagePath`**（注入日志确认注入前后都指向 qcpep.wd8250…\qcpep8250.sys）。开机时引导加载器按旧 ImagePath 装入 8250；PnP 把 QCOM0617 绑到 qcpep 服务后，调用的仍是已加载的 8250 镜像 → 走 LMH 写入路径 → CPU 挂住 → 0x101。
+- 结论：**Phase17h 首测不是 8280 的有效测试**，不能据此判断 8280 不行。同服务名替换驱动时，必须离线改 ImagePath（与 Phase16b 处理 qcsmmu 相同）。用 `tools/Set-Qcpep8280ImagePath-Offline-Admin.ps1`。
+- 附带：kd 里 `sxe ld:` 连写两条只有最后一条生效；BOOT_START 驱动在 KD 连上之前就已加载，`sxe ld` 抓不到，要用 `lm` 确认。
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）
@@ -106,6 +113,17 @@
 
 - 补充（2026-10-22）：qcpep8250 中专门访问 8180 写死地址的函数有 `+0x5520`、`+0x5b20`、`+0x5b88`（LMH 0x18350800/0x18358800）、`+0x6288`（LMH 0x18350bc0 的 bit0 开关）、`+0x6388`（读 OSM 调频域 0x18323704/0x18325f04 的 L 值）。另一处映射函数 `+0x1dd730` 还映射了 GIC `0x17a00108/0x17a00188`（SM8250 上存在）。`+0x137978` 引用了 OSM 地址表 `+0x177f90`，是否访问还没查完。
 - 方向调整：对 qcpep8250.sys 做二进制修补这条路暂停（分析过程多次被中断）。改走"不改驱动"的路线：评估 qcpep8280.sys（WHQL，SC8280XP 同为 EPSS 架构）能否在 SM8250 上提供 `{55beca03}` 接口，或者用其他方式提供这个接口。
+
+### 12. qcpep8280 在 SM8250 上卡死的根因：写死 SC8280XP 的 4 个 TSENS 控制器（Phase17h，2026-10-22）
+- 修正 ImagePath 后 kd 确认加载的是 qcpep8280，系统能进用户态，但 PEP0 首次安装触发 AddDevice 时出现 0x101（CPU 不响应 IPI）。
+- 用计数断点 + `p`/`gu` 逐层定位：AddDevice → `0x239d20` → `0x2b8bc0`（选用 `.rdata` 0x1a6b10 的 TSENS 配置，控制器数 4）→ `0x140b18` 循环逐个配置 TSENS 并创建中断；第 3 个控制器（`0x0c224000/0x0c251000`）在 SM8250 上不存在，MMIO 访问挂死。
+- 没有注册表/ACPI 开关。修补点见 notes/phase17h2-qcpep8280-kd-result-20261022.md。
+- 方法论：现场 `!vtop` 把驱动映射的虚拟地址换算成物理地址，再对照 Linux dtsi，是最快判断"驱动写死的硬件不存在"的手段。
+
+### 13. 不改驱动绕过 qcpep8280 的 TSENS 卡死：注册表"桩 PEP"开关（2026-10-22，待实测）
+- qcsmmu8280 向 PEP 要的只是 QueryInterface `{a0e1dd36-dfb9-4c0e-bbaa-78f0746be181}`（1 个函数）。qcpep8280 中该函数在 `EnableStubbedPepForPresilicon != 0` 时直接返回成功。
+- 同一个开关让 AddDevice 链上的 `0x239d20` 直接返回，跳过 TSENS 初始化（Phase17h 的卡死点）。
+- 值位置：`HKLM\SYSTEM\<ControlSet>\Services\qcpep\Parameters\EnableStubbedPepForPresilicon`（REG_DWORD=1）。详见 notes/phase17h2-qcpep8280-kd-result-20261022.md。
 
 ### 4. 取得 alioth 自签名 DSP 固件（2026-10-16）
 - 可靠流程：`fastboot boot` 临时启动 TWRP → 只读挂载当前槽的 `modem_x` → adb pull → 按 SHA256 清单校验 → `tools\pil_squasher.py` 合并。

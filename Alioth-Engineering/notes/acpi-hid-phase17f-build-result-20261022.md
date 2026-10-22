@@ -18,7 +18,7 @@
 
 ## 需要注意
 
-- **pep 变体的 FVMAIN 已经 100% 满**（DBG2 约 260 字节，加上 17e 桩，把剩下的 552 字节用完了）。以后在这个基础上再往 FVMAIN 加任何东西（DXE、ACPI 表、DSDT 变大）都会构建失败。到时要么删掉不用的 DXE，要么把 17e 桩换成更短的写法。
+- （更正 2026-10-22：此条是误读，FvMain 为自动大小，见 acpi-hid-phase18a-iort-plan-20261022.md）**pep 变体的 FVMAIN 已经 100% 满**（DBG2 约 260 字节，加上 17e 桩，把剩下的 552 字节用完了）。以后在这个基础上再往 FVMAIN 加任何东西（DXE、ACPI 表、DSDT 变大）都会构建失败。到时要么删掉不用的 DXE，要么把 17e 桩换成更短的写法。
 - USB 前提：alioth 的 `APRIORI.inc` 每次开机都会加载 `UsbPwrCtrlDxe`/`UsbfnDwc3Dxe`/`UsbConfigDxe`/`UsbInitDxe`，所以进入 Windows 前 USB 控制器和 PHY 已由 UEFI 初始化，满足 kd_8003_5143 不自己初始化 PHY 的前提。如果 base 变体下电脑仍然完全枚举不到设备，再查 UsbConfigDxe 在 ExitBootServices 时是否把控制器复位或断电。
 
 ## 手机端测试顺序（fastboot boot，不要 flash）

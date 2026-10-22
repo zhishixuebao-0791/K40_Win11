@@ -1,0 +1,12 @@
+bu qcsmmu8280+0x2af4 ".echotime;.printf \"P17J_ROUTINE addr=%p\n\", @x0;g"
+bu qcsmmu8280+0x2b1c ".echotime;.printf \"P17J_IOMMU_STATUS w0=%x\n\", @w0;g"
+bu qcsmmu8280+0x2b70 ".echotime;.printf \"P17J_CREATEDOMAIN w0=%x\n\", @w0;g"
+bu qcsmmu8280+0x2bac ".echotime;.echo P17J_FLAG_SET_TO_1;g"
+g
+!!BREAK
+.echo ==== F1
+!acpicache
+.echo ==== F2
+x nt!IoGetIommuInterface
+.echo ==== END_F
+g

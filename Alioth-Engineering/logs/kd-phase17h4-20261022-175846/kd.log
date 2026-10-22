@@ -1,0 +1,490 @@
+
+==== kd_bridge 鍚姩 2026-10-22 17:58:46锛欳:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -b -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.062 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.67.89 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 17:58:47.642 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (8 procs) Free ARM 64-bit (AArch64)
+Product: WinNt, suite: TerminalServer SingleUserTS
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff802`d4200000 PsLoadedModuleList = 0xfffff802`d4edb050
+Debug session time: Wed Oct 21 18:42:47.145 2026 (UTC + 8:00)
+System Uptime: 0 days 0:01:30.515
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPoint:
+fffff802`d440c930 d43e0000 brk         #0xF000
+0: kd> 
+>>> 17:59:54 g
+... Retry sending the same data packet for 64 times.
+The transport connection between host kernel debugger and target Windows seems lost.
+please try resync with target, recycle the host debugger, or reboot the target Windows.
+... Retry sending the same data packet for 128 times.
+... Retry sending the same data packet for 192 times.
+... Retry sending the same data packet for 256 times.
+... Retry sending the same data packet for 320 times.
+... Retry sending the same data packet for 384 times.
+... Retry sending the same data packet for 448 times.
+... Retry sending the same data packet for 512 times.
+... Retry sending the same data packet for 576 times.
+... Retry sending the same data packet for 640 times.
+... Retry sending the same data packet for 704 times.
+... Retry sending the same data packet for 768 times.
+... Retry sending the same data packet for 832 times.
+... Retry sending the same data packet for 896 times.
+... Retry sending the same data packet for 960 times.
+... Retry sending the same data packet for 1024 times.
+... Retry sending the same data packet for 1088 times.
+... Retry sending the same data packet for 1152 times.
+... Retry sending the same data packet for 1216 times.
+... Retry sending the same data packet for 1280 times.
+... Retry sending the same data packet for 1344 times.
+... Retry sending the same data packet for 1408 times.
+... Retry sending the same data packet for 1472 times.
+... Retry sending the same data packet for 1536 times.
+... Retry sending the same data packet for 1600 times.
+... Retry sending the same data packet for 1664 times.
+... Retry sending the same data packet for 1728 times.
+... Retry sending the same data packet for 1792 times.
+KDNET received an out of sequence ping packet.
+The target machine restarted without notifying the debugger.
+Transport link disconnected. Forcing a debugger reconnect...
+SetContext failed, 0xD000013A
+MachineInfo::SetContext failed - Thread: 0000019F6D234A30  Handle: 1  Id: 1 - Error == 0xD000013A
+GetContextState failed, 0xD000013A
+Shutdown occurred at (Thu Oct 22 18:00:15.294 2026 (UTC + 8:00))...unloading all symbol tables.
+Using NET for debugging
+Opened WinSock 2.0
+Waiting to reconnect...
+Connected to target 169.254.236.194 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 18:00:19.365 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff803`cd600000 PsLoadedModuleList = 0xfffff803`ce2db050
+System Uptime: 0 days 0:00:14.968
+nt!DebugService2+0x8:
+fffff803`cd80c988 d43e0000 brk         #0xF000
+kd> 
+>>> 18:00:28 r $t9 = 0
+
+>>> 18:00:28 bu qcpep8280+0x338b0 "r $t9 = @$t9 + 1; .printf \"P17H_CALL %d x3=%p\n\", @$t9, @x3; .if (@$t9 < 4) {g} .else {.echo P17H_STOP4}"
+
+>>> 18:00:28 bl
+
+>>> 18:00:28 g
+kd> *** Bp expression 'qcpep8280+0x338b0' contains symbols not qualified with module name.
+kd>      0 e Disable Clear u                      0001 (0001) (qcpep8280+0x338b0) "r $t9 = @$t9 + 1; .printf \"P17H_CALL %d x3=%p\n\", @$t9, @x3; .if (@$t9 < 4) {g} .else {.echo P17H_STOP4}"
+
+kd> *** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'hal.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'kdnet.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'kd_8003_5143.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CLFS.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'tm.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'PSHED.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'BOOTVID.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'FLTMGR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'msrpc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'ksecdd.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'clipsp.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'cmimcext.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'werkernel.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CI.dll'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'cng.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Wdf01000.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WppRecorder.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WDFLDR.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'PRM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'acpiex.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'msseccore.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'ACPI.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WMILIB.SYS'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WdBoot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WindowsTrustedRT.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WindowsTrustedRTProxy.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'pcw.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'RADARM.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'vdrvroot.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'pdc.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'CEA.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'partmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'spaceport.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'volmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'volmgrx.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'mountmgr.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'EhStorClass.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'fileinfo.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Wof.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'WdFilter.sys'.
+*** Unable to resolve unqualified symbol in Bp expression 'qcpep8280+0x338b0' from module 'Ntfs.sys'.
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+KDTARGET: Refreshing KD connection
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF8003FE235CF0, name:IPCRTR, remote_ss:mpss
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF8003FE246CF0, name:IPCRTR, remote_ss:lpass
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF8003FE257CF0, name:IPCRTR, remote_ss:dsps
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFF8003FE268CF0, name:IPCRTR, remote_ss:cdsp
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFF8003FDE757A0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFF8003FDE757A0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+DfsDs RPC server started.
+DispBroker.Desktop.dll: 10/21/26 18:43:09 中国标准时间: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=ba75 connected to {MSNILNOEDID_1414_008D_FFFFFFFF_FFFFFFFF_0}
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 656. xport_close: ipc_router_core_close succeeded.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 829. qmi_csi_xport_ipc_wdf_deinit: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 837. qmi_csi_xport_ipc_wdf_deinit: Exit.
+Unable to load image qcpep8280.sys, Win32 error 0n2
+P17H_CALL 1 x3=fffff803d2658280 P17H_CALL 2 x3=fffff803d2658288 P17H_CALL 3 x3=fffff803d26583a8 P17H_CALL 4 x3=fffff803d26583b0 P17H_STOP4
+qcpep8280+0x338b0:
+fffff803`d24638b0 d503237f pacibsp
+5: kd> 
+>>> 18:05:37 .echo ==== Q
+
+>>> 18:05:37 r
+
+>>> 18:05:37 !irql
+
+>>> 18:05:37 u qcpep8280+0x338b0 qcpep8280+0x33924
+
+>>> 18:05:37 .echo ==== END_Q
+==== Q
+5: kd>  x0=00007ffbfe9b9fd8   x1=fffff88e2fdc9b40   x2=fffff88e2fdc9b08   x3=fffff803d26583b0
+ x4=0000000000000001   x5=fffff88e2fdc98a8   x6=0000000000f45000   x7=0000000000000001
+ x8=0000000000000023   x9=fffff88e2fdc9b24  x10=ffff8003fd20b860  x11=fffff88e2fdc9620
+x12=ffff8003f709f080  x13=0000000000000001  x14=0000000000000000  x15=fffff803d1b49790
+x16=0000c070d4675a05  x17=0000c070d4675a05  x18=0000000000000000  x19=0000000000000001
+x20=0000000000000001  x21=fffff803d2658298  x22=fffff803d25d6b10  x23=0000000000000001
+x24=fffff803d2652f28  x25=fffff803d2658298  x26=0000000000000001  x27=00007ffbfe9b9fd8
+x28=0000000000000000   fp=fffff88e2fdc9af0   lr=fffff803d2570d18   sp=fffff88e2fdc9ae0
+ pc=fffff803d24638b0  psr=60000044 -ZC- EL1
+qcpep8280+0x338b0:
+fffff803`d24638b0 d503237f pacibsp
+5: kd> Debugger saved IRQL for processor 0x5 -- 0 (LOW_LEVEL)
+5: kd> qcpep8280+0x338b0:
+fffff803`d24638b0 d503237f pacibsp
+fffff803`d24638b4 a9bc7bfd stp         fp,lr,[sp,#-0x40]!
+fffff803`d24638b8 910003fd mov         fp,sp
+fffff803`d24638bc f9001fe0 str         x0,[sp,#0x38]
+fffff803`d24638c0 f9001be1 str         x1,[sp,#0x30]
+fffff803`d24638c4 f90017e2 str         x2,[sp,#0x28]
+fffff803`d24638c8 f90013e3 str         x3,[sp,#0x20]
+fffff803`d24638cc 90000f88 adrp        x8,qcpep8280+0x223000 (fffff803`d2653000)
+fffff803`d24638d0 f9414d08 ldr         x8,[x8,#0x298]
+fffff803`d24638d4 9111a108 add         x8,x8,#0x468
+fffff803`d24638d8 f9400108 ldr         x8,[x8]
+fffff803`d24638dc f9000fe8 str         x8,[sp,#0x18]
+fffff803`d24638e0 f9400fef ldr         x15,[sp,#0x18]
+fffff803`d24638e4 f0000b28 adrp        x8,qcpep8280+0x19a000 (fffff803`d25ca000)
+fffff803`d24638e8 f9425d08 ldr         x8,[x8,#0x4B8]
+fffff803`d24638ec d63f0100 blr         x8
+fffff803`d24638f0 f94013e4 ldr         x4,[sp,#0x20]
+fffff803`d24638f4 f94017e3 ldr         x3,[sp,#0x28]
+fffff803`d24638f8 f9401be2 ldr         x2,[sp,#0x30]
+fffff803`d24638fc f9401fe1 ldr         x1,[sp,#0x38]
+fffff803`d2463900 90000f88 adrp        x8,qcpep8280+0x223000 (fffff803`d2653000)
+fffff803`d2463904 f9416500 ldr         x0,[x8,#0x2C8]
+fffff803`d2463908 f9400fe8 ldr         x8,[sp,#0x18]
+fffff803`d246390c d63f0100 blr         x8
+fffff803`d2463910 b90013e0 str         w0,[sp,#0x10]
+fffff803`d2463914 b94013e0 ldr         w0,[sp,#0x10]
+fffff803`d2463918 a8c47bfd ldp         fp,lr,[sp],#0x40
+fffff803`d246391c d50323ff autibsp
+fffff803`d2463920 d65f03c0 ret
+fffff803`d2463924 00000000 ???
+5: kd> ==== END_Q
+5: kd> 
+>>> 18:05:48 .echo ==== R
+
+>>> 18:05:48 dt Wdf01000!_WDF_INTERRUPT_CONFIG fffff88e`2fdc9b40
+
+>>> 18:05:48 dt Wdf01000!_WDF_OBJECT_ATTRIBUTES fffff88e`2fdc9b08
+
+>>> 18:05:48 dq fffff803`d2658280 L2
+
+>>> 18:05:48 dq fffff803`d26583a8 L2
+
+>>> 18:05:48 .echo ==== END_R
+==== R
+5: kd>    +0x000 Size             : 0x68
+   +0x008 SpinLock         : 0x00007ffb`feb14348 WDFSPINLOCK__
+   +0x010 ShareVector      : 2 ( WdfUseDefault )
+   +0x014 FloatingSave     : 0 ''
+   +0x015 AutomaticSerialization : 0 ''
+   +0x018 EvtInterruptIsr  : 0xfffff803`d2571790     unsigned char  +0
+   +0x020 EvtInterruptDpc  : 0xfffff803`d25718f0     void  +0
+   +0x028 EvtInterruptEnable : (null) 
+   +0x030 EvtInterruptDisable : (null) 
+   +0x038 EvtInterruptWorkItem : (null) 
+   +0x040 InterruptRaw     : (null) 
+   +0x048 InterruptTranslated : (null) 
+   +0x050 WaitLock         : (null) 
+   +0x058 PassiveHandling  : 0 ''
+   +0x05c ReportInactiveOnPowerDown : 2 ( WdfUseDefault )
+   +0x060 CanWakeDevice    : 0 ''
+5: kd>    +0x000 Size             : 0x38
+   +0x008 EvtCleanupCallback : (null) 
+   +0x010 EvtDestroyCallback : (null) 
+   +0x018 ExecutionLevel   : 1 ( WdfExecutionLevelInheritFromParent )
+   +0x01c SynchronizationScope : 1 ( WdfSynchronizationScopeInheritFromParent )
+   +0x020 ParentObject     : (null) 
+   +0x028 ContextSizeOverride : 0
+   +0x030 ContextTypeInfo  : 0xfffff803`d2652f28 _WDF_OBJECT_CONTEXT_TYPE_INFO
+5: kd> fffff803`d2658280  00007ffb`ff0a6238 00007ffb`ff0a1238
+5: kd> fffff803`d26583a8  00007ffb`ff0a4238 00000000`00000000
+5: kd> ==== END_R
+5: kd> 
+>>> 18:05:58 .echo ==== S
+
+>>> 18:05:58 ga qcpep8280+0x3390c
+
+>>> 18:05:58 .echotime
+
+>>> 18:05:58 .echo P17H_AT_CALL
+
+>>> 18:05:58 p
+
+>>> 18:05:58 .echotime
+
+>>> 18:05:58 .echo P17H_AFTER_CALL
+
+>>> 18:05:58 r x0, psr
+
+>>> 18:05:58 !irql
+
+>>> 18:05:58 .echo ==== END_S
+==== S
+5: kd> qcpep8280+0x3390c:
+fffff803`d246390c d63f0100 blr         x8
+5: kd> Debugger (not debuggee) time: Thu Oct 22 18:05:58.688 2026 (UTC + 8:00)
+5: kd> P17H_AT_CALL
+5: kd> qcpep8280+0x33910:
+fffff803`d2463910 b90013e0 str         w0,[sp,#0x10]
+5: kd> Debugger (not debuggee) time: Thu Oct 22 18:05:58.737 2026 (UTC + 8:00)
+5: kd> P17H_AFTER_CALL
+5: kd> x0=0000000000000000                ^ Bad register error in 'r x0, psr'
+5: kd> Debugger saved IRQL for processor 0x5 -- 0 (LOW_LEVEL)
+5: kd> ==== END_S
+5: kd> 
+>>> 18:06:14 .echo ==== T
+
+>>> 18:06:14 gu
+
+>>> 18:06:14 .echo P17H_GU1
+
+>>> 18:06:14 gu
+
+>>> 18:06:14 .echo P17H_GU2
+
+>>> 18:06:14 gu
+
+>>> 18:06:14 .echo P17H_GU3
+
+>>> 18:06:14 gu
+
+>>> 18:06:14 .echo P17H_GU4
+
+>>> 18:06:14 .echo ==== END_T
+==== T
+5: kd> qcpep8280+0x140d18:
+fffff803`d2570d18 2a0003f5 mov         w21,w0
+5: kd> P17H_GU1
+5: kd> KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x00000101
+                       (0x0000000000000018,0x0000000000000000,0xFFFFE10031065980,0x0000000000000005)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+nt!DbgBreakPoint:
+fffff803`cd80c930 d43e0000 brk         #0xF000
+0: kd> P17H_GU2
+0: kd> nt!KiBugCheckDebugBreak+0x20:
+fffff803`cd86a570 1400002a b           nt!KiBugCheckDebugBreak+0xc8 (fffff803`cd86a618)
+0: kd> P17H_GU3
+0: kd> nt!KeBugCheck2+0x960:
+fffff803`cd86a0e0 14000004 b           nt!KeBugCheck2+0x970 (fffff803`cd86a0f0)
+0: kd> P17H_GU4
+0: kd> ==== END_T
+0: kd> 
+>>> 18:07:55 .echo ==== U
+
+>>> 18:07:55 r @$t0 = poi(qcpep8280+0x2301c0)
+
+>>> 18:07:55 .printf "P17H_G base=%p\n", @$t0
+
+>>> 18:07:55 r @$t1 = poi(@$t0+0x3ab8)
+
+>>> 18:07:55 .printf "P17H_COUNT=%d\n", dwo(@$t1+0x10)
+
+>>> 18:07:55 .for (r @$t2=0; @$t2 < 4; r @$t2=@$t2+1) { .printf "P17H_INST %d va100=%p va108=%p\n", @$t2, poi(@$t0+@$t2*0x128+0x100), poi(@$t0+@$t2*0x128+0x108) }
+
+>>> 18:07:55 .echo ==== END_U
+==== U
+0: kd> 0: kd> P17H_G base=fffff803d2658170
+0: kd> 0: kd> P17H_COUNT=4
+0: kd> P17H_INST 0 va100=ffffe100491bb000 va108=ffffe100491bc000
+P17H_INST 1 va100=ffffe100491bd000 va108=ffffe100491be000
+P17H_INST 2 va100=ffffe100491bf000 va108=ffffe10049700000
+P17H_INST 3 va100=ffffe10049701000 va108=ffffe10049702000
+0: kd> ==== END_U
+0: kd> 
+>>> 18:08:04 .echo ==== V
+
+>>> 18:08:04 !vtop 0 ffffe100491bb000
+
+>>> 18:08:04 !vtop 0 ffffe100491bc000
+
+>>> 18:08:04 !vtop 0 ffffe100491bd000
+
+>>> 18:08:04 !vtop 0 ffffe100491be000
+
+>>> 18:08:04 !vtop 0 ffffe100491bf000
+
+>>> 18:08:04 !vtop 0 ffffe10049700000
+
+>>> 18:08:04 !vtop 0 ffffe10049701000
+
+>>> 18:08:04 !vtop 0 ffffe10049702000
+
+>>> 18:08:04 .echo ==== END_V
+==== V
+0: kd> Arm64VtoP: virt ffffe100491bb000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a240
+Arm64VtoP: PTE 000000037e9ebdd8
+Arm64VtoP: Mapped phys 000000000c222000
+Virtual address ffffe100491bb000 translates to physical address c222000.
+0: kd> Arm64VtoP: virt ffffe100491bc000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a240
+Arm64VtoP: PTE 000000037e9ebde0
+Arm64VtoP: Mapped phys 000000000c263000
+Virtual address ffffe100491bc000 translates to physical address c263000.
+0: kd> Arm64VtoP: virt ffffe100491bd000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a240
+Arm64VtoP: PTE 000000037e9ebde8
+Arm64VtoP: Mapped phys 000000000c223000
+Virtual address ffffe100491bd000 translates to physical address c223000.
+0: kd> Arm64VtoP: virt ffffe100491be000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a240
+Arm64VtoP: PTE 000000037e9ebdf0
+Arm64VtoP: Mapped phys 000000000c265000
+Virtual address ffffe100491be000 translates to physical address c265000.
+0: kd> Arm64VtoP: virt ffffe100491bf000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a240
+Arm64VtoP: PTE 000000037e9ebdf8
+Arm64VtoP: Mapped phys 000000000c224000
+Virtual address ffffe100491bf000 translates to physical address c224000.
+0: kd> Arm64VtoP: virt ffffe10049700000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a258
+Arm64VtoP: PTE 000000037e9ee800
+Arm64VtoP: Mapped phys 000000000c251000
+Virtual address ffffe10049700000 translates to physical address c251000.
+0: kd> Arm64VtoP: virt ffffe10049701000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a258
+Arm64VtoP: PTE 000000037e9ee808
+Arm64VtoP: Mapped phys 000000000c225000
+Virtual address ffffe10049701000 translates to physical address c225000.
+0: kd> Arm64VtoP: virt ffffe10049702000, pagedir 00000000a00aa000
+Arm64VtoP: PML4E 00000000a00aae10
+Arm64VtoP: PDPE 00000000a0932008
+Arm64VtoP: PDE 000000037121a258
+Arm64VtoP: PTE 000000037e9ee810
+Arm64VtoP: Mapped phys 000000000c252000
+Virtual address ffffe10049702000 translates to physical address c252000.
+0: kd> ==== END_V
+0: kd> 
+>>> 18:08:59 .echo ==== W
+
+>>> 18:08:59 r @$t1 = poi(poi(qcpep8280+0x2301c0)+0x3ab8)
+
+>>> 18:08:59 .printf "P17H_CFG=%p rva=%p\n", @$t1, @$t1-qcpep8280
+
+>>> 18:08:59 dd @$t1 L10
+
+>>> 18:08:59 .echo ==== END_W
+==== W
+0: kd> 0: kd> P17H_CFG=fffff803d25d6b10 rva=00000000001a6b10
+0: kd> fffff803`d25d6b10  d25d6a70 fffff803 d25d6ab0 fffff803
+fffff803`d25d6b20  00000004 0000002e 00000005 00000000
+fffff803`d25d6b30  00000002 00000005 00000002 00000000
+fffff803`d25d6b40  00000002 00000003 00000002 00000000
+0: kd> ==== END_W
+0: kd> 

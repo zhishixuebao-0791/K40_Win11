@@ -1,0 +1,5 @@
+bu qcpep8280+0x27afb0 ".echotime;.echo P17H_HIT AddDevice_entry;g"
+bu qcpep8280+0x338b4 ".echotime;.printf \"P17H_ARGS x0=%p x1=%p x2=%p x3=%p lr=%y\n\", @x0, @x1, @x2, @x3, @lr;g"
+bu qcpep8280+0x338b0 4
+bl
+g

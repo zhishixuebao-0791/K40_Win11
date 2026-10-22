@@ -1,0 +1,23 @@
+bu qcpep8280+0x27afb0 ".echotime;.echo P17I_HIT AddDevice_entry;g"
+bu qcpep8280+0x239d84 ".echotime;.printf \"P17I_STUBFLAG w8=%x\n\", @w8;g"
+bu qcpep8280+0x2b8bc0 ".echotime;.echo P17I_HIT TSENS_init_UNEXPECTED;g"
+bu qcpep8280+0x27f694 ".echotime;.printf \"P17I_HIT after_239d20 w0=%x\n\", @w0;g"
+bl
+g
+.echo ==== A1
+!reg querykey \REGISTRY\MACHINE\SYSTEM\CurrentControlSet\Services\qcpep\Parameters
+.echo ==== A2
+dd qcpep8280+0x1c5530 L6
+dd qcpep8280+0x223f74 L1
+.echo ==== END_A
+.echo ==== B1
+!reg querykey \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\qcpep\Parameters
+.echo ==== B2
+!reg querykey \REGISTRY\MACHINE\SYSTEM\ControlSet001\Services\qcpep
+.echo ==== END_B
+.echo ==== C1
+!reg querykey \REGISTRY\MACHINE\SYSTEM\ControlSet001\Enum\ACPI\QCOM0617
+.echo ==== END_C
+.echo ==== D1
+!reg querykey \REGISTRY\MACHINE\SYSTEM\ControlSet001\Enum\ACPI\QCOM0617\2&daba3ff&0
+.echo ==== END_D
