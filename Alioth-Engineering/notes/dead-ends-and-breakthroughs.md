@@ -89,6 +89,24 @@
 - 同时把 qcsmmu 换回 Andromeda 签名的 qcsmmu8250.sys 后，开机卡在 Silicium logo。离线恢复 8280 的 ImagePath 后恢复正常。说明 8250 驱动在测试签名下很可能已被加载（不再被 CI 拒绝），这为原生 Kona 驱动（qcpep8250 等）打开了路。
 - 注意：单独换 qcsmmu8250 会导致开机卡死，在 PEP 修好之前不要再这样做。
 
+### 10. KDNET over USB EEM 内核调试打通（Phase17g，2026-10-22）
+- 三个前提缺一不可：① UEFI 中要有 DBG2（`ACPI.inc` 默认只在 DEBUG 构建中打包，用 `tools/build-acpi-hid-phase17f.sh` 强制打包）；② 用修复后的 `acpi/Kona-DBG2-oemfix.aml`（Silicium 原表 OEM 区错位，强制 VBUS 有效的修补不会执行，KD 会卡在等待连接）；③ BCD `busparams 0`，手机 USB 直连电脑。
+- 结果：`phase17g-base` 镜像开机进桌面，电脑端出现 `Windows KDNET USB-EEM Network Adapter`（`USB\VID_045E&PID_064D`），WinDbg `Connected to target 169.254.213.22`。主机是 Win10 1909，也能用。
+- 用法要点：kd.exe 要从 WinDbg 包（WindowsApps）复制出 `amd64` 目录才能运行；`tools/kd_bridge.py` 在后台运行 kd，通过 inbox.txt 发命令，`!!BREAK` 由一次性辅助进程发 Ctrl+Break。图形界面 WinDbg 被强制结束后，这一次开机里目标机不会再重连，所以要在**开机之前**就启动 kd（建议加 `-b`）。
+- 意义：以后定位开机卡死、Code 31/10 等问题，可以直接下内核断点，不必再靠离线取证猜测。
+
+### 11. 内核调试现场定位 qcpep 卡死根因：写 SM8150 的 LMH 寄存器（Phase17g-pep，2026-10-22）
+- 方法：kd 先监听，再 `fastboot boot` phase17g-pep；卡死后 Break（目标仍能响应，不是整机总线挂死）。
+- 现场：CPU0–6 在 `nt!MiDemoteSlabEntriesDpc`（KeGenericCallDpc 全核屏障）里等待；**CPU7 运行 `Phase1Initialization` 线程，不响应冻结 IPI**。线程栈：`IopInitializeBootDrivers → PiProcessAddBootDevices → PnpCallAddDevice → Wdf01000!FxDriver::AddDevice → qcpep8250+0x1df35c → +0x5c50 → +0x5b88 → +0x3398（dsb + 32 位写）`。
+- `+0x5c50` 用 `MmMapIoSpaceEx(物理地址, 0x2c, 0x204)` 映射 **`0x18350800` / `0x18358800`**，存入全局变量 `+0x1c7100/+0x1c7108`，然后由 `+0x5b88` 写入 `0x3a`/`0`。
+- 这两个地址是 **SM8150/SC8180X 的 LMH（lmh_cluster1/0）**（Linux sm8150.dtsi、sc8180x.dtsi）；**SM8250 上没有**（LMH 集成在 EPSS `0x18590000` 中）。写入得不到应答，CPU7 永远停住，其他核在下一次全核同步时等它，整机卡死。
+- `+0x1df300` 一进来就无条件调用 `+0x5c50(1)`，**没有注册表开关可以跳过**（与 17d 改 EnableBCL 等参数仍然卡死一致）。
+- 结论：这个 "qcpep8250.sys"（内部名 qcpep8180.sys）的 CPU 限流部分是按 8150/8180 硬件写死的，在 SM8250 上不能原样使用。
+- 更正：死路第 10 条说"OSM 地址表不是根因"，结论下得太早。同一类按 8180 写死的 CPU 子系统地址确实是问题所在，只不过现场抓到的是 LMH。OSM（`0x18321000` 等）是否也会被访问还没核实，修补时要一并检查。
+
+- 补充（2026-10-22）：qcpep8250 中专门访问 8180 写死地址的函数有 `+0x5520`、`+0x5b20`、`+0x5b88`（LMH 0x18350800/0x18358800）、`+0x6288`（LMH 0x18350bc0 的 bit0 开关）、`+0x6388`（读 OSM 调频域 0x18323704/0x18325f04 的 L 值）。另一处映射函数 `+0x1dd730` 还映射了 GIC `0x17a00108/0x17a00188`（SM8250 上存在）。`+0x137978` 引用了 OSM 地址表 `+0x177f90`，是否访问还没查完。
+- 方向调整：对 qcpep8250.sys 做二进制修补这条路暂停（分析过程多次被中断）。改走"不改驱动"的路线：评估 qcpep8280.sys（WHQL，SC8280XP 同为 EPSS 架构）能否在 SM8250 上提供 `{55beca03}` 接口，或者用其他方式提供这个接口。
+
 ### 4. 取得 alioth 自签名 DSP 固件（2026-10-16）
 - 可靠流程：`fastboot boot` 临时启动 TWRP → 只读挂载当前槽的 `modem_x` → adb pull → 按 SHA256 清单校验 → `tools\pil_squasher.py` 合并。
 - 结果在 `components\Devices\Alioth\firmware-squashed\`（adsp/cdsp/slpi 三个 mbn）。

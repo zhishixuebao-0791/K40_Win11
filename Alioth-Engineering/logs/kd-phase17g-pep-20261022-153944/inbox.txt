@@ -1,0 +1,26 @@
+!!BREAK
+.echo ==== LM
+lm m qcpep*
+lm m qcsmmu*
+lm m storufs*
+.echo ==== RUNNING
+!running -ti
+.echo ==== DONE1
+.reload
+.echo ==== LM
+lm m qc*
+lm m stor*
+.echo ==== T7
+!thread ffffba8540e8b180
+.echo ==== PRCB7
+!prcb 7
+.echo ==== DONE2
+.echo ==== STACK7
+dps ffffb90b35e01000 ffffb90b35e08db0
+.echo ==== DONE3
+.echo ==== STACK7B
+dps ffffb90b35e06c40 ffffb90b35e08db0
+.echo ==== MOD
+lm a fffff800`13342e84
+.echo ==== DONE4
+!!QUIT

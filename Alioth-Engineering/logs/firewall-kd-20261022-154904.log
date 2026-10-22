@@ -1,0 +1,42 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20261022154908
+用户名: UCCHIP\jcyang
+RunAs 用户: UCCHIP\jcyang
+配置名称: 
+计算机: JCYANG-DESK (Microsoft Windows NT 10.0.18363.0)
+主机应用程序: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -Command $ErrorActionPreference='Stop'
+Start-Transcript -LiteralPath 'C:\yjc_code\K40_Win11\Alioth-Engineering\logs\firewall-kd-20261022-154904.log' | Out-Null
+$kd='C:\users\jcyang\appdata\local\kd-amd64\kd.exe'
+Get-NetFirewallApplicationFilter | Where-Object { $_.Program -ieq $kd } | Get-NetFirewallRule | Where-Object { $_.Action -eq 'Block' } | ForEach-Object { Write-Host ('删除阻止规则：' + $_.Name + ' ' + $_.Profile); Remove-NetFirewallRule -Name $_.Name }
+New-NetFirewallRule -DisplayName 'K40 KDNET kd.exe (UDP, 169.254/16)' -Direction Inbound -Action Allow -Program $kd -Protocol UDP -RemoteAddress 169.254.0.0/16 -Profile Any | Select-Object Name,DisplayName,Enabled,Profile | Format-List | Out-String | Write-Host
+Get-NetFirewallApplicationFilter | Where-Object { $_.Program -ieq $kd } | Get-NetFirewallRule | Select-Object DisplayName,Action,Profile | Format-Table | Out-String | Write-Host
+Stop-Transcript | Out-Null
+进程 ID: 3696
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+删除阻止规则：{E3CD18B5-E9DE-4C39-B4A6-475EE0EC33E3} Public
+删除阻止规则：{B16DE62B-3E7D-49DE-8529-CDA33847088E} Public
+
+
+Name        : {3edc2f5b-850e-4af4-84c7-48d29784c03c}
+DisplayName : K40 KDNET kd.exe (UDP, 169.254/16)
+Enabled     : True
+Profile     : Any
+
+DisplayName                        Action Profile
+-----------                        ------ -------
+kd.exe                              Allow  Domain
+kd.exe                              Allow  Domain
+K40 KDNET kd.exe (UDP, 169.254/16)  Allow     Any
+**********************
+Windows PowerShell 脚本结束
+结束时间: 20261022154913
+**********************
