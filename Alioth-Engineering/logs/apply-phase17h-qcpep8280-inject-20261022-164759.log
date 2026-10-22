@@ -1,0 +1,30 @@
+﻿[16:48:00] 已备份 ControlSet001\Services\qcpep → C:\yjc_code\K40_Win11\Alioth-Engineering\logs\qcpep-service-backup-ControlSet001-pre-phase17h-20261022-164759.reg（注意：导出文件里的键路径是临时挂载名 ALIOTH_P17H_18860，恢复时要替换成 HKLM\SYSTEM）
+[16:48:01]   注入前 ImagePath：ImagePath    REG_EXPAND_SZ    System32\DriverStore\FileRepository\qcpep.wd8250.inf_arm64_5946bbfc6d49db89\qcpep8250.sys
+[16:48:01] ControlSet002\Services\qcpep 不存在，跳过备份
+[16:48:01] 注册表 hive 已卸载。
+[16:48:01] 注入前驱动库中的 qcpep* 目录：1 个
+[16:48:01]   qcpep.wd8250.inf_arm64_5946bbfc6d49db89
+[16:48:01] 执行: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\sound_code\driver_candidates\surfacepro9_5g_22621_25.070.2191.0\extracted\SurfaceUpdate\qcpepwd8280\qcpep.wd8280.inf
+
+部署映像服务和管理工具
+版本: 10.0.18362.1379
+
+映像版本: 10.0.22621.6060
+
+找到 1 个要安装的驱动程序包。
+正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\sound_code\driver_candidates\surfacepro9_5g_22621_25.070.2191.0\extracted\SurfaceUpdate\qcpepwd8280\qcpep.wd8280.inf: 驱动程序包已成功安装。
+操作成功完成。
+[16:48:16] DISM 退出码：0
+[16:48:16] 注入后驱动库中的 qcpep* 目录：2 个
+[16:48:16]   qcpep.wd8250.inf_arm64_5946bbfc6d49db89
+[16:48:16]      PPMSettings-8250Profiles.wd.ppkg  6,695 字节
+[16:48:16]      qcpep.wd8250.cat  13,056 字节
+[16:48:16]      qcpep.wd8250.inf  223,988 字节
+[16:48:16]      qcpep8250.sys  2,286,176 字节
+[16:48:16]   qcpep.wd8280.inf_arm64_bd3744d48a04c516
+[16:48:16]      PPMSettings-8280Profiles.wd.ppkg  7,728 字节
+[16:48:16]      qcpep.wd8280.inf  253,050 字节
+[16:48:16]      qcpep8280.cat  16,734 字节
+[16:48:16]      qcpep8280.sys  2,872,432 字节
+[16:48:16] 注入成功。下一步：电脑端先启动 kd 监听，再用 Phase17h UEFI（PEP0 → QCOM0617）fastboot boot。
+[16:48:16] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\apply-phase17h-qcpep8280-inject-20261022-164759.log

@@ -1,0 +1,14 @@
+!!BREAK
+sxe ld:qcpep8280.sys
+sxe ld:qcpep8250.sys
+sx
+g
+g
+.reload
+.echo ==== LM
+lm m qcpep*
+.echo ==== PRCB5
+!prcb 5
+.echo ==== RUNNING
+!running -ti
+.echo ==== DONE5

@@ -1,0 +1,46 @@
+﻿>>> 16:52:59 .reload
+
+>>> 16:52:59 .echo ==== LM
+
+>>> 16:52:59 lm m qcpep*
+
+>>> 16:52:59 .echo ==== PRCB5
+
+>>> 16:52:59 !prcb 5
+
+>>> 16:52:59 .echo ==== RUNNING
+
+>>> 16:52:59 !running -ti
+
+>>> 16:52:59 .echo ==== DONE5
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 16:52:59.048 2026 (UTC + 8:00)), ptr64 TRUE
+Loading Kernel Symbols
+...............................................................
+................................................................
+.....................
+Loading User Symbols
+................................................................
+.....................
+Loading unloaded module list
+.....
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+ntdll                  The system cannot find the file specified
+
+You can troubleshoot most symbol related issues by turning on symbol loading diagnostics (!sym noisy) and repeating the command that caused symbols to be loaded.
+You should also verify that your symbol search path (.sympath) is correct.
+0: kd> ==== LM
+0: kd> Browse full module list
+start             end                 module name
+fffff803`3d0d0000 fffff803`3d310000   qcpep8250   (deferred)             
+0: kd> ==== PRCB5
+0: kd> PRCB for Processor 5 at ffff830077465980:
+Current IRQL -- 0
+Threads--  Current ffffc604458cc080 Next ffffc6044f03a080 Idle ffffc604456c0080
+Processor Index 5 Number (0, 5) GroupSetMember 20
+Interrupt Count -- 0000d533
+Times -- Dpc    0000002d Interrupt 00000003 
+         Kernel 000002eb User      0000005d 
+0: kd> ==== RUNNING
+0: kd> 

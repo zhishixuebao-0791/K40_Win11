@@ -1,0 +1,382 @@
+
+==== kd_bridge 启动 2026-10-22 16:48:36：C:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -b -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.016 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.44.68 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 16:51:05.864 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff803`39200000 PsLoadedModuleList = 0xfffff803`39edb050
+System Uptime: 0 days 0:00:13.954
+nt!DebugService2+0x8:
+fffff803`3940c988 d43e0000 brk         #0xF000
+kd> 
+>>> 16:51:12 !!BREAK
+[桥接] Ctrl+Break 辅助进程返回码 3221225786（10 表示挂接控制台失败）
+
+>>> 16:51:26 sxe ld:qcpep8280.sys
+
+>>> 16:51:26 sxe ld:qcpep8250.sys
+
+>>> 16:51:26 sx
+
+>>> 16:51:26 g
+kd> kd>   ct - Create thread - ignore
+  et - Exit thread - ignore
+ cpr - Create process - ignore
+ epr - Exit process - ignore
+  ld - Load module - break
+       (only break for qcpep8250.sys)
+  ud - Unload module - ignore
+ ser - System error - ignore
+ ibp - Initial breakpoint - ignore
+ iml - Initial module load - break
+ out - Debuggee output - output
+
+  av - Access violation - break - not handled
+asrt - Assertion failure - break - not handled
+ aph - Application hang - break - not handled
+ bpe - Break instruction exception - break
+bpec - Break instruction exception continue - handled
+  eh - C++ EH exception - second-chance break - not handled
+ clr - CLR exception - second-chance break - not handled
+clrn - CLR notification exception - second-chance break - handled
+ cce - Control-Break exception - break
+  cc - Control-Break exception continue - handled
+ cce - Control-C exception - break
+  cc - Control-C exception continue - handled
+  dm - Data misaligned - break - not handled
+dbce - Debugger command exception - ignore - handled
+  gp - Guard page violation - break - not handled
+  ii - Illegal instruction - second-chance break - not handled
+  ip - In-page I/O error - break - not handled
+  dz - Integer divide-by-zero - break - not handled
+ iov - Integer overflow - break - not handled
+  ch - Invalid handle - break
+  hc - Invalid handle continue - not handled
+ lsq - Invalid lock sequence - break - not handled
+ isc - Invalid system call - break - not handled
+  3c - Port disconnected - second-chance break - not handled
+ svh - Service hang - break - not handled
+ sse - Single step exception - break
+ssec - Single step exception continue - handled
+ sbo - Security check failure or stack buffer overrun - break - not handled
+ sov - Stack overflow - break - not handled
+  vs - Verifier stop - break - not handled
+vcpp - Visual C++ exception - ignore - handled
+ wkd - Wake debugger - break - not handled
+ rto - Windows Runtime Originate Error - second-chance break - not handled
+ rtt - Windows Runtime Transform Error - second-chance break - not handled
+ wob - WOW64 breakpoint - break - handled
+ wos - WOW64 single step exception - break - handled
+ san - Sanitizer exception - break - handled
+sana - Sanitizer ASAN exception - ignore - handled
+sann - Sanitizer notification - ignore - handled
+sanav - Sanitizer real access violation - break - not handled
+
+   * - Other exception - second-chance break - not handled
+kd> nt!DebugService2+0x8:
+fffff803`3940c988 d43e0000 brk         #0xF000
+kd> 
+>>> 16:51:37 g
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+KDTARGET: Refreshing KD connection
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFC6044C713CF0, name:IPCRTR, remote_ss:mpss
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFC6044C846CF0, name:IPCRTR, remote_ss:lpass
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFC6044C857CF0, name:IPCRTR, remote_ss:dsps
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFC6044C868CF0, name:IPCRTR, remote_ss:cdsp
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFFC6044C42BAE0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFFC6044C42BAE0).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+DfsDs RPC server started.
+DispBroker.Desktop.dll: 10/21/26 18:35:24 �й���׼ʱ��: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=baab connected to {MSNILNOEDID_1414_008D_FFFFFFFF_FFFFFFFF_0}
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 656. xport_close: ipc_router_core_close succeeded.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 829. qmi_csi_xport_ipc_wdf_deinit: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 837. qmi_csi_xport_ipc_wdf_deinit: Exit.
+KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x00000101
+                       (0x0000000000000018,0x0000000000000000,0xFFFF830077465980,0x0000000000000005)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPoint:
+fffff803`3940c930 d43e0000 brk         #0xF000
+0: kd> 
+>>> 16:52:59 .reload
+
+>>> 16:52:59 .echo ==== LM
+
+>>> 16:52:59 lm m qcpep*
+
+>>> 16:52:59 .echo ==== PRCB5
+
+>>> 16:52:59 !prcb 5
+
+>>> 16:52:59 .echo ==== RUNNING
+
+>>> 16:52:59 !running -ti
+
+>>> 16:52:59 .echo ==== DONE5
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Thu Oct 22 16:52:59.048 2026 (UTC + 8:00)), ptr64 TRUE
+Loading Kernel Symbols
+...............................................................
+................................................................
+.....................
+Loading User Symbols
+................................................................
+.....................
+Loading unloaded module list
+.....
+
+************* Symbol Loading Error Summary **************
+Module name            Error
+ntdll                  The system cannot find the file specified
+
+You can troubleshoot most symbol related issues by turning on symbol loading diagnostics (!sym noisy) and repeating the command that caused symbols to be loaded.
+You should also verify that your symbol search path (.sympath) is correct.
+0: kd> ==== LM
+0: kd> Browse full module list
+start             end                 module name
+fffff803`3d0d0000 fffff803`3d310000   qcpep8250   (deferred)             
+0: kd> ==== PRCB5
+0: kd> PRCB for Processor 5 at ffff830077465980:
+Current IRQL -- 0
+Threads--  Current ffffc604458cc080 Next ffffc6044f03a080 Idle ffffc604456c0080
+Processor Index 5 Number (0, 5) GroupSetMember 20
+Interrupt Count -- 0000d533
+Times -- Dpc    0000002d Interrupt 00000003 
+         Kernel 000002eb User      0000005d 
+0: kd> ==== RUNNING
+0: kd> 
+System Processors:  (00000000000000ff)
+  Idle Processors:  (000000000000000c)
+
+       Prcbs             Current         (pri) Next            (pri) Idle
+  0    fffff80335c50980  ffffc6044fa4b080 ( 8) ffffc60445720080 (12) fffff80339f33c00  ................
+
+ # Child-SP          RetAddr               Call Site
+00 fffff803`36bc2220 fffff803`3946a570     nt!DbgBreakPoint
+01 fffff803`36bc2220 fffff803`3946a0e0     nt!KiBugCheckDebugBreak+0x20
+02 fffff803`36bc2270 fffff803`3946ab5c     nt!KeBugCheck2+0x960
+03 fffff803`36bc2850 fffff803`3946b750     nt!KeAccumulateTicks+0x4ac
+04 fffff803`36bc28c0 fffff803`3946f3bc     nt!KiUpdateTime+0x328
+05 fffff803`36bc2da0 fffff803`3941f178     nt!KeClockInterruptNotify+0x22c
+06 fffff803`36bc2e50 fffff803`39488a18     nt!HalpTimerClockInterrupt+0xe8
+07 fffff803`36bc2ea0 fffff803`3940c554     nt!KiPlayInterrupt+0x218
+08 fffff803`36bc2ff0 fffff803`394892a0     nt!KxSwitchStackAndPlayInterrupt+0x1c
+09 ffffa781`3c46aea0 fffff803`394028dc     nt!KiProcessInterrupt+0x168
+0a ffffa781`3c46af10 fffff803`3948432c     nt!KiKernelSp0InterruptHandler+0x5c
+0b ffffa781`3c46b280 fffff803`394a4cd8     nt!KiIpiWaitForRequestBarrier+0x44
+0c ffffa781`3c46b2b0 fffff803`39629c1c     nt!KiIpiSendRequestToAwakeProcessors+0x128
+0d ffffa781`3c46b2f0 fffff803`39b5ec64     nt!MiWalkEntireImage+0x754
+0e ffffa781`3c46b5d0 fffff803`39b3a4f0     nt!MiSwitchBaseAddress+0x6c
+0f ffffa781`3c46b610 fffff803`39b39f3c     nt!MiValidateExistingImage+0x480
+10 ffffa781`3c46b6b0 fffff803`39b36af4     nt!MiShareExistingControlArea+0x7c
+11 ffffa781`3c46b6f0 fffff803`39b383f8     nt!MiCreateImageOrDataSection+0x22c
+12 ffffa781`3c46b7f0 fffff803`39b3b6bc     nt!MiCreateSectionCommon+0x220
+13 ffffa781`3c46b9b0 fffff803`3940c460     nt!NtCreateSection+0x3c
+14 ffffa781`3c46b9e0 fffff803`3940c058     nt!KiSystemServiceCopyEnd+0x38
+15 ffffa781`3c46ba50 00007ffc`2980afa4     nt!KiSystemServiceExit
+16 000000f1`524fedf0 00007ffc`252eeedc     ntdll+0x16afa4
+17 000000f1`524fedf0 00007ffc`252304ec     KERNELBASE!#BasepLoadLibraryAsDataFileInternal+0x3c4
+18 000000f1`524ff000 00007ffc`271013f8     KERNELBASE!LoadLibraryExW+0x5330c
+19 000000f1`524ff060 00007ffc`27101954     ADVAPI32!PerflibciLoadString+0x90
+1a 000000f1`524ff0d0 00007ffc`270e4390     ADVAPI32!PerflibciLocalQueryCounterSetRegInfoEx+0x2dc
+1b 000000f1`524ff160 00007ffc`0375f0f4     ADVAPI32!#PerfQueryCounterSetRegistrationInfo+0xd0
+1c 000000f1`524ff200 00007ffc`0375f614     pdh!PdhiQueryCounterSetRegInfo+0x64
+1d 000000f1`524ff660 00007ffc`0375d844     pdh!PERF_MACHINE::EnsureCounterSetStrings+0x18c
+1e 000000f1`524ff6b0 00007ffc`0375e6e4     pdh!PERF_MACHINE::EnumerateCounterSet+0x1cc
+1f 000000f1`524ff710 00007ffc`03763ac0     pdh!PERF_MACHINE::ConnectMachine+0x2b4
+20 000000f1`524ff790 00007ffc`03764200     pdh!PdhiTranslateCounter+0xd0
+21 000000f1`524ff840 00007ffc`03764484     pdh!PdhTranslateLocaleCounterA+0xa0
+22 000000f1`524ff880 00007ffc`03790894     pdh!#PdhAddEnglishCounterA+0xa4
+23 000000f1`524ff8e0 00007ffc`047acf75     pdh!$ientry_thunk$cdecl$i8$i8+0x24
+Unable to load image C:\Program Files\RustDesk\librustdesk.dll, Win32 error 0n2
+24 000000f1`524ff990 00000000`00000000     librustdesk!hwcodec_log+0xe6b95
+
+  1    ffff830077328980  ffffc6044f81f080 ( 9)                       ffffc604456a6080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`3c178540 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`3c178650 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`3c1786e0 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`3c178830 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`3c1788a0 fffff803`3948431c     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`3c178c10 fffff803`394a4cd8     nt!KiIpiWaitForRequestBarrier+0x34
+06 ffffa781`3c178c40 fffff803`3964756c     nt!KiIpiSendRequestToAwakeProcessors+0x128
+07 ffffa781`3c178c80 fffff803`3964156c     nt!MiWaitForInPageComplete+0x3bc
+08 ffffa781`3c178d90 fffff803`395fc214     nt!MiIssueHardFault+0x27c
+09 ffffa781`3c178e90 fffff803`394c11f4     nt!MmAccessFault+0x41c
+0a ffffa781`3c178f90 fffff803`394c1444     nt!KiAbortException+0x11c
+0b ffffa781`3c178fd0 fffff803`39403c38     nt!KiSynchronousException+0x94
+0c ffffa781`3c1790c0 fffff803`3940285c     nt!KzSynchronousException+0x24
+0d ffffa781`3c179120 fffff803`39b39658     nt!KiArm64ExceptionVectors+0x5c
+0e ffffa781`3c179490 fffff803`39b371ec     nt!MiParseComAndCetHeaders+0x248
+0f ffffa781`3c1795e0 fffff803`39b36c10     nt!MiCreateNewSection+0x2b4
+10 ffffa781`3c1796f0 fffff803`39b383f8     nt!MiCreateImageOrDataSection+0x348
+11 ffffa781`3c1797f0 fffff803`39b3b6bc     nt!MiCreateSectionCommon+0x220
+12 ffffa781`3c1799b0 fffff803`3940c460     nt!NtCreateSection+0x3c
+13 ffffa781`3c1799e0 fffff803`3940c058     nt!KiSystemServiceCopyEnd+0x38
+14 ffffa781`3c179a50 00007ffc`296af814     nt!KiSystemServiceExit
+15 0000002c`c727db70 00007ffc`296c7480     ntdll+0xf814
+16 0000002c`c727db70 00000000`00000000     ntdll+0x27480
+
+  2    ffff83007707f980  ffffc6044569e080 ( 0)                       ffffc6044569e080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`3946b6a0 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`3946b7b0 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`3946b840 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`3946b990 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`3946ba00 fffff803`396faf9c     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`3946bd70 00000000`00000000     nt!KiIdleLoop+0xac
+
+  3    ffff830077134980  ffffc604456a7080 ( 0)                       ffffc604456a7080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`394866a0 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`394867b0 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`39486840 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`39486990 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`39486a00 fffff803`396faf9c     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`39486d70 00000000`00000000     nt!KiIdleLoop+0xac
+
+  4    ffff830077400980  ffffc6044f6fb080 (16)                       ffffc604456a8080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`3b858730 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`3b858840 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`3b8588d0 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`3b858a20 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`3b858a90 fffff803`39484338     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`3b858e00 fffff803`394a4cd8     nt!KiIpiWaitForRequestBarrier+0x50
+06 ffffa781`3b858e30 fffff803`3964756c     nt!KiIpiSendRequestToAwakeProcessors+0x128
+07 ffffa781`3b858e70 fffff803`3964156c     nt!MiWaitForInPageComplete+0x3bc
+08 ffffa781`3b858f80 fffff803`395fc214     nt!MiIssueHardFault+0x27c
+09 ffffa781`3b859080 fffff803`3959dabc     nt!MmAccessFault+0x41c
+0a ffffa781`3b859180 fffff803`3959e584     nt!MiLockPageLeafPageTable+0x1a4
+0b ffffa781`3b859270 fffff803`3959e000     nt!MiProbeLeafFrame+0x24
+0c ffffa781`3b8592a0 fffff803`3959e17c     nt!MiProbeAndLockPacket+0x1c8
+0d ffffa781`3b8592f0 fffff803`3c639800     nt!MiProbeAndLockPages+0x64
+0e ffffa781`3b8593d0 fffff803`3c639a10     CI!CipMapAndSizeDataFileWithMDL+0x1d0
+0f ffffa781`3b8594a0 fffff803`3c63ae58     CI!I_MapCatalog+0xf8
+10 ffffa781`3b859590 fffff803`3c63a980     CI!I_ReloadCatalog+0x2d0
+11 ffffa781`3b859720 fffff803`3c63a5d0     CI!I_ReloadCatalogDirectory+0x2e8
+12 ffffa781`3b859840 fffff803`3c638638     CI!I_ReloadCatalogs+0x1f0
+13 ffffa781`3b8598b0 fffff803`3c677b80     CI!CiFindFileOrHeaderHashInCatalogs+0x3c0
+14 ffffa781`3b859a00 fffff803`39a65f5c     CI!I_PEVerifyBootDrivers+0x690
+15 ffffa781`3b859ce0 fffff803`3c677498     nt!RtlRunOnceExecuteOnce+0x8c
+16 ffffa781`3b859d20 fffff803`394fb2c0     CI!PEWorkerThread+0xd8
+17 ffffa781`3b859d50 fffff803`3940be4c     nt!PspSystemThreadStartup+0x50
+18 ffffa781`3b859d90 00000000`00000000     nt!KiStartSystemThread+0x24
+
+  5    ffff830077465980  ffffc604458cc080 (13) ffffc6044f03a080 (16) ffffc604456c0080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffff8300`77488d00 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffff8300`77488e10 ffffc604`4c653000     nt!KiIpiServiceRoutine+0x224
+02 fffff803`39f1aa98 00000000`00000000     0xffffc604`4c653000
+
+  6    ffff8300774e3980  ffffc6044f82c080 ( 8) ffffc6044f7fc080 (15) ffffc604456c1080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`3c103830 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`3c103940 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`3c1039d0 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`3c103b20 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`3c103b90 fffff803`39484338     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`3c103f00 fffff803`394a4cd8     nt!KiIpiWaitForRequestBarrier+0x50
+06 ffffa781`3c103f30 fffff803`3964756c     nt!KiIpiSendRequestToAwakeProcessors+0x128
+07 ffffa781`3c103f70 fffff803`395c79e4     nt!MiWaitForInPageComplete+0x3bc
+08 ffffa781`3c104080 fffff803`395c9a7c     nt!MiPfCompletePrefetchIos+0x10c
+09 ffffa781`3c104160 fffff803`3942b018     nt!MmWaitForCacheManagerPrefetch+0x3c
+0a ffffa781`3c1041a0 fffff803`39948550     nt!CcFetchDataForRead+0xf0
+0b ffffa781`3c104220 fffff803`39428f4c     nt!CcMapAndCopyFromCache+0x148
+0c ffffa781`3c1042d0 fffff803`3ceab840     nt!CcCopyReadEx+0x1ec
+0d ffffa781`3c1043a0 fffff803`3c4bb2e0     Ntfs!NtfsCopyReadA+0x260
+0e ffffa781`3c104690 fffff803`3c4b5c84     FLTMGR!FltpPerformFastIoCall+0x118
+0f ffffa781`3c1046e0 fffff803`3c4e80b8     FLTMGR!FltpPassThroughFastIo+0x254
+10 ffffa781`3c104780 fffff803`399679d0     FLTMGR!FltpFastIoRead+0x128
+11 ffffa781`3c104800 fffff803`39968180     nt!IopReadFile+0x370
+12 ffffa781`3c104950 fffff803`3940c460     nt!NtReadFile+0xb0
+13 ffffa781`3c1049e0 fffff803`3940c058     nt!KiSystemServiceCopyEnd+0x38
+14 ffffa781`3c104a50 00007ffc`296af3d4     nt!KiSystemServiceExit
+15 0000009c`6a7ff190 00007ffc`250b850c     ntdll+0xf3d4
+16 0000009c`6a7ff190 00000000`00000000     KERNELBASE!ReadFile+0x8c
+
+  7    ffff83007755a980  ffffc6044fb21080 (10)                       ffffc60445723080  ................
+
+ # Child-SP          RetAddr               Call Site
+00 ffffa781`3bea0320 fffff803`394842e4     nt!KiFreezeTargetExecution+0x10c
+01 ffffa781`3bea0430 fffff803`39488a18     nt!KiIpiServiceRoutine+0x224
+02 ffffa781`3bea04c0 fffff803`394892f0     nt!KiPlayInterrupt+0x218
+03 ffffa781`3bea0610 fffff803`394028dc     nt!KiProcessInterrupt+0x1b8
+04 ffffa781`3bea0680 fffff803`394701e4     nt!KiKernelSp0InterruptHandler+0x5c
+05 ffffa781`3bea09f0 fffff803`39ac1450     nt!KeFlushProcessWriteBuffers+0xc4
+06 ffffa781`3bea0a50 fffff803`39ac46e8     nt!ExpGetProcessInformation+0x170
+07 ffffa781`3bea1140 fffff803`39ac860c     nt!ExpQuerySystemInformation+0xaa0
+08 ffffa781`3bea19c0 fffff803`3940c460     nt!NtQuerySystemInformation+0x9c
+09 ffffa781`3bea19e0 fffff803`3940c058     nt!KiSystemServiceCopyEnd+0x38
+0a ffffa781`3bea1a50 00007ffc`296af6d4     nt!KiSystemServiceExit
+0b 00000000`04a5de40 00007ffc`29601d8c     ntdll+0xf6d4
+0c 00000000`04a5de40 00000000`00000000     0x00007ffc`29601d8c
+
+0: kd> ==== DONE5
+0: kd> 
+==== kd 已退出，返回码 4294967295
