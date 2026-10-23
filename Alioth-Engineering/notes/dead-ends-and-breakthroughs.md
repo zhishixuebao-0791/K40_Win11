@@ -70,6 +70,11 @@
 - 结论：K40 上 qcsmmu8280 不可能走"内核 IOMMU 可用"分支，必须由 PEP（或替代者）提供 `{a0e1dd36}` 接口。
 - 来源：https://github.com/TravMurav/slbounce 、https://github.com/TravMurav/Qcom-Secure-Launch
 
+### 15. 在社区找 SM8250 现成的 PEP 替代/桩驱动或 Windows 音频方案（2026-10-23，查证）
+- 查过：WOA-Project/windows_silicon_qcom_kona（本地副本与远端一致，最新 22221a0 2026-01-04；PowerManagement 只有高通原版 qcpep8250，无社区替代，docs 只有 NTDBG/RawPLATIDs）、edk2-porting/WOA-Drivers（只有 MSM8998/SDM845，PEP 为高通原版）、Project-Aloha（msmnile-Drivers 已归档，QC8250 子模块指向上面的 kona 仓库）、小米平板 6（pipa，同为 SM8250）Windows 移植（驱动仍在开发，未见音频可用报告）。
+- 结论：网上没有开源的 qcpep 替代或桩驱动，也没有 SM8250 在 Windows 下音频（ADSP）跑通的公开报告。社区 Kona DSDT 让 PEP0 保持 QCOM0519 不绑定，等于默认放弃了 PEP→SMMU→ADSP 这条链。
+- 剩余渠道：README 中的 Telegram 群 t.me/project_aloha_issues（需用户本人去问）。
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）
