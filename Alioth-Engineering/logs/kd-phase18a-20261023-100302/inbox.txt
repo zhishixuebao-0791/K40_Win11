@@ -1,0 +1,36 @@
+bu qcsmmu8280+0x2af4 ".echotime;.printf \"P18A_ROUTINE addr=%p\n\", @x0;g"
+bu qcsmmu8280+0x2b1c ".echotime;.printf \"P18A_IOMMU_STATUS w0=%x\n\", @w0;g"
+bu qcsmmu8280+0x2b70 ".echotime;.printf \"P18A_CREATEDOMAIN w0=%x\n\", @w0;g"
+bu qcsmmu8280+0x2bac ".echotime;.echo P18A_FLAG_SET_TO_1;g"
+g
+!!BREAK
+.echo ==== G1
+!acpicache
+.echo ==== END_G
+.echo ==== H1
+uf nt!IoGetIommuInterface
+.echo ==== END_H
+.echo ==== I1
+dps fffff803`e8400920 L1
+.echo ==== I2
+uf poi(fffff803`e8400920)
+.echo ==== END_I
+.echo ==== J1
+ln fffff803`e8516cf0
+dd nt!HalpGetIommuInterface+0xd0 L3
+.echo ==== J2
+x nt!HalpIommu*
+.echo ==== J3
+x nt!*Smmu*
+.echo ==== END_J
+.echo ==== K1
+db nt!HalpHvIommu L2
+dd nt!HalpIommuCount L1
+dq nt!HalpIommuList L2
+dd nt!HalpIommuPolicy L1
+dd nt!HalpIommuSecurityPolicy L1
+.echo ==== K2
+dq nt!HvlEnlightenments L1
+!running
+.echo ==== END_K
+g

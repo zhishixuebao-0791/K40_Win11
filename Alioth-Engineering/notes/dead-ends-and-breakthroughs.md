@@ -58,6 +58,18 @@
 - 结论：**Phase17h 首测不是 8280 的有效测试**，不能据此判断 8280 不行。同服务名替换驱动时，必须离线改 ImagePath（与 Phase16b 处理 qcsmmu 相同）。用 `tools/Set-Qcpep8280ImagePath-Offline-Admin.ps1`。
 - 附带：kd 里 `sxe ld:` 连写两条只有最后一条生效；BOOT_START 驱动在 KD 连上之前就已加载，`sxe ld` 抓不到，要用 `lm` 确认。
 
+### 13. 只补 ACPI IORT 让 qcsmmu8280 走"内核 IOMMU"分支（Phase18a，2026-10-23）
+- 做法：phase18a 镜像加入 Kona 最小 IORT（应用 SMMU + GPU SMMU），`!acpicache` 确认 IORT 已加载。
+- 结果：`IoGetIommuInterface` 仍返回 0xC00000BB。`nt!HalpGetIommuInterface` 只看 `nt!HalpHvIommu`（Hyper-V 提供的 IOMMU）；现场 HalpHvIommu=0、HalpIommuCount=0、HvlEnlightenments=0。
+- 结论：ARM64 Windows 的这套 IOMMU 接口依赖 Hyper-V 接管 SMMU，K40 没有 Hyper-V，IORT 再正确也不会生效。不要再从 IORT 内容（中断、流 ID、触发方式）上找原因。
+
+### 14. 在 K40 上让 Windows 跑在 Hyper-V（EL2）之上，以获得内核 IOMMU（2026-10-23，查证）
+- 需求来源：死路 13，`HalpHvIommu` 只有 Hyper-V 接管 SMMU 时才为 1。
+- 社区方案 slbounce（TravMurav）借助 Windows 的 Secure Launch（tcblaunch.exe）接管 QHEE 进入 EL2。其 README 明确写：**不能用于安卓设备**——QHEE 检查 devcfg 中允许 Secure Launch 的标志，只有出厂预装 Windows 的设备才设置。K40 是安卓机，EL2 被 QHEE 占用，无法启用 Hyper-V。
+- qhypstub 只适用于 msm8916/615 等老平台。
+- 结论：K40 上 qcsmmu8280 不可能走"内核 IOMMU 可用"分支，必须由 PEP（或替代者）提供 `{a0e1dd36}` 接口。
+- 来源：https://github.com/TravMurav/slbounce 、https://github.com/TravMurav/Qcom-Secure-Launch
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）

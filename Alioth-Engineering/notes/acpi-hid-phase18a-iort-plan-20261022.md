@@ -28,3 +28,12 @@
    - 能开机且返回 0、标志置 1 → 再看 MMU0/MMU1 状态、`{55beca03}` 是否需要；然后补流 ID 映射。
    - 仍返回 0xC00000BB → 内核没接受这张 IORT（看 `!acpicache` 是否有 IORT；内核可能还要求命名组件或其他条件）。
    - 开机卡死/蓝屏 → kd 现场定位（内核 SMMU 初始化访问硬件）。回退：fastboot boot phase17g-base。
+
+## 实测结果（2026-10-23 10:05，kd-phase18a）：IORT 已加载，但内核 IOMMU 仍不可用 → 只补 IORT 是死路
+- `!acpicache`：**IORT 已加载**（Rev 0，Len 0x408）。
+- qcsmmu8280 `IoGetIommuInterface(1)` 仍返回 **0xC00000BB**，CreateDomain/标志置 1 未命中。
+- 原因（kd 反汇编）：`nt!IoGetIommuInterface` → 函数指针 → **`nt!HalpGetIommuInterface`**，它只检查全局字节 **`nt!HalpHvIommu`**（"Hyper-V 提供的 IOMMU"），为 0 就返回 0xC00000BB（常量表 c00000bb/c00000ef/c00000f0）；只有非 0 才填接口表。
+- 现场值：`HalpHvIommu = 0`、`HalpHvParaVirtIommuDomain = 0`、`HalpIommuCount = 0`、`HalpIommuList` 为空、`HvlEnlightenments = 0`（系统不在 Hyper-V 之上）。即 IORT 存在时 ARM64 HAL 也没有初始化任何原生 IOMMU。
+- 结论：ARM64 Windows 上这套 IOMMU 接口依赖 **Hyper-V 接管 SMMU**（Surface/SC8280XP 开着 VBS，因此 qcsmmu8280 能走"内核 IOMMU 可用"分支）。K40 上没有 Hyper-V（高通 EL2 被 QHEE 占用），只补 IORT 无法让 qcsmmu8280 跳过 PEP。
+- IORT 本身无害（开机正常），保留以备将来（例如 Hyper-V 可用时）使用。
+- 进一步查证：Hyper-V/EL2 需要 Secure Launch，而 QHEE 只对出厂预装 Windows 的设备开放（slbounce README："Can this be used on android devices? No."）。K40 不可能获得内核 IOMMU，此方向关闭（死路 13、14）。
