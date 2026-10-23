@@ -75,6 +75,12 @@
 - 结论：网上没有开源的 qcpep 替代或桩驱动，也没有 SM8250 在 Windows 下音频（ADSP）跑通的公开报告。社区 Kona DSDT 让 PEP0 保持 QCOM0519 不绑定，等于默认放弃了 PEP→SMMU→ADSP 这条链。
 - 剩余渠道：README 中的 Telegram 群 t.me/project_aloha_issues（需用户本人去问）。
 
+### 16. 给 PEP0 设 ConfigFlags=0x20（CONFIGFLAG_REINSTALL）让 PnP 下次开机装 pep0stub（Phase19a，2026-10-23）
+- 背景：DISM 离线注入 pep0stub 后服务会在开机阶段加载（kd 看到 DriverEntry），但 PEP0 实例早已存在（ConfigFlags=0、无 Driver），PnP 不会主动重新匹配。
+- 设 0x20 后下一次开机 0x7B（参数 0xC0000034）。kd：PEP0 `ServiceName=pep0stub`，但停在 `DeviceNodeInitialized`，AddDevice 没被调用——带"重新安装"标志的设备在开机阶段不会启动，要等用户态安装；UFS0 等 `_DEP` 依赖 PEP0，系统盘起不来。
+- 结论：PEP0 是开机关键依赖，不能把"安装"留给用户态。必须离线写好完整安装记录（Enum 的 Service/Driver/ClassGUID、Control\Class 驱动键，ConfigFlags=0），见 tools/Set-Pep0StubInstalled-Offline-Admin.ps1。
+- 另：kd 桥接在目标机强制重启后不会自动重连，每次开机前要重启 kd_bridge。
+
 ## 突破
 
 ### 1. PILC 启动：安装扩展 INF 解决（2026-05-11/12）
@@ -146,3 +152,50 @@
 - 可靠流程：`fastboot boot` 临时启动 TWRP → 只读挂载当前槽的 `modem_x` → adb pull → 按 SHA256 清单校验 → `tools\pil_squasher.py` 合并。
 - 结果在 `components\Devices\Alioth\firmware-squashed\`（adsp/cdsp/slpi 三个 mbn）。
 - 注意：Mass Storage 模式只暴露 LUN0，看不到 modem 分区，不要再尝试从 Mass Storage 读固件。
+
+### 14. pep0stub 0x7B 根因：自签测试证书未导入手机受信任根，winload 剔除该 boot 驱动（Phase19a，2026-10-23）
+- 现象：boot3 完整安装记录（Start=0/Group=Base）开机 0x7B(0xC0000034)；kd 中 `lm m pep0stub` 空、`\Driver\pep0stub not found`、PEP0 停在 DeviceNodeInitialized，winload 的 BootDriverListHead 里有 qcpep/qcscm 等但**无 pep0stub**。
+- 精确定位（只读核查，未改动）：
+  1. 第1步 `pep0stub.sys/.inf/.cat` 确在 DriverStore（`…\pep0stub.inf_arm64_aae1034fcdb56eb3\`），排除文件缺失。
+  2. `Get-AuthenticodeSignature pep0stub.sys`：自签名 `CN=K40 Alioth Test Driver Signing`（指纹 `7151DDBEB8836BE0D0733A53B1B5700C787E1FF7`），链单节、状态 **UntrustedRoot**。
+  3. 离线挂手机 SOFTWARE hive 查证书库（`tools/Check-Pep0StubTrust-Offline-Admin.ps1`）：ROOT(26)/TrustedPublisher(14)/CA(3) 及两个组策略库**均无**该指纹。
+- 根因：testsigning 已开（qcpep 的 Andromeda 签名能进引导列表即证），但 testsigning 只免 WHQL/微软交叉证书，**不免「签名证书的根必须在设备受信任根库」**。pep0stub 的自签根不在手机里 → winload boot CI 判 UntrustedRoot → 把它剔出引导驱动列表 → PEP0 无驱动 → UFS `_DEP(\_SB.PEP0)` 不满足 → 0x7B。与 qcpep（根已信任）形成对照。
+- 对策（成熟方案，微软「Installing Test Certificates」口径）：把 K40 测试证书离线导入手机的 **Trusted Root** + **Trusted Publisher**（`SOFTWARE\Microsoft\SystemCertificates\ROOT|TrustedPublisher\Certificates\<指纹>\Blob`）。因 PEP0 是 boot 关键依赖、无法先进桌面再用 certmgr 导，必须走离线写 hive。见下一步 `tools/Import-K40TestCert-Offline-Admin.ps1`（待建）。
+- 教训：本项目自己签的任何 **boot-start** 测试驱动，首次用前都要先把测试证书根装进设备受信任库，否则一律 winload 静默剔除 → 0x7B。
+- 附：PowerShell 5.1 读无 BOM 的 .ps1 当 GBK，带中文的新脚本必须存成 UTF-8 **带 BOM**，否则解析乱码报错。
+
+**更正（boot4 实测，2026-10-23 16:39）**：把 K40 测试证书导入手机 `SOFTWARE\...\SystemCertificates\ROOT`+`TrustedPublisher`（各 850 字节）后重启，**仍然 0x7B(0xC0000034)**；kd 复核 pep0stub 依旧不在 winload 的 BootDriverListHead、不在模块列表、PEP0 仍 DeviceNodeInitialized。即「导证书到注册表受信任根」对 winload 的 boot 驱动无效。
+- 现场确认：`ci!g_CiOptions = 0x0100000e`（**bit 0x02 TESTSIGN 置位，testsigning 确实开**；HVCI 位 0x400+ 未置，HVCI 关）。引导列表里的 qcpep 是 **qcpep8280（WHQL，微软签名）**，天生过 winload，不能当"测试根有效"的证据。
+- 根因修正（微软文档印证）：**boot-critical 驱动的签名由 winload 作为 Secure Boot 验证的一部分校验，这条信任链与 testsigning 分开**。testsigning 放行的是内核（Start≥1）加载的驱动；winload 对 boot 驱动走更严的链，注册表导入的测试根它读不到（winload 早期只挂 SYSTEM hive，证书库在 SOFTWARE hive）。
+- 剩余可行路线：本机 Secure Boot 关（突破9），故 `nointegritychecks on`（+ testsigning on）可用——WoA 开发期跑自签 boot 驱动的成熟做法。ESP 与 WIN 在同一物理盘，Mass Storage 下用 `Get-Partition -DiskNumber <win盘>` 找到 ESP(GptType c12a7328…) 临时挂盘符即可改 BCD（见 Set-KdnetEem-Offline-Admin.ps1）。
+- 待验证：设 nointegritychecks 后 pep0stub 能否进引导列表。若 nointegritychecks 也无效（新内核在某些条件下会忽略它），则放弃 boot-start 自签路线，改为给 pep0stub 寻求微软/WHQL 可信签名，或重构依赖避免 boot-start。
+
+**boot5 实测（2026-10-23 16:54）**：ESP 的 BCD 设 `nointegritychecks on`+`testsigning on`（改前 testsigning 已是 Yes）后重启，**仍 0x7B(0xC0000034)**，pep0stub 仍不在引导列表/未加载/PEP0 仍 DeviceNodeInitialized。即 **nointegritychecks 也救不了自签 boot 驱动**（新内核多半已把它中性化）。结论：没有 BCD 开关能让 winload 放行自签 boot-critical 驱动。
+- ESP 工具：`tools/Set-BootIntegrity-Offline-Admin.ps1`（手机磁盘1/ESP 分区36/954MB，临时挂盘符改 {default}，先备份）。
+
+### 15. 关键重想：pep0stub 不必 boot-start，改 Start=1 由内核加载绕开 winload（Phase19b 计划，2026-10-23）
+- 依据：phase17g-base 里 PEP0 本就是「无驱动」却能开机进桌面（突破10）→ UFS 的 `_DEP(\_SB.PEP0)` 并不要求 PEP0 有"已启动的驱动"。真正要 {55beca03} 的 qcsmmu 是 **Start=3（开机后内核加载）**。
+- 0x7B 的真正触发：把 pep0stub 设 **Start=0 但 winload 加载不了其镜像**（0xC0000034），boot-start 服务加载失败才 0x7B——不是"PEP0 必须开机启动"。此前计划（Phase19a/死路16 附近）以为必须 Start=0 是误判。
+- 新路线：pep0stub 设 **Start=1**。winload 不碰它（绕开 winload 签名墙）；内核 CI 认 testsigning+已导入的测试证书（qcsmmu8280 Start=3 即如此加载）；PEP0 在 winload 阶段同 phase16「无 boot 驱动」→ UFS 照常起；开机后内核加载 pep0stub→注册 {55beca03}→Start=3 的 qcsmmu 来查即命中。
+- 风险/待验证：若 UFS 的 _DEP 在启动时真的等 PEP0「启动完成」，Start=1 可能仍死锁（但 phase16 无驱动能开机这条强烈反对该风险）。实测 boot6 验证。
+
+**boot6 实测（2026-10-23 17:00）：Start=1 也 0x7B(0xC0000034)**，推翻突破15的乐观预期。修正对 0x7B 的理解：
+- 因果链：0x7B 的 `0xC0000034` 指**引导设备 UFS 起不来**。UFS `_DEP` 依赖 `\_SB.PEP0`。**只要 PEP0 被分配了驱动(Service=pep0stub)但在引导设备就绪前没"启动完成"，UFS 就死等 → 0x7B**。Start=0 winload 不载自签→没启动；Start=1 内核阶段才载→比引导等待晚→也没启动。两者同死。
+- phase16 能开机**仅因 PEP0 完全没分配驱动**（没有要等的东西）。所以 UFS 的 _DEP 对「PEP0 一旦有驱动就必须启动完成」是硬要求。
+- 死结：pep0stub 必须引导阶段启动(Start=0+winload 加载)，而 winload 不放行自签 → 无解（在不改签名/不改 ACPI 的前提下）。
+
+### 死路 17：给 PEP0 分配自签 pep0stub 驱动（无论 Start=0/1）都 0x7B（2026-10-23）
+- 已穷尽：Start=0（winload 不载自签，boot3/4/5）、Start=1（内核加载太晚，boot6）；配合导证书到受信任根、ESP BCD testsigning on + nointegritychecks on——全部 0x7B(0xC0000034)。
+- 根因：UFS `_DEP(\_SB.PEP0)` 要求「PEP0 一旦有驱动就必须在引导设备就绪前启动完成」；自签驱动无法在引导阶段被 winload 加载，Start=1 又太晚。
+- 两条尚未排除的出路（下一步二选一/并行，需用户定方向）：
+  1. **改 ACPI 去掉 UFS0 的 _DEP 中对 \_SB.PEP0 的依赖**（项目有重建 ACPI 能力，phase17g 等已做）。去掉后 PEP0 不必引导启动，pep0stub 可用 Start=1 由内核加载（内核 CI 认我们的测试证书），开机后再向 Start=3 的 qcsmmu 提供 {55beca03}。待核：UFS 是否真不需要 PEP0 的电源配合（phase16 无 PEP0 驱动能跑，强烈支持可去）。
+  2. **先精确定位 winload 到底为何不载 pep0stub**：是签名被拒，还是 KMDF 的 Wdf01000 在引导阶段不可用（KMDF 驱动做 boot-start 需 Wdf01000 也 boot-start，非常规）。先离线查 `Services\Wdf01000\Start`；若非 boot-start，则 boot-start KMDF 本就起不来，需改写为纯 WDM 或仍走路线1。
+
+### 16. Phase19：改 ACPI 去 UFS0→PEP0 依赖，pep0stub 走 Start=1（2026-10-23，用户选定路线1，工具已就绪待 Ubuntu 构建）
+- 定位：UFS0 的 `_DEP` 只含 `\_SB_.PEP0`（alioth DSDT.asl 的 Device(UFS0) 内，源 55–58 行）。删它即可让引导设备不再等 PEP0。SDC2/ABD_ 也 _DEP PEP0 但非引导设备、不阻塞，保留不动。
+- 工具（本机已验证）：
+  - `tools/patch-dsdt-remove-ufs-pep-dep.py`：只删 Device(UFS0) 内引用 PEP0 的那个 _DEP，带安全校验（全文件 PEP0 引用必须恰好 -1）。用本机 `tools/acpica/iasl.exe` 对 alioth DSDT.asl 实测：删前/删后编译错误集逐条一致（9 条全是反编译残留，构建本就 `iasl -f` 容忍），零新增错误，AML 字节差 12。
+  - `tools/build-acpi-hid-phase19.sh`：基于 17f-base（Phase16 DSDT + 修复版 Kona DBG2），编译前插入上面补丁，产出 `Mu-alioth-1-acpi-hid-phase19-noufsdep-dbg2-*.img`。**在 Ubuntu 构建机跑**。
+- 手机侧前置（已就位）：pep0stub Start=1、PEP0 Enum 已分配 pep0stub、测试证书已导入受信任根、ESP BCD testsigning+nointegritychecks on。
+- 待验证（boot7，新镜像）：UFS 能否越过 0x7B 进桌面；内核是否加载 pep0stub（lm m pep0stub）、PEP0 是否 Started、`pep0stub: RegisterResources`、MMU1 是否脱离 Code 31。
+- 若仍失败的回退判断：若进桌面但 pep0stub 没加载→查内核 CI 是否认证书（事件 CodeIntegrity）；若 pep0stub 加载但 qcsmmu 仍 Code31→回到接口语义（Size/Version/RegisterResources 是否被调）。

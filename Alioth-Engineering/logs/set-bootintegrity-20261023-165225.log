@@ -1,0 +1,14 @@
+﻿[16:52:26] 手机磁盘 1，ESP 为分区 36（954 MB）
+[16:52:29] BCD 已备份到 C:\yjc_code\K40_Win11\Alioth-Engineering\logs\BCD-backup-bootintegrity-20261023-165225.bin
+[16:52:29] ---- 改前 {default} ----
+[16:52:29]   description             Windows 11
+[16:52:29]   testsigning             Yes
+[16:52:29] bcdedit /set {default} testsigning on → 操作成功完成。
+[16:52:29] bcdedit /set {default} nointegritychecks on → 操作成功完成。
+[16:52:29] ---- 改后 {default} ----
+[16:52:29]   description             Windows 11
+[16:52:29]   nointegritychecks       Yes
+[16:52:29]   testsigning             Yes
+[16:52:29] 完成：testsigning=on nointegritychecks=on
+[16:52:29] 已移除 ESP 临时盘符 E:
+[16:52:29] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\set-bootintegrity-20261023-165225.log

@@ -1,0 +1,3 @@
+﻿[12:01:59] pep0stub 对应的 INF：oem22.inf
+[12:01:59] 警告：D:\Windows\System32\drivers\pep0stub.sys 不存在（第一次开机时 DriverEntry 已执行，正常应存在）
+[12:02:00] 注册表 hive 已卸载。

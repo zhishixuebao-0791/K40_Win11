@@ -1,0 +1,12 @@
+lm m pep0stub
+lm m Wdf01000
+!devnode 0 1 pep0stub
+!drvobj \Driver\pep0stub
+!drvobj \Driver\qcpep
+k 20
+!devnode 0 1 qcpep
+dt nt!_BOOT_DRIVER_LIST_ENTRY
+dx -r0 *(nt!_LOADER_PARAMETER_BLOCK**)&nt!KeLoaderBlock
+dt nt!_LOADER_PARAMETER_BLOCK 0xfffff80210c72de0 BootDriverListHead
+!list -x "du /c 100 poi(@$extret+0x28)" 0xfffff802`11c76550
+r $t0=0

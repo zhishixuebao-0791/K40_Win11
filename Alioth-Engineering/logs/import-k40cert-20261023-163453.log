@@ -1,0 +1,14 @@
+﻿[16:34:53] 已生成证书 Blob hex，850 字节
+[16:34:53] 挂载 SOFTWARE hive：D:\Windows\System32\config\SOFTWARE
+[16:34:53] 改前 ROOT：已存在该证书
+[16:34:53] 改前 TrustedPublisher：无该证书
+[16:34:53] 以 SYSTEM 身份执行 reg 写入（临时计划任务）
+[16:34:54] SYSTEM 输出：操作成功完成。
+[16:34:54] SYSTEM 输出：操作成功完成。
+[16:34:54] SYSTEM 输出：done
+[16:34:54] 改后 ROOT：证书已写入，Blob 850 字节 OK
+[16:34:54] 改后 TrustedPublisher：证书已写入，Blob 850 字节 OK
+[16:34:54] ================================================
+[16:34:54] 导入完成：下一步 Set-Pep0StubInstalled-Offline-Admin.ps1 -WindowsDrive D，再 kd 重启验证。
+[16:34:55] hive 已卸载。
+[16:34:55] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\import-k40cert-20261023-163453.log

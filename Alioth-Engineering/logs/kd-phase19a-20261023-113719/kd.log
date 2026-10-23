@@ -1,0 +1,75 @@
+
+==== kd_bridge 启动 2026-10-23 11:37:19：C:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.015 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.063 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.56.189 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Fri Oct 23 11:42:24.460 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff802`0b400000 PsLoadedModuleList = 0xfffff802`0c0db050
+System Uptime: 0 days 0:00:13.979
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+pep0stub: DriverEntry status=0x00000000
+KDTARGET: Refreshing KD connection
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFD60888F89CF0, name:IPCRTR, remote_ss:mpss
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFD60888F9ACF0, name:IPCRTR, remote_ss:lpass
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFD60888FABCF0, name:IPCRTR, remote_ss:dsps
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 153. ipc_router_xal_glink_os_init: port:0xFFFFD60888FBCCF0, name:IPCRTR, remote_ss:cdsp
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 199. ipc_router_xal_glink_os_init: GLINK query interface success.
+Z:\b\WP\IPC_Router\rel\10.5\core\ipc_router_xal_glink_wdf.c: 225. ipc_router_xal_glink_os_init: Worker thread create success.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 820. qmi_csi_xport_ipc_wdf_init: Entry.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 822. qmi_csi_xport_ipc_wdf_init: Exit.
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 107. pnp_notification: xp(FFFFD60888F14D50).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 458. xport_open: xport_open succeeded. xp(FFFFD60888F14D50).
+X:\qcdksrc\main\latest\b\src\qmi\qcsi\qmi_csi_xport_ipc_wdf.c: 490. xport_reg: ipc_router_core_reg_server succeeded.
+DfsDs RPC server started.
+DispBroker.Desktop.dll: 10/21/26 19:01:03 �й���׼ʱ��: SessionHandlerBase::EvaluateTargets found new target
+   Concerning target: Id=0x0, Adapter=bad3 connected to {MSNILNOEDID_1414_008D_FFFFFFFF_FFFFFFFF_0}
+
+>>> 11:58:29 !!QUIT
+
+==== kd 已退出，返回码 1

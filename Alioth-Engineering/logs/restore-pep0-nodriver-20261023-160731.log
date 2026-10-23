@@ -1,0 +1,23 @@
+﻿[16:07:32] 恢复前 ControlSet001 实例 2&daba3ff&0：ConfigFlags=0 Service=pep0stub Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0039 ClassGUID={4d36e97d-e325-11ce-bfc1-08002be10318}
+[16:07:32] 恢复前 ControlSet001\Services\pep0stub Start=0
+[16:07:32] ControlSet001 将删除驱动键 Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0039（InfPath=oem22.inf）
+[16:07:32] 以 SYSTEM 身份执行：C:\Users\jcyang\AppData\Local\Temp\k40-pep0-restore-18772.cmd（副本已存入 logs）
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：操作成功完成。
+[16:07:33] SYSTEM 输出：
+[16:07:33] SYSTEM 输出：done
+[16:07:33] 恢复后 ControlSet001 实例 2&daba3ff&0：ConfigFlags=0 Service= Driver= ClassGUID=
+[16:07:33] 恢复后 ControlSet001\Services\pep0stub Start=4
+[16:07:33] 注册表 hive 已卸载。
+[16:07:33] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\restore-pep0-nodriver-20261023-160731.log

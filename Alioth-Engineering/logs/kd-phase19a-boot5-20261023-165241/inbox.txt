@@ -1,0 +1,6 @@
+!!BREAK
+lm m pep0stub
+!devnode 0 1 pep0stub
+lm m qcsmmu
+!devnode 0 1 qcsmmu
+!!QUIT

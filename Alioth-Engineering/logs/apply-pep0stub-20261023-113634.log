@@ -1,0 +1,29 @@
+﻿[11:36:34] 驱动包文件 pep0stub.cat  SHA256 D00993ADE08CA2225BB5668D112154BA31FCB5A16FA4A2865D114E34C17C5899
+[11:36:34] 驱动包文件 pep0stub.inf  SHA256 17F3F0CC6D06981449735656F9112EC164560CFCAC696CA02B3639C35E352498
+[11:36:34] 驱动包文件 pep0stub.sys  SHA256 3CA9024C839CA786ED8E7503AB4BE4BB778DD109612AE70FA509011115B97A9A
+[11:36:35]   ControlSet001\Services\qcsmmu  ImagePath    REG_EXPAND_SZ    \SystemRoot\System32\DriverStore\FileRepository\qcsmmu8280.inf_arm64_1d80adabc6ef3b6d\qcsmmu8280.sys
+[11:36:35]   ControlSet001\Services\qcsmmu  Start    REG_DWORD    0x3
+[11:36:35]   ControlSet001\Services\qcsubsys  ImagePath    REG_EXPAND_SZ    \SystemRoot\System32\DriverStore\FileRepository\qcsubsys8280.inf_arm64_aa16b5350e005f78\qcsubsys8280.sys
+[11:36:35]   ControlSet001\Services\qcsubsys  Start    REG_DWORD    0x4
+[11:36:35]   ControlSet001\Services\qcpep  ImagePath    REG_EXPAND_SZ    \SystemRoot\System32\DriverStore\FileRepository\qcpep.wd8280.inf_arm64_bd3744d48a04c516\qcpep8280.sys
+[11:36:35]   ControlSet001\Services\qcpep  Start    REG_DWORD    0x0
+[11:36:35] ControlSet001\Services\pep0stub 不存在
+[11:36:35]   Enum\ACPI\QCOM0519  ConfigFlags    REG_DWORD    0x0
+[11:36:35] 注册表 hive 已卸载。
+[11:36:35] 执行: dism.exe /Image:D:\ /Add-Driver /Driver:C:\yjc_code\K40_Win11\Alioth-Engineering\drivers\pep0_stub\pkg\pep0stub.inf /ForceUnsigned
+
+部署映像服务和管理工具
+版本: 10.0.18362.1379
+
+映像版本: 10.0.22621.6060
+
+找到 1 个要安装的驱动程序包。
+正在安装第 1 个，共有 1 个 - C:\yjc_code\K40_Win11\Alioth-Engineering\drivers\pep0_stub\pkg\pep0stub.inf: 驱动程序包已成功安装。
+操作成功完成。
+[11:36:43] DISM 退出码：0
+[11:36:43] 驱动库目录：pep0stub.inf_arm64_aae1034fcdb56eb3
+[11:36:43]      pep0stub.cat  2,426 字节
+[11:36:43]      pep0stub.inf  1,485 字节
+[11:36:43]      pep0stub.sys  16,296 字节
+[11:36:43] 注入成功。下一步：电脑端先启动 kd 监听，再 fastboot boot phase17g-base 镜像（PEP0 = QCOM0519）。
+[11:36:43] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\apply-pep0stub-20261023-113634.log

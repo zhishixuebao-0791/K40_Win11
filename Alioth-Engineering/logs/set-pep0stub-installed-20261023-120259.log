@@ -1,0 +1,11 @@
+﻿[12:02:59] pep0stub 对应的 INF：oem22.inf
+[12:02:59] ControlSet001 驱动键：Control\Class\{4d36e97d-e325-11ce-bfc1-08002be10318}\0039
+[12:02:59] 修改前 ControlSet001 实例 2&daba3ff&0：ConfigFlags=32 Service= Driver= ClassGUID=
+[12:02:59] 以 SYSTEM 身份导入：C:\Users\jcyang\AppData\Local\Temp\k40-pep0stub-installed-2288.reg（副本已存入 logs）
+[12:03:01] reg import：操作成功完成。
+[12:03:01] reg import：
+[12:03:01] 修改后 ControlSet001 实例 2&daba3ff&0：ConfigFlags=0 Service=pep0stub Driver={4d36e97d-e325-11ce-bfc1-08002be10318}\0039
+[12:03:01] ControlSet001\Services\pep0stub：Start=0 ImagePath=System32\DriverStore\FileRepository\pep0stub.inf_arm64_aae1034fcdb56eb3\pep0stub.sys Group=Base
+[12:03:01] 写入全部生效。
+[12:03:01] 注册表 hive 已卸载。
+[12:03:01] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\set-pep0stub-installed-20261023-120259.log

@@ -1,0 +1,10 @@
+﻿[16:28:33] 挂载 SOFTWARE hive：D:\Windows\System32\config\SOFTWARE
+[16:28:37] 未命中: Microsoft\SystemCertificates\ROOT\Certificates （共 26 张证书，无 7151DDBEB8836BE0D0733A53B1B5700C787E1FF7）
+[16:28:37] 未命中: Microsoft\SystemCertificates\TrustedPublisher\Certificates （共 14 张证书，无 7151DDBEB8836BE0D0733A53B1B5700C787E1FF7）
+[16:28:37] 未命中: Microsoft\SystemCertificates\CA\Certificates （共 3 张证书，无 7151DDBEB8836BE0D0733A53B1B5700C787E1FF7）
+[16:28:37] 未命中: Policies\Microsoft\SystemCertificates\ROOT\Certificates （共 0 张证书，无 7151DDBEB8836BE0D0733A53B1B5700C787E1FF7）
+[16:28:37] 未命中: Policies\Microsoft\SystemCertificates\TrustedPublisher\Certificates （共 0 张证书，无 7151DDBEB8836BE0D0733A53B1B5700C787E1FF7）
+[16:28:37] ================================================
+[16:28:37] 结论：K40 测试证书【不在】任何受信任根/发布者库 → 证实假设：winload 因 UntrustedRoot 剔除 pep0stub，这就是 0x7B 的根因。
+[16:28:37] hive 已卸载。
+[16:28:37] 日志：C:\yjc_code\K40_Win11\Alioth-Engineering\logs\check-pep0stub-trust-20261023-162833.log

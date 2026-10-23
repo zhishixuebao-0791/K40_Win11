@@ -1,0 +1,194 @@
+
+==== kd_bridge 启动 2026-10-23 16:37:39：C:/Users/jcyang/AppData/Local/kd-amd64/kd.exe -k net:port=50005,key=1.2.3.4 -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.047 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.239.50 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Fri Oct 23 16:39:11.607 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff803`af800000 PsLoadedModuleList = 0xfffff803`b04db050
+System Uptime: 0 days 0:00:12.938
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x0000007b
+                       (0xFFFFFC08ECC089D0,0xFFFFFFFFC0000034,0x0000000000000000,0x0000000000000001)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPoint:
+fffff803`afa0c930 d43e0000 brk         #0xF000
+2: kd> 
+>>> 16:40:04 !!BREAK
+[桥接] Ctrl+Break 辅助进程返回码 3221225786（10 表示挂接控制台失败）
+
+>>> 16:40:04 lm m pep0stub
+
+>>> 16:40:04 !devnode 0 1 pep0stub
+
+>>> 16:40:04 !devnode 0 1 qcsmmu
+
+>>> 16:40:04 !process 0 0 explorer.exe
+Browse full module list
+start             end                 module name
+2: kd> Dumping IopRootDeviceNode (= 0xffffd685653f7b20)
+DevNode 0xffffd6856b1833c0 for PDO 0xffffd685650dcd50
+  InstancePath is "ACPI\QCOM0519\2&daba3ff&0"
+  ServiceName is "pep0stub"
+  State = DeviceNodeInitialized (0x304)
+  Previous State = DeviceNodeUninitialized (0x301)
+2: kd> Dumping IopRootDeviceNode (= 0xffffd685653f7b20)
+2: kd> 2: kd> 
+>>> 16:41:41 lm m qc*
+
+>>> 16:41:41 r @$t0 = poi(nt!KeLoaderBlock)
+
+>>> 16:41:41 dt nt!_LOADER_PARAMETER_BLOCK @$t0 BootDriverListHead
+Browse full module list
+start             end                 module name
+fffff803`b5330000 fffff803`b55ff000   qcpep8280   (deferred)             
+fffff803`b5c00000 fffff803`b5c51000   qcscm8250   (deferred)             
+2: kd> 2: kd>    +0x030 BootDriverListHead : _LIST_ENTRY [ 0xfffff803`aeb364c0 - 0xfffff803`aeb34c20 ]
+2: kd> 
+>>> 16:43:02 !list -x "du /c 100 poi(@$extret+0x28)" 0xfffff803`aeb364c0
+fffff803`aeb365b0  "\Registry\Machine\System\CurrentControlSet\Services\pcw"
+
+fffff803`aeb36f00  "\Registry\Machine\System\CurrentControlSet\Services\radarm"
+
+fffff803`aeb37750  "\Registry\Machine\System\CurrentControlSet\Services\vdrvroot"
+
+fffff803`aeb36740  "\Registry\Machine\System\CurrentControlSet\Services\pdc"
+
+fffff803`aeb36410  "\Registry\Machine\System\CurrentControlSet\Services\partmgr"
+
+fffff803`aeb37260  "\Registry\Machine\System\CurrentControlSet\Services\spaceport"
+
+fffff803`aeb378f0  "\Registry\Machine\System\CurrentControlSet\Services\volmgr"
+
+fffff803`aeb37a90  "\Registry\Machine\System\CurrentControlSet\Services\volmgrx"
+
+fffff803`aeb35da0  "\Registry\Machine\System\CurrentControlSet\Services\mountmgr"
+
+fffff803`aeb34e90  "\Registry\Machine\System\CurrentControlSet\Services\EhStorClass"
+
+fffff803`aeb351c0  "\Registry\Machine\System\CurrentControlSet\Services\FltMgr"
+
+fffff803`aeb35040  "\Registry\Machine\System\CurrentControlSet\Services\FileInfo"
+
+fffff803`aeb389f0  "\Registry\Machine\System\CurrentControlSet\Services\Wof"
+
+fffff803`aeb382d0  "\Registry\Machine\System\CurrentControlSet\Services\WdFilter"
+
+fffff803`aeb34a80  "\Registry\Machine\System\CurrentControlSet\Services\CLFS???.???.��??.???.22"
+
+fffff803`aeb38b80  "\Registry\Machine\System\CurrentControlSet\Services\Ntfs��??.�h??.�X��."
+
+fffff803`aeb35a50  "\Registry\Machine\System\CurrentControlSet\Services\KSecDD"
+
+fffff803`aeb36b50  "\Registry\Machine\System\CurrentControlSet\Services\qcpep"
+
+fffff803`aeb35360  "\Registry\Machine\System\CurrentControlSet\Services\Fs_Rec"
+
+fffff803`aeb36280  "\Registry\Machine\System\CurrentControlSet\Services\NDIS��??.��??.partmgr"
+
+fffff803`aeb35bf0  "\Registry\Machine\System\CurrentControlSet\Services\KSecPkg"
+
+fffff803`aeb375a0  "\Registry\Machine\System\CurrentControlSet\Services\Tcpip"
+
+fffff803`aeb38470  "\Registry\Machine\System\CurrentControlSet\Services\WFPLWFS"
+
+fffff803`aeb36d60  "\Registry\Machine\System\CurrentControlSet\Services\qcscm"
+
+fffff803`aeb35500  "\Registry\Machine\System\CurrentControlSet\Services\fvevol"
+
+fffff803`aeb37dd0  "\Registry\Machine\System\CurrentControlSet\Services\volume"
+
+fffff803`aeb37c30  "\Registry\Machine\System\CurrentControlSet\Services\volsnap"
+
+fffff803`aeb37400  "\Registry\Machine\System\CurrentControlSet\Services\storufs"
+
+fffff803`aeb370b0  "\Registry\Machine\System\CurrentControlSet\Services\rdyboost"
+
+fffff803`aeb360f0  "\Registry\Machine\System\CurrentControlSet\Services\Mup"
+
+fffff803`aeb358b0  "\Registry\Machine\System\CurrentControlSet\Services\iorate?."
+
+fffff803`aeb35710  "\Registry\Machine\System\CurrentControlSet\Services\GenPass"
+
+fffff803`aeb34d10  "\Registry\Machine\System\CurrentControlSet\Services\disk�H??.???.�R??.�C??.BB"
+
+fffff803`aeb35e60  "???.???.>>"
+
+2: kd> 
+>>> 16:44:15 lm m ci
+
+>>> 16:44:15 dd ci!g_CiOptions L1
+
+>>> 16:44:15 dd nt!g_CiOptions L1
+Browse full module list
+start             end                 module name
+fffff803`b4860000 fffff803`b4941000   CI         (deferred)             
+2: kd> fffff803`b488f004  0100000e
+2: kd> Couldn't resolve error at 'nt!g_CiOptions '
+2: kd> 
+>>> 16:48:11 !!QUIT
+quit:
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\atlmfc.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\concurrency.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\cpp_rest.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Kernel.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\ObjectiveC.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\stl.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Usb4Kd.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Windows.Data.Json.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Windows.Devices.Geolocation.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Windows.Devices.Sensors.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\Windows.Media.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\windows.natvis'
+NatVis script unloaded from 'C:\Users\jcyang\AppData\Local\kd-amd64\Visualizers\winrt.natvis'
+
+==== kd 已退出，返回码 0

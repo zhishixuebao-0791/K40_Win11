@@ -1,0 +1,192 @@
+
+==== kd_bridge å¯åŠ¨ 2026-10-23 12:03:28ï¼šC:\Users\jcyang\AppData\Local\kd-amd64\kd.exe -k net:port=50005,key=1.2.3.4 -y srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+
+************* Preparing the environment for Debugger Extensions Gallery repositories **************
+   ExtensionRepository : Implicit
+   UseExperimentalFeatureForNugetShare : true
+   AllowNugetExeUpdate : true
+   NonInteractiveNuget : true
+   AllowNugetMSCredentialProviderInstall : true
+   AllowParallelInitializationOfLocalRepositories : true
+
+   -- Configuring repositories
+      ----> Repository : LocalInstalled, Enabled: true
+      ----> Repository : UserExtensions, Enabled: true
+
+>>>>>>>>>>>>> Preparing the environment for Debugger Extensions Gallery repositories completed, duration 0.000 seconds
+
+************* Waiting for Debugger Extensions Gallery to Initialize **************
+
+>>>>>>>>>>>>> Waiting for Debugger Extensions Gallery to Initialize completed, duration 0.031 seconds
+   ----> Repository : UserExtensions, Enabled: true, Packages count: 0
+   ----> Repository : LocalInstalled, Enabled: true, Packages count: 46
+
+Microsoft (R) Windows Debugger Version 10.0.29661.1004 AMD64
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Using NET for debugging
+Opened WinSock 2.0
+Kernel Debug Target Status: [no_debuggee]; Retries: [0] times in last [7] seconds.
+Waiting to reconnect...
+Connected to target 169.254.197.126 on port 50005 on local IP 169.254.44.157.
+You can get the target MAC address by running .kdtargetmac command.
+Connected to Windows 10 22621 ARM 64-bit (AArch64) target at (Fri Oct 23 12:04:58.700 2026 (UTC + 8:00)), ptr64 TRUE
+Kernel Debugger connection established.
+
+************* Path validation summary **************
+Response                         Time (ms)     Location
+Deferred                                       srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Symbol search path is: srv*C:\symbols*https://msdl.microsoft.com/download/symbols
+Executable search path is: 
+Windows 10 Kernel Version 22621 MP (1 procs) Free ARM 64-bit (AArch64)
+Edition build lab: 22621.2506.arm64fre.ni_release_svc_prod3.231018-1809
+Kernel base = 0xfffff802`14400000 PsLoadedModuleList = 0xfffff802`150db050
+System Uptime: 0 days 0:00:13.969
+minio\security\base\lsa\security\driver\asyncsspi.cxx - SspiInitAsyncInterface
+KDTARGET: Refreshing KD connection
+
+*** Fatal System Error: 0x0000007b
+                       (0xFFFF878994E089D0,0xFFFFFFFFC0000034,0x0000000000000000,0x0000000000000001)
+
+Break instruction exception - code 80000003 (first chance)
+
+A fatal system error has occurred.
+Debugger entered on first try; Bugcheck callbacks have not been invoked.
+
+A fatal system error has occurred.
+
+For analysis of this file, run !analyze -v
+nt!DbgBreakPoint:
+fffff802`1460c930 d43e0000 brk         #0xF000
+4: kd> 
+>>> 12:05:53 lm m pep0stub
+
+>>> 12:05:53 lm m Wdf01000
+
+>>> 12:05:53 !devnode 0 1 pep0stub
+Browse full module list
+start             end                 module name
+4: kd> Browse full module list
+start             end                 module name
+fffff802`17b50000 fffff802`17c12000   Wdf01000   (deferred)             
+4: kd> Dumping IopRootDeviceNode (= 0xffffc103be132b20)
+DevNode 0xffffc103c41993c0 for PDO 0xffffc103be10cd50
+  InstancePath is "ACPI\QCOM0519\2&daba3ff&0"
+  ServiceName is "pep0stub"
+  State = DeviceNodeInitialized (0x304)
+  Previous State = DeviceNodeUninitialized (0x301)
+4: kd> 
+>>> 12:06:36 !drvobj \Driver\pep0stub
+
+>>> 12:06:36 !drvobj \Driver\qcpep
+
+>>> 12:06:36 k 20
+
+>>> 12:06:36 !devnode 0 1 qcpep
+Driver object \Driver\pep0stub not found
+4: kd> Driver object (ffffc103be47de20) is for:
+Unable to load image qcpep8280.sys, Win32 error 0n2
+ \Driver\qcpep
+
+Driver Extension List: (id , addr)
+(fffff80217b87000 ffffc103c42293e0)  
+Device Object list:
+
+4: kd>  # Child-SP          RetAddr               Call Site
+00 ffff8789`94e08380 fffff802`1466a570     nt!DbgBreakPoint
+01 ffff8789`94e08380 fffff802`1466a0e0     nt!KiBugCheckDebugBreak+0x20
+02 ffff8789`94e083d0 fffff802`148e3fc4     nt!KeBugCheck2+0x960
+03 ffff8789`94e089b0 fffff802`14e71bec     nt!PnpBootDeviceWait+0x144
+04 ffff8789`94e08a20 fffff802`14e6e6a8     nt!IopInitializeBootDrivers+0x6dc
+05 ffff8789`94e08bb0 fffff802`14e6d9f4     nt!IoInitSystemPreDrivers+0xc30
+06 ffff8789`94e08cf0 fffff802`149d9468     nt!IoInitSystem+0x4c
+07 ffff8789`94e08d20 fffff802`146fb2c0     nt!Phase1Initialization+0x48
+08 ffff8789`94e08d50 fffff802`1460be4c     nt!PspSystemThreadStartup+0x50
+09 ffff8789`94e08d90 00000000`00000000     nt!KiStartSystemThread+0x24
+4: kd> Dumping IopRootDeviceNode (= 0xffffc103be132b20)
+4: kd> 
+>>> 12:09:44 dt nt!_BOOT_DRIVER_LIST_ENTRY
+
+>>> 12:09:44 dx -r0 *(nt!_LOADER_PARAMETER_BLOCK**)&nt!KeLoaderBlock
+Symbol nt!_BOOT_DRIVER_LIST_ENTRY not found.
+4: kd> *(nt!_LOADER_PARAMETER_BLOCK**)&nt!KeLoaderBlock                 : 0xfffff80210c72de0 [Type: _LOADER_PARAMETER_BLOCK *]
+4: kd> 
+>>> 12:10:02 dt nt!_LOADER_PARAMETER_BLOCK 0xfffff80210c72de0 BootDriverListHead
+   +0x030 BootDriverListHead : _LIST_ENTRY [ 0xfffff802`11c76550 - 0xfffff802`11c74cb0 ]
+4: kd> 
+>>> 12:10:12 !list -x "du /c 100 poi(@$extret+0x28)" 0xfffff802`11c76550
+
+>>> 12:10:12 r $t0=0
+fffff802`11c76640  "\Registry\Machine\System\CurrentControlSet\Services\pcw"
+
+fffff802`11c76f90  "\Registry\Machine\System\CurrentControlSet\Services\radarm"
+
+fffff802`11c777e0  "\Registry\Machine\System\CurrentControlSet\Services\vdrvroot"
+
+fffff802`11c767d0  "\Registry\Machine\System\CurrentControlSet\Services\pdc"
+
+fffff802`11c764a0  "\Registry\Machine\System\CurrentControlSet\Services\partmgr"
+
+fffff802`11c772f0  "\Registry\Machine\System\CurrentControlSet\Services\spaceport"
+
+fffff802`11c77980  "\Registry\Machine\System\CurrentControlSet\Services\volmgr"
+
+fffff802`11c77b20  "\Registry\Machine\System\CurrentControlSet\Services\volmgrx"
+
+fffff802`11c75e30  "\Registry\Machine\System\CurrentControlSet\Services\mountmgr"
+
+fffff802`11c74f20  "\Registry\Machine\System\CurrentControlSet\Services\EhStorClass"
+
+fffff802`11c75250  "\Registry\Machine\System\CurrentControlSet\Services\FltMgr"
+
+fffff802`11c750d0  "\Registry\Machine\System\CurrentControlSet\Services\FileInfo"
+
+fffff802`11c78a80  "\Registry\Machine\System\CurrentControlSet\Services\Wof"
+
+fffff802`11c78360  "\Registry\Machine\System\CurrentControlSet\Services\WdFilter"
+
+fffff802`11c74b10  "\Registry\Machine\System\CurrentControlSet\Services\CLFS???.???.a??.???.22"
+
+fffff802`11c78c10  "\Registry\Machine\System\CurrentControlSet\Services\NtfsÙB??.ÚÄ??.žX£ñ."
+
+fffff802`11c75ae0  "\Registry\Machine\System\CurrentControlSet\Services\KSecDD"
+
+fffff802`11c76be0  "\Registry\Machine\System\CurrentControlSet\Services\qcpep"
+
+fffff802`11c753f0  "\Registry\Machine\System\CurrentControlSet\Services\Fs_Rec"
+
+fffff802`11c76310  "\Registry\Machine\System\CurrentControlSet\Services\NDISÂÓ??.’“??.partmgr"
+
+fffff802`11c75c80  "\Registry\Machine\System\CurrentControlSet\Services\KSecPkg"
+
+fffff802`11c77630  "\Registry\Machine\System\CurrentControlSet\Services\Tcpip"
+
+fffff802`11c78500  "\Registry\Machine\System\CurrentControlSet\Services\WFPLWFS"
+
+fffff802`11c76df0  "\Registry\Machine\System\CurrentControlSet\Services\qcscm"
+
+fffff802`11c75590  "\Registry\Machine\System\CurrentControlSet\Services\fvevol"
+
+fffff802`11c77e60  "\Registry\Machine\System\CurrentControlSet\Services\volume"
+
+fffff802`11c77cc0  "\Registry\Machine\System\CurrentControlSet\Services\volsnap"
+
+fffff802`11c77490  "\Registry\Machine\System\CurrentControlSet\Services\storufs"
+
+fffff802`11c77140  "\Registry\Machine\System\CurrentControlSet\Services\rdyboost"
+
+fffff802`11c76180  "\Registry\Machine\System\CurrentControlSet\Services\Mup"
+
+fffff802`11c75940  "\Registry\Machine\System\CurrentControlSet\Services\iorate"
+
+fffff802`11c757a0  "\Registry\Machine\System\CurrentControlSet\Services\GenPass"
+
+fffff802`11c74da0  "\Registry\Machine\System\CurrentControlSet\Services\diskŠ??.???.ƒÃ??.­??.BB"
+
+fffff802`11c75ef0  "?.?.???.>>"
+
+4: kd> 4: kd> 

@@ -1,0 +1,13 @@
+!!BREAK
+lm m pep0stub
+!devnode 0 1 pep0stub
+!devnode 0 1 qcsmmu
+!process 0 0 explorer.exe
+lm m qc*
+r @$t0 = poi(nt!KeLoaderBlock)
+dt nt!_LOADER_PARAMETER_BLOCK @$t0 BootDriverListHead
+!list -x "du /c 100 poi(@$extret+0x28)" 0xfffff803`aeb364c0
+lm m ci
+dd ci!g_CiOptions L1
+dd nt!g_CiOptions L1
+!!QUIT
