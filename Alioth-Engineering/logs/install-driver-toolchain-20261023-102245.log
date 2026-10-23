@@ -1,0 +1,38 @@
+﻿**********************
+Windows PowerShell 脚本开始
+开始时间: 20261023102245
+用户名: UCCHIP\jcyang
+RunAs 用户: UCCHIP\jcyang
+配置名称: 
+计算机: JCYANG-DESK (Microsoft Windows NT 10.0.18363.0)
+主机应用程序: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File C:\yjc_code\K40_Win11\Alioth-Engineering\tools\Install-DriverToolchain-Admin.ps1
+进程 ID: 11100
+PSVersion: 5.1.18362.1474
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.18362.1474
+BuildVersion: 10.0.18362.1474
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+VS 生成工具位置：C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools
+
+[1/2] 修改 VS 生成工具：添加 ARM64 编译器与 Spectre 库（约 2~4GB，需数分钟）...
+VS 安装器退出码：0（0 或 3010 为成功）
+
+[2/2] 安装 WDK 10.0.26100 ...
+WDK 已安装，跳过。
+
+===== 安装后检查 =====
+ARM64 交叉编译器 cl.exe           有  C:\Program Files (x86)\Microsoft Visual Studio\18\BuildTools\VC\Tools\MSVC\14.50.35717\bin\Hostx64\arm64\cl.exe
+WDK km 头文件 wdm.h             有  C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\km\wdm.h
+KMDF 头文件目录                   有  C:\Program Files (x86)\Windows Kits\10\Include\wdf\kmdf
+ARM64 内核库 ntoskrnl.lib       有  C:\Program Files (x86)\Windows Kits\10\Lib\10.0.26100.0\km\arm64\ntoskrnl.lib
+ARM64 KMDF 库目录               有  C:\Program Files (x86)\Windows Kits\10\Lib\wdf\kmdf\arm64
+
+日志：C:\yjc_code\K40_Win11\Alioth-Engineering\tools\..\logs\install-driver-toolchain-20261023-102245.log
+**********************
+Windows PowerShell 脚本结束
+结束时间: 20261023103127
+**********************
