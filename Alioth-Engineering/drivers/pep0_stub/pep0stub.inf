@@ -1,0 +1,58 @@
+;
+; K40 (alioth, SM8250) PEP0 stub driver
+; Provides only device interface {55beca03} and QueryInterface {a0e1dd36} for qcsmmu8280/qcsubsys8280.
+; No MMIO access, no PoFx plugin registration.
+; Boot start (like qcpep): UFS0 and many other devices list \_SB.PEP0 in _DEP.
+;
+[Version]
+Signature   = "$WINDOWS NT$"
+Class       = System
+ClassGuid   = {4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider    = %K40%
+DriverVer   = 10/23/2026,1.0.0.1
+CatalogFile = pep0stub.cat
+PnpLockDown = 1
+
+[DestinationDirs]
+DefaultDestDir = 13
+
+[SourceDisksNames]
+1 = %DiskName%
+
+[SourceDisksFiles]
+pep0stub.sys = 1
+
+[Manufacturer]
+%K40% = K40, NTARM64
+
+[K40.NTARM64]
+%Pep0Stub.DeviceDesc% = Pep0Stub_Device, ACPI\QCOM0519
+
+[Pep0Stub_Device.NT]
+CopyFiles = Pep0Stub_Device.NT.Copy
+
+[Pep0Stub_Device.NT.Copy]
+pep0stub.sys
+
+[Pep0Stub_Device.NT.Services]
+AddService = pep0stub, 0x00000002, Pep0Stub_Service_Inst
+
+[Pep0Stub_Service_Inst]
+DisplayName    = %Pep0Stub.SvcDesc%
+ServiceType    = 1               ; SERVICE_KERNEL_DRIVER
+StartType      = 0               ; SERVICE_BOOT_START
+ErrorControl   = 1               ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %13%\pep0stub.sys
+LoadOrderGroup = Base
+
+[Pep0Stub_Device.NT.Wdf]
+KmdfService = pep0stub, Pep0Stub_wdfsect
+
+[Pep0Stub_wdfsect]
+KmdfLibraryVersion = 1.15
+
+[Strings]
+K40                  = "K40 Alioth Engineering"
+DiskName             = "PEP0 Stub Driver Disk"
+Pep0Stub.DeviceDesc  = "K40 PEP0 Stub (SM8250)"
+Pep0Stub.SvcDesc     = "K40 PEP0 Stub Service"
